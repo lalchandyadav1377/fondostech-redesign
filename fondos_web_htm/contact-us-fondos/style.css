@@ -1,0 +1,2298 @@
+.ft-contact-webpage-ui-design-desktop,
+.ft-contact-webpage-ui-design-desktop * {
+  box-sizing: border-box;
+}
+.ft-contact-webpage-ui-design-desktop {
+  background: #f5faff;
+  height: 185.0625rem;
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  background: var(--fondostech-primary, #086ad8);
+  padding: 4.5rem 7.5rem 0rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  overflow: hidden;
+}
+.image-8 {
+  flex-shrink: 0;
+  width: 75rem;
+  height: 75rem;
+  position: absolute;
+  left: 7.5rem;
+  top: 9rem;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.frame-240 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-91 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ready-to-transform-your-business-operations {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 2.125rem;
+  line-height: 2.75rem;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.let-us-assess-your-business-sales-distribution-strategy-and-deploy-fondos-tech-s-insurance-broker-software-for-greater-success {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 500;
+  opacity: 0.96;
+  position: relative;
+  width: 37.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-7 {
+  background: #ffffff;
+  border-radius: 2.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0.375rem 1.5rem 0rem rgba(33, 37, 41, 0.08);
+  overflow: hidden;
+}
+.uil-schedule {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.book-a-demo {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-239 {
+  background: #ffffff;
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
+  padding: 0rem 2.25rem 0rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem -0.9375rem 5rem 0rem rgba(33, 37, 41, 0.08);
+  overflow: hidden;
+}
+.frame-238 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0rem 0rem 0.03125rem 0rem;
+  padding: 2rem 0rem 1.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ft-logo {
+  flex-shrink: 0;
+  width: 11.25rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.fondos-tech-logomark-brandmark {
+  width: 11.180625rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 50%;
+  translate: 0 -50%;
+  overflow: hidden;
+  aspect-ratio: 178.89/40;
+}
+.clip-path-group {
+  height: auto;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: visible;
+}
+.frame-110 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-10 {
+  background: var(--fondostech-primary, #086ad8);
+  border-radius: 0.375rem;
+  padding: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.mdi-linkedin {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-94 {
+  background: #ffffff;
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-color: #086ad8;
+  border-width: 0.09375rem;
+  padding: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ic-baseline-facebook {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-96 {
+  background: #ffffff;
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-color: var(--fondostech-primary, #086ad8);
+  border-width: 0.09375rem;
+  padding: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.mdi-instagram {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-118 {
+  border-style: solid;
+  border-color: #eef0f1;
+  border-width: 0.0625rem 0rem 0.03125rem 0rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-98 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.products {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.021875rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-97 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ft-digital-insure {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.ft-digital-claims {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.ft-eb-sure {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.ft-reconciliation {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.ft-payin-payout {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.ft-compliance {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-99 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.company {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.021875rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-232 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.contact-us {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.leadership {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.careers {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.privacy-policy {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.terms-conditions {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-115 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.resources {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.021875rem;
+  font-weight: 600;
+  position: relative;
+}
+.blog {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.articles {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.newsletter {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.fa-qs {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-114 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-in-touch {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.021875rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-113 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-104 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-100 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fluent-call-12-regular {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._91-80003-66997 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-101 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.majesticons-mail-line {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.business-fondostech-in {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.our-locations {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.021875rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-250 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.boxicons-location {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.new-delhi {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.boxicons-location2 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.gurugram {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.boxicons-location3 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.jaipur {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.boxicons-location4 {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.mumbai {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-230 {
+  border-style: solid;
+  border-color: #eef0f1;
+  border-width: 0.03125rem 0rem 0rem 0rem;
+  padding: 1.25rem 0rem 1.25rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+._2026-fondos-technologies-private-limited-all-rights-reserved {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.6875rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  position: relative;
+}
+.cin-u-72900-dl-2016-ptc-290430 {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.6875rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  position: relative;
+}
+.fa-qs2 {
+  width: 49.5rem;
+  height: 36.5625rem;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 52.8125rem;
+}
+.know-why-to-choose-us {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  position: absolute;
+  left: 19.53125rem;
+  top: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-qs-about-fondos-tech {
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  position: absolute;
+  left: 14.28125rem;
+  top: 1.5rem;
+}
+.fa-qs-about-fondos-tech-span {
+  color: var(--fondostech-secondary, #212529);
+}
+.fa-qs-about-fondos-tech-span2 {
+  color: var(--fondostech-primary, #086ad8);
+}
+.frame-66 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  width: 49.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 6.5rem;
+}
+.frame-64 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0rem 1.5rem 0rem rgba(33, 37, 41, 0.06);
+}
+.frame-61 {
+  background: var(--fondostech-primary, #086ad8);
+  border-radius: 1rem 1rem 0rem 0rem;
+  border-style: solid;
+  border-color: var(--fondostech-primary, #086ad8);
+  border-width: 0.0625rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0rem 1.5rem 0rem rgba(33, 37, 41, 0.04);
+  overflow: hidden;
+}
+.frame-62 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+._01 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.who-should-reach-out-to-fondos-tech {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent-subtract-12-regular {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-63 {
+  background: #ffffff;
+  border-radius: 0rem 0rem 1rem 1rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0rem 0.0625rem 0.0625rem 0.0625rem;
+  padding: 1rem 2.6875rem 1rem 3.375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.platforms-insurers-and-enterprises-seeking-to-launch-scale-or-modernise-insurance-offerings-without-operational-complexity {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-65 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-612 {
+  background: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #eef0f1;
+  border-width: 0.0625rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0rem 1.5rem 0rem rgba(33, 37, 41, 0.04);
+  overflow: hidden;
+}
+.frame-622 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._02 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.is-this-a-sales-or-partnership-conversation {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent-add-12-regular {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-662 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._03 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.how-quickly-will-someone-respond {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent-add-12-regular2 {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-67 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._04 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.do-you-support-pilots-or-po-cs {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent-add-12-regular3 {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-68 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._05 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.is-this-region-specific {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fluent-add-12-regular4 {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.locations {
+  height: 27.125rem;
+  position: absolute;
+  right: 7.5rem;
+  left: 7.5rem;
+  bottom: 96.875rem;
+}
+.frame-255 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 36.75rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+.our-presence {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.we-re-available-at-different-parts-of-india {
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.we-re-available-at-different-parts-of-india-span {
+  color: var(--fondostech-secondary, #212529);
+}
+.we-re-available-at-different-parts-of-india-span2 {
+  color: var(--fondostech-primary, #086ad8);
+}
+.serving-25-fortune-500-clients-across-4-regions-serving-25-fortune-500-clients-across-4-regions {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-258 {
+  background: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 17.625rem;
+  position: absolute;
+  left: 0rem;
+  top: 11.5rem;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(8, 106, 216, 0.08);
+  overflow: hidden;
+}
+.image-10 {
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 7.9375rem;
+  position: relative;
+  object-fit: cover;
+}
+.frame-257 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.new-delhi-india {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.registered-office {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-259 {
+  background: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 17.625rem;
+  position: absolute;
+  left: 19.125rem;
+  top: 11.75rem;
+  box-shadow: 0rem 0.25rem 1.25rem 0rem rgba(33, 37, 41, 0.02);
+  overflow: hidden;
+}
+.image-12 {
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 7.9375rem;
+  position: relative;
+  object-fit: cover;
+}
+.jaipur-india {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.development-centre-of-excellence {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-260 {
+  background: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 17.625rem;
+  position: absolute;
+  left: 38.25rem;
+  top: 11.75rem;
+  box-shadow: 0rem 0.25rem 1.25rem 0rem rgba(33, 37, 41, 0.02);
+  overflow: hidden;
+}
+.gurugram-india {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.centre-of-excellence {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-261 {
+  background: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 17.625rem;
+  position: absolute;
+  left: 57.375rem;
+  top: 11.75rem;
+  box-shadow: 0rem 0.25rem 1.25rem 0rem rgba(33, 37, 41, 0.02);
+  overflow: hidden;
+}
+.mumbai-india {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sales-support-hub {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-247 {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+  width: 36.75rem;
+  position: absolute;
+  left: 45.75rem;
+  top: 9.75rem;
+  box-shadow: 0rem 0rem 1.5rem -0.375rem rgba(8, 106, 216, 0.12);
+  overflow: hidden;
+}
+.drop-us-a-message {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.375rem;
+  line-height: 2rem;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.fill-out-the-form-below-and-we-ll-get-back-to-you-within-24-hours {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.line-4 {
+  margin-top: -0.0625rem;
+  border-style: solid;
+  border-color: #e0eefe;
+  border-width: 0.0625rem 0 0 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0rem;
+  position: relative;
+}
+.frame-246 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-244 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2382 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.full-name {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8999999761581421rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-237 {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: var(--fondostech-primary, #086ad8);
+  border-width: 0.0625rem;
+  padding: 0.875rem 1rem 0.875rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0rem 0rem 0.15625rem rgba(8, 106, 216, 0.18);
+  overflow: hidden;
+}
+.rah {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 0.949999988079071rem;
+  font-weight: 400;
+  position: relative;
+}
+.line-2 {
+  margin-top: -0.0625rem;
+  border-style: solid;
+  border-color: var(--fondostech-secondary, #212529);
+  border-width: 0.0625rem 0 0 0;
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 0rem;
+  position: absolute;
+  left: 2.875rem;
+  top: 0.9375rem;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.frame-2392 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.company2 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8999999761581421rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-2372 {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: rgba(33, 37, 41, 0.12);
+  border-width: 0.0625rem;
+  padding: 0.875rem 1rem 0.875rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.your-company-name {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 0.949999988079071rem;
+  font-weight: 400;
+  opacity: 0.48;
+  position: relative;
+}
+.frame-245 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-241 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.work-email {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8999999761581421rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.work-company-com {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 0.949999988079071rem;
+  font-weight: 400;
+  opacity: 0.48;
+  position: relative;
+}
+.phone {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8999999761581421rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+._91-xxxxx-xxxxx {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 0.949999988079071rem;
+  font-weight: 400;
+  opacity: 0.48;
+  position: relative;
+}
+.frame-243 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 9.375rem;
+  position: relative;
+}
+.message {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8999999761581421rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.frame-2373 {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-color: rgba(33, 37, 41, 0.16);
+  border-width: 0.0625rem;
+  padding: 0.875rem 1rem 0.875rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.tell-us-how-we-can-help {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 0.949999988079071rem;
+  font-weight: 400;
+  opacity: 0.48;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.frame-72 {
+  background: var(--fondostech-primary, #086ad8);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0.625rem 1.5rem -0.5rem rgba(8, 106, 216, 0.32);
+  overflow: hidden;
+}
+.send-message {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-248 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-secure-outline {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.your-data-is-used-only-to-respond-to-your-enquiry-we-do-not-share-your-information-with-third-parties-this-form-is-dedicated-for-sales-inquiries {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-2552 {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-color: #cee4fd;
+  border-width: 0.0625rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 36.75rem;
+  height: 43.8125rem;
+  position: absolute;
+  left: 7.5rem;
+  top: 9.75rem;
+  box-shadow: 0rem 0rem 1.5rem -0.375rem rgba(8, 106, 216, 0.12);
+  overflow: hidden;
+}
+.frame-268 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-in-touch2 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-432 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-265 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.talk-to-our-experts {
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.talk-to-our-experts-span {
+  color: var(--fondostech-secondary, #212529);
+}
+.talk-to-our-experts-span2 {
+  color: var(--fondostech-primary, #086ad8);
+}
+.whether-you-re-setting-up-benefits-for-your-team-or-working-out-what-risk-your-business-is-still-carrying-we-ll-help-you-assess-it-clearly {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-267 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1012 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-park-solid-right-c {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.mask-group {
+  height: auto;
+  position: absolute;
+  left: 0.08375rem;
+  top: 0.083125rem;
+  overflow: visible;
+}
+.an-overview-of-the-fondos-tech-platform-and-its-features {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-102 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group2 {
+  height: auto;
+  position: absolute;
+  left: 0.08375rem;
+  top: 0.083125rem;
+  overflow: visible;
+}
+.learn-how-to-leverage-the-platform-to-your-specific-needs {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-2672 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group3 {
+  height: auto;
+  position: absolute;
+  left: 0.08375rem;
+  top: 0.083125rem;
+  overflow: visible;
+}
+.detailed-analysis-and-a-custom-quote-in-minutes {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-266 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group4 {
+  height: auto;
+  position: absolute;
+  left: 0.08375rem;
+  top: 0.083125rem;
+  overflow: visible;
+}
+.negotiated-premiums-from-top-insurers {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-263 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0rem 1.5rem -0.375rem rgba(8, 106, 216, 0.12);
+  overflow: hidden;
+}
+.frame-2632 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-105 {
+  border-style: solid;
+  border-color: #e0eefe;
+  border-width: 0rem 0rem 0.03125rem 0rem;
+  padding: 0rem 0rem 0.75rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.partnerships-sales {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.majesticons-mail-line2 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.business-fondostech-in2 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-2572 {
+  border-style: solid;
+  border-color: #e0eefe;
+  border-width: 0rem 0rem 0.03125rem 0rem;
+  padding: 0rem 0rem 0.75rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.contact-us2 {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.fluent-call-12-regular2 {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._91-80003-669972 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-264 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2582 {
+  border-style: solid;
+  border-color: #e0eefe;
+  border-width: 0rem 0rem 0.03125rem 0rem;
+  padding: 0rem 0rem 0.75rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.chat-on-whatsapp {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.flowbite-whatsapp-solid {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.group {
+  width: 83.33%;
+  height: 83.48%;
+  position: absolute;
+  right: 8.34%;
+  left: 8.33%;
+  bottom: 8.19%;
+  top: 8.33%;
+  overflow: visible;
+}
+.frame-256 {
+  border-style: solid;
+  border-color: #e0eefe;
+  border-width: 0rem 0rem 0.03125rem 0rem;
+  padding: 0rem 0rem 0.75rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.support-timings {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.mingcute-time-line {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._9-am-7-pm-ist-mon-to-sat {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-2583 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 15.0625rem;
+  position: relative;
+}
+.follow-us-on {
+  color: #394047;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.frame-269 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pajamas-linkedin {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.formkit-facebook {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.akar-icons-instagram-fill {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.navbar {
+  background: #ffffff;
+  padding: 1rem 3.75rem 1rem 3.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90rem;
+  position: fixed;
+  left: 50%;
+  translate: -50%;
+  top: 0rem;
+  box-shadow: 0rem 0.375rem 1.5rem 0rem rgba(33, 37, 41, 0.06);
+  overflow: hidden;
+}
+.ft-logo2 {
+  flex-shrink: 0;
+  width: 11.3125rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.fondos-tech-logomark-brandmark2 {
+  width: 11.180625rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: hidden;
+  aspect-ratio: 178.89/40;
+}
+.clip-path-group2 {
+  height: auto;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: visible;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-5 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.home {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  position: relative;
+}
+.frame-2 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.products2 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  position: relative;
+}
+.mingcute-down-line {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.group2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-3 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.company3 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  position: relative;
+}
+.group3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-69 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.resources2 {
+  color: var(--fondostech-secondary, #212529);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  position: relative;
+}
+.group4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-4 {
+  background: #f5faff;
+  border-radius: 6.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-us3 {
+  color: var(--fondostech-primary, #086ad8);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  position: relative;
+}
+.frame-1 {
+  background: var(--fondostech-primary, #086ad8);
+  border-radius: 2.5rem;
+  padding: 0.75rem 1.375rem 0.75rem 1.375rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0.125rem 0.75rem 0rem rgba(8, 106, 216, 0.16);
+  overflow: hidden;
+}
+.request-demo {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mingcute-right-line {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 0.75rem;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 8/12;
+}
