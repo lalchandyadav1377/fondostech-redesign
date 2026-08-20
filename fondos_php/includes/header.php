@@ -153,7 +153,8 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
 
   <!-- Page-specific CSS -->
   <?php foreach ($page_css as $css_file): ?>
-    <link rel="stylesheet" href="<?php echo $base_path . $css_file; ?>">
+    <?php $css_v = file_exists(dirname(__DIR__) . '/' . $css_file) ? filemtime(dirname(__DIR__) . '/' . $css_file) : time(); ?>
+    <link rel="stylesheet" href="<?php echo $base_path . $css_file; ?>?v=<?php echo $css_v; ?>">
   <?php endforeach; ?>
 
   <!-- AOS (Animate On Scroll) CSS -->

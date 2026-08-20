@@ -1,9 +1,10 @@
-# FondosTech — Insurance Broker Software
+# FondosTech — Enterprise Insurance Broker Software
 
-> End-to-end insurance software built to run your entire brokerage on a single platform.
+> End-to-end insurance software built to run your entire brokerage on a single intelligent platform.
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.2.3-7952B3?logo=bootstrap&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?logo=leaflet&logoColor=white)
 ![License](https://img.shields.io/badge/License-Proprietary-blue)
 
 ---
@@ -11,42 +12,43 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
+- [Pages & Core Features](#pages--core-features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-- [Design System](#design-system)
-- [Page Sections](#page-sections)
+- [Design System & UI Components](#design-system--ui-components)
 - [Responsive Breakpoints](#responsive-breakpoints)
-- [Accessibility](#accessibility)
-- [Browser Support](#browser-support)
+- [Accessibility & SEO](#accessibility--seo)
 - [License](#license)
 
 ---
 
 ## Overview
 
-FondosTech is a production-ready PHP website for an insurance technology platform. It brings quoting, POSP management, claims, reconciliation, payouts, and IRDAI compliance onto a single platform — with AI built in where it genuinely saves your team time.
+**FondosTech** is a production-ready, modular PHP web application for an enterprise insurance technology platform. It unifies quoting, POSP onboarding, claims management, commission reconciliation, payouts, and IRDAI compliance onto a single platform — with built-in AI capabilities.
 
-This project uses **Bootstrap 5.2.3** as the frontend framework with a custom design system built on top, following a component-based PHP architecture with reusable header and footer includes.
+The repository follows a clean, component-based PHP architecture with modular headers, footers, page-specific stylesheets, and interactive JavaScript controllers.
 
 ---
 
-## Features
+## Pages & Core Features
 
-| Feature | Description |
-|---------|-------------|
-| 🔒 **Sticky Header** | Pill-shaped navbar that hides when scrolling down, shows when scrolling up/at top, and compresses for compact viewing |
-| 🎯 **Hero Section** | Blue gradient background with curved bottom shape, trust badges, and dashboard visual |
-| 🏢 **Industries** | 2x2 grid (Banks, NBFCs, Fintech, Brokers) with "View All" button revealing 2 extra industry cards (Logistics & E-Commerce) on click |
-| 🔄 **Auto-switching Tabs** | Insurance / Healthcare / Lifesciences / Corporate Wellness tabs with 5s auto-cycle |
-| 📦 **Vertical Slider** | 3-column product cards with continuous vertical animation and hover-pause |
-| ⚡ **Interactive Workflow Diagram** | Tabbed comparison (Without FT vs With FT). "Without FT" features danger red pill button and legacy workflow diagram; "With FT" features primary blue pill button, central pulsing FT core, flowing blue dashed data rays, and status badges. |
-| 🏛️ **Government Claims** | 6-step claims workflow with parallax scroll background effect |
-| 💬 **Testimonials Carousel** | Infinite looping horizontal slider with edge-to-edge peek alignment (1st and last cards half-cut at screen boundaries), mouse drag/touch swipe support, centered header, and bottom navigation controls. |
-| ❓ **FAQ Cards Stack** | 2-column layout matching reference design with category badge "Know Why To Choose Us?", "Read More" CTA pill, and styled floating accordion cards. |
-| 📱 **Fully Responsive** | Designed for 320px to 1440px+ screens with dedicated responsive stylesheet |
-| ♿ **Accessible** | Semantic HTML, ARIA roles, keyboard navigation, `prefers-reduced-motion` support |
+### 🏠 1. Homepage (`index.php`)
+- 🔒 **Sticky Header**: Pill-shaped floating navbar with custom chevron dropdown arrows (`Products`, `Company`, `Resources`), scroll compression, and offcanvas drawer for mobile.
+- 🎯 **Hero Section**: Curated gradient hero with trust badges, call-to-actions, and interactive dashboard visuals.
+- 🏢 **Industries Served**: 2x2 grid (Banks, NBFCs, Fintech, Brokers) with "View All" toggle button revealing 2 extra industry cards (Logistics & E-Commerce).
+- 🔄 **Auto-Switching Product Deck**: Stacked card deck with category filters (Insurance, Healthcare, Lifesciences, Corporate Wellness) and auto-rotation.
+- 📦 **Lines of Business Vertical Marquee**: 3-column continuous vertical product card slider running in a mathematically exact, 0.00px jump-free infinite marquee loop (`translateY(var(--scroll-dist))`).
+- ⚡ **Insurance Workflow Comparison**: Interactive toggle between **"Without FT"** (danger red state with legacy workflow diagram) and **"With FT"** (primary blue state with central pulsing FT core and flowing data rays).
+- 🏛️ **Government Claims Process**: 6-step claims workflow with parallax scroll background effects.
+- 💬 **Testimonials Infinite Carousel**: Horizontal slider with edge-to-edge peek alignment, mouse drag/touch swipe support, and navigation controls.
+- ❓ **Sticky FAQ Section**: 2-column layout featuring a GPU-accelerated smooth sticky sidebar (`initFaqSticky()`) that pins the left header at `top: 120px` while scrolling through 6 interactive accordion items on the right.
+
+### 📞 2. Contact Us (`contact.php`)
+- 📝 **Interactive Contact Form**: Enterprise inquiry form with jQuery Validation (Indian 10-digit phone regex `phoneIN` & work email check) and custom SweetAlert2 confirmation modal.
+- 🗺️ **Interactive Network Node India Map**: Powered by Leaflet.js with CartoDB Voyager light vector tiles.
+- 📍 **Pulsing Map Pin Markers**: Interactive location pins for **New Delhi**, **Jaipur**, **Gurugram**, and **Mumbai**. Clicking any pin smoothly pans the map (`flyTo`) and updates the active center details card.
+- 🏢 **Active Center Node Details Card**: Real-time city card displaying City Name, Jurisdiction, Street Address, Phone, Email, and City Selector Pills (`[New Delhi] [Jaipur] [Gurugram] [Mumbai]`).
 
 ---
 
@@ -54,11 +56,15 @@ This project uses **Bootstrap 5.2.3** as the frontend framework with a custom de
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
-| PHP | 8.x | Server-side templating |
-| Bootstrap | 5.2.3 | Layout framework (grid, accordion, utilities) |
-| CSS3 | — | Custom design system, SVG keyframes, flow animations, parallax |
-| JavaScript | ES6 | Counter animation, tab auto-switch, parallax, infinite carousel, drag/swipe gestures |
-| Inter | Google Fonts | Typography (400, 500, 600, 700) |
+| **PHP** | 8.x | Server-side templating & component includes |
+| **Bootstrap** | 5.2.3 | Responsive grid framework, offcanvas drawer & accordions |
+| **Leaflet.js** | 1.9.4 | Interactive vector India map tiles & custom node pin markers |
+| **SweetAlert2** | — | Enterprise modal popups |
+| **jQuery & Validation** | 3.x | Client-side form validation |
+| **AOS** | 2.3.4 | Animate-On-Scroll entrance transitions |
+| **CSS3** | — | Custom design system, flexbox/grid layouts, SVG keyframes, smooth sticky scroll |
+| **JavaScript** | ES6 | Counter animation, tab auto-switch, infinite marquee, smooth sticky observer |
+| **Inter** | Google Fonts | Primary typography (400, 500, 600, 700, 800) |
 
 ---
 
@@ -68,28 +74,32 @@ This project uses **Bootstrap 5.2.3** as the frontend framework with a custom de
 fondos_php/
 │
 ├── index.php                          # Homepage
-├── copy_assets.php                    # One-time image copy utility
-├── README.md                          # Comprehensive project documentation
+├── contact.php                        # Contact Us page (Form + Network Node Map)
+├── copy_assets.php                    # One-time image copy utility script
+├── cleanup_unused_assets.php          # Asset cleanup utility script
+├── README.md                          # Comprehensive repository documentation
 │
 ├── includes/
-│   ├── header.php                     # Reusable header (HTML head + sticky navbar)
-│   └── footer.php                     # Reusable footer (CTA + links + scripts)
+│   ├── header.php                     # Reusable header (HTML head + sticky navbar + offcanvas)
+│   └── footer.php                     # Reusable footer (CTA banner + footer links + scripts)
 │
 └── assets/
     ├── css/
-    │   ├── global.css                 # Design system (variables, reusable classes)
-    │   ├── header.css                 # Header-only styles
+    │   ├── global.css                 # Design tokens, variables, global utility classes
+    │   ├── header.css                 # Header & navbar styles
     │   ├── footer.css                 # Footer-only styles
-    │   ├── responsive.css             # Dedicated responsive media query stylesheet
+    │   ├── responsive.css             # Dedicated mobile/tablet media query stylesheet
     │   └── pages/
-    │       └── home.css               # Homepage-specific section styles
+    │       ├── home.css               # Homepage-specific section styles
+    │       └── contact.css            # Contact page styles (Network node card, map styling)
     │
     ├── js/
-    │   ├── header.js                  # Sticky/compressed header scroll behavior
+    │   ├── header.js                  # Navbar scroll compression & offcanvas controls
     │   └── pages/
-    │       └── home.js                # Counter, tabs, parallax, infinite slider, drag gestures
+    │       ├── home.js                # Counter, tabs, infinite marquee, sticky FAQ controller
+    │       └── contact.js             # Form validation & Leaflet Network Node map controller
     │
-    └── images/                        # All PNG/SVG assets (created via copy_assets.php)
+    └── images/                        # All SVG & PNG image assets
 ```
 
 ---
@@ -98,163 +108,64 @@ fondos_php/
 
 ### Prerequisites
 
-- **XAMPP** (or any Apache + PHP setup)
-- PHP 7.4 or higher
-- Web browser
+- **XAMPP** (or any Apache + PHP 7.4/8.x environment)
+- Modern web browser (Chrome, Edge, Firefox, Safari)
 
 ### Installation
 
-1. **Clone or place the project** inside your XAMPP `htdocs` directory:
-
+1. **Place the project** inside your local web server directory:
    ```
    d:\xampp\htdocs\Fondos_websit\fondos_php\
    ```
 
 2. **Start Apache** via XAMPP Control Panel.
 
-3. **Copy image assets** — open this URL in your browser:
-
+3. **Verify Image Assets** — run this script URL once if images are missing:
    ```
    http://localhost/Fondos_websit/fondos_php/copy_assets.php
    ```
 
-   This copies all image/SVG files from the `fondos_web_htm/` reference folder into `fondos_php/assets/images/`.
-
-4. **View the website**:
-
-   ```
-   http://localhost/Fondos_websit/fondos_php/
-   ```
+4. **Launch Application**:
+   - Homepage: `http://localhost/Fondos_websit/fondos_php/index.php`
+   - Contact Page: `http://localhost/Fondos_websit/fondos_php/contact.php`
 
 ---
 
-## Design System
+## Design System & UI Components
 
-### Colors
+### Color Tokens
 
-| Variable | Hex | Usage |
-|----------|-----|-------|
-| `--primary-color` | `#086AD8` | Brand blue — buttons, links, active accents |
-| `--secondary-color` | `#212529` | Dark text, headings |
-| `--danger-color` | `#DC3545` | Without FT active state, warning badges |
-| `--bg-light` | `#F5FAFF` | Page background |
-| `--border-color` | `#EEF0F1` | Card borders |
+| Token | Hex | Usage |
+|-------|-----|-------|
+| `--primary-color` | `#086AD8` | Primary brand blue — CTA buttons, active accents, map pins |
+| `--secondary-color` | `#212529` | Dark headings and primary text |
+| `--danger-color` | `#DC3545` | "Without FT" warning state |
+| `--bg-light` | `#F5FAFF` | Soft page section background |
 | `--border-active` | `#CEE4FD` | Active/hover card borders |
-| `--text-body` | `#495057` | Body text |
-| `--text-muted` | `#6C757D` | Secondary text |
-
-### Typography
-
-- **Font**: [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts
-- **Weights**: 400 (Regular), 500 (Medium), 600 (SemiBold), 700 (Bold)
-
-### Reusable CSS Classes
-
-| Class | Description |
-|-------|-------------|
-| `.section-label` | Small uppercase label text (e.g., "Platform Capabilities") |
-| `.section-title` | Large section heading with `.text-primary-custom` spans |
-| `.section-desc` | Body text for section descriptions |
-| `.btn-primary-custom` | White pill button with primary color text |
-| `.btn-outline-custom` | Transparent pill button with white border |
-| `.btn-link-custom` | Text link with arrow icon + hover animation |
-| `.btn-demo-outline` | Outlined demo CTA button |
-| `.product-card` | Standard card with border, radius, hover shadow |
-| `.stat-card` | Statistics card with icon, number, label |
-| `.feature-card` | Feature item with icon + text |
-| `.ic-logo-card` | Insurer logo card |
-| `.badge-trust` | Glassmorphic trust badge |
-
----
-
-## Page Sections
-
-The homepage (`index.php`) contains these sections in order:
-
-| # | Section | ID | Key Feature |
-|---|---------|-----|-------------|
-| 1 | Hero | `#hero` | Blue background, curved bottom, trust badges |
-| 2 | Insurer Logos | `#insurers` | 12-column responsive logo grid |
-| 3 | Stats (Enterprise Depth) | `#stats` | 4 animated counter cards |
-| 4 | Industries | `#industries` | 4 industry cards (Banks, NBFCs, Brokers, Fintech) |
-| 5 | Insurtech AI | `#insurtech` | 6 AI feature cards |
-| 6 | Platform Capabilities | `#products` | 4 auto-switching tabs |
-| 7 | Lines of Business | `#lob` | 3-column vertical slider with hover-pause |
-| 8 | Workflow Diagram | `#workflow` | Illustration + text layout |
-| 9 | Government Claims | `#claims` | 6 step cards with parallax background |
-| 10 | Testimonials | `#testimonials` | 4 customer quote cards |
-| 11 | FAQ | `#faq` | Bootstrap accordion, 6 items |
 
 ---
 
 ## Responsive Breakpoints
 
-| Breakpoint | Width | Behavior |
-|-----------|-------|----------|
-| Mobile S | 320px | Single column, stacked layout |
-| Mobile M | 375px | Single column |
-| Mobile L | 425px | Single column |
-| Tablet | 576px | 2-column grids begin |
-| Tablet L | 768px | Header items adjust, 2-col grids |
-| Desktop S | 992px | Full navbar visible, 3-col layouts |
-| Desktop M | 1200px | Full 4-col grids |
-| Desktop L | 1400px+ | Full design width |
-| Design ref | 1440px | Primary design target |
+| Device | Width | Layout Behavior |
+|--------|-------|-----------------|
+| Mobile Small | 320px – 425px | Single-column cards, full-width buttons, touch drawer |
+| Tablet / Mobile Landscape | 576px – 768px | 2-column card grids, responsive map container |
+| Desktop Medium | 992px – 1199px | Full desktop navbar, 3-column marquee, sticky sidebar |
+| Large Desktop | 1200px+ | Primary target layout (1320px container max-width) |
 
 ---
 
-## Accessibility
+## Accessibility & SEO
 
-- **Semantic HTML**: `<header>`, `<main>`, `<footer>`, `<section>`, `<nav>`, `<h1>`–`<h3>`
-- **ARIA**: `role="banner"`, `role="tablist"`, `role="tab"`, `role="tabpanel"`, `aria-label`, `aria-expanded`, `aria-controls`
-- **Alt text**: All content images include descriptive alt text
-- **Decorative images**: Marked with `aria-hidden="true"` and empty alt
-- **Keyboard**: `:focus-visible` styles on all interactive elements
-- **Reduced motion**: `prefers-reduced-motion` disables:
-  - Counter animations (shows final values instantly)
-  - Tab auto-switching
-  - Parallax scroll effect
-  - Vertical slider animations
-  - Pulse animations
-
----
-
-## Adding New Pages
-
-To add a new page (e.g., `about.php`):
-
-```php
-<?php
-$page_title = 'About Us — FondosTech';
-$page_description = 'Learn about FondosTech...';
-$page_css = ['assets/css/pages/about.css'];
-$page_js = [];
-$active_page = 'about';
-
-include 'includes/header.php';
-?>
-
-<!-- PAGE CONTENT HERE -->
-
-<?php include 'includes/footer.php'; ?>
-```
-
----
-
-## Browser Support
-
-| Browser | Version |
-|---------|---------|
-| Chrome | 90+ |
-| Firefox | 90+ |
-| Safari | 14+ |
-| Edge | 90+ |
-| Opera | 76+ |
+- **Semantic HTML5**: `<header>`, `<main>`, `<footer>`, `<section>`, `<nav>`, `<h1>`–`<h3>`
+- **SEO Ready**: Dynamic `<title>`, `<meta description>`, OpenGraph tags, JSON-LD Structured Data
+- **ARIA & Focus**: `role="banner"`, `role="navigation"`, `aria-expanded`, `:focus-visible` outlines
+- **Reduced Motion**: Respects `prefers-reduced-motion` settings across marquee and counter scripts
 
 ---
 
 ## License
 
-© 2026 Fondos Technologies Private Limited. All rights reserved.
-
+© 2026 Fondos Technologies Private Limited. All rights reserved.  
 CIN: U72900DL2016PTC290430

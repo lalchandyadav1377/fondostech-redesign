@@ -188,7 +188,8 @@ $base_path = isset($base_path) ? $base_path : '';
 <!-- Page-specific JS -->
 <?php if (isset($page_js) && is_array($page_js)): ?>
     <?php foreach ($page_js as $js_file): ?>
-        <script src="<?php echo $base_path . $js_file; ?>"></script>
+        <?php $file_v = file_exists(dirname(__DIR__) . '/' . $js_file) ? filemtime(dirname(__DIR__) . '/' . $js_file) : time(); ?>
+        <script src="<?php echo $base_path . $js_file; ?>?v=<?php echo $file_v; ?>"></script>
     <?php endforeach; ?>
 <?php endif; ?>
 

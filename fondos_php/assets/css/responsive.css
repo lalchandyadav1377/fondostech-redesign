@@ -129,8 +129,12 @@
         animation: fadeIn 0.35s ease;
     }
 
+    .platform-card .row {
+        flex-direction: column-reverse;
+    }
+
     .platform-card-body {
-        padding: 1.5rem 1.25rem 0.5rem 1.25rem;
+        padding: 0.5rem 1.25rem 1.5rem 1.25rem;
     }
 
     .platform-card-title {
@@ -139,7 +143,7 @@
     }
 
     .platform-card-image {
-        padding: 0.5rem 1.25rem 1.25rem 1.25rem;
+        padding: 1.25rem 1.25rem 0.5rem 1.25rem;
         text-align: center;
     }
 

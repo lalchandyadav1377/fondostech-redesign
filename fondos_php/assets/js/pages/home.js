@@ -13,6 +13,61 @@
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     /* =============================================
+       0. HERO TYPEWRITER ANIMATION (Optalitix Style)
+       ============================================= */
+    function initHeroTypewriter() {
+        const textEl = document.getElementById('heroTypewriter');
+        if (!textEl) return;
+
+        const phrases = [
+            'Run with Precision.',
+            'Scale with Ease.',
+            'Automate with AI.',
+        ];
+
+        let phraseIdx = 0;
+        let charIdx = phrases[0].length;
+        let isDeleting = true;        // Start by deleting phrase 0 after initial display pause
+        const typeSpeed = 60;        // Typing speed per character (ms)
+        const deleteSpeed = 45;      // Deleting speed per character (ms)
+        const delayAfterType = 2200;  // Pause after typing full phrase (ms)
+        const delayAfterDelete = 350; // Pause after deleting before next phrase (ms)
+        const initialPause = 1800;    // Pause before first phrase starts erasing
+
+        function step() {
+            const currentPhrase = phrases[phraseIdx];
+
+            if (isDeleting) {
+                if (charIdx > 0) {
+                    charIdx--;
+                    textEl.textContent = currentPhrase.substring(0, charIdx);
+                }
+            } else {
+                if (charIdx < currentPhrase.length) {
+                    charIdx++;
+                    textEl.textContent = currentPhrase.substring(0, charIdx);
+                }
+            }
+
+            let nextDelay = isDeleting ? deleteSpeed : typeSpeed;
+
+            if (!isDeleting && charIdx === currentPhrase.length) {
+                nextDelay = delayAfterType;
+                isDeleting = true;
+            } else if (isDeleting && charIdx === 0) {
+                isDeleting = false;
+                phraseIdx = (phraseIdx + 1) % phrases.length;
+                nextDelay = delayAfterDelete;
+            }
+
+            setTimeout(step, nextDelay);
+        }
+
+        // Start animation cycle after initial pause
+        setTimeout(step, initialPause);
+    }
+
+    /* =============================================
        1. STAT COUNTER ANIMATION
        ============================================= */
     function initCounters() {
@@ -652,7 +707,8 @@
     /* =============================================
        INIT ALL
        ============================================= */
-    document.addEventListener('DOMContentLoaded', function () {
+    function initAll() {
+        initHeroTypewriter();
         initCounters();
         initPlatformDeck();
         initWorkflowTabs();
@@ -663,6 +719,12 @@
         initTestimonialsSlider();
         initAOS();
         initFaqSticky();
-    });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initAll);
+    } else {
+        initAll();
+    }
 
 })();
