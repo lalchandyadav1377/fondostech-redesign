@@ -78,9 +78,9 @@ $base_path = isset($base_path) ? $base_path : '';
                         <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                             <h3 class="ft-footer-col-title">Company</h3>
                             <div class="ft-footer-col-links">
-                                <a href="#">About Us</a>
-                                <a href="#">Contact us</a>
-                                <a href="#">Leadership</a>
+                                <a href="<?php echo $base_path; ?>about-us.php">About Us</a>
+                                <a href="<?php echo $base_path; ?>contact.php">Contact us</a>
+                                <a href="<?php echo $base_path; ?>about-us.php#team">Leadership</a>
                                 <a href="#">Careers</a>
                                 <a href="#">Privacy Policy</a>
                                 <a href="#">Terms &amp; Conditions</a>
@@ -91,10 +91,10 @@ $base_path = isset($base_path) ? $base_path : '';
                         <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
                             <h3 class="ft-footer-col-title">Resources</h3>
                             <div class="ft-footer-col-links">
-                                <a href="#">Blog</a>
-                                <a href="#">Articles</a>
-                                <a href="#">Newsletter</a>
-                                <a href="#">FAQs</a>
+                                <a href="<?php echo $base_path; ?>blog.php">Blog</a>
+                                <a href="<?php echo $base_path; ?>404.php">404 Error Page</a>
+                                <a href="<?php echo $base_path; ?>wrong-page-demo">Test Wrong URL</a>
+                                <a href="<?php echo $base_path; ?>index.php#faq">FAQs</a>
                             </div>
                         </div>
 

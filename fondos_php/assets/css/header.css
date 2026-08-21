@@ -240,26 +240,17 @@ body.mobile-nav-active {
 
     .ft-navbar-brand {
         order: 1;
+        margin-right: auto;
     }
 
     .ft-header-cta {
-        order: 2;
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-        margin-right: 0.75rem;
-    }
-
-    .ft-header-cta .btn-demo-outline {
-        padding: 0.4rem 0.875rem;
-        font-size: 0.8125rem;
-        border-radius: 2rem;
-        white-space: nowrap;
+        display: none !important;
     }
 
     .ft-navbar-toggle {
-        order: 3;
+        order: 2;
         display: flex;
+        margin-left: auto;
     }
 
     .ft-nav {

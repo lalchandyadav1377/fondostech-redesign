@@ -1,0 +1,20 @@
+# =============================================
+# FONDOS TECH — Apache Server & URL Handling (.htaccess)
+# =============================================
+
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /Fondos_websit/fondos_php/
+
+    # Set Custom 404 Error Document
+    ErrorDocument 404 /Fondos_websit/fondos_php/404.php
+
+    # If requested file or directory does not exist, rewrite to 404.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ 404.php [L]
+</IfModule>
+
+# Set Default ErrorDocument if mod_rewrite is disabled
+ErrorDocument 404 /Fondos_websit/fondos_php/404.php

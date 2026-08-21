@@ -1,0 +1,607 @@
+/* ==========================================================================
+   FT POSP SURE PAGE STYLES (posp.css)
+   FondosTech Insurtech Infrastructure Design System
+   ========================================================================== */
+
+/* ---------------------------------------------
+   1. HERO SECTION
+   --------------------------------------------- */
+.posp-hero-section {
+    background-color: var(--bg-light, #F5FAFF);
+    background-image:
+        radial-gradient(circle at 50% -20%, rgba(219, 234, 254, 0.7) 0%, rgba(245, 250, 255, 0.85) 55%, rgba(255, 255, 255, 0.98) 100%),
+        url('../../images/about-hero-banner-new.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0 5rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border-active, #CEE4FD);
+}
+
+.ft-footer-cta {
+    display: none;
+}
+
+footer[role="contentinfo"] {
+    padding-top: 4rem;
+}
+
+.posp-glow-orb-1 {
+    position: absolute;
+    top: -100px;
+    left: 8%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(8, 106, 216, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    animation: orbPulseLight1 8s ease-in-out infinite alternate;
+}
+
+.posp-glow-orb-2 {
+    position: absolute;
+    bottom: -80px;
+    right: 10%;
+    width: 480px;
+    height: 480px;
+    background: radial-gradient(circle, rgba(8, 106, 216, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+    filter: blur(70px);
+    pointer-events: none;
+    animation: orbPulseLight2 10s ease-in-out infinite alternate;
+}
+
+@keyframes orbPulseLight1 {
+    0% {
+        transform: translate(0, 0) scale(0.95);
+    }
+
+    100% {
+        transform: translate(30px, 20px) scale(1.12);
+    }
+}
+
+@keyframes orbPulseLight2 {
+    0% {
+        transform: translate(0, 0) scale(0.95);
+    }
+
+    100% {
+        transform: translate(-30px, -20px) scale(1.12);
+    }
+}
+
+.posp-hero-badge-wrap {
+    border-color: var(--border-active, #CEE4FD) !important;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    padding: 7px 15px;
+}
+
+.posp-hero-badge-wrap:hover {
+    transform: translateY(-2px);
+}
+
+.posp-badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--primary-color, #086AD8);
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(8, 106, 216, 0.5);
+    animation: badgePulse 2s infinite;
+}
+
+@keyframes badgePulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(8, 106, 216, 0.6);
+    }
+
+    70% {
+        box-shadow: 0 0 0 8px rgba(8, 106, 216, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(8, 106, 216, 0);
+    }
+}
+
+.posp-hero-title {
+    font-size: 3.25rem;
+    font-weight: 800;
+    line-height: 1.18;
+    color: var(--secondary-color, #212529);
+    margin-bottom: 1.25rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Hero Image Showcase Card */
+.posp-hero-image-wrapper {
+    position: relative;
+    padding: 0.5rem;
+}
+
+.posp-hero-image-card {
+    border-color: var(--border-active, #CEE4FD) !important;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    background: #ffffff;
+}
+
+.posp-hero-image-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(8, 106, 216, 0.18) !important;
+}
+
+.posp-floating-metric-badge {
+    bottom: -18px;
+    left: -18px;
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border-active, #CEE4FD) !important;
+    z-index: 3;
+    animation: floatBadge 4s ease-in-out infinite alternate;
+}
+
+@keyframes floatBadge {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-8px); }
+}
+
+/* Stats Row */
+.posp-stats-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--white, #FFFFFF);
+    border: 1px solid var(--border-active, #CEE4FD);
+    border-radius: 1.5rem;
+    padding: 1.75rem 2rem;
+    box-shadow: 0 10px 30px rgba(8, 106, 216, 0.08);
+    position: relative;
+    z-index: 2;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-val {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--primary-color, #086AD8);
+    line-height: 1;
+    margin-bottom: 0.35rem;
+}
+
+.stat-txt {
+    font-size: 0.875rem;
+    color: var(--text-muted, #6C757D);
+    font-weight: 600;
+}
+
+/* ---------------------------------------------
+   2. REUSABLE ABOUT-CARD EXTENSIONS
+   --------------------------------------------- */
+.about-card {
+    background: var(--white, #FFFFFF);
+    border: 1px solid var(--border-active, #CEE4FD);
+    border-radius: 1.5rem;
+    padding: 2.25rem 2rem;
+    height: 100%;
+    box-shadow: 0 4px 20px rgba(33, 37, 41, 0.04);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.about-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--primary-color, #086AD8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.about-card:hover::before {
+    opacity: 1;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--primary-color, #086AD8);
+    box-shadow: 0 14px 32px rgba(8, 106, 216, 0.12);
+}
+
+.about-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--secondary-color, #212529);
+    margin-bottom: 0.75rem;
+}
+
+.about-card-text {
+    font-size: 0.9375rem;
+    color: var(--text-muted, #6C757D);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.about-icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(8, 106, 216, 0.08);
+    color: var(--primary-color, #086AD8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* AI Feature Cards - White by default, Primary Blue on Hover */
+.posp-ai-card {
+    background: var(--white, #FFFFFF) !important;
+    border: 1px solid var(--border-active, #CEE4FD) !important;
+    border-radius: 1.25rem !important;
+    padding: 2.25rem 2rem !important;
+    box-shadow: 0 4px 20px rgba(33, 37, 41, 0.04) !important;
+    transition: background 0.35s ease, color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.posp-ai-card .about-card-title {
+    color: var(--secondary-color, #212529) !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    transition: color 0.35s ease !important;
+}
+
+.posp-ai-card .about-card-text {
+    color: var(--text-muted, #6C757D) !important;
+    font-size: 0.9375rem !important;
+    line-height: 1.6 !important;
+    transition: color 0.35s ease !important;
+}
+
+.posp-ai-icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(8, 106, 216, 0.08) !important;
+    color: var(--primary-color, #086AD8) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    transition: background 0.35s ease, color 0.35s ease !important;
+}
+
+/* Hover State -> Solid Primary Blue */
+.posp-ai-card:hover {
+    background: var(--primary-color, #086AD8) !important;
+    border-color: var(--primary-color, #086AD8) !important;
+    transform: translateY(-6px) !important;
+    box-shadow: 0 18px 42px rgba(8, 106, 216, 0.3) !important;
+}
+
+.posp-ai-card:hover .about-card-title {
+    color: #ffffff !important;
+}
+
+.posp-ai-card:hover .about-card-text {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.posp-ai-card:hover .posp-ai-icon-box {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+}
+
+.about-card:hover .about-icon-box {
+    background: var(--primary-color, #086AD8);
+    color: #ffffff;
+}
+
+/* Challenge Cards */
+.posp-challenge-number {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgba(8, 106, 216, 0.12);
+}
+
+/* Step Cards */
+.posp-step-pill {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--primary-color, #086AD8);
+    background: rgba(8, 106, 216, 0.08);
+    padding: 0.3rem 0.85rem;
+    border-radius: 1rem;
+}
+
+.about-icon-sm {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(8, 106, 216, 0.1);
+    color: var(--primary-color, #086AD8);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.75rem;
+}
+
+/* Pillar & Check Items */
+.pillar-tag-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--primary-color, #086AD8);
+    background: rgba(8, 106, 216, 0.08);
+    padding: 0.35rem 0.9rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.pillar-check-item {
+    background: var(--bg-light, #F5FAFF);
+    border: 1px solid var(--border-active, #CEE4FD);
+    border-radius: 0.85rem;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    color: #1e293b;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.pillar-check-item:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary-color, #086AD8);
+}
+
+.pillar-check-item .check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--primary-color, #086AD8);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.badge-icon-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--primary-color, #086AD8);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------
+   3. SECTIONS WRAPPERS & BACKGROUNDS
+   --------------------------------------------- */
+.posp-why-mandatory-section,
+.posp-how-it-works-section,
+.posp-dashboard-section,
+.posp-ai-section,
+.posp-built-for-section,
+.posp-comparison-section {
+    padding: 5.5rem 0;
+}
+
+.posp-why-mandatory-section {
+    background: var(--white, #FFFFFF);
+}
+
+.posp-how-it-works-section {
+    background: var(--bg-light, #F5FAFF);
+    border-top: 1px solid var(--border-active, #CEE4FD);
+    border-bottom: 1px solid var(--border-active, #CEE4FD);
+}
+
+.posp-dashboard-section {
+    background: var(--white, #FFFFFF);
+}
+
+.posp-ai-section {
+    background: var(--bg-light, #F5FAFF);
+    border-top: 1px solid var(--border-active, #CEE4FD);
+    border-bottom: 1px solid var(--border-active, #CEE4FD);
+}
+
+.posp-built-for-section {
+    background: var(--white, #FFFFFF);
+}
+
+.posp-comparison-section {
+    background: var(--bg-light, #F5FAFF);
+    border-top: 1px solid var(--border-active, #CEE4FD);
+}
+
+/* ---------------------------------------------
+   4. COMPARISON TABLE STYLES
+   --------------------------------------------- */
+.table-header-row th {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+
+/* ---------------------------------------------
+   5. CTA BANNER
+   --------------------------------------------- */
+.about-cta-section {
+    padding: 4rem 0 6rem;
+    background: var(--bg-light, #F5FAFF);
+}
+
+.about-cta-card {
+    background: var(--primary-color, #086AD8);
+    color: var(--white, #FFFFFF);
+    border-radius: 1.5rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(8, 106, 216, 0.25);
+}
+
+.about-cta-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-cta-desc {
+    font-size: 1.125rem;
+    color: var(--white, #FFFFFF);
+    opacity: 0.95;
+    max-width: 680px;
+    margin: 0 auto 2.25rem;
+}
+
+.cta-hover-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.cta-hover-btn:hover svg {
+    transform: translateX(4px);
+}
+
+/* ---------------------------------------------
+   6. RESPONSIVE MEDIA QUERIES
+   --------------------------------------------- */
+@media (max-width: 991.98px) {
+    .posp-hero-section {
+        padding: 7rem 0 3.5rem;
+        text-align: center !important;
+    }
+
+    .posp-hero-section .text-start {
+        text-align: center !important;
+    }
+
+    .posp-hero-section .section-desc {
+        margin: 0 auto 1.5rem !important;
+    }
+
+    .posp-hero-section .d-flex.align-items-center {
+        justify-content: center !important;
+    }
+
+    .posp-hero-trust-row {
+        justify-content: center !important;
+        gap: 0.75rem 1.25rem !important;
+    }
+
+    .posp-hero-title {
+        font-size: 2.2rem;
+    }
+
+    /* Floating badge positioned cleanly in-flow */
+    .posp-floating-metric-badge {
+        position: relative !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        margin: 1.25rem auto 0 !important;
+        max-width: 280px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* Stats bar formatted into a clean 2x2 grid on ALL screens <992px */
+    .posp-stats-row {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.25rem 1rem !important;
+        padding: 1.5rem 1.25rem !important;
+    }
+
+    .stat-val {
+        font-size: 1.85rem !important;
+    }
+
+    .stat-txt {
+        font-size: 0.8125rem !important;
+    }
+
+    .about-cta-title {
+        font-size: 2rem;
+    }
+
+    .about-cta-card {
+        padding: 3rem 1.5rem;
+    }
+
+    .about-card-title {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .posp-hero-section {
+        padding: 6rem 0 3rem;
+    }
+
+    .posp-hero-title {
+        font-size: 1.75rem;
+        line-height: 1.25;
+    }
+
+    .posp-stats-row {
+        gap: 1rem 0.75rem !important;
+        padding: 1.25rem 0.85rem !important;
+    }
+
+    .stat-val {
+        font-size: 1.65rem !important;
+    }
+
+    .stat-txt {
+        font-size: 0.75rem !important;
+    }
+
+    .posp-why-mandatory-section,
+    .posp-how-it-works-section,
+    .posp-dashboard-section,
+    .posp-ai-section,
+    .posp-built-for-section,
+    .posp-comparison-section {
+        padding: 3rem 0;
+    }
+
+    .about-card {
+        padding: 1.25rem 1rem !important;
+    }
+
+    .pillar-check-item {
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.8125rem !important;
+    }
+}

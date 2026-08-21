@@ -199,6 +199,7 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
             </svg>
           </button>
           <div class="ft-dropdown-menu" role="menu">
+            <a href="<?php echo $base_path; ?>posp.php" class="ft-dropdown-item <?php echo ($active_page === 'posp') ? 'active' : ''; ?>" role="menuitem">FT POSP Sure</a>
             <a href="<?php echo $base_path; ?>index.php#products" class="ft-dropdown-item" role="menuitem">FT Digital Insure</a>
             <a href="<?php echo $base_path; ?>index.php#products" class="ft-dropdown-item" role="menuitem">FT Digital Claims</a>
             <a href="<?php echo $base_path; ?>index.php#products" class="ft-dropdown-item" role="menuitem">FT EB Sure</a>
@@ -217,9 +218,9 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
             </svg>
           </button>
           <div class="ft-dropdown-menu" role="menu">
-            <a href="<?php echo $base_path; ?>index.php#workflow" class="ft-dropdown-item" role="menuitem">About Us</a>
+            <a href="<?php echo $base_path; ?>about-us.php" class="ft-dropdown-item <?php echo ($active_page === 'about') ? 'active' : ''; ?>" role="menuitem">About Us</a>
             <a href="<?php echo $base_path; ?>contact.php" class="ft-dropdown-item" role="menuitem">Contact Us</a>
-            <a href="<?php echo $base_path; ?>index.php#stats" class="ft-dropdown-item" role="menuitem">Leadership</a>
+            <a href="<?php echo $base_path; ?>about-us.php#team" class="ft-dropdown-item" role="menuitem">Leadership</a>
             <a href="<?php echo $base_path; ?>index.php#insurtech" class="ft-dropdown-item" role="menuitem">Careers</a>
             <a href="#" class="ft-dropdown-item" role="menuitem">Privacy Policy</a>
             <a href="#" class="ft-dropdown-item" role="menuitem">Terms &amp; Conditions</a>
@@ -235,7 +236,7 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
             </svg>
           </button>
           <div class="ft-dropdown-menu" role="menu">
-            <a href="<?php echo $base_path; ?>index.php#lob" class="ft-dropdown-item" role="menuitem">Blog</a>
+            <a href="<?php echo $base_path; ?>blog.php" class="ft-dropdown-item <?php echo ($active_page === 'blog') ? 'active' : ''; ?>" role="menuitem">Blog</a>
             <a href="<?php echo $base_path; ?>index.php#claims" class="ft-dropdown-item" role="menuitem">Articles</a>
             <a href="<?php echo $base_path; ?>index.php#testimonials" class="ft-dropdown-item" role="menuitem">Newsletter</a>
             <a href="<?php echo $base_path; ?>index.php#faq" class="ft-dropdown-item" role="menuitem">FAQs</a>
@@ -300,9 +301,9 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           </button>
           <div class="collapse" id="mobileCompany">
             <div class="ft-mobile-sub-menu">
-              <a href="<?php echo $base_path; ?>index.php#workflow">About Us</a>
+              <a href="<?php echo $base_path; ?>about-us.php">About Us</a>
               <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
-              <a href="<?php echo $base_path; ?>index.php#stats">Leadership</a>
+              <a href="<?php echo $base_path; ?>about-us.php#team">Leadership</a>
               <a href="<?php echo $base_path; ?>index.php#insurtech">Careers</a>
             </div>
           </div>

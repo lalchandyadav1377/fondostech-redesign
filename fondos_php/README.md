@@ -50,6 +50,24 @@ The repository follows a clean, component-based PHP architecture with modular he
 - 📍 **Pulsing Map Pin Markers**: Interactive location pins for **New Delhi**, **Jaipur**, **Gurugram**, and **Mumbai**. Clicking any pin smoothly pans the map (`flyTo`) and updates the active center details card.
 - 🏢 **Active Center Node Details Card**: Real-time city card displaying City Name, Jurisdiction, Street Address, Phone, Email, and City Selector Pills (`[New Delhi] [Jaipur] [Gurugram] [Mumbai]`).
 
+### 📱 3. FT POSP Sure (`posp.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, stylized light-blue checkmark badges (`✓`), right-side software interface showcase (`insurance-policy-management-software-10.png`), floating metric card (`⚡ 5,000+ POSPs Live & Onboarded`), and 4 `IntersectionObserver` animated stat counters (`5,000+ POSPs Supported`, `50+ Insurer APIs`, `99.8% Auto Reconciliation`, `100% IRDAI Compliant`).
+- ⚠️ **Section 2 — Why Spreadsheet Fails (`WHY IT'S MANDATORY`)**: 3-card breakdown highlighting Compliance Audit Risk, Slow Payout Attrition, and Excel Reconciliation limits past 100 agents, complete with identical Y-pixel height alignment (`min-height: 3.25rem` titles and flex-end impact badges) and a bottom Scale Solution Banner Callout.
+- 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 circular step nodes (`01`–`06`) covering Digital KYC Onboarding, Instant Product Access, Quoting & Issuance, Commission Tracking, Claims Support, and Auto-Renewal Tracking.
+- 📊 **Section 4 — Dual Dashboard Showcase (`MANAGING YOUR POSP NETWORK`)**: Side-by-side feature cards detailing Agent Portal tools vs Broker Admin Controls, anchored by a Role Architecture Summary Banner (`Single Sign-On Architecture ➔ POSP Agent Portal + Broker Admin Console`).
+- ⚡ **Section 5 — AI In Insurance Suite (`AI IN INSURANCE`)**: 4 interactive feature cards (white background by default, smoothly animating into solid Primary Blue `#086AD8` cards with white text on hover) for AI-Matched Recommendations, AI-Assisted Underwriting, Vahan API Vehicle Lookup, and Claims Routing.
+- 🎯 **Section 6 — Segment Grid (`BUILT FOR`)**: 4 target segment cards (Brokers, Agencies, Banks/NBFCs, Fintechs) with a bottom Scale Flow Bar (`Insurance Broker ➔ FT POSP Sure ➔ 5,000+ POSPs ➔ End Customers`).
+- ⚖️ **Section 7 — Side-by-Side Comparison Grid (`THE DIFFERENCE`)**: Dual-card comparison view contrasting *Legacy Manual Mode* (soft gray items with `✕` icons) against *With FT POSP Sure* (Primary Blue `#086AD8` border, `RECOMMENDED` badge, and `✓` icons).
+- ❓ **Section 8 — POSP Software FAQ (`POSP SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing IRDAI compliance, white-label capabilities, Vahan API motor quoting, and AI integration.
+- 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers to schedule a live product demonstration.
+
+### 🚫 4. 404 Error Page (`404.php`)
+- 🎨 **Visual 404 Hero Showcase**: Custom animated 404 digit counter with brand blue glowing background, pulsing status dots, and floating shield logo.
+- 🔎 **Real-time Live Page Search Bar**: Allows users to search and filter popular destination cards (Homepage, POSP Sure, About Us, Contact, Blog, Demo) dynamically on keypress.
+- 🛡️ **HTTP 404 Status Code Header**: Returns authentic 404 status header (`http_response_code(404)`) for SEO crawlers and server accuracy.
+- ⚙️ **Apache `.htaccess` URL Rewrite**: Intercepts non-existent page requests (e.g., `http://localhost/Fondos_websit/fondos_php/wrong-url` or invalid links) and automatically routes them to display `404.php`.
+- 🚀 **Interactive Navigation Tools**: Direct links for "Back to Home Page", "Contact Support", "Go Back Previous Page", and "Copy Wrong URL" with SweetAlert2 toast notification.
+
 ---
 
 ## Tech Stack
@@ -59,11 +77,12 @@ The repository follows a clean, component-based PHP architecture with modular he
 | **PHP** | 8.x | Server-side templating & component includes |
 | **Bootstrap** | 5.2.3 | Responsive grid framework, offcanvas drawer & accordions |
 | **Leaflet.js** | 1.9.4 | Interactive vector India map tiles & custom node pin markers |
-| **SweetAlert2** | — | Enterprise modal popups |
+| **SweetAlert2** | — | Enterprise modal popups & 404 notification toasts |
 | **jQuery & Validation** | 3.x | Client-side form validation |
 | **AOS** | 2.3.4 | Animate-On-Scroll entrance transitions |
-| **CSS3** | — | Custom design system, flexbox/grid layouts, SVG keyframes, smooth sticky scroll |
-| **JavaScript** | ES6 | Counter animation, tab auto-switch, infinite marquee, smooth sticky observer |
+| **CSS3** | — | Custom design system, keyframes, 404 glowing visuals & responsive cards |
+| **JavaScript** | ES6 | Counter animation, 404 real-time search filter, history back & URL copy |
+| **Apache (.htaccess)** | — | Custom ErrorDocument 404 routing & URL rewriting |
 | **Inter** | Google Fonts | Primary typography (400, 500, 600, 700, 800) |
 
 ---
@@ -74,7 +93,11 @@ The repository follows a clean, component-based PHP architecture with modular he
 fondos_php/
 │
 ├── index.php                          # Homepage
+├── about-us.php                       # About Us page
 ├── contact.php                        # Contact Us page (Form + Network Node Map)
+├── posp.php                           # FT POSP Sure product page
+├── 404.php                            # Custom 404 Error Page (Page Not Found)
+├── .htaccess                          # Apache ErrorDocument 404 & URL rewrite rules
 ├── copy_assets.php                    # One-time image copy utility script
 ├── cleanup_unused_assets.php          # Asset cleanup utility script
 ├── README.md                          # Comprehensive repository documentation
@@ -91,13 +114,19 @@ fondos_php/
     │   ├── responsive.css             # Dedicated mobile/tablet media query stylesheet
     │   └── pages/
     │       ├── home.css               # Homepage-specific section styles
-    │       └── contact.css            # Contact page styles (Network node card, map styling)
+    │       ├── about.css              # About Us page styles
+    │       ├── contact.css            # Contact page styles (Network node card, map styling)
+    │       ├── posp.css               # FT POSP Sure page styles
+    │       └── 404.css                # 404 Error Page visual & responsive styles
     │
     ├── js/
     │   ├── header.js                  # Navbar scroll compression & offcanvas controls
     │   └── pages/
     │       ├── home.js                # Counter, tabs, infinite marquee, sticky FAQ controller
-    │       └── contact.js             # Form validation & Leaflet Network Node map controller
+    │       ├── about.js               # About page counter, tab & timeline progress controller
+    │       ├── contact.js             # Form validation & Leaflet Network Node map controller
+    │       ├── posp.js                # FT POSP Sure counter & interactive controller
+    │       └── 404.js                 # 404 real-time card search, history back & URL copy controller
     │
     └── images/                        # All SVG & PNG image assets
 ```
@@ -128,6 +157,9 @@ fondos_php/
 4. **Launch Application**:
    - Homepage: `http://localhost/Fondos_websit/fondos_php/index.php`
    - Contact Page: `http://localhost/Fondos_websit/fondos_php/contact.php`
+   - POSP Page: `http://localhost/Fondos_websit/fondos_php/posp.php`
+   - 404 Error Page (Direct): `http://localhost/Fondos_websit/fondos_php/404.php`
+   - Test Wrong URL (404 Routing): `http://localhost/Fondos_websit/fondos_php/invalid-page-demo`
 
 ---
 
@@ -137,9 +169,9 @@ fondos_php/
 
 | Token | Hex | Usage |
 |-------|-----|-------|
-| `--primary-color` | `#086AD8` | Primary brand blue — CTA buttons, active accents, map pins |
+| `--primary-color` | `#086AD8` | Primary brand blue — CTA buttons, active accents, map pins, 404 digits |
 | `--secondary-color` | `#212529` | Dark headings and primary text |
-| `--danger-color` | `#DC3545` | "Without FT" warning state |
+| `--danger-color` | `#DC3545` | "Without FT" warning state & 404 pulse dot |
 | `--bg-light` | `#F5FAFF` | Soft page section background |
 | `--border-active` | `#CEE4FD` | Active/hover card borders |
 
@@ -161,6 +193,7 @@ fondos_php/
 - **Semantic HTML5**: `<header>`, `<main>`, `<footer>`, `<section>`, `<nav>`, `<h1>`–`<h3>`
 - **SEO Ready**: Dynamic `<title>`, `<meta description>`, OpenGraph tags, JSON-LD Structured Data
 - **ARIA & Focus**: `role="banner"`, `role="navigation"`, `aria-expanded`, `:focus-visible` outlines
+- **HTTP 404 Header**: Sends proper 404 HTTP status code for search crawlers.
 - **Reduced Motion**: Respects `prefers-reduced-motion` settings across marquee and counter scripts
 
 ---

@@ -80,11 +80,10 @@ include 'includes/header.php';
 <!-- ============================================= -->
 <section class="ic-section section-padding" id="insurers" aria-label="Insurer partners" data-aos="fade-up">
     <div class="container-fluid px-0">
-        <div class="container">
-            <div class="ic-section-title" data-aos="fade-up">
-                <span>We Enable Seamless </span>
-                <span class="text-primary-custom">Integrations With 50+ Insurers.</span>
-            </div>
+        <div class="container text-center mb-4">
+            <h2 class="section-title" data-aos="fade-up">
+                We Enable Seamless <span class="text-primary-custom">Integrations With 50+ Insurers.</span>
+            </h2>
         </div>
         <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
             <div class="ic-logos-track">
@@ -1062,13 +1061,23 @@ include 'includes/header.php';
             <div class="lob-text" data-aos="fade-right">
                 <div class="section-label">Lines of Business</div>
                 <h2 class="section-title">
-                    Pick and choose from <span class="text-primary-custom">Our Wide Range</span>
+                    Wide Range. <span class="text-primary-custom">Rapid Configuration.</span>
                 </h2>
-                <p class="section-desc">Explore a wide range of insurance products across personal, commercial,
-                    specialty, life, health, property, and casualty lines — all powered by one intelligent, low-code
-                    platform.</p>
+                <p class="section-desc">
+                    Grow your insurance business across personal, commercial, life, health, property, and casualty lines—all powered by one intelligent, low-code platform. Simplify product configuration, accelerate launches, and scale your insurance agency business as customer needs evolve.
+                </p>
+                <div class="d-flex align-items-center gap-3 flex-wrap my-4">
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm" style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
+                        <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
+                        <span>12 Hrs to Configure</span>
+                    </div>
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm" style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
+                        <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
+                        <span>Same-Day Launch</span>
+                    </div>
+                </div>
                 <div class="mt-3">
-                    <a href="#" class="btn-link-custom">
+                    <a href="#contact" class="btn-link-custom">
                         Choose Now
                         <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1692,14 +1701,12 @@ include 'includes/header.php';
             </button>
             <button class="testimonial-nav-btn" id="testimonial-next" aria-label="Next testimonial">
                 <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
+                    <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </button>
         </div>
     </div>
 </section>
-
 
 <!-- ============================================= -->
 <!-- SECTION 11: FAQ                               -->
@@ -1720,7 +1727,7 @@ include 'includes/header.php';
                     </p>
                     <a href="contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
-                        <span>Read More</span>
+                        <span>Get Started</span>
                         <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -1737,21 +1744,18 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                What is insurance software?
+                                What is insurance broker software?
                             </button>
                         </h3>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Insurance software is a digital platform that helps insurance brokers and POSPs manage
-                                the full policy lifecycle — quoting, POSP and client management, claims, commission
-                                reconciliation and regulatory compliance — from one system instead of multiple
-                                disconnected tools.
+                                Insurance broker software is a digital platform that helps an insurance broker or agency manage the full policy lifecycle — quoting, POSP and client management, claims, commission reconciliation and regulatory compliance — from one system instead of multiple disconnected tools.
                             </div>
                         </div>
                     </div>
 
                     <!-- Item 2 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="120">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
@@ -1760,15 +1764,13 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, FondosTech leverages AI and machine learning algorithms for automated quote
-                                extraction, intelligent claims assessment, fraud detection, and automated reconciliation
-                                across insurer portals.
+                                Yes. FondosTech's insurance broker software uses AI across quoting, underwriting support, claims triage and customer service — including AI voice agents — to help brokers close faster, price more accurately and resolve claims sooner, without adding headcount.
                             </div>
                         </div>
                     </div>
 
                     <!-- Item 3 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="140">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
@@ -1777,57 +1779,112 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Absolutely. FondosTech is built with modular architecture, making it scalable for
-                                individual brokers, growing agencies, and large enterprise insurance brokerages.
+                                Yes. FondosTech is built to scale from a single-branch insurance agency to a multi-state brokerage with thousands of POSPs — the same insurance agency software supports both, with modules you switch on as your insurance business grows.
                             </div>
                         </div>
                     </div>
 
                     <!-- Item 4 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="160">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                Does FondosTech support motor insurance quoting with vehicle data verification?
+                                What's the difference between insurance broker software and a generic management system for insurance?
                             </button>
                         </h3>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, our motor insurance module integrates directly with VAHAN and RTO databases for
-                                instant vehicle detail lookup and instant quote generation.
+                                A generic management system for insurance usually just stores customer and policy records. Insurance broker software goes further — it handles quoting, multi-insurer comparison, policy issuance, commission tracking, claims and IRDAI compliance in one connected system, built specifically for how an insurance broker actually works.
                             </div>
                         </div>
                     </div>
 
                     <!-- Item 5 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="180">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                                Is FondosTech IRDAI-compliant?
+                                Does FondosTech support motor insurance quoting with vehicle data verification?
                             </button>
                         </h3>
                         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, FondosTech is fully compliant with IRDAI regulations, including mandatory audit
-                                logging, POSP training tracking, client data protection, and commission cap compliance.
+                                Yes. FondosTech integrates with the Vahan API to auto-fetch and verify vehicle registration details during motor insurance quoting — reducing manual data entry, form errors and fraudulent claims at the point of sale.
                             </div>
                         </div>
                     </div>
 
                     <!-- Item 6 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="350">
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                                How is FondosTech different from a generic insurance CRM software?
+                                Is FondosTech IRDAI-compliant?
                             </button>
                         </h3>
                         <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Unlike generic CRMs, FondosTech is purpose-built for insurance distribution, featuring
-                                deep insurer portal API integrations, multi-line quote engines, end-to-end policy
-                                endorsement, and automated payout calculations.
+                                Yes. Every workflow on FondosTech — from POSP onboarding to policy issuance, commission payouts and claims — is built around IRDAI-aligned processes, so brokers and insurance agency businesses stay compliant by default, not by extra manual effort.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="220">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                What is claims management software, and does FondosTech offer it?
+                            </button>
+                        </h3>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Claims management software automates how a claim is logged, validated, tracked and resolved. FondosTech's claims management system uses AI to auto-validate documents, flag anomalies and route claims to the right handler — cutting resolution time from days to hours.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="240">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                How is insurtech changing the insurance industry in India?
+                            </button>
+                        </h3>
+                        <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Insurtech is replacing manual, paper-heavy insurance processes with digital, AI-powered platforms — speeding up quoting, policy issuance and claims across the insurance industry in India. FondosTech is built specifically for this shift, giving brokers, banks, NBFCs and fintechs the technology layer to run insurance as a business, digitally.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="260">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                Can FondosTech's software be used by banks and NBFCs, not just insurance brokers?
+                            </button>
+                        </h3>
+                        <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes. Beyond serving an insurance broker or agency, FondosTech's platform is used by banks, NBFCs and fintechs to embed insurance into loans and purchases — turning insurance into a revenue line for businesses that aren't traditional insurance companies.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="280">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                Why should I choose insurance software built only for the insurance industry?
+                            </button>
+                        </h3>
+                        <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Generic business software isn't built for insurance-specific problems — multi-insurer quoting, IRDAI compliance, commission structures, or claims workflows. FondosTech builds insurance software exclusively, which is why brokers, banks, NBFCs and fintechs trust it to solve problems generic tools can't.
                             </div>
                         </div>
                     </div>
