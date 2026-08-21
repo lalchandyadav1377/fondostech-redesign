@@ -451,7 +451,56 @@
 
 .founders-section {
     padding: 5.5rem 0;
-    background: var(--white, #FFFFFF);
+    background: var(--primary-color, #086AD8);
+    color: #ffffff;
+}
+
+.founders-section .section-label {
+    color: #ffffff;
+}
+
+.founders-section .section-title {
+    color: #ffffff;
+}
+
+.founders-section .section-title .text-primary-custom {
+    color: #ffffff !important;
+}
+
+.founders-section .section-desc {
+    color: #ffffff;
+    opacity: 0.92;
+}
+
+.founders-section .about-card {
+    background: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1.5rem;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.14);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founders-section .about-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.24);
+    border-color: #ffffff;
+}
+
+.founders-section .about-card-title {
+    color: #0f172a;
+}
+
+.founders-section .about-card-text {
+    color: #475569;
+}
+
+.founders-section .about-card-badge {
+    color: #086ad8;
+    background: #eaf4ff;
+    border: 1px solid #c0dcfa;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.72rem;
 }
 
 .leadership-section {
@@ -944,5 +993,73 @@ footer[role="contentinfo"] {
     /* Team Slider Mobile */
     .team-slide-card {
         flex: 0 0 100%;
+    }
+}
+
+/* =============================================
+   Insurer Logos Marquee Section (.ic-section)
+   ============================================= */
+.ic-section {
+    padding: 5rem 0;
+    background-color: var(--white, #ffffff);
+    overflow: hidden;
+}
+
+.ic-logos-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    user-select: none;
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.ic-logos-track {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    animation: icMarqueeAbout 25s linear infinite;
+    will-change: transform;
+    flex-shrink: 0;
+    padding: 0.5rem 0;
+}
+
+.ic-logos-marquee:hover .ic-logos-track {
+    animation-play-state: paused;
+}
+
+.ic-logo-card {
+    background: var(--white, #ffffff);
+    border: 1px solid var(--border-color, #EEF0F1);
+    border-radius: var(--radius-md, 0.75rem);
+    height: 5rem;
+    width: 12rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.ic-logo-card:hover {
+    border-color: var(--border-active, #CEE4FD);
+    box-shadow: 0 4px 12px rgba(8, 106, 216, 0.08);
+    transform: translateY(-2px);
+}
+
+.ic-logo-card img {
+    max-width: 100%;
+    max-height: 2.75rem;
+    object-fit: contain;
+}
+
+@keyframes icMarqueeAbout {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
     }
 }

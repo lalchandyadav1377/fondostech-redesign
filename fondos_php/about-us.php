@@ -21,26 +21,12 @@ include 'includes/header.php';
         </div>
 
         <h1 class="about-hero-title">
-            Shaping the Future of Insurance Distribution, <span class="text-primary-custom">One Integration at a Time</span>
+            Faster Insurance Distribution. <span class="text-primary-custom">Backed by People Who Show Up.</span>
         </h1>
 
         <p class="section-desc mx-auto mb-4" style="max-width: 760px;">
-            FondosTech is an insurtech infrastructure company building next-generation digital insurance distribution software. Founded in India in 2016, we empower insurance brokerages, banks, POSP networks, and fintech platforms to scale seamlessly.
+            Technology gets you speed. People get you trust. FondosTech brings both together — an AI-powered platform built for fast execution, supported by a service team committed to every broker's success.
         </p>
-
-        <!-- Yrs Experience Badge Card -->
-        <div class="row justify-content-center mt-3">
-            <div class="col-lg-6 col-md-8">
-                <div class="years-experience-card" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="years-number justify-content-center">
-                        <span>9+</span> <span style="font-size:2.25rem; opacity:0.85;">Yrs</span>
-                    </div>
-                    <div class="years-label text-center">
-                        Powering insurance tech infrastructure &amp; multi-line distribution across India
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Stats Row -->
         <div class="about-stats-row">
@@ -64,98 +50,45 @@ include 'includes/header.php';
     </div>
 </section>
 
+
+
 <!-- ============================================= -->
-<!-- SECTION 2: GUIDING BELIEFS & IMAGE SHOWCASE   -->
+<!-- SECTION 3: INSURER INTEGRATIONS MARQUEE       -->
 <!-- ============================================= -->
-<section class="guiding-beliefs-section">
-    <div class="container">
-        <div class="row align-items-center g-5">
-            <!-- Left Text Content -->
-            <div class="col-lg-6" data-aos="fade-right">
-                <div class="section-label mb-2">OUR GUIDING BELIEFS &amp; MISSION</div>
-                <h2 class="section-title mb-4">Driven by Customer Trust &amp; <span class="text-primary-custom">Engineering Precision</span></h2>
-                <p class="section-desc mb-4">
-                    We build technology that puts security, speed, and accuracy first. Insurance distribution relies heavily on trust, and our zero-downtime architecture ensures brokerages, agents, and policyholders have unbroken support when it matters most.
-                </p>
-
-                <!-- Bullet Highlights Grid -->
-                <div class="row g-3 mb-4">
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center gap-2" style="font-weight: 600; color: #212529;">
-                            <span class="about-icon-sm">✓</span> 70%+ Overhead Reduction
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center gap-2" style="font-weight: 600; color: #212529;">
-                            <span class="about-icon-sm">✓</span> 99.99% Uptime SLA
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center gap-2" style="font-weight: 600; color: #212529;">
-                            <span class="about-icon-sm">✓</span> 50+ Insurer REST APIs
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center gap-2" style="font-weight: 600; color: #212529;">
-                            <span class="about-icon-sm">✓</span> IRDAI Audit Compliance
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-card p-4 border-start border-4 border-primary shadow-sm" style="border-radius: 1rem;">
-                    <div class="section-label mb-1">OUR GOAL TODAY</div>
-                    <h3 class="about-card-title mb-2" style="font-size: 1.15rem;">How we help your numbers</h3>
-                    <p class="about-card-text" style="font-size: 0.9375rem;">
-                        By automating policy issuance, commission statement reconciliation, and agent onboarding, FondosTech reduces operational overhead by over 70% while accelerating daily policy throughput across all lines of business.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Right Showcase Image Card -->
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
-                <div class="about-image-showcase-wrapper position-relative">
-                    <div class="about-image-card shadow-lg rounded-4 overflow-hidden border">
-                        <img src="assets/images/insurance-policy-management-software-11.png" alt="FondosTech Insurtech Software Platform Showcase" class="img-fluid w-100 rounded-4" style="object-fit: cover;">
-                    </div>
-                    <!-- Floating Glassmorphic Metric Badge -->
-                    <div class="about-floating-glass-badge">
-                        <div class="d-flex align-items-center gap-3">
-                            <div class="badge-icon-circle">⚡</div>
-                            <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.1rem; line-height: 1.2;">70%+</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">OpEx Overhead Saved</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section class="ic-section section-padding py-5" id="insurers" aria-label="Insurer partners" data-aos="fade-up">
+    <div class="container-fluid px-0">
+        <div class="container text-center mb-4">
+            <h2 class="section-title" data-aos="fade-up">
+                We Enable Seamless <span class="text-primary-custom">Integrations With 50+ Insurers.</span>
+            </h2>
         </div>
-    </div>
-</section>
-
-<!-- ============================================= -->
-<!-- SECTION 3: METRICS BANNER BAR (PROMINENT PROOF)-->
-<!-- ============================================= -->
-<section class="metrics-bar-section">
-    <div class="container" data-aos="fade-up">
-        <div class="metrics-bar-card">
-            <div class="row g-4 align-items-center">
-                <div class="col-6 col-md-3 metric-col">
-                    <div class="metric-num counter" data-target="115" data-suffix="+">115+</div>
-                    <div class="metric-lbl">Insurers &amp; Partners</div>
-                </div>
-                <div class="col-6 col-md-3 metric-col">
-                    <div class="metric-num counter" data-target="58" data-suffix="+">58+</div>
-                    <div class="metric-lbl">Tech Team Experts</div>
-                </div>
-                <div class="col-6 col-md-3 metric-col">
-                    <div class="metric-num counter" data-target="1" data-suffix="M+">1M+</div>
-                    <div class="metric-lbl">Monthly Transactions</div>
-                </div>
-                <div class="col-6 col-md-3 metric-col">
-                    <div class="metric-num counter" data-target="4" data-suffix="">4</div>
-                    <div class="metric-lbl">Innovation Centers</div>
-                </div>
+        <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
+            <div class="ic-logos-track">
+                <div class="ic-logo-card"><img src="assets/images/magma-ic0.svg" alt="Magma Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/liberty-general-ic0.svg" alt="Liberty General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-81.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-10.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-21.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-31.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-40.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-53.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-60.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-70.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/bajaj-life-ic0.svg" alt="Bajaj Life Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/shriram-general-ic0.svg" alt="Shriram General Insurance"></div>
+                <!-- Duplicate set for infinite loop -->
+                <div class="ic-logo-card"><img src="assets/images/magma-ic0.svg" alt="Magma Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/liberty-general-ic0.svg" alt="Liberty General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-81.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-10.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-21.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-31.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-40.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-53.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-60.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/image-70.png" alt="Insurance Partner"></div>
+                <div class="ic-logo-card"><img src="assets/images/bajaj-life-ic0.svg" alt="Bajaj Life Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/shriram-general-ic0.svg" alt="Shriram General Insurance"></div>
             </div>
         </div>
     </div>
@@ -266,9 +199,9 @@ include 'includes/header.php';
             <!-- Tab Content Panes -->
             <div id="tab-mission" class="mission-tab-pane active">
                 <span class="pillar-tag-badge mb-2">CORE MISSION</span>
-                <h3 class="mission-pane-title">Connecting Every Insurance Stakeholder Seamlessly</h3>
+                <h3 class="mission-pane-title">Building a Brighter Future for Insurance</h3>
                 <p class="mission-pane-desc mb-4">
-                    Our mission is to build robust software that connects every insurance stakeholder — brokers, banks, agents, and policyholders — through a unified, high-throughput platform that simplifies policy lifecycle management and drives zero-error operations.
+                    FondosTech's mission is to build software that empowers every insurance stakeholder — brokers, banks, agents, and policyholders — to grow with confidence. Through one unified, high-throughput platform, we make policy lifecycle management effortless and unlock a future of zero-error operations.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
@@ -285,57 +218,57 @@ include 'includes/header.php';
 
             <div id="tab-vision" class="mission-tab-pane">
                 <span class="pillar-tag-badge mb-2">FUTURE VISION</span>
-                <h3 class="mission-pane-title">Transforming Insurance Into An Instant Digital Commodity</h3>
+                <h3 class="mission-pane-title">Insurance, Simplified for Everyone</h3>
                 <p class="mission-pane-desc mb-4">
-                    We envision an ecosystem where any digital platform or bank can embed comprehensive multi-line insurance coverage into its customer journeys in minutes, protected by automated IRDAI compliance and instant claims processing.
+                    FondosTech envisions an insurance industry where every stakeholder — brokers, insurers, banks, and policyholders — experiences speed, transparency, and trust as the norm, not the exception. A future where technology removes friction, so people can focus on what matters most: protecting what they value.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Embedded Insurance APIs</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> AI-First Insurance Ecosystem</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Instant Automated Underwriting</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> 100% Digital, Paperless Journeys</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Pan-India Agent Network</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Trusted by Every Stakeholder</div>
                     </div>
                 </div>
             </div>
 
             <div id="tab-goals" class="mission-tab-pane">
                 <span class="pillar-tag-badge mb-2">2028 STRATEGIC GOALS</span>
-                <h3 class="mission-pane-title">Empowering 1,000+ Distributors by 2028</h3>
+                <h3 class="mission-pane-title">Fueling the Next Era of Insurance</h3>
                 <p class="mission-pane-desc mb-4">
-                    Our goal is to power over 10 million monthly policy transactions while maintaining 99.99% system availability, automating 99.8% of commission reconciliations, and setting the gold standard for insurtech reliability.
+                    FondosTech's goal is to help every broker and agency scale faster, every insurer operate leaner, and every policyholder feel confident in their coverage. We're committed to continuously innovating so the entire insurance ecosystem grows stronger, together.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> 10M+ Monthly Transactions</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Scaling Insurance Agencies Nationwide</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> 99.8% Auto Reconciliation</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Cutting Policy Turnaround Time</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> 1,000+ Active Broker Networks</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Compliance-Ready, End to End</div>
                     </div>
                 </div>
             </div>
 
             <div id="tab-values" class="mission-tab-pane">
                 <span class="pillar-tag-badge mb-2">CORE VALUES</span>
-                <h3 class="mission-pane-title">Integrity, Engineering Rigor &amp; Customer Trust</h3>
+                <h3 class="mission-pane-title">Built on Trust. Driven by Purpose.</h3>
                 <p class="mission-pane-desc mb-4">
-                    We operate with total transparency, relentless technical rigor, and an obsessive focus on creating long-term value for our insurance carrier partners and distribution networks.
+                    FondosTech believes great insurance software is built on transparency, reliability, and genuine care for the people it serves. Every feature we build reflects our commitment to doing right by brokers, insurers, and policyholders alike.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Bank-Grade Security</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Transparency in Every Transaction</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> 24/7 Enterprise SLA Support</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Customer-First Innovation</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Transparent Financial Logs</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Integrity at Every Touchpoint</div>
                     </div>
                 </div>
             </div>
@@ -343,92 +276,7 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- ============================================= -->
-<!-- SECTION 6: WHY TEAMS CHOOSE FONDOSTECH (6-CARD)-->
-<!-- ============================================= -->
-<section class="why-choose-section">
-    <div class="container">
-        <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">WHY CHOOSE US</div>
-            <h2 class="section-title">Why teams choose <span class="text-primary-custom">FondosTech</span></h2>
-            <p class="section-desc mx-auto">Engineered for security, speed, and effortless multi-insurer distribution.</p>
-        </div>
 
-        <div class="row g-4 mt-3">
-            <!-- Feature 1 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="about-card">
-                    <div class="about-card-watermark">01</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-                    </div>
-                    <h3 class="about-card-title">Turnkey Deployment</h3>
-                    <p class="about-card-text">Launch a full-featured multi-insurer portal and POSP agent app in weeks with pre-built UI components and REST APIs.</p>
-                </div>
-            </div>
-
-            <!-- Feature 2 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card">
-                    <div class="about-card-watermark">02</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                    </div>
-                    <h3 class="about-card-title">50+ Insurer Network</h3>
-                    <p class="about-card-text">Access real-time quotation, policy generation, and endorsement APIs across all major Indian insurance carriers through one key.</p>
-                </div>
-            </div>
-
-            <!-- Feature 3 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="about-card">
-                    <div class="about-card-watermark">03</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-                    </div>
-                    <h3 class="about-card-title">Deep Industry Expertise</h3>
-                    <p class="about-card-text">Built by engineers and domain leaders with 9+ years of hands-on experience in Indian regulatory compliance and Insurtech architecture.</p>
-                </div>
-            </div>
-
-            <!-- Feature 4 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card">
-                    <div class="about-card-watermark">04</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                    </div>
-                    <h3 class="about-card-title">Rec-Engine Auto Match</h3>
-                    <p class="about-card-text">Automates insurer statement reconciliation with 99.8% precision, eliminating manual Excel matching and payout delays.</p>
-                </div>
-            </div>
-
-            <!-- Feature 5 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="about-card">
-                    <div class="about-card-watermark">05</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                    </div>
-                    <h3 class="about-card-title">Agile Core Delivery</h3>
-                    <p class="about-card-text">Cloud-native infrastructure maintaining 99.99% availability even during peak renewal season volumes.</p>
-                </div>
-            </div>
-
-            <!-- Feature 6 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
-                <div class="about-card">
-                    <div class="about-card-watermark">06</div>
-                    <div class="about-icon-box">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-                    </div>
-                    <h3 class="about-card-title">Omnichannel Readiness</h3>
-                    <p class="about-card-text">Engage policyholders across Web, Mobile App, POSP Agent portals, and WhatsApp conversational AI seamlessly.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- ============================================= -->
 <!-- SECTION 7: FOUNDERS & DIRECTORS               -->

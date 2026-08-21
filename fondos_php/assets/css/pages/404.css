@@ -4,40 +4,15 @@
 
 .error-hero-section {
     padding: 8.5rem 0 4rem;
-    background: radial-gradient(100% 100% at 50% 0%, #eaf4ff 0%, #f5faff 100%);
+    background-color: var(--bg-light, #f5faff);
     position: relative;
     overflow: hidden;
 }
 
-/* Glowing Background Blur */
+/* Background Visual Container */
 .error-visual-wrapper {
     position: relative;
     display: inline-block;
-    padding: 1.5rem;
-}
-
-.error-glow-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 280px;
-    height: 280px;
-    background: radial-gradient(circle, rgba(8, 106, 216, 0.2) 0%, rgba(8, 106, 216, 0) 70%);
-    border-radius: 50%;
-    z-index: 1;
-    animation: pulse404Glow 3s infinite ease-in-out;
-}
-
-@keyframes pulse404Glow {
-    0%, 100% {
-        transform: translate(-50%, -50%) scale(0.9);
-        opacity: 0.6;
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(1.15);
-        opacity: 0.9;
-    }
 }
 
 /* Badge Label */
@@ -47,7 +22,7 @@
     gap: 0.5rem;
     background: #ffffff;
     border: 1px solid #cee4fd;
-    color: #086ad8;
+    color: var(--primary-color, #086ad8);
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -84,7 +59,7 @@
     }
 }
 
-/* Animated 404 Digits & Center Shield */
+/* 404 Digits using Solid Primary Color */
 .error-number-display {
     display: flex;
     align-items: center;
@@ -98,12 +73,8 @@
     font-size: 7.5rem;
     font-weight: 900;
     line-height: 1;
-    color: #086ad8;
+    color: var(--primary-color, #086ad8);
     letter-spacing: -0.05em;
-    background: linear-gradient(180deg, #086ad8 0%, #043e80 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 10px 30px rgba(8, 106, 216, 0.15);
 }
 
 .shield-zero-wrapper {
@@ -112,7 +83,7 @@
     height: 100px;
     background: #ffffff;
     border: 2px solid #cee4fd;
-    border-radius: 1.75rem;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,14 +100,13 @@
     width: 58px;
     height: 58px;
     object-fit: contain;
-    filter: drop-shadow(0 4px 8px rgba(8, 106, 216, 0.25));
 }
 
 .zero-pulse-ring {
     position: absolute;
     inset: -6px;
-    border-radius: 2rem;
-    border: 2px stroke #086ad8;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color, #086ad8);
     opacity: 0.3;
     animation: ringPulse 2s infinite ease-out;
 }
@@ -171,7 +141,7 @@
 
 .requested-path-badge {
     background: #e6f0fa;
-    color: #086ad8;
+    color: var(--primary-color, #086ad8);
     font-family: monospace;
     font-size: 0.95rem;
     padding: 0.2rem 0.6rem;
@@ -179,33 +149,14 @@
     border: 1px solid #c0dcfa;
 }
 
-/* Search Box Component */
-.error-search-box {
-    max-width: 560px;
-    background: #ffffff;
-    border: 1px solid #cee4fd;
-    border-radius: 3rem;
-    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
-    box-shadow: 0 10px 30px rgba(8, 106, 216, 0.12);
-    transition: all 0.3s ease;
-}
 
-.error-search-box:focus-within {
-    border-color: #086ad8;
-    box-shadow: 0 12px 36px rgba(8, 106, 216, 0.22);
-}
-
-.error-search-box .form-control::placeholder {
-    color: #94a3b8;
-    font-size: 0.95rem;
-}
 
 /* Button Styles */
 .btn-404-primary {
     display: inline-flex;
     align-items: center;
     gap: 0.625rem;
-    background-color: #086ad8;
+    background-color: var(--primary-color, #086ad8);
     color: #ffffff !important;
     font-weight: 700;
     font-size: 0.9375rem;
@@ -216,7 +167,7 @@
 }
 
 .btn-404-primary:hover {
-    background-color: #0654ad;
+    background-color: var(--primary-dark, #0656B0);
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(8, 106, 216, 0.4);
     color: #ffffff !important;
@@ -227,7 +178,7 @@
     align-items: center;
     gap: 0.625rem;
     background-color: #ffffff;
-    color: #086ad8 !important;
+    color: var(--primary-color, #086ad8) !important;
     border: 1px solid #cee4fd;
     font-weight: 700;
     font-size: 0.9375rem;
@@ -239,7 +190,7 @@
 
 .btn-404-outline:hover {
     background-color: #f0f7ff;
-    border-color: #086ad8;
+    border-color: var(--primary-color, #086ad8);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(8, 106, 216, 0.12);
 }
@@ -260,131 +211,8 @@
 }
 
 .btn-404-ghost:hover {
-    color: #086ad8;
+    color: var(--primary-color, #086ad8);
     background: rgba(8, 106, 216, 0.06);
-}
-
-/* Destinations Section */
-.error-destinations-section {
-    background: #ffffff;
-}
-
-.destination-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.25rem;
-    background: #f8fbff;
-    border: 1px solid #cee4fd;
-    border-radius: 1.25rem;
-    padding: 1.75rem;
-    height: 100%;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    text-decoration: none !important;
-}
-
-.destination-card:hover {
-    background: #ffffff;
-    border-color: #086ad8;
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(8, 106, 216, 0.12);
-}
-
-.destination-card.highlighted-card {
-    background: linear-gradient(135deg, #f0f7ff 0%, #e1f0ff 100%);
-    border-color: #9ac8fa;
-}
-
-.destination-card.highlighted-card:hover {
-    background: #ffffff;
-    border-color: #086ad8;
-}
-
-.card-icon-box {
-    width: 52px;
-    height: 52px;
-    border-radius: 1rem;
-    background: #ffffff;
-    border: 1px solid #cee4fd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    box-shadow: 0 4px 12px rgba(8, 106, 216, 0.08);
-    transition: transform 0.3s ease;
-}
-
-.card-icon-box.shadow-primary {
-    background: #086ad8;
-    border-color: #086ad8;
-    box-shadow: 0 6px 16px rgba(8, 106, 216, 0.3);
-}
-
-.destination-card:hover .card-icon-box {
-    transform: scale(1.1);
-}
-
-.card-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #212529;
-    margin-bottom: 0.5rem;
-}
-
-.card-desc {
-    font-size: 0.9375rem;
-    color: #64748b;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
-
-.card-link-text {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: #086ad8;
-    transition: gap 0.2s ease;
-}
-
-.destination-card:hover .card-link-text {
-    gap: 0.65rem;
-}
-
-/* Assistance Banner */
-.error-help-section {
-    background: #ffffff;
-}
-
-.error-help-card {
-    background: #f8fbff;
-    border: 1px solid #cee4fd;
-    border-radius: 1.25rem;
-    padding: 1.5rem 2rem;
-}
-
-.help-icon-wrapper {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: #ffffff;
-    border: 1px solid #cee4fd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    box-shadow: 0 4px 12px rgba(8, 106, 216, 0.08);
-}
-
-.help-card-title {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #212529;
-}
-
-.help-card-desc {
-    font-size: 0.875rem;
-    color: #64748b;
 }
 
 /* Responsive Breakpoints */
@@ -400,7 +228,7 @@
     .shield-zero-wrapper {
         width: 80px;
         height: 80px;
-        border-radius: 1.25rem;
+        border-radius: 50%;
     }
 
     .zero-shield-img {
@@ -425,7 +253,7 @@
     .shield-zero-wrapper {
         width: 64px;
         height: 64px;
-        border-radius: 1rem;
+        border-radius: 50%;
     }
 
     .zero-shield-img {

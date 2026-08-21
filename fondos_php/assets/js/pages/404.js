@@ -19,64 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // -------------------------------------------------------------
-    // 2. Real-time Cards Search & Filter
-    // -------------------------------------------------------------
-    const searchInput = document.getElementById('ft404SearchInput');
-    const searchSubmit = document.getElementById('btn404SearchSubmit');
-    const destinationWrappers = document.querySelectorAll('.destination-card-wrapper');
-    const noResultsBox = document.getElementById('noResultsBox');
-    const btnResetSearch = document.getElementById('btnResetSearch');
-
-    function filterDestinations() {
-        if (!searchInput) return;
-        const query = searchInput.value.toLowerCase().trim();
-        let visibleCount = 0;
-
-        destinationWrappers.forEach(wrapper => {
-            const keywords = wrapper.getAttribute('data-keywords') || '';
-            const title = wrapper.querySelector('.card-title') ? wrapper.querySelector('.card-title').textContent.toLowerCase() : '';
-            const desc = wrapper.querySelector('.card-desc') ? wrapper.querySelector('.card-desc').textContent.toLowerCase() : '';
-
-            if (query === '' || keywords.includes(query) || title.includes(query) || desc.includes(query)) {
-                wrapper.classList.remove('d-none');
-                visibleCount++;
-            } else {
-                wrapper.classList.add('d-none');
-            }
-        });
-
-        if (noResultsBox) {
-            if (visibleCount === 0) {
-                noResultsBox.classList.remove('d-none');
-            } else {
-                noResultsBox.classList.add('d-none');
-            }
-        }
-    }
-
-    if (searchInput) {
-        searchInput.addEventListener('input', filterDestinations);
-        searchInput.addEventListener('keyup', function (e) {
-            if (e.key === 'Enter') {
-                filterDestinations();
-            }
-        });
-    }
-
-    if (searchSubmit) {
-        searchSubmit.addEventListener('click', filterDestinations);
-    }
-
-    if (btnResetSearch && searchInput) {
-        btnResetSearch.addEventListener('click', function () {
-            searchInput.value = '';
-            filterDestinations();
-            searchInput.focus();
-        });
-    }
-
-    // -------------------------------------------------------------
-    // 3. Copy Wrong URL / Report Broken Link Action
+    // 2. Copy Wrong URL / Report Broken Link Action
     // -------------------------------------------------------------
     const btnReportBrokenLink = document.getElementById('btnReportBrokenLink');
     if (btnReportBrokenLink) {
