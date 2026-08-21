@@ -616,9 +616,9 @@
 
 /* ---- 6. Platform Capabilities (Tabs) ---- */
 .platform-section {
-    padding: 5rem 0;
+    padding: 0rem 0 5rem;
     /* background: var(--white); */
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 .btn-blue-pill {
@@ -664,11 +664,7 @@
 }
 
 /* ---- 6. Platform Capabilities (Sticky Storytelling Deck) ---- */
-.platform-section {
-    /* background: var(--white); */
-    position: relative;
-    padding-top: 5rem;
-}
+
 
 .platform-sticky-wrapper {
     position: relative;

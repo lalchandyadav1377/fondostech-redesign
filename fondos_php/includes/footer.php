@@ -65,12 +65,12 @@ $base_path = isset($base_path) ? $base_path : '';
                         <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                             <h3 class="ft-footer-col-title">Products</h3>
                             <div class="ft-footer-col-links">
-                                <a href="#">FT Digital Insure</a>
-                                <a href="#">FT Digital Claims</a>
-                                <a href="#">FT EB Sure</a>
-                                <a href="#">FT Reconciliation</a>
-                                <a href="#">FT Payin/Payout</a>
-                                <a href="#">FT Compliance</a>
+                                <a href="<?php echo $base_path; ?>posp.php">FT POSP Sure</a>
+                                <a href="<?php echo $base_path; ?>claims.php">FT Digital Claims</a>
+                                <a href="<?php echo $base_path; ?>eb-sure.php">FT EB Sure</a>
+                                <a href="<?php echo $base_path; ?>reconciliation.php">FT Reconciliation</a>
+                                <a href="<?php echo $base_path; ?>payin-payout.php">FT Payin/Payout</a>
+                                <a href="<?php echo $base_path; ?>compliance.php">FT Compliance</a>
                             </div>
                         </div>
 

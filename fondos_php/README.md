@@ -61,6 +61,39 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ❓ **Section 8 — POSP Software FAQ (`POSP SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing IRDAI compliance, white-label capabilities, Vahan API motor quoting, and AI integration.
 - 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers to schedule a live product demonstration.
 
+### 📋 4. FT Digital Claims (`claims.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`24-Hour Cashless Approval`, `50+ Insurer APIs`, `98.5% Document OCR Accuracy`), and floating metric badge (`⚡ 3-5 Days SLA Average Turnaround`).
+- ⚠️ **Section 2 — Why Manual Claims Fail (`WHY IT'S CRITICAL`)**: 3-card breakdown highlighting Processing Delays, Manual Survey Routing Chaos, and Status Blindspots, with flex-aligned impact badges and a bottom scale callout banner (`Paper claims take weeks to process ➔ FT Digital Claims resolves claims in hours`).
+- 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing Claim Intimation (FNOL), AI Document Verification, Surveyor & Adjuster Tagging, Automated Assessment, Approval Pipeline, and Instant Payouts.
+- 📊 **Section 4 — Dual Dashboard Showcase (`WORKFLOW MANAGEMENT`)**: Dual feature cards for *Surveyors & TPA Teams* vs *Broker Admin & Claims Managers*.
+- ⚡ **Section 5 — AI In Claims Suite (`AI IN CLAIMS`)**: 4 interactive feature cards for AI-Assisted Fraud Detection, Automated Estimate Calculator, Smart Document OCR, and Auto-Routing & Escalations.
+- 🎯 **Section 6 — Segment Grid (`BUILT FOR`)**: 4 target segment cards (Brokers, Agencies, TPAs, Corporates) with a bottom Scale Flow Bar.
+- ⚖️ **Section 7 — Side-by-Side Comparison Grid (`THE DIFFERENCE`)**: Dual-card view comparing *Legacy Manual Mode* against *With FT Digital Claims* (`RECOMMENDED`).
+- ❓ **Section 8 — Claims Software FAQ (`CLAIMS SOFTWARE, EXPLAINED`)**: 8-item sticky accordion for FNOL intimation, surveyor auto-assignment, AI OCR, and IRDAI compliance.
+- 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers and insurers to schedule a live demo.
+
+### 🛡️ 5. FT Compliance (`compliance.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`Real-Time IRDAI Audit Trails`, `Automated Compliance Checks`, `Zero Manual Documentation`), floating metric card (`⚡ Real-Time Flagging — AI-Powered Compliance`), and audit-ready status.
+- ⚠️ **Section 2 — Why Panic Fails (`WHY IT MATTERS`)**: 3-card breakdown highlighting Scattered Documentation, Violations Surface Only During Audits, and Renewal Deadlines Missed Quietly, with impact badges (`High Time Cost`, `Regulatory Risk`, `License Suspension Risk`) and a bottom scale solution banner.
+- 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing Every Requirement Mapped, Continuous Real-Time Tracking, Flagged the Moment It Happens, Routed to the Right Person Instantly, A Verified Record Without Paperwork, and Ready the Moment It's Needed.
+- 📊 **Section 4 — Dual Dashboard Showcase (`MANAGING COMPLIANCE, DAY TO DAY`)**: Dual feature cards for *PoSP & Agent Interface* vs *Compliance Control Console*, backed by a Single Source of Truth architecture banner.
+- ⚡ **Section 5 — AI In Compliance Suite (`AI IN COMPLIANCE`)**: 4 interactive feature cards for AI-Powered Regulatory Monitoring, AI-Powered Violation Detection, Automated Alert Routing, and Insurtech-Native Architecture.
+- 🎯 **Section 6 — Segment Grid (`BUILT FOR`)**: 4 target segment cards (Insurance Brokers, Insurance Agencies, Banks & NBFCs, Corporates) with a bottom Scale Flow Bar.
+- ⚖️ **Section 7 — Side-by-Side Comparison Grid (`THE DIFFERENCE`)**: Dual-card view contrasting *Without Compliance Software* against *⚡ With FT Compliance* (`RECOMMENDED`).
+- ❓ **Section 8 — Compliance Software FAQ (`COMPLIANCE SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing IRDAI compliance software, AI violation detection, agent status views, and automated audit report generation.
+- 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers to stay audit-ready every single day.
+
+### 🏥 8. EB Sure (`eb-sure.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`Instant Enrollment & Endorsements`, `Real-Time Claims Tracking`, `Automated Renewal Management`), floating metric card (`⚡ 90% Faster Enrollment — Live Claims Status & AI Group Mgmt`).
+- ⚠️ **Section 2 — Why Manual HR Fails (`WHY IT MATTERS`)**: 3-card breakdown highlighting Every New Hire a Manual Process, Employees Left Guessing on Claims, and Renewals Handled Under Deadline Pressure, with impact badges (`High Time Cost`, `Employee Trust Risk`, `Cost Optimization Risk`) and a bottom scale solution banner.
+- 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing No Manual Re-Entry Ever, Matched to the Right Policy Instantly, Validated Before It Reaches Insurer, Visible to Everyone in Real Time, Ready Ahead of Deadline, and A Clean Report Every Time.
+- 📊 **Section 4 — Dual Dashboard Showcase (`MANAGING EMPLOYEE BENEFITS, DAY TO DAY`)**: Dual feature cards for *Employee Interface* vs *HR & Broker Control Console*, backed by a Single Source of Truth architecture banner.
+- ⚡ **Section 5 — AI In Employee Benefits Suite (`AI IN EMPLOYEE BENEFITS`)**: 4 interactive feature cards for AI-Powered Enrollment Matching, AI-Powered Claims Validation, Automated Renewal Intelligence, and Insurtech-Native Architecture.
+- 🎯 **Section 6 — Segment Grid (`BUILT FOR`)**: 4 target segment cards (Corporates & HR Teams, Insurance Brokers, Insurance Agencies, Banks & NBFCs) with a bottom Scale Flow Bar.
+- ⚖️ **Section 7 — Side-by-Side Comparison Grid (`THE DIFFERENCE`)**: Dual-card view contrasting *Without EB Sure* against *⚡ With EB Sure* (`RECOMMENDED`).
+- ❓ **Section 8 — Employee Benefits FAQ (`EMPLOYEE BENEFITS SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing group health & life software, AI enrollment matching, employee claims tracking, GMC/GPA/GTL support, and renewal intelligence.
+- 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting HR teams and brokers to simplify employee benefits for their entire workforce.
+
 ### 🚫 4. 404 Error Page (`404.php`)
 - 🎨 **Visual 404 Hero Showcase**: Custom animated 404 digit counter with brand blue glowing background, pulsing status dots, and floating shield logo.
 - 🔎 **Real-time Live Page Search Bar**: Allows users to search and filter popular destination cards (Homepage, POSP Sure, About Us, Contact, Blog, Demo) dynamically on keypress.
@@ -96,6 +129,11 @@ fondos_php/
 ├── about-us.php                       # About Us page
 ├── contact.php                        # Contact Us page (Form + Network Node Map)
 ├── posp.php                           # FT POSP Sure product page
+├── claims.php                         # FT Digital Claims product page
+├── eb-sure.php                        # FT EB Sure product page
+├── compliance.php                     # FT Compliance product page
+├── payin-payout.php                   # FT PayIn-Payout product page
+├── reconciliation.php                 # FT Reconciliation product page
 ├── 404.php                            # Custom 404 Error Page (Page Not Found)
 ├── .htaccess                          # Apache ErrorDocument 404 & URL rewrite rules
 ├── copy_assets.php                    # One-time image copy utility script
@@ -116,7 +154,7 @@ fondos_php/
     │       ├── home.css               # Homepage-specific section styles
     │       ├── about.css              # About Us page styles
     │       ├── contact.css            # Contact page styles (Network node card, map styling)
-    │       ├── posp.css               # FT POSP Sure page styles
+    │       ├── posp.css               # Unified Product Page design system (shared by posp.php & claims.php)
     │       └── 404.css                # 404 Error Page visual & responsive styles
     │
     ├── js/
@@ -125,11 +163,47 @@ fondos_php/
     │       ├── home.js                # Counter, tabs, infinite marquee, sticky FAQ controller
     │       ├── about.js               # About page counter, tab & timeline progress controller
     │       ├── contact.js             # Form validation & Leaflet Network Node map controller
-    │       ├── posp.js                # FT POSP Sure counter & interactive controller
+    │       ├── posp.js                # Unified Product Page counter & interactive controller
     │       └── 404.js                 # 404 real-time card search, history back & URL copy controller
     │
     └── images/                        # All SVG & PNG image assets
 ```
+
+---
+
+## 🚀 Unified Product Page Architecture & Expansion Flow
+
+All product pages (`posp.php`, `claims.php`, and future products) share a **single modular design system** (`assets/css/pages/posp.css` and `assets/js/pages/posp.js`). This ensures zero CSS/JS bloat, identical responsive behavior, and instant multi-product page creation.
+
+### 📐 Standard 9-Section Product Blueprint
+Every product page follows an identical 9-section flow:
+
+1. **🚀 Section 1 — Hero Showcase (`posp-hero-section`)**: 2-Column banner with live pulsing indicator badge, product title, description, CTAs, trust checkmarks, right-side interface card with floating metric badge.
+2. **⚠️ Section 2 — Problem / Criticality Breakdown (`posp-why-mandatory-section`)**: 3-card problem breakdown with impact badges and bottom solution callout banner.
+3. **🔄 Section 3 — 6-Step Workflow (`posp-how-it-works-section`)**: 6 numbered step cards (`01`–`06`) detailing end-to-end operational flow.
+4. **📊 Section 4 — Dual Dashboard Showcase (`posp-dashboard-section`)**: Side-by-side card comparison for End-User/Agent interface vs Admin/Back-Office controls, backed by a Single Sign-On Architecture banner.
+5. **⚡ Section 5 — AI Capabilities Suite (`posp-ai-section`)**: 4 interactive feature cards with smooth primary blue hover elevation.
+6. **🎯 Section 6 — Segment Grid (`posp-built-for-section`)**: 4 target audience cards (Brokers, Agencies, Banks, Corporates/Fintechs) with a bottom scale flow bar.
+7. **⚖️ Section 7 — Side-by-Side Comparison Grid (`posp-comparison-section`)**: Dual-card comparison contrasting legacy manual operations against the automated FT platform (`RECOMMENDED`).
+8. **❓ Section 8 — Sticky FAQ Accordion (`faq-section`)**: 2-column sticky sidebar + 8 interactive Bootstrap accordion items.
+9. **📣 Section 9 — Primary CTA Callout (`about-cta-section`)**: High-impact full-width callout banner for booking live demos.
+
+### 🔄 How To Create New Product Pages
+To add any future product page (e.g. `insure.php`, `eb.php`, `reconciliation.php`, `payin-payout.php`, `compliance.php`):
+
+1. **Create the PHP Page**:
+   ```php
+   <?php
+   $page_title = "Product Name | FondosTech";
+   $page_description = "Product description text...";
+   $active_page = "product_key";
+   $page_css = ["assets/css/pages/posp.css"];
+   $page_js = ["assets/js/pages/posp.js"];
+   include 'includes/header.php';
+   ?>
+   ```
+2. **Copy the 9-Section HTML Structure**: Use `posp.php` or `claims.php` as a template and update text content section-by-section according to product specifications.
+3. **Register Navigation Routes**: Add page link in `includes/header.php` (desktop dropdown & mobile menu) and `includes/footer.php`.
 
 ---
 
