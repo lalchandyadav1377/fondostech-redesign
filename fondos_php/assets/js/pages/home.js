@@ -705,6 +705,29 @@
     }
 
     /* =============================================
+       11. FLOATING FEATURE PILLS VIEWPORT OBSERVER
+       ============================================= */
+    function initPillViewportObserver() {
+        const animatedContainers = document.querySelectorAll('.floating-feature-pills, .d2c-3image-container, .lending-4image-container, .embedded-5image-container, .claims-3image-container, .payout-5image-container, .eb-showcase-container, .compliance-4image-container, .recon-5image-container');
+        if (!animatedContainers.length) return;
+
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                }
+            });
+        }, {
+            threshold: 0.2,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        animatedContainers.forEach(function (el) {
+            observer.observe(el);
+        });
+    }
+
+    /* =============================================
        INIT ALL
        ============================================= */
     function initAll() {
@@ -719,6 +742,7 @@
         initTestimonialsSlider();
         initAOS();
         initFaqSticky();
+        initPillViewportObserver();
     }
 
     if (document.readyState === 'loading') {

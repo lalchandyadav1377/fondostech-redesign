@@ -350,7 +350,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 65%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: right center;
@@ -769,53 +769,69 @@
 }
 
 /* Position 1: 1st Stacked Card Behind */
-.platform-deck-card.pos-next-1 {
+/* .platform-deck-card.pos-next-1 {
     transform: translateY(16px) scale(0.96);
     filter: brightness(0.92);
     opacity: 0.85;
     z-index: 8;
     pointer-events: none;
     transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease, filter 0.5s ease;
-}
+} */
 
 /* Position 2: 2nd Stacked Card Behind */
-.platform-deck-card.pos-next-2 {
+/* .platform-deck-card.pos-next-2 {
     transform: translateY(32px) scale(0.92);
     filter: brightness(0.75);
     opacity: 0.65;
     z-index: 6;
     pointer-events: none;
     transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease, filter 0.5s ease;
-}
+} */
 
 /* Position 3: 3rd Stacked Card Behind */
-.platform-deck-card.pos-next-3 {
+/* .platform-deck-card.pos-next-3 {
     transform: translateY(48px) scale(0.88);
     filter: brightness(0.6);
     opacity: 0.45;
     z-index: 4;
     pointer-events: none;
     transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease, filter 0.5s ease;
-}
+} */
 
 /* Position Prev: Exited Upward Card (Hides by sliding up) */
-.platform-deck-card.pos-prev {
+/* .platform-deck-card.pos-prev {
     transform: translateY(-55px) scale(0.95);
     filter: brightness(0.85);
     opacity: 0;
     z-index: 2;
     pointer-events: none;
     transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease, filter 0.5s ease;
-}
+} */
 
 .platform-card {
     background: var(--white);
     border: 1px solid #cee4fd;
     border-radius: var(--radius-xl);
-    box-shadow: 0 8px 32px rgba(33, 37, 41, 0.08);
+    /* box-shadow: 0 8px 32px rgba(33, 37, 41, 0.08); */
     overflow: hidden;
     padding: 2rem 0;
 
+}
+
+/* Hide all stacked non-active cards and show only the active card box */
+.platform-deck-card.pos-next-1,
+.platform-deck-card.pos-next-2,
+.platform-deck-card.pos-next-3,
+.platform-deck-card.pos-prev,
+.platform-deck-card:not(.pos-active):not(.active) {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+.platform-card {
+    box-shadow: none !important;
 }
 
 .platform-card-body {
@@ -879,13 +895,1567 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .platform-card-image img {
-    width: 100%;
+    /* width: 100%; */
     max-height: 350px;
     object-fit: contain;
     border-radius: var(--radius-md);
+}
+
+/* FT POSP Sure Floating Feature Pills (Figma Design System) */
+.posp-sure-image-wrapper {
+    position: relative;
+    padding-right: 2.5rem;
+}
+
+.platform-image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-main-img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(8, 106, 216, 0.08);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+}
+
+.platform-card:hover .platform-main-img {
+    transform: scale(1.015);
+    box-shadow: 0 12px 30px rgba(8, 106, 216, 0.12);
+}
+
+.floating-feature-pills {
+    position: absolute;
+    left: -4%;
+    top: 75%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    z-index: 5;
+}
+
+.feature-pill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.625rem 1rem;
+    background: #ffffff;
+    border: 1.5px solid #086AD8;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(8, 106, 216, 0.1);
+    backdrop-filter: blur(8px);
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: default;
+    opacity: 0;
+    transform: translateY(24px) scale(0.92);
+}
+
+/* Viewport Scroll One-Time Entrance Animation */
+@keyframes pillPopIn {
+    0% {
+        opacity: 0;
+        transform: translateY(24px) scale(0.92);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.02);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.floating-feature-pills.in-view .feature-pill-item,
+.platform-deck-card.pos-active .feature-pill-item {
+    animation: pillPopIn 0.65s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.floating-feature-pills.in-view .feature-pill-item.pill-1,
+.platform-deck-card.pos-active .feature-pill-item.pill-1 {
+    animation-delay: 0.1s;
+}
+
+.floating-feature-pills.in-view .feature-pill-item.pill-2,
+.platform-deck-card.pos-active .feature-pill-item.pill-2 {
+    animation-delay: 0.25s;
+}
+
+.floating-feature-pills.in-view .feature-pill-item.pill-3,
+.platform-deck-card.pos-active .feature-pill-item.pill-3 {
+    animation-delay: 0.4s;
+}
+
+.floating-feature-pills.in-view .feature-pill-item.pill-4,
+.platform-deck-card.pos-active .feature-pill-item.pill-4 {
+    animation-delay: 0.55s;
+}
+
+.feature-pill-item:hover {
+    background: #086AD8;
+    border-color: #086AD8;
+    transform: translateX(-4px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(8, 106, 216, 0.22);
+}
+
+.feature-pill-item:hover .pill-icon {
+    background: #ffffff;
+}
+
+.feature-pill-item:hover .pill-icon svg path {
+    stroke: #086AD8;
+}
+
+.feature-pill-item:hover .pill-text {
+    color: #ffffff;
+}
+
+.pill-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(8, 106, 216, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.3s ease;
+}
+
+.pill-icon svg {
+    width: 13px;
+    height: 13px;
+}
+
+.pill-text {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #086AD8;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+    transition: color 0.3s ease;
+}
+
+/* FT D2C Insure 3-Image Showcase & One-Time Viewport Animations */
+.d2c-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.d2c-3image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d2c-img-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 78%;
+    max-height: 275px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.d2c-img-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 35px;
+    width: 48%;
+    max-height: 205px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.d2c-img-3 {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 36%;
+    max-height: 340px;
+    object-fit: contain;
+    border-radius: 18px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 32px rgba(8, 106, 216, 0.12);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for D2C 3-Image Showcase */
+@keyframes d2cPop1 {
+    0% {
+        opacity: 0;
+        transform: scale(0.93) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+    }
+}
+
+@keyframes d2cPop2 {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes d2cPop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(30px) translateY(15px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger (One-Time Only) */
+.platform-deck-card.pos-active .d2c-img-1,
+.d2c-3image-container.in-view .d2c-img-1 {
+    animation: d2cPop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .d2c-img-2,
+.d2c-3image-container.in-view .d2c-img-2 {
+    animation: d2cPop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
+}
+
+.platform-deck-card.pos-active .d2c-img-3,
+.d2c-3image-container.in-view .d2c-img-3 {
+    animation: d2cPop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s forwards;
+}
+
+.d2c-3image-container:hover .d2c-img-2 {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+}
+
+.d2c-3image-container:hover .d2c-img-3 {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.16);
+}
+
+/* FT Lending Insure 4-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.lending-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.lending-4image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lending-img-bg {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86%;
+    max-height: 290px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.lending-img-top {
+    position: absolute;
+    top: 0px;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 30%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.12);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.lending-img-left {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    width: 40%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.lending-img-right {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    width: 44%;
+    max-height: 195px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(8, 106, 216, 0.12);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for Lending 4-Image Showcase */
+@keyframes lendingPopBg {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.93) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1) translateY(0px);
+    }
+}
+
+@keyframes lendingPopTop {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0px) scale(1);
+    }
+}
+
+@keyframes lendingPopLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes lendingPopRight {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .lending-img-bg,
+.lending-4image-container.in-view .lending-img-bg {
+    animation: lendingPopBg 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .lending-img-top,
+.lending-4image-container.in-view .lending-img-top {
+    animation: lendingPopTop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards;
+}
+
+.platform-deck-card.pos-active .lending-img-left,
+.lending-4image-container.in-view .lending-img-left {
+    animation: lendingPopLeft 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.platform-deck-card.pos-active .lending-img-right,
+.lending-4image-container.in-view .lending-img-right {
+    animation: lendingPopRight 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s forwards;
+}
+
+.lending-4image-container:hover .lending-img-top {
+    transform: translateX(-50%) translateY(-6px) scale(1.02);
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.18);
+}
+
+.lending-4image-container:hover .lending-img-left {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+}
+
+.lending-4image-container:hover .lending-img-right {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.18);
+}
+
+/* FT Embedded Insure 5-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.embedded-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.embedded-5image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.embedded-img-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 36%;
+    max-height: 380px;
+    object-fit: contain;
+    border-radius: 18px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.embedded-img-4 {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    width: 38%;
+    max-height: 170px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.12);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.embedded-img-3 {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    width: 42%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.embedded-img-2 {
+    position: absolute;
+    bottom: 45px;
+    left: 80px;
+    width: 66%;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.16);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.embedded-img-5 {
+    position: absolute;
+    bottom: 0px;
+    right: 55px;
+    width: 30%;
+    max-height: 145px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.2);
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for Embedded 5-Image Showcase */
+@keyframes embeddedPop1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px) scale(0.92);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes embeddedPop4 {
+    0% {
+        opacity: 0;
+        transform: translateY(-25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes embeddedPop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(30px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes embeddedPop2 {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.92);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes embeddedPop5 {
+    0% {
+        opacity: 0;
+        transform: translateY(35px) scale(0.85);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .embedded-img-1,
+.embedded-5image-container.in-view .embedded-img-1 {
+    animation: embeddedPop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .embedded-img-4,
+.embedded-5image-container.in-view .embedded-img-4 {
+    animation: embeddedPop4 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards;
+}
+
+.platform-deck-card.pos-active .embedded-img-3,
+.embedded-5image-container.in-view .embedded-img-3 {
+    animation: embeddedPop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.platform-deck-card.pos-active .embedded-img-2,
+.embedded-5image-container.in-view .embedded-img-2 {
+    animation: embeddedPop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s forwards;
+}
+
+.platform-deck-card.pos-active .embedded-img-5,
+.embedded-5image-container.in-view .embedded-img-5 {
+    animation: embeddedPop5 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s forwards;
+}
+
+.embedded-5image-container:hover .embedded-img-2 {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 18px 40px rgba(8, 106, 216, 0.22);
+}
+
+.embedded-5image-container:hover .embedded-img-5 {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 20px 44px rgba(8, 106, 216, 0.26);
+}
+
+/* FT Digital Claims 3-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.claims-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.claims-3image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.claims-img-bg {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-height: 290px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.claims-img-left {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 30%;
+    max-height: 235px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.12);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.claims-img-right {
+    position: absolute;
+    bottom: 0px;
+    right: 25px;
+    width: 30%;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(8, 106, 216, 0.14);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for Claims 3-Image Showcase */
+@keyframes claimsPopBg {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.93) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1) translateY(0px);
+    }
+}
+
+@keyframes claimsPopLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(-20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes claimsPopRight {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .claims-img-bg,
+.claims-3image-container.in-view .claims-img-bg {
+    animation: claimsPopBg 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .claims-img-left,
+.claims-3image-container.in-view .claims-img-left {
+    animation: claimsPopLeft 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
+}
+
+.platform-deck-card.pos-active .claims-img-right,
+.claims-3image-container.in-view .claims-img-right {
+    animation: claimsPopRight 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s forwards;
+}
+
+.claims-3image-container:hover .claims-img-left {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.18);
+}
+
+.claims-3image-container:hover .claims-img-right {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.2);
+}
+
+/* FT PayIn-PayOut 5-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.payout-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.payout-5image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payout-img-1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    max-height: 290px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.payout-img-4 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 32%;
+    max-height: 185px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.12);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.payout-img-5 {
+    position: absolute;
+    top: 0px;
+    left: 62%;
+    transform: translateX(-50%);
+    width: 30%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.payout-img-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    width: 33%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(8, 106, 216, 0.14);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.payout-img-2 {
+    position: absolute;
+    bottom: 0px;
+    right: 25px;
+    width: 20%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 16px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.2);
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for PayIn-PayOut 5-Image Showcase */
+@keyframes payoutPop1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.93) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1) translateY(0px);
+    }
+}
+
+@keyframes payoutPop4 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(-20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes payoutPop5 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0px) scale(1);
+    }
+}
+
+@keyframes payoutPop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes payoutPop2 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .payout-img-1,
+.payout-5image-container.in-view .payout-img-1 {
+    animation: payoutPop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .payout-img-4,
+.payout-5image-container.in-view .payout-img-4 {
+    animation: payoutPop4 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards;
+}
+
+.platform-deck-card.pos-active .payout-img-5,
+.payout-5image-container.in-view .payout-img-5 {
+    animation: payoutPop5 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.platform-deck-card.pos-active .payout-img-3,
+.payout-5image-container.in-view .payout-img-3 {
+    animation: payoutPop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s forwards;
+}
+
+.platform-deck-card.pos-active .payout-img-2,
+.payout-5image-container.in-view .payout-img-2 {
+    animation: payoutPop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s forwards;
+}
+
+.payout-5image-container:hover .payout-img-3 {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.18);
+}
+
+.payout-5image-container:hover .payout-img-2 {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 18px 40px rgba(8, 106, 216, 0.24);
+}
+
+/* FT EB Sure 4-Card + 3-Pill Showcase & One-Time Viewport Animations (Figma Design System) */
+.eb-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.eb-showcase-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eb-img-1 {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 44%;
+    max-height: 230px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.eb-img-2 {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 44%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.1);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.eb-img-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 30%;
+    max-height: 210px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.eb-img-4 {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 30%;
+    max-height: 220px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.16);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* Floating Feature Badges */
+.eb-pill-1 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 45%;
+    max-width: 260px;
+    height: auto;
+    object-fit: contain;
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+    filter: drop-shadow(0 6px 16px rgba(8, 106, 216, 0.14));
+}
+
+.eb-pill-2 {
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    width: 50%;
+    max-width: 270px;
+    height: auto;
+    object-fit: contain;
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+    filter: drop-shadow(0 6px 16px rgba(8, 106, 216, 0.14));
+}
+
+.eb-pill-3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+    filter: drop-shadow(0 6px 16px rgba(8, 106, 216, 0.14));
+}
+
+/* One-Time Animations for FT EB Sure Showcase */
+@keyframes ebPop1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(-15px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes ebPop2 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(-20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes ebPop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes ebPop4 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes ebPillPop1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes ebPillPop2 {
+    0% {
+        opacity: 0;
+        transform: translateX(20px) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes ebPillPop3 {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .eb-img-1,
+.eb-showcase-container.in-view .eb-img-1 {
+    animation: ebPop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .eb-img-2,
+.eb-showcase-container.in-view .eb-img-2 {
+    animation: ebPop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards;
+}
+
+.platform-deck-card.pos-active .eb-img-3,
+.eb-showcase-container.in-view .eb-img-3 {
+    animation: ebPop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.platform-deck-card.pos-active .eb-img-4,
+.eb-showcase-container.in-view .eb-img-4 {
+    animation: ebPop4 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s forwards;
+}
+
+.platform-deck-card.pos-active .eb-pill-1,
+.eb-showcase-container.in-view .eb-pill-1 {
+    animation: ebPillPop1 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
+}
+
+.platform-deck-card.pos-active .eb-pill-2,
+.eb-showcase-container.in-view .eb-pill-2 {
+    animation: ebPillPop2 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s forwards;
+}
+
+.platform-deck-card.pos-active .eb-pill-3,
+.eb-showcase-container.in-view .eb-pill-3 {
+    animation: ebPillPop3 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.55s forwards;
+}
+
+.eb-showcase-container:hover .eb-img-3 {
+    transform: translateY(-6px) scale(1.02);
+}
+
+.eb-showcase-container:hover .eb-img-4 {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* FT Compliance Shield 4-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.compliance-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.compliance-4image-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compliance-img-1 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    max-height: 290px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.compliance-img-5 {
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+    width: 22%;
+    max-height: 105px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.12);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.compliance-img-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 26%;
+    max-height: 230px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.compliance-img-2 {
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    width: 26%;
+    max-height: 380px;
+    object-fit: contain;
+    border-radius: 16px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.2);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for Compliance Shield 4-Image Showcase */
+@keyframes compliancePop1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.93) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1) translateY(0px);
+    }
+}
+
+@keyframes compliancePop5 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(15px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes compliancePop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(25px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0px) scale(1);
+    }
+}
+
+@keyframes compliancePop2 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(-20px) scale(0.88);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .compliance-img-1,
+.compliance-4image-container.in-view .compliance-img-1 {
+    animation: compliancePop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .compliance-img-5,
+.compliance-4image-container.in-view .compliance-img-5 {
+    animation: compliancePop5 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
+}
+
+.platform-deck-card.pos-active .compliance-img-3,
+.compliance-4image-container.in-view .compliance-img-3 {
+    animation: compliancePop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.35s forwards;
+}
+
+.platform-deck-card.pos-active .compliance-img-2,
+.compliance-4image-container.in-view .compliance-img-2 {
+    animation: compliancePop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s forwards;
+}
+
+.compliance-4image-container:hover .compliance-img-3 {
+    transform: translateX(-50%) translateY(-6px) scale(1.02);
+}
+
+.compliance-4image-container:hover .compliance-img-2 {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* FT Reconciliation 5-Image Showcase & One-Time Viewport Animations (Figma Design System) */
+.recon-image-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.recon-5image-container {
+    position: relative;
+    width: 100%;
+    max-width: 530px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.recon-img-1 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 46%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 8px 24px rgba(33, 37, 41, 0.06);
+    z-index: 1;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.recon-img-2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 48%;
+    max-height: 210px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 10px 28px rgba(8, 106, 216, 0.1);
+    z-index: 2;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.recon-img-5 {
+    position: absolute;
+    top: 110px;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 52%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.recon-img-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 32%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 14px 34px rgba(8, 106, 216, 0.14);
+    z-index: 4;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.recon-img-4 {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    width: 34%;
+    max-height: 215px;
+    object-fit: contain;
+    border-radius: 16px;
+    border: 1px solid #CEE4FD;
+    box-shadow: 0 16px 38px rgba(8, 106, 216, 0.2);
+    z-index: 5;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+/* One-Time Animations for FT Reconciliation 5-Image Showcase */
+@keyframes reconPop1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(-20px) scale(0.88);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes reconPop2 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(-20px) scale(0.88);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes reconPop5 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(15px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0px) scale(1);
+    }
+}
+
+@keyframes reconPop3 {
+    0% {
+        opacity: 0;
+        transform: translateX(-25px) translateY(20px) scale(0.88);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+@keyframes reconPop4 {
+    0% {
+        opacity: 0;
+        transform: translateX(25px) translateY(25px) scale(0.88);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) scale(1);
+    }
+}
+
+/* Viewport Scroll / Active Card Animation Trigger */
+.platform-deck-card.pos-active .recon-img-1,
+.recon-5image-container.in-view .recon-img-1 {
+    animation: reconPop1 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.platform-deck-card.pos-active .recon-img-2,
+.recon-5image-container.in-view .recon-img-2 {
+    animation: reconPop2 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards;
+}
+
+.platform-deck-card.pos-active .recon-img-5,
+.recon-5image-container.in-view .recon-img-5 {
+    animation: reconPop5 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards;
+}
+
+.platform-deck-card.pos-active .recon-img-3,
+.recon-5image-container.in-view .recon-img-3 {
+    animation: reconPop3 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s forwards;
+}
+
+.platform-deck-card.pos-active .recon-img-4,
+.recon-5image-container.in-view .recon-img-4 {
+    animation: reconPop4 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s forwards;
+}
+
+.recon-5image-container:hover .recon-img-5 {
+    transform: translateX(-50%) translateY(-6px) scale(1.02);
+}
+
+.recon-5image-container:hover .recon-img-4 {
+    transform: translateY(-6px) scale(1.02);
 }
 
 /* Filter / Category Buttons ON TOP */

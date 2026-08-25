@@ -152,9 +152,709 @@
         height: auto;
         border-radius: 0.75rem;
     }
+
+    .posp-sure-image-wrapper {
+        padding-right: 0;
+    }
+
+    .platform-image-container {
+        flex-direction: column;
+    }
+
+    .floating-feature-pills {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        margin-top: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .feature-pill-item {
+        padding: 0.5rem 0.875rem;
+    }
+
+    .pill-text {
+        font-size: 0.75rem;
+    }
+
+    .d2c-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .d2c-3image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .d2c-img-1 {
+        width: 75%;
+        max-height: 215px;
+        top: 0;
+        left: 0;
+    }
+
+    .d2c-img-2 {
+        width: 48%;
+        max-height: 155px;
+        bottom: 0px;
+        left: 20px;
+    }
+
+    .d2c-img-3 {
+        width: 36%;
+        max-height: 265px;
+        top: 20px;
+        right: 0;
+    }
+
+    .lending-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .lending-4image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .lending-img-bg {
+        width: 86%;
+        max-height: 220px;
+        top: 20px;
+    }
+
+    .lending-img-top {
+        width: 44%;
+        max-height: 135px;
+        top: 0px;
+    }
+
+    .lending-img-left {
+        width: 44%;
+        max-height: 155px;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    .lending-img-right {
+        width: 44%;
+        max-height: 150px;
+        bottom: 0px;
+        right: 10px;
+    }
+
+    .embedded-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .embedded-5image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .embedded-img-1 {
+        width: 36%;
+        max-height: 285px;
+        top: 8px;
+        left: 8px;
+    }
+
+    .embedded-img-4 {
+        width: 38%;
+        max-height: 125px;
+        top: 0px;
+        right: 60px;
+    }
+
+    .embedded-img-3 {
+        width: 42%;
+        max-height: 135px;
+        top: 90px;
+        right: 15px;
+    }
+
+    .embedded-img-2 {
+        width: 66%;
+        max-height: 165px;
+        bottom: 35px;
+        left: 60px;
+    }
+
+    .embedded-img-5 {
+        width: 30%;
+        max-height: 110px;
+        bottom: 0px;
+        right: 40px;
+    }
+
+    .claims-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .claims-3image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .claims-img-bg {
+        width: 100%;
+        max-height: 220px;
+        top: 20px;
+    }
+
+    .claims-img-left {
+        width: 28%;
+        max-height: 175px;
+        top: 0px;
+        left: 10px;
+    }
+
+    .claims-img-right {
+        width: 30%;
+        max-height: 165px;
+        bottom: 0px;
+        right: 15px;
+    }
+
+    .payout-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .payout-5image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .payout-img-1 {
+        width: 85%;
+        max-height: 220px;
+        top: 35px;
+    }
+
+    .payout-img-4 {
+        width: 32%;
+        max-height: 135px;
+        top: 0px;
+        left: 15px;
+    }
+
+    .payout-img-5 {
+        width: 34%;
+        max-height: 130px;
+        top: 0px;
+    }
+
+    .payout-img-3 {
+        width: 36%;
+        max-height: 135px;
+        bottom: 0px;
+        left: 20px;
+    }
+
+    .payout-img-2 {
+        width: 32%;
+        max-height: 185px;
+        bottom: 0px;
+        right: 15px;
+    }
+
+    .eb-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .eb-showcase-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .eb-img-1 {
+        width: 44%;
+        max-height: 180px;
+        top: 25px;
+        left: 15px;
+    }
+
+    .eb-img-2 {
+        width: 44%;
+        max-height: 195px;
+        top: 10px;
+        right: 15px;
+    }
+
+    .eb-img-3 {
+        width: 30%;
+        max-height: 165px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .eb-img-4 {
+        width: 30%;
+        max-height: 170px;
+        bottom: 8px;
+        right: 0px;
+    }
+
+    .eb-pill-1 {
+        width: 45%;
+        max-width: 200px;
+        top: 0px;
+        left: 8px;
+    }
+
+    .eb-pill-2 {
+        width: 50%;
+        max-width: 210px;
+        top: 55px;
+        right: 8px;
+    }
+
+    .eb-pill-3 {
+        width: 50%;
+        max-width: 190px;
+        bottom: 8px;
+        left: 20%;
+    }
+
+    .compliance-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .compliance-4image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .compliance-img-1 {
+        width: 85%;
+        max-height: 220px;
+        top: 25px;
+    }
+
+    .compliance-img-5 {
+        width: 28%;
+        max-height: 80px;
+        bottom: 65px;
+        left: 10px;
+    }
+
+    .compliance-img-3 {
+        width: 32%;
+        max-height: 170px;
+        bottom: 0px;
+        left: 45%;
+    }
+
+    .compliance-img-2 {
+        width: 32%;
+        max-height: 280px;
+        top: 0px;
+        right: 10px;
+    }
+
+    .recon-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .recon-5image-container {
+        height: 310px;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .recon-image-wrapper {
+        padding: 0.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .recon-5image-container {
+        height: 320px;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .recon-img-1 {
+        width: 46%;
+        max-height: 165px;
+        top: 10px;
+        left: 8px;
+    }
+
+    .recon-img-2 {
+        width: 48%;
+        max-height: 180px;
+        top: 0px;
+        right: 8px;
+    }
+
+    .recon-img-5 {
+        width: 52%;
+        max-height: 175px;
+        top: 95px;
+        left: 48%;
+    }
+
+    .recon-img-3 {
+        width: 32%;
+        max-height: 170px;
+        bottom: 0px;
+        left: 8px;
+    }
+
+    .recon-img-4 {
+        width: 34%;
+        max-height: 185px;
+        bottom: 0px;
+        right: 12px;
+    }
 }
 
 @media (max-width: 767.98px) {
+    .d2c-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .d2c-3image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .d2c-img-1 {
+        width: 75%;
+        max-height: 175px;
+        top: 0;
+        left: 0;
+    }
+
+    .d2c-img-2 {
+        width: 48%;
+        max-height: 125px;
+        bottom: 0px;
+        left: 15px;
+    }
+
+    .d2c-img-3 {
+        width: 36%;
+        max-height: 220px;
+        top: 15px;
+        right: 0;
+    }
+
+    .lending-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .lending-4image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .lending-img-bg {
+        width: 86%;
+        max-height: 180px;
+        top: 15px;
+    }
+
+    .lending-img-top {
+        width: 44%;
+        max-height: 110px;
+        top: 0px;
+    }
+
+    .lending-img-left {
+        width: 44%;
+        max-height: 125px;
+        bottom: 0px;
+        left: 8px;
+    }
+
+    .lending-img-right {
+        width: 44%;
+        max-height: 120px;
+        bottom: 0px;
+        right: 8px;
+    }
+
+    .embedded-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .embedded-5image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .embedded-img-1 {
+        width: 36%;
+        max-height: 240px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .embedded-img-4 {
+        width: 38%;
+        max-height: 105px;
+        top: 0px;
+        right: 50px;
+    }
+
+    .embedded-img-3 {
+        width: 42%;
+        max-height: 115px;
+        top: 75px;
+        right: 10px;
+    }
+
+    .embedded-img-2 {
+        width: 66%;
+        max-height: 135px;
+        bottom: 25px;
+        left: 50px;
+    }
+
+    .embedded-img-5 {
+        width: 30%;
+        max-height: 90px;
+        bottom: 0px;
+        right: 30px;
+    }
+
+    .claims-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .claims-3image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .claims-img-bg {
+        width: 86%;
+        max-height: 180px;
+        top: 15px;
+    }
+
+    .claims-img-left {
+        width: 44%;
+        max-height: 145px;
+        top: 0px;
+        left: 8px;
+    }
+
+    .claims-img-right {
+        width: 42%;
+        max-height: 135px;
+        bottom: 0px;
+        right: 10px;
+    }
+
+    .payout-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .payout-5image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .payout-img-1 {
+        width: 85%;
+        max-height: 180px;
+        top: 25px;
+    }
+
+    .payout-img-4 {
+        width: 32%;
+        max-height: 110px;
+        top: 0px;
+        left: 10px;
+    }
+
+    .payout-img-5 {
+        width: 34%;
+        max-height: 105px;
+        top: 0px;
+    }
+
+    .payout-img-3 {
+        width: 36%;
+        max-height: 110px;
+        bottom: 0px;
+        left: 15px;
+    }
+
+    .payout-img-2 {
+        width: 32%;
+        max-height: 150px;
+        bottom: 0px;
+        right: 10px;
+    }
+
+    .eb-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .eb-showcase-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .eb-img-1 {
+        width: 44%;
+        max-height: 150px;
+        top: 20px;
+        left: 10px;
+    }
+
+    .eb-img-2 {
+        width: 44%;
+        max-height: 160px;
+        top: 8px;
+        right: 10px;
+    }
+
+    .eb-img-3 {
+        width: 30%;
+        max-height: 135px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .eb-img-4 {
+        width: 30%;
+        max-height: 140px;
+        bottom: 6px;
+        right: 0px;
+    }
+
+    .eb-pill-1 {
+        width: 45%;
+        max-width: 165px;
+        top: 0px;
+        left: 5px;
+    }
+
+    .eb-pill-2 {
+        width: 50%;
+        max-width: 175px;
+        top: 45px;
+        right: 5px;
+    }
+
+    .eb-pill-3 {
+        width: 50%;
+        max-width: 160px;
+        bottom: 6px;
+        left: 20%;
+    }
+
+    .compliance-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .compliance-4image-container {
+        height: 260px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .compliance-img-1 {
+        width: 85%;
+        max-height: 180px;
+        top: 20px;
+    }
+
+    .compliance-img-5 {
+        width: 28%;
+        max-height: 65px;
+        bottom: 55px;
+        left: 8px;
+    }
+
+    .compliance-img-3 {
+        width: 32%;
+        max-height: 140px;
+        bottom: 0px;
+        left: 45%;
+    }
+
+    .compliance-img-2 {
+        width: 32%;
+        max-height: 230px;
+        top: 0px;
+        right: 8px;
+    }
+
+    .recon-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .recon-5image-container {
+        height: 270px;
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .recon-img-1 {
+        width: 46%;
+        max-height: 135px;
+        top: 8px;
+        left: 5px;
+    }
+
+    .recon-img-2 {
+        width: 48%;
+        max-height: 150px;
+        top: 0px;
+        right: 5px;
+    }
+
+    .recon-img-5 {
+        width: 52%;
+        max-height: 140px;
+        top: 80px;
+        left: 48%;
+    }
+
+    .recon-img-3 {
+        width: 32%;
+        max-height: 135px;
+        bottom: 0px;
+        left: 5px;
+    }
+
+    .recon-img-4 {
+        width: 34%;
+        max-height: 150px;
+        bottom: 0px;
+        right: 8px;
+    }
+
     .testimonial-card {
         flex: 0 0 300px;
         min-width: 300px;
@@ -202,8 +902,6 @@
     .insurtech-cards-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
 }
 
 /* =============================================
@@ -236,6 +934,318 @@
     .faq-header {
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .d2c-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .d2c-3image-container {
+        height: 230px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .d2c-img-1 {
+        width: 75%;
+        max-height: 150px;
+        top: 0;
+        left: 0;
+    }
+
+    .d2c-img-2 {
+        width: 48%;
+        max-height: 105px;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    .d2c-img-3 {
+        width: 36%;
+        max-height: 195px;
+        top: 10px;
+        right: 0;
+    }
+
+    .lending-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .lending-4image-container {
+        height: 230px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .lending-img-bg {
+        width: 86%;
+        max-height: 155px;
+        top: 12px;
+    }
+
+    .lending-img-top {
+        width: 44%;
+        max-height: 95px;
+        top: 0px;
+    }
+
+    .lending-img-left {
+        width: 44%;
+        max-height: 110px;
+        bottom: 0px;
+        left: 5px;
+    }
+
+    .lending-img-right {
+        width: 44%;
+        max-height: 105px;
+        bottom: 0px;
+        right: 5px;
+    }
+
+    .claims-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .claims-3image-container {
+        height: 230px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .claims-img-bg {
+        width: 86%;
+        max-height: 155px;
+        top: 12px;
+    }
+
+    .claims-img-left {
+        width: 20%;
+        max-height: 125px;
+        top: 0px;
+        left: 5px;
+    }
+
+    .claims-img-right {
+        width: 22%;
+        max-height: 115px;
+        bottom: 0px;
+        right: 8px;
+    }
+
+    .payout-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .payout-5image-container {
+        height: 230px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .payout-img-1 {
+        width: 85%;
+        max-height: 155px;
+        top: 20px;
+    }
+
+    .payout-img-4 {
+        width: 32%;
+        max-height: 95px;
+        top: 0px;
+        left: 8px;
+    }
+
+    .payout-img-5 {
+        width: 34%;
+        max-height: 90px;
+        top: 0px;
+    }
+
+    .payout-img-3 {
+        width: 36%;
+        max-height: 95px;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    .payout-img-2 {
+        width: 32%;
+        max-height: 130px;
+        bottom: 0px;
+        right: 8px;
+    }
+
+    .eb-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .eb-showcase-container {
+        height: 230px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .eb-img-1 {
+        width: 44%;
+        max-height: 130px;
+        top: 16px;
+        left: 8px;
+    }
+
+    .eb-img-2 {
+        width: 44%;
+        max-height: 140px;
+        top: 6px;
+        right: 8px;
+    }
+
+    .eb-img-3 {
+        width: 30%;
+        max-height: 115px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .eb-img-4 {
+        width: 30%;
+        max-height: 120px;
+        bottom: 5px;
+        right: 0px;
+    }
+
+    .eb-pill-1 {
+        width: 45%;
+        max-width: 145px;
+        top: 0px;
+        left: 4px;
+    }
+
+    .eb-pill-2 {
+        width: 50%;
+        max-width: 155px;
+        top: 38px;
+        right: 4px;
+    }
+
+    .eb-pill-3 {
+        width: 50%;
+        max-width: 140px;
+        bottom: 5px;
+        left: 20%;
+    }
+
+    .compliance-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .compliance-4image-container {
+        height: 230px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .compliance-img-1 {
+        width: 85%;
+        max-height: 155px;
+        top: 15px;
+    }
+
+    .compliance-img-5 {
+        width: 28%;
+        max-height: 55px;
+        bottom: 45px;
+        left: 5px;
+    }
+
+    .compliance-img-3 {
+        width: 32%;
+        max-height: 120px;
+        bottom: 0px;
+        left: 45%;
+    }
+
+    .compliance-img-2 {
+        width: 32%;
+        max-height: 200px;
+        top: 0px;
+        right: 5px;
+    }
+
+    .recon-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .recon-5image-container {
+        height: 240px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .recon-img-1 {
+        width: 46%;
+        max-height: 120px;
+        top: 6px;
+        left: 4px;
+    }
+
+    .recon-img-2 {
+        width: 48%;
+        max-height: 130px;
+        top: 0px;
+        right: 4px;
+    }
+
+    .recon-img-5 {
+        width: 52%;
+        max-height: 120px;
+        top: 70px;
+        left: 48%;
+    }
+
+    .recon-img-3 {
+        width: 32%;
+        max-height: 120px;
+        bottom: 0px;
+        left: 4px;
+    }
+
+    .recon-img-4 {
+        width: 34%;
+        max-height: 135px;
+        bottom: 0px;
+        right: 6px;
+    }
+
+    .floating-feature-pills {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        margin-top: 0.75rem;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.35rem;
+        width: 100%;
+    }
+
+    .feature-pill-item {
+        padding: 0.4rem 0.75rem;
+        border-radius: 8px;
+    }
+
+    .pill-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .pill-icon svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .pill-text {
+        font-size: 0.72rem;
     }
 }
 

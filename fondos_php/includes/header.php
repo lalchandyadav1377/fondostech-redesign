@@ -200,6 +200,8 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           </button>
           <div class="ft-dropdown-menu" role="menu">
             <a href="<?php echo $base_path; ?>posp.php" class="ft-dropdown-item <?php echo ($active_page === 'posp') ? 'active' : ''; ?>" role="menuitem">FT POSP Sure</a>
+            <a href="<?php echo $base_path; ?>embedded-insure.php" class="ft-dropdown-item <?php echo ($active_page === 'embedded_insure') ? 'active' : ''; ?>" role="menuitem">FT Embedded Insure</a>
+            <a href="<?php echo $base_path; ?>lending-insure.php" class="ft-dropdown-item <?php echo ($active_page === 'lending_insure') ? 'active' : ''; ?>" role="menuitem">FT Lending Insure</a>
             <a href="<?php echo $base_path; ?>claims.php" class="ft-dropdown-item <?php echo ($active_page === 'claims') ? 'active' : ''; ?>" role="menuitem">FT Digital Claims</a>
             <a href="<?php echo $base_path; ?>eb-sure.php" class="ft-dropdown-item <?php echo ($active_page === 'eb_sure') ? 'active' : ''; ?>" role="menuitem">FT EB Sure</a>
             <a href="<?php echo $base_path; ?>reconciliation.php" class="ft-dropdown-item <?php echo ($active_page === 'reconciliation') ? 'active' : ''; ?>" role="menuitem">FT Reconciliation</a>
@@ -283,6 +285,8 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           <div class="collapse" id="mobileProducts">
             <div class="ft-mobile-sub-menu">
               <a href="<?php echo $base_path; ?>posp.php">FT POSP Sure</a>
+              <a href="<?php echo $base_path; ?>embedded-insure.php">FT Embedded Insure</a>
+              <a href="<?php echo $base_path; ?>lending-insure.php">FT Lending Insure</a>
               <a href="<?php echo $base_path; ?>claims.php">FT Digital Claims</a>
               <a href="<?php echo $base_path; ?>eb-sure.php">FT EB Sure</a>
               <a href="<?php echo $base_path; ?>reconciliation.php">FT Reconciliation</a>

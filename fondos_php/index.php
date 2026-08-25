@@ -126,9 +126,10 @@ include 'includes/header.php';
             <!-- Card 1 — Banks -->
             <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/Banks_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-110.png" alt="Banks Icon" width="38" height="38">
+                        <img src="assets/images/home_page/Banks_img_icon.png" alt="Banks Icon" width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Banks</h3>
                     <div class="industry-card-divider"></div>
@@ -155,9 +156,10 @@ include 'includes/header.php';
             <!-- Card 2 — NBFCs -->
             <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/NBFCs_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-90.png" alt="NBFCs Icon" width="38" height="38">
+                        <img src="assets/images/home_page/NBFCs_img_icon.png" alt="NBFCs Icon" width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">NBFCs</h3>
                     <div class="industry-card-divider"></div>
@@ -184,9 +186,11 @@ include 'includes/header.php';
             <!-- Card 3 — Fintech -->
             <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/fintech_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-120.png" alt="Fintech Icon" width="38" height="38">
+                        <img src="assets/images/home_page/fintech_img_icon.png" alt="Fintech Icon" width="38"
+                            height="38">
                     </div>
                     <h3 class="industry-card-title">Fintech</h3>
                     <div class="industry-card-divider"></div>
@@ -213,9 +217,11 @@ include 'includes/header.php';
             <!-- Card 4 — Insurance Brokers -->
             <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/insurance_broker_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-100.png" alt="Insurance Brokers Icon" width="38" height="38">
+                        <img src="assets/images/home_page/insurance_brokers_img_icon.png" alt="Insurance Brokers Icon"
+                            width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Insurance Brokers</h3>
                     <div class="industry-card-divider"></div>
@@ -242,9 +248,11 @@ include 'includes/header.php';
             <!-- Card 5 — Travel Agents -->
             <div class="col-lg-6 col-md-6 industry-extra-card d-none">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/travel_agents_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-53.png" alt="Travel Agents Icon" width="38" height="38">
+                        <img src="assets/images/home_page/travel_agents_img_icon.png" alt="Travel Agents Icon"
+                            width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Travel Agents</h3>
                     <div class="industry-card-divider"></div>
@@ -270,9 +278,11 @@ include 'includes/header.php';
             <!-- Card 6 — Travel Aggregators -->
             <div class="col-lg-6 col-md-6 industry-extra-card d-none">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/travel_aggregators_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-60.png" alt="Travel Aggregators Icon" width="38" height="38">
+                        <img src="assets/images/home_page/travel_aggregators_img_icon.png" alt="Travel Aggregators Icon"
+                            width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Travel Aggregators</h3>
                     <div class="industry-card-divider"></div>
@@ -298,9 +308,11 @@ include 'includes/header.php';
             <!-- Card 7 — Logistics Aggregators -->
             <div class="col-lg-6 col-md-6 industry-extra-card d-none">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/logistics_aggregators_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/image-70.png" alt="Logistics Aggregators Icon" width="38" height="38">
+                        <img src="assets/images/home_page/logistics_aggregator_img_icon.png"
+                            alt="Logistics Aggregators Icon" width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Logistics Aggregators</h3>
                     <div class="industry-card-divider"></div>
@@ -326,10 +338,11 @@ include 'includes/header.php';
             <!-- Card 8 — Automobile Aggregators -->
             <div class="col-lg-6 col-md-6 industry-extra-card d-none">
                 <div class="industry-card">
-                    <img src="assets/images/bank-nbfcs-hm-10.png" alt="" class="industry-card-bg" aria-hidden="true">
+                    <img src="assets/images/home_page/automobile_aggregator_bg_img.png" alt="" class="industry-card-bg"
+                        aria-hidden="true">
                     <div class="industry-card-icon-box">
-                        <img src="assets/images/car-insurance3.svg" alt="Automobile Aggregators Icon" width="38"
-                            height="38">
+                        <img src="assets/images/home_page/automobile_aggregators_img_icon.png"
+                            alt="Automobile Aggregators Icon" width="38" height="38">
                     </div>
                     <h3 class="industry-card-title">Automobile Aggregators</h3>
                     <div class="industry-card-divider"></div>
@@ -381,7 +394,8 @@ include 'includes/header.php';
 
         <div class="stats-grid">
             <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/images/background0.png" alt="" class="stat-icon" aria-hidden="true">
+                <img src="assets/images/home_page/Insurers_Integrated_img_icon.png" alt="" class="stat-icon"
+                    aria-hidden="true">
                 <div class="stat-card-content">
                     <div class="stat-number">
                         <span data-count="49" data-suffix="+">0+</span>
@@ -392,7 +406,8 @@ include 'includes/header.php';
             </div>
 
             <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/images/handshake3.png" alt="" class="stat-icon" aria-hidden="true">
+                <img src="assets/images/home_page/Partners_Onboard_img_icon.png" alt="" class="stat-icon"
+                    aria-hidden="true">
                 <div class="stat-card-content">
                     <div class="stat-number">
                         <span data-count="40" data-suffix="+">0+</span>
@@ -403,7 +418,8 @@ include 'includes/header.php';
             </div>
 
             <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/images/image-30.png" alt="" class="stat-icon" aria-hidden="true">
+                <img src="assets/images/home_page/GWP_Processed_img_icon.png" alt="" class="stat-icon"
+                    aria-hidden="true">
                 <div class="stat-card-content">
                     <div class="stat-number">
                         <span data-count="98" data-suffix="M+">0M+</span>
@@ -414,7 +430,8 @@ include 'includes/header.php';
             </div>
 
             <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/images/image-20.png" alt="" class="stat-icon" aria-hidden="true">
+                <img src="assets/images/home_page/Insurance_Products_img_icon.png" alt="" class="stat-icon"
+                    aria-hidden="true">
                 <div class="stat-card-content">
                     <div class="stat-number">
                         <span data-count="600" data-suffix="+">0+</span>
@@ -455,7 +472,8 @@ include 'includes/header.php';
             <!-- Card 1 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/image-50.png" alt="Sales Productivity Icon">
+                    <img src="assets/images/home_page/Sales_Productivity_Hyperpersonalization_img_icon.png"
+                        alt="Sales Productivity Icon">
                 </div>
                 <h3 class="insurtech-card-title">Sales Productivity &amp; Hyperpersonalization</h3>
                 <p class="insurtech-card-desc">
@@ -467,7 +485,8 @@ include 'includes/header.php';
             <!-- Card 2 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="150">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/handshake0.png" alt="Customer Service Icon">
+                    <img src="assets/images/home_page/Customer_Service_Voice_Agents_img_icon.png"
+                        alt="Customer Service Icon">
                 </div>
                 <h3 class="insurtech-card-title">Customer Service with Voice Agents</h3>
                 <p class="insurtech-card-desc">
@@ -479,7 +498,8 @@ include 'includes/header.php';
             <!-- Card 3 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/image-51.png" alt="Augmented Claims Icon">
+                    <img src="assets/images/home_page/Augmented_Claims_Management_img_icon.png"
+                        alt="Augmented Claims Icon">
                 </div>
                 <h3 class="insurtech-card-title">Augmented Claims Management</h3>
                 <p class="insurtech-card-desc">
@@ -491,7 +511,8 @@ include 'includes/header.php';
             <!-- Card 4 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="250">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/handshake1.png" alt="Underwriting Icon">
+                    <img src="assets/images/home_page/Underwriting_Automation_Accuracy_img_icon.png"
+                        alt="Underwriting Icon">
                 </div>
                 <h3 class="insurtech-card-title">Underwriting Automation &amp; Accuracy</h3>
                 <p class="insurtech-card-desc">
@@ -503,7 +524,8 @@ include 'includes/header.php';
             <!-- Card 5 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/image-52.png" alt="API Integrations Icon">
+                    <img src="assets/images/home_page/Advanced_API_Integrations_img_icon.png"
+                        alt="API Integrations Icon">
                 </div>
                 <h3 class="insurtech-card-title">Advanced API Integrations</h3>
                 <p class="insurtech-card-desc">
@@ -515,7 +537,8 @@ include 'includes/header.php';
             <!-- Card 6 -->
             <div class="insurtech-card" data-aos="fade-up" data-aos-delay="350">
                 <div class="insurtech-card-icon">
-                    <img src="assets/images/handshake2.png" alt="Web Interface Icon">
+                    <img src="assets/images/home_page/User_Friendly_Web_Interface_img_icon.png"
+                        alt="Web Interface Icon">
                 </div>
                 <h3 class="insurtech-card-title">User-Friendly Web Interface</h3>
                 <p class="insurtech-card-desc">
@@ -542,7 +565,10 @@ include 'includes/header.php';
                     <div class="col-lg-8">
                         <div class="section-label">PRODUCT SECTION</div>
                         <h2 class="section-title">Insurance Expertise, Built Into Software</h2>
-                        <p class="section-desc" style="max-width: 100%;">Powered by deep insurance expertise and continuous product innovation, FondosTech insurance broker software enables brokers, banks, NBFCs and fintechs to launch, manage and scale insurance distribution with unmatched speed and flexibility.</p>
+                        <p class="section-desc" style="max-width: 100%;">Powered by deep insurance expertise and
+                            continuous product innovation, FondosTech insurance broker software enables brokers, banks,
+                            NBFCs and fintechs to launch, manage and scale insurance distribution with unmatched speed
+                            and flexibility.</p>
                     </div>
                     <div class="d-none col-lg-4 text-lg-end mt-3 mt-lg-0">
                         <a href="#products" class="btn-blue-pill">
@@ -556,39 +582,52 @@ include 'includes/header.php';
                 </div>
 
                 <!-- Filter / Category Pill Buttons (Desktop View - Large Screens 992px+) -->
-                <div class="platform-deck-filters d-none d-lg-flex mb-3 flex-wrap" id="platform-deck-filters" data-aos="fade-up"
-                    data-aos-delay="100">
+                <div class="platform-deck-filters d-none d-lg-flex mb-3 flex-wrap" id="platform-deck-filters"
+                    data-aos="fade-up" data-aos-delay="100">
                     <button class="platform-filter-btn active" data-target="0">
-                        <img src="assets/images/mdi-umbrella-outline0.svg" alt="">
-                        FT POSP Sure
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        POSP Sure
                     </button>
                     <button class="platform-filter-btn" data-target="1">
-                        <img src="assets/images/jam-medical0.svg" alt="">
-                        FT D2C Insure
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        D2C Insure
                     </button>
                     <button class="platform-filter-btn" data-target="2">
-                        <img src="assets/images/tabler-microscope0.svg" alt="">
-                        FT Lending Insure
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        Lending Insure
                     </button>
                     <button class="platform-filter-btn" data-target="3">
-                        <img src="assets/images/uil-bag0.svg" alt="">
-                        FT Embedded Insure
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        Embedded Insure
                     </button>
                     <button class="platform-filter-btn" data-target="4">
-                        <img src="assets/images/mdi-invoice-fast-outline0.svg" alt="">
-                        FT Digital Claims
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        Digital Claims
                     </button>
                     <button class="platform-filter-btn" data-target="5">
-                        <img src="assets/images/material-symbols-money-bag-outline0.svg" alt="">
-                        FT PayIn-PayOut
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        PayIn-PayOut
                     </button>
                     <button class="platform-filter-btn" data-target="6">
-                        <img src="assets/images/group0.svg" alt="">
-                        FT EB Sure
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        EB Sure
                     </button>
                     <button class="platform-filter-btn" data-target="7">
-                        <img src="assets/images/ic-outline-gpp-good0.svg" alt="">
-                        FT Compliance Shield
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        Compliance Shield
+                    </button>
+                    <button class="platform-filter-btn" data-target="8">
+                        <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                            alt="">
+                        Reconciliation
                     </button>
                 </div>
 
@@ -598,8 +637,8 @@ include 'includes/header.php';
                     <button class="btn btn-custom-filter-dropdown dropdown-toggle w-100" type="button"
                         id="platformFilterDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="dropdown-selected-content">
-                            <img src="assets/images/mdi-umbrella-outline0.svg" alt="" id="dropdownSelectedIcon"
-                                width="20" height="20">
+                            <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                alt="" id="dropdownSelectedIcon" width="20" height="20">
                             <span id="dropdownSelectedLabel">FT POSP Sure</span>
                         </span>
                         <svg class="dropdown-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none"
@@ -611,58 +650,83 @@ include 'includes/header.php';
                         aria-labelledby="platformFilterDropdownBtn">
                         <li>
                             <button class="dropdown-item platform-custom-item active" type="button" data-target="0"
-                                data-label="FT POSP Sure" data-icon="assets/images/mdi-umbrella-outline0.svg">
-                                <img src="assets/images/mdi-umbrella-outline0.svg" alt="" width="20" height="20">
+                                data-label="FT POSP Sure"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT POSP Sure</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="1"
-                                data-label="FT D2C Insure" data-icon="assets/images/jam-medical0.svg">
-                                <img src="assets/images/jam-medical0.svg" alt="" width="20" height="20">
+                                data-label="FT D2C Insure"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT D2C Insure</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="2"
-                                data-label="FT Lending Insure" data-icon="assets/images/tabler-microscope0.svg">
-                                <img src="assets/images/tabler-microscope0.svg" alt="" width="20" height="20">
+                                data-label="FT Lending Insure"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT Lending Insure</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="3"
-                                data-label="FT Embedded Insure" data-icon="assets/images/uil-bag0.svg">
-                                <img src="assets/images/uil-bag0.svg" alt="" width="20" height="20">
+                                data-label="FT Embedded Insure"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT Embedded Insure</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="4"
-                                data-label="FT Digital Claims" data-icon="assets/images/mdi-invoice-fast-outline0.svg">
-                                <img src="assets/images/mdi-invoice-fast-outline0.svg" alt="" width="20" height="20">
+                                data-label="FT Digital Claims"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT Digital Claims</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="5"
-                                data-label="FT PayIn-PayOut" data-icon="assets/images/material-symbols-money-bag-outline0.svg">
-                                <img src="assets/images/material-symbols-money-bag-outline0.svg" alt="" width="20" height="20">
+                                data-label="FT PayIn-PayOut"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT PayIn-PayOut</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="6"
-                                data-label="FT EB Sure" data-icon="assets/images/group0.svg">
-                                <img src="assets/images/group0.svg" alt="" width="20" height="20">
+                                data-label="FT EB Sure"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT EB Sure</span>
                             </button>
                         </li>
                         <li>
                             <button class="dropdown-item platform-custom-item" type="button" data-target="7"
-                                data-label="FT Compliance Shield" data-icon="assets/images/ic-outline-gpp-good0.svg">
-                                <img src="assets/images/ic-outline-gpp-good0.svg" alt="" width="20" height="20">
+                                data-label="FT Compliance Shield"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
                                 <span>FT Compliance Shield</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item platform-custom-item" type="button" data-target="8"
+                                data-label="FT Reconciliation"
+                                data-icon="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg">
+                                <img src="assets/images/home_page/Fondos_Technologies_Privated_Limited_Logo_svg_icon.svg"
+                                    alt="" width="20" height="20">
+                                <span>FT Reconciliation</span>
                             </button>
                         </li>
                     </ul>
@@ -677,23 +741,30 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT POSP Sure</span>
-                                        <h3 class="platform-card-title">Onboard Agents Fast. <span class="text-primary-custom">Scale Without Limits.</span></h3>
-                                        <p class="platform-card-desc">FT POSP Sure digitizes every agent's journey, cutting onboarding time by up to 70% and letting one back-office team support 5,000 POSPs instead of 50 — with no added headcount cost.</p>
+                                        <h3 class="platform-card-title">Onboard Agents Fast. <span
+                                                class="text-primary-custom">Scale Without Limits.</span></h3>
+                                        <p class="platform-card-desc">FT POSP Sure digitizes every agent's journey,
+                                            cutting onboarding time by up to 70% and letting one back-office team
+                                            support 5,000 POSPs instead of 50 — with no added headcount cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good0.svg" alt="">
+                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_1.svg"
+                                                    alt="">
                                                 <span>Digital onboarding for agents and POSPs</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group0.svg" alt="">
+                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_2.svg"
+                                                    alt="">
                                                 <span>Instant commission tracking for every policy sold</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_3.svg"
+                                                    alt="">
                                                 <span>Renewal tracking that keeps every policy active</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_4.svg"
+                                                    alt="">
                                                 <span>Scale your network without scaling operational cost</span>
                                             </div>
                                         </div>
@@ -708,9 +779,63 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-10.png"
-                                            alt="FT POSP Sure dashboard">
+                                    <div class="platform-card-image posp-sure-image-wrapper">
+                                        <div class="platform-image-container">
+                                            <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Img_1.png"
+                                                alt="FT POSP Sure dashboard" class="platform-main-img">
+
+                                            <!-- Animated Floating Feature Pills (Figma Design System) -->
+                                            <div class="floating-feature-pills" aria-label="FT POSP Sure Key Modules">
+                                                <div class="feature-pill-item pill-1" data-aos="fade-left"
+                                                    data-aos-delay="200">
+                                                    <span class="pill-icon">
+                                                        <svg viewBox="0 0 16 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.3332 4L5.99984 11.3333L2.6665 8"
+                                                                stroke="#086AD8" stroke-width="2.2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <span class="pill-text">POSP &amp; Agent Onboarding</span>
+                                                </div>
+                                                <div class="feature-pill-item pill-2" data-aos="fade-left"
+                                                    data-aos-delay="300">
+                                                    <span class="pill-icon">
+                                                        <svg viewBox="0 0 16 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.3332 4L5.99984 11.3333L2.6665 8"
+                                                                stroke="#086AD8" stroke-width="2.2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <span class="pill-text">Policy Management</span>
+                                                </div>
+                                                <div class="feature-pill-item pill-3" data-aos="fade-left"
+                                                    data-aos-delay="400">
+                                                    <span class="pill-icon">
+                                                        <svg viewBox="0 0 16 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.3332 4L5.99984 11.3333L2.6665 8"
+                                                                stroke="#086AD8" stroke-width="2.2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <span class="pill-text">Renewal &amp; Claims Management</span>
+                                                </div>
+                                                <div class="feature-pill-item pill-4" data-aos="fade-left"
+                                                    data-aos-delay="500">
+                                                    <span class="pill-icon">
+                                                        <svg viewBox="0 0 16 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.3332 4L5.99984 11.3333L2.6665 8"
+                                                                stroke="#086AD8" stroke-width="2.2"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </span>
+                                                    <span class="pill-text">Real-Time Insurance Analytics</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -724,23 +849,31 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT D2C Insure</span>
-                                        <h3 class="platform-card-title">Quote Fast. <span class="text-primary-custom">Convert Customers Even Faster.</span></h3>
-                                        <p class="platform-card-desc">FT D2C Insure turns a multi-day insurance purchase into a 4 steps in-app journey — and faster quote-to-buy flows typically lift conversion by 20-30%, directly adding revenue without extra marketing spend.</p>
+                                        <h3 class="platform-card-title">Quote Fast. <span
+                                                class="text-primary-custom">Convert Customers Even Faster.</span></h3>
+                                        <p class="platform-card-desc">FT D2C Insure turns a multi-day insurance purchase
+                                            into a 4 steps in-app journey — and faster quote-to-buy flows typically lift
+                                            conversion by 20-30%, directly adding revenue without extra marketing spend.
+                                        </p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good1.svg" alt="">
+                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_1.svg"
+                                                    alt="">
                                                 <span>Custom UI built around your brand</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group1.svg" alt="">
+                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_2.svg"
+                                                    alt="">
                                                 <span>Multi-insurer comparison shown clearly to every customer</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline1.svg" alt="">
+                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_3.svg"
+                                                    alt="">
                                                 <span>Fraud detection built in from day one</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline1.svg" alt="">
+                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_4.svg"
+                                                    alt="">
                                                 <span>Higher conversion without any added acquisition cost</span>
                                             </div>
                                         </div>
@@ -755,9 +888,16 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-11.png"
-                                            alt="FT D2C Insure dashboard">
+                                    <div class="platform-card-image d2c-image-wrapper">
+                                        <div class="d2c-3image-container"
+                                            aria-label="FT D2C Insure Multi-Screen Showcase">
+                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_2.png"
+                                                alt="FT D2C Insure web portal" class="d2c-img-1">
+                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_3.png"
+                                                alt="FT D2C Insure quote breakdown" class="d2c-img-2">
+                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_1.png"
+                                                alt="FT D2C Insure mobile app view" class="d2c-img-3">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -771,23 +911,31 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Lending Insure</span>
-                                        <h3 class="platform-card-title">Protect Every Loan. <span class="text-primary-custom">Disburse Without Delay.</span></h3>
-                                        <p class="platform-card-desc">FT Lending Insure embeds insurance into every loan you disburse —Offering insurance at loan approval, not after, typically gets 20-30% more customers to take it — turning it into extra revenue, not an added cost.</p>
+                                        <h3 class="platform-card-title">Protect Every Loan. <span
+                                                class="text-primary-custom">Disburse Without Delay.</span></h3>
+                                        <p class="platform-card-desc">FT Lending Insure embeds insurance into every loan
+                                            you disburse —Offering insurance at loan approval, not after, typically gets
+                                            20-30% more customers to take it — turning it into extra revenue, not an
+                                            added cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_1.svg"
+                                                    alt="">
                                                 <span>Multiple insurers bundled into one loan</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_2.svg"
+                                                    alt="">
                                                 <span>Instant policy issuance at every loan disbursement</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_3.svg"
+                                                    alt="">
                                                 <span>Custom combo products built for each lender</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_4.svg"
+                                                    alt="">
                                                 <span>New commission revenue on loans you already write</span>
                                             </div>
                                         </div>
@@ -802,9 +950,22 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-12.png"
-                                            alt="FT Lending Insure dashboard">
+                                    <div class="platform-card-image lending-image-wrapper">
+                                        <div class="lending-4image-container"
+                                            aria-label="FT Lending Insure Multi-Screen Showcase">
+                                            <!-- Background Web Portal -->
+                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_1.png"
+                                                alt="FT Lending Insure loan platform" class="lending-img-bg">
+                                            <!-- Top Center Loan Details Modal -->
+                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_2.png"
+                                                alt="FT Lending Insure loan details" class="lending-img-top">
+                                            <!-- Bottom Left Plan Selection Modal -->
+                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_3.png"
+                                                alt="FT Lending Insure choose plan" class="lending-img-left">
+                                            <!-- Bottom Right Policy Success Modal -->
+                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_4.png"
+                                                alt="FT Lending Insure policy issued" class="lending-img-right">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -818,23 +979,31 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Embedded Insure</span>
-                                        <h3 class="platform-card-title">Insure At Checkout. <span class="text-primary-custom">Convert Customers Instantly.</span></h3>
-                                        <p class="platform-card-desc">FT Embedded Insure adds insurance right at checkout — offered this way, it typically converts 2x better than insurance sold as a separate step, adding revenue per transaction at near-zero extra operational cost.</p>
+                                        <h3 class="platform-card-title">Insure At Checkout. <span
+                                                class="text-primary-custom">Convert Customers Instantly.</span></h3>
+                                        <p class="platform-card-desc">FT Embedded Insure adds insurance right at
+                                            checkout — offered this way, it typically converts 2x better than insurance
+                                            sold as a separate step, adding revenue per transaction at near-zero extra
+                                            operational cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good0.svg" alt="">
+                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_1.svg"
+                                                    alt="">
                                                 <span>Opt-in journeys that customers actually complete</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group0.svg" alt="">
+                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_2.svg"
+                                                    alt="">
                                                 <span>Multiple insurers available inside a single flow</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_3.svg"
+                                                    alt="">
                                                 <span>Industry-specific setups for travel, EV and retail</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_4.svg"
+                                                    alt="">
                                                 <span>Revenue per transaction, without a bigger sales team</span>
                                             </div>
                                         </div>
@@ -849,9 +1018,25 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/intelligent-core-hero-20.png"
-                                            alt="FT Embedded Insure dashboard">
+                                    <div class="platform-card-image embedded-image-wrapper">
+                                        <div class="embedded-5image-container"
+                                            aria-label="FT Embedded Insure Multi-Screen Showcase">
+                                            <!-- 1. Mobile Phone Checkout Screen (Far Left Background) -->
+                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_1.png"
+                                                alt="FT Embedded Insure mobile checkout" class="embedded-img-1">
+                                            <!-- 2. Policy Summary Modal (Top Right) -->
+                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_4.png"
+                                                alt="FT Embedded Insure policy summary" class="embedded-img-4">
+                                            <!-- 3. Insure Plan Options Modal (Middle Right) -->
+                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_3.png"
+                                                alt="FT Embedded Insure choose plan" class="embedded-img-3">
+                                            <!-- 4. Add Protection Main Modal (Center Foreground) -->
+                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_2.png"
+                                                alt="FT Embedded Insure add protection" class="embedded-img-2">
+                                            <!-- 5. Insurance Activated Success Badge (Bottom Right Foreground) -->
+                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_5.png"
+                                                alt="FT Embedded Insure activated badge" class="embedded-img-5">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -865,23 +1050,30 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Digital Claims</span>
-                                        <h3 class="platform-card-title">Resolve Claims Faster. <span class="text-primary-custom">Rebuild Customer Trust.</span></h3>
-                                        <p class="platform-card-desc">FT Digital Claims uses AI to validate and route claims automatically, cutting average resolution time from days to hours — and fewer manual touches per claim means lower processing cost per case.</p>
+                                        <h3 class="platform-card-title">Resolve Claims Faster. <span
+                                                class="text-primary-custom">Rebuild Customer Trust.</span></h3>
+                                        <p class="platform-card-desc">FT Digital Claims uses AI to validate and route
+                                            claims automatically, cutting average resolution time from days to hours —
+                                            and fewer manual touches per claim means lower processing cost per case.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good1.svg" alt="">
+                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_1.svg"
+                                                    alt="">
                                                 <span>AI-assisted checks run on every document</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group1.svg" alt="">
+                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_2.svg"
+                                                    alt="">
                                                 <span>Anomaly and fraud flags raised automatically, instantly</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline1.svg" alt="">
+                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_3.svg"
+                                                    alt="">
                                                 <span>Real-time status visible to agents and customers</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline1.svg" alt="">
+                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_4.svg"
+                                                    alt="">
                                                 <span>Lower cost per claim, faster customer resolution</span>
                                             </div>
                                         </div>
@@ -896,9 +1088,19 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/bank-nbfcs-hm-10.png"
-                                            alt="FT Digital Claims dashboard">
+                                    <div class="platform-card-image claims-image-wrapper">
+                                        <div class="claims-3image-container"
+                                            aria-label="FT Digital Claims Multi-Screen Showcase">
+                                            <!-- 1. Main Claims Portal Dashboard (Center Background) -->
+                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_1.png"
+                                                alt="FT Digital Claims dashboard" class="claims-img-bg">
+                                            <!-- 2. Upload Claim Documents Modal (Top Left) -->
+                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_2.png"
+                                                alt="FT Digital Claims upload documents" class="claims-img-left">
+                                            <!-- 3. Claim Status Tracker Modal (Bottom Right) -->
+                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_3.png"
+                                                alt="FT Digital Claims status tracker" class="claims-img-right">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -912,23 +1114,31 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT PayIn-PayOut</span>
-                                        <h3 class="platform-card-title">Reconcile Statements Fast. <span class="text-primary-custom">Pay Out Instantly.</span></h3>
-                                        <p class="platform-card-desc">FT PayIn-PayOut automates commission matching, turning a 4-5 day monthly task into same-day processing — freeing up finance team hours that were previously locked in manual Excel reconciliation every month.</p>
+                                        <h3 class="platform-card-title">Reconcile Statements Fast. <span
+                                                class="text-primary-custom">Pay Out Instantly.</span></h3>
+                                        <p class="platform-card-desc">FT PayIn-PayOut automates commission matching,
+                                            turning a 4-5 day monthly task into same-day processing — freeing up finance
+                                            team hours that were previously locked in manual Excel reconciliation every
+                                            month.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good2.svg" alt="">
+                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_1.svg"
+                                                    alt="">
                                                 <span>Automatic matching across every insurer statement</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group2.svg" alt="">
+                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_2.svg"
+                                                    alt="">
                                                 <span>Mismatches flagged before they become a problem</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_3.svg"
+                                                    alt="">
                                                 <span>Instant payouts triggered for agents and POSPs</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_4.svg"
+                                                    alt="">
                                                 <span>Days of manual work recovered every single month</span>
                                             </div>
                                         </div>
@@ -943,9 +1153,25 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-10.png"
-                                            alt="FT PayIn-PayOut dashboard">
+                                    <div class="platform-card-image payout-image-wrapper">
+                                        <div class="payout-5image-container"
+                                            aria-label="FT PayIn-PayOut Multi-Screen Showcase">
+                                            <!-- 1. Main Dashboard (Center Background) -->
+                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_1.png"
+                                                alt="FT PayIn-PayOut main dashboard" class="payout-img-1">
+                                            <!-- 2. Settlement Status Donut Chart (Top Left) -->
+                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_4.png"
+                                                alt="FT PayIn-PayOut settlement status" class="payout-img-4">
+                                            <!-- 3. Recent Payouts Modal (Top Center) -->
+                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_5.png"
+                                                alt="FT PayIn-PayOut recent payouts" class="payout-img-5">
+                                            <!-- 4. Pay-In Channels Grid (Bottom Left) -->
+                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_3.png"
+                                                alt="FT PayIn-PayOut channels" class="payout-img-3">
+                                            <!-- 5. Today's Overview Widget (Bottom Right Foreground) -->
+                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_2.png"
+                                                alt="FT PayIn-PayOut today overview" class="payout-img-2">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -959,23 +1185,30 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT EB Sure</span>
-                                        <h3 class="platform-card-title">Enroll Fast. <span class="text-primary-custom">Support Every Employee Better.</span></h3>
-                                        <p class="platform-card-desc">FT EB Sure gives HR one dashboard for enrolment, claims and renewals — cutting HR's insurance admin workload by up to 50%, so the same team supports more employees without added cost.</p>
+                                        <h3 class="platform-card-title">Enroll Fast. <span
+                                                class="text-primary-custom">Support Every Employee Better.</span></h3>
+                                        <p class="platform-card-desc">FT EB Sure gives HR one dashboard for enrolment,
+                                            claims and renewals — cutting HR's insurance admin workload by up to 50%, so
+                                            the same team supports more employees without added cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good0.svg" alt="">
+                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_1.svg"
+                                                    alt="">
                                                 <span>Self-service enrolment for every single employee</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group0.svg" alt="">
+                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_2.svg"
+                                                    alt="">
                                                 <span>Dependent details managed without HR intervention needed</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_3.svg"
+                                                    alt="">
                                                 <span>Real-time claims tracking visible to HR teams</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline0.svg" alt="">
+                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_4.svg"
+                                                    alt="">
                                                 <span>Half the admin time, without hiring extra staff</span>
                                             </div>
                                         </div>
@@ -990,9 +1223,30 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-11.png"
-                                            alt="FT EB Sure dashboard">
+                                    <div class="platform-card-image eb-image-wrapper">
+                                        <div class="eb-showcase-container" aria-label="FT EB Sure Multi-Screen Showcase">
+                                            <!-- 1. Self-Service Enrolment Card (Top Left Background) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_1.png"
+                                                alt="FT EB Sure self-service enrolment" class="eb-img-1">
+                                            <!-- 2. Dependent Management Card (Top Right Background) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_2.png"
+                                                alt="FT EB Sure dependent management" class="eb-img-2">
+                                            <!-- 3. Claims Tracking Card (Bottom Left Foreground) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_3.png"
+                                                alt="FT EB Sure claims tracking" class="eb-img-3">
+                                            <!-- 4. Renewals Overview Card (Bottom Right Foreground) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_4.png"
+                                                alt="FT EB Sure renewals overview" class="eb-img-4">
+                                            <!-- 5. Floating Pill 1 (Top Left) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_5.png"
+                                                alt="Easy Employee Enrollment" class="eb-pill-1">
+                                            <!-- 6. Floating Pill 2 (Middle Right) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_6.png"
+                                                alt="Real-Time Claims Tracking" class="eb-pill-2">
+                                            <!-- 7. Floating Pill 3 (Bottom Center) -->
+                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_7.png"
+                                                alt="50% Less Admin Work" class="eb-pill-3">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1006,23 +1260,30 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Compliance Shield</span>
-                                        <h3 class="platform-card-title">Stay Compliant. <span class="text-primary-custom">Skip All The Effort.</span></h3>
-                                        <p class="platform-card-desc">FT Compliance Shield automates IRDAI checks across every workflow, cutting manual compliance work by up to 60% — time your team gets back, and risk exposure that no longer sits on one person's memory.</p>
+                                        <h3 class="platform-card-title">Stay Compliant. <span
+                                                class="text-primary-custom">Skip All The Effort.</span></h3>
+                                        <p class="platform-card-desc">FT Compliance Shield automates IRDAI checks across
+                                            every workflow, cutting manual compliance work by up to 60% — time your team
+                                            gets back, and risk exposure that no longer sits on one person's memory.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/ic-outline-gpp-good2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_1.svg"
+                                                    alt="">
                                                 <span>IRDAI checks built into every workflow</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/group2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_2.svg"
+                                                    alt="">
                                                 <span>Audit trails created automatically for every action</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/material-symbols-money-bag-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_3.svg"
+                                                    alt="">
                                                 <span>Regulatory reports generated without manual effort needed</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/mdi-invoice-fast-outline2.svg" alt="">
+                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_4.svg"
+                                                    alt="">
                                                 <span>Lower compliance risk, without a bigger compliance team</span>
                                             </div>
                                         </div>
@@ -1037,9 +1298,91 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="platform-card-image">
-                                        <img src="assets/images/insurance-policy-management-software-12.png"
-                                            alt="FT Compliance Shield dashboard">
+                                    <div class="platform-card-image compliance-image-wrapper">
+                                        <div class="compliance-4image-container" aria-label="FT Compliance Shield Multi-Screen Showcase">
+                                            <!-- 1. Main Dashboard (Center Background) -->
+                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_1.png"
+                                                alt="FT Compliance Shield main dashboard" class="compliance-img-1">
+                                            <!-- 2. Compliance Status 98% In Control Badge (Far Left Foreground) -->
+                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_5.png"
+                                                alt="FT Compliance Shield status badge" class="compliance-img-5">
+                                            <!-- 3. Report Types Modal (Middle Center Foreground) -->
+                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_3.png"
+                                                alt="FT Compliance Shield report types" class="compliance-img-3">
+                                            <!-- 4. Regulatory Reports Widget (Far Right Foreground) -->
+                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_2.png"
+                                                alt="FT Compliance Shield regulatory reports" class="compliance-img-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9: FT Reconciliation -->
+                    <div class="platform-deck-card pos-3" data-index="8">
+                        <div class="platform-card">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="platform-card-body">
+                                        <span class="platform-card-label">FT RECONCILIATION</span>
+                                        <h3 class="platform-card-title">Match Every Statement. <span
+                                                class="text-primary-custom">Catch Every Mismatch.</span></h3>
+                                        <p class="platform-card-desc">It automates commission matching, turning a 4-5 day
+                                            monthly task into same-day processing — comparing every insurer statement
+                                            against your policy data and flagging discrepancies before they ever reach a
+                                            payout.</p>
+                                        <div class="platform-features-list">
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_1.svg"
+                                                    alt="">
+                                                <span>Automatic matching across every insurer statement</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_2.svg"
+                                                    alt="">
+                                                <span>Mismatches flagged before they become a problem</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_3.svg"
+                                                    alt="">
+                                                <span>Any insurer format, read and structured instantly</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_4.svg"
+                                                    alt="">
+                                                <span>Audit-ready reports generated every single cycle</span>
+                                            </div>
+                                        </div>
+                                        <a href="#demo" class="btn-link-custom">
+                                            See FT Recon
+                                            <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="platform-card-image recon-image-wrapper">
+                                        <div class="recon-5image-container" aria-label="FT Reconciliation Multi-Screen Showcase">
+                                            <!-- 1. Import Insurer Statements Modal (Top Left Background) -->
+                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_1.png"
+                                                alt="FT Reconciliation import statements" class="recon-img-1">
+                                            <!-- 2. Payout Processing Modal (Top Right Background) -->
+                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_2.png"
+                                                alt="FT Reconciliation payout processing" class="recon-img-2">
+                                            <!-- 3. Commission Matching Donut Chart Modal (Middle Center Foreground) -->
+                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_5.png"
+                                                alt="FT Reconciliation commission matching" class="recon-img-5">
+                                            <!-- 4. Mismatches & Alerts Modal (Bottom Left Foreground) -->
+                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_3.png"
+                                                alt="FT Reconciliation mismatches and alerts" class="recon-img-3">
+                                            <!-- 5. Payouts Sent Successfully Modal (Bottom Right Foreground) -->
+                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_4.png"
+                                                alt="FT Reconciliation payouts sent success" class="recon-img-4">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1064,15 +1407,21 @@ include 'includes/header.php';
                     Wide Range. <span class="text-primary-custom">Rapid Configuration.</span>
                 </h2>
                 <p class="section-desc">
-                    Grow your insurance business across personal, commercial, life, health, property, and casualty lines—all powered by one intelligent, low-code platform. Simplify product configuration, accelerate launches, and scale your insurance agency business as customer needs evolve.
+                    Grow your insurance business across personal, commercial, life, health, property, and casualty
+                    lines—all powered by one intelligent, low-code platform. Simplify product configuration, accelerate
+                    launches, and scale your insurance agency business as customer needs evolve.
                 </p>
                 <div class="d-flex align-items-center gap-3 flex-wrap my-4">
-                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm" style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
-                        <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm"
+                        style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
+                        <span
+                            style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
                         <span>12 Hrs to Configure</span>
                     </div>
-                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm" style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
-                        <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm"
+                        style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
+                        <span
+                            style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#086ad8;"></span>
                         <span>Same-Day Launch</span>
                     </div>
                 </div>
@@ -1701,7 +2050,8 @@ include 'includes/header.php';
             </button>
             <button class="testimonial-nav-btn" id="testimonial-next" aria-label="Next testimonial">
                 <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
                 </svg>
             </button>
         </div>
@@ -1749,7 +2099,10 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Insurance broker software is a digital platform that helps an insurance broker or agency manage the full policy lifecycle — quoting, POSP and client management, claims, commission reconciliation and regulatory compliance — from one system instead of multiple disconnected tools.
+                                Insurance broker software is a digital platform that helps an insurance broker or agency
+                                manage the full policy lifecycle — quoting, POSP and client management, claims,
+                                commission reconciliation and regulatory compliance — from one system instead of
+                                multiple disconnected tools.
                             </div>
                         </div>
                     </div>
@@ -1764,7 +2117,10 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech's insurance broker software uses AI across quoting, underwriting support, claims triage and customer service — including AI voice agents — to help brokers close faster, price more accurately and resolve claims sooner, without adding headcount.
+                                Yes. FondosTech's insurance broker software uses AI across quoting, underwriting
+                                support, claims triage and customer service — including AI voice agents — to help
+                                brokers close faster, price more accurately and resolve claims sooner, without adding
+                                headcount.
                             </div>
                         </div>
                     </div>
@@ -1779,7 +2135,9 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech is built to scale from a single-branch insurance agency to a multi-state brokerage with thousands of POSPs — the same insurance agency software supports both, with modules you switch on as your insurance business grows.
+                                Yes. FondosTech is built to scale from a single-branch insurance agency to a multi-state
+                                brokerage with thousands of POSPs — the same insurance agency software supports both,
+                                with modules you switch on as your insurance business grows.
                             </div>
                         </div>
                     </div>
@@ -1789,12 +2147,16 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                What's the difference between insurance broker software and a generic management system for insurance?
+                                What's the difference between insurance broker software and a generic management system
+                                for insurance?
                             </button>
                         </h3>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                A generic management system for insurance usually just stores customer and policy records. Insurance broker software goes further — it handles quoting, multi-insurer comparison, policy issuance, commission tracking, claims and IRDAI compliance in one connected system, built specifically for how an insurance broker actually works.
+                                A generic management system for insurance usually just stores customer and policy
+                                records. Insurance broker software goes further — it handles quoting, multi-insurer
+                                comparison, policy issuance, commission tracking, claims and IRDAI compliance in one
+                                connected system, built specifically for how an insurance broker actually works.
                             </div>
                         </div>
                     </div>
@@ -1809,7 +2171,9 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech integrates with the Vahan API to auto-fetch and verify vehicle registration details during motor insurance quoting — reducing manual data entry, form errors and fraudulent claims at the point of sale.
+                                Yes. FondosTech integrates with the Vahan API to auto-fetch and verify vehicle
+                                registration details during motor insurance quoting — reducing manual data entry, form
+                                errors and fraudulent claims at the point of sale.
                             </div>
                         </div>
                     </div>
@@ -1824,7 +2188,9 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. Every workflow on FondosTech — from POSP onboarding to policy issuance, commission payouts and claims — is built around IRDAI-aligned processes, so brokers and insurance agency businesses stay compliant by default, not by extra manual effort.
+                                Yes. Every workflow on FondosTech — from POSP onboarding to policy issuance, commission
+                                payouts and claims — is built around IRDAI-aligned processes, so brokers and insurance
+                                agency businesses stay compliant by default, not by extra manual effort.
                             </div>
                         </div>
                     </div>
@@ -1839,7 +2205,10 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Claims management software automates how a claim is logged, validated, tracked and resolved. FondosTech's claims management system uses AI to auto-validate documents, flag anomalies and route claims to the right handler — cutting resolution time from days to hours.
+                                Claims management software automates how a claim is logged, validated, tracked and
+                                resolved. FondosTech's claims management system uses AI to auto-validate documents, flag
+                                anomalies and route claims to the right handler — cutting resolution time from days to
+                                hours.
                             </div>
                         </div>
                     </div>
@@ -1854,7 +2223,11 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Insurtech is replacing manual, paper-heavy insurance processes with digital, AI-powered platforms — speeding up quoting, policy issuance and claims across the insurance industry in India. FondosTech is built specifically for this shift, giving brokers, banks, NBFCs and fintechs the technology layer to run insurance as a business, digitally.
+                                Insurtech is replacing manual, paper-heavy insurance processes with digital, AI-powered
+                                platforms — speeding up quoting, policy issuance and claims across the insurance
+                                industry in India. FondosTech is built specifically for this shift, giving brokers,
+                                banks, NBFCs and fintechs the technology layer to run insurance as a business,
+                                digitally.
                             </div>
                         </div>
                     </div>
@@ -1869,7 +2242,10 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. Beyond serving an insurance broker or agency, FondosTech's platform is used by banks, NBFCs and fintechs to embed insurance into loans and purchases — turning insurance into a revenue line for businesses that aren't traditional insurance companies.
+                                Yes. Beyond serving an insurance broker or agency, FondosTech's platform is used by
+                                banks, NBFCs and fintechs to embed insurance into loans and purchases — turning
+                                insurance into a revenue line for businesses that aren't traditional insurance
+                                companies.
                             </div>
                         </div>
                     </div>
@@ -1884,7 +2260,10 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Generic business software isn't built for insurance-specific problems — multi-insurer quoting, IRDAI compliance, commission structures, or claims workflows. FondosTech builds insurance software exclusively, which is why brokers, banks, NBFCs and fintechs trust it to solve problems generic tools can't.
+                                Generic business software isn't built for insurance-specific problems — multi-insurer
+                                quoting, IRDAI compliance, commission structures, or claims workflows. FondosTech builds
+                                insurance software exclusively, which is why brokers, banks, NBFCs and fintechs trust it
+                                to solve problems generic tools can't.
                             </div>
                         </div>
                     </div>
