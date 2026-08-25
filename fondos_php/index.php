@@ -748,22 +748,22 @@ include 'includes/header.php';
                                             support 5,000 POSPs instead of 50 — with no added headcount cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_1.svg"
                                                     alt="">
                                                 <span>Digital onboarding for agents and POSPs</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_2.svg"
                                                     alt="">
                                                 <span>Instant commission tracking for every policy sold</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_3.svg"
                                                     alt="">
                                                 <span>Renewal tracking that keeps every policy active</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_4.svg"
                                                     alt="">
                                                 <span>Scale your network without scaling operational cost</span>
                                             </div>
@@ -781,7 +781,7 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-image posp-sure-image-wrapper">
                                         <div class="platform-image-container">
-                                            <img src="assets/images/home_page/FT POSP Sure/FT_POSP_Sure_Img_1.png"
+                                            <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Img_1.png"
                                                 alt="FT POSP Sure dashboard" class="platform-main-img">
 
                                             <!-- Animated Floating Feature Pills (Figma Design System) -->
@@ -857,22 +857,22 @@ include 'includes/header.php';
                                         </p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_1.svg"
                                                     alt="">
                                                 <span>Custom UI built around your brand</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_2.svg"
                                                     alt="">
                                                 <span>Multi-insurer comparison shown clearly to every customer</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_3.svg"
                                                     alt="">
                                                 <span>Fraud detection built in from day one</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_4.svg"
                                                     alt="">
                                                 <span>Higher conversion without any added acquisition cost</span>
                                             </div>
@@ -891,11 +891,11 @@ include 'includes/header.php';
                                     <div class="platform-card-image d2c-image-wrapper">
                                         <div class="d2c-3image-container"
                                             aria-label="FT D2C Insure Multi-Screen Showcase">
-                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_2.png"
+                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_2.png"
                                                 alt="FT D2C Insure web portal" class="d2c-img-1">
-                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_3.png"
+                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_3.png"
                                                 alt="FT D2C Insure quote breakdown" class="d2c-img-2">
-                                            <img src="assets/images/home_page/FT D2C Sure/FT_D2C_Insure_Img_1.png"
+                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_1.png"
                                                 alt="FT D2C Insure mobile app view" class="d2c-img-3">
                                         </div>
                                     </div>
@@ -919,22 +919,22 @@ include 'includes/header.php';
                                             added cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_1.svg"
                                                     alt="">
                                                 <span>Multiple insurers bundled into one loan</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_2.svg"
                                                     alt="">
                                                 <span>Instant policy issuance at every loan disbursement</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_3.svg"
                                                     alt="">
                                                 <span>Custom combo products built for each lender</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_4.svg"
                                                     alt="">
                                                 <span>New commission revenue on loans you already write</span>
                                             </div>
@@ -954,16 +954,16 @@ include 'includes/header.php';
                                         <div class="lending-4image-container"
                                             aria-label="FT Lending Insure Multi-Screen Showcase">
                                             <!-- Background Web Portal -->
-                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_1.png"
+                                            <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Img_1.png"
                                                 alt="FT Lending Insure loan platform" class="lending-img-bg">
                                             <!-- Top Center Loan Details Modal -->
-                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_2.png"
+                                            <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Img_2.png"
                                                 alt="FT Lending Insure loan details" class="lending-img-top">
                                             <!-- Bottom Left Plan Selection Modal -->
-                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_3.png"
+                                            <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Img_3.png"
                                                 alt="FT Lending Insure choose plan" class="lending-img-left">
                                             <!-- Bottom Right Policy Success Modal -->
-                                            <img src="assets/images/home_page/FT Lending Insure/FT_Lending_Insure_Img_4.png"
+                                            <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Img_4.png"
                                                 alt="FT Lending Insure policy issued" class="lending-img-right">
                                         </div>
                                     </div>
@@ -987,22 +987,22 @@ include 'includes/header.php';
                                             operational cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_1.svg"
                                                     alt="">
                                                 <span>Opt-in journeys that customers actually complete</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_2.svg"
                                                     alt="">
                                                 <span>Multiple insurers available inside a single flow</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_3.svg"
                                                     alt="">
                                                 <span>Industry-specific setups for travel, EV and retail</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_4.svg"
                                                     alt="">
                                                 <span>Revenue per transaction, without a bigger sales team</span>
                                             </div>
@@ -1022,19 +1022,19 @@ include 'includes/header.php';
                                         <div class="embedded-5image-container"
                                             aria-label="FT Embedded Insure Multi-Screen Showcase">
                                             <!-- 1. Mobile Phone Checkout Screen (Far Left Background) -->
-                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_1.png"
+                                            <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Img_1.png"
                                                 alt="FT Embedded Insure mobile checkout" class="embedded-img-1">
                                             <!-- 2. Policy Summary Modal (Top Right) -->
-                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_4.png"
+                                            <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Img_4.png"
                                                 alt="FT Embedded Insure policy summary" class="embedded-img-4">
                                             <!-- 3. Insure Plan Options Modal (Middle Right) -->
-                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_3.png"
+                                            <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Img_3.png"
                                                 alt="FT Embedded Insure choose plan" class="embedded-img-3">
                                             <!-- 4. Add Protection Main Modal (Center Foreground) -->
-                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_2.png"
+                                            <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Img_2.png"
                                                 alt="FT Embedded Insure add protection" class="embedded-img-2">
                                             <!-- 5. Insurance Activated Success Badge (Bottom Right Foreground) -->
-                                            <img src="assets/images/home_page/FT Embedded Insure/FT_Embedded_Insure_Img_5.png"
+                                            <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Img_5.png"
                                                 alt="FT Embedded Insure activated badge" class="embedded-img-5">
                                         </div>
                                     </div>
@@ -1057,22 +1057,22 @@ include 'includes/header.php';
                                             and fewer manual touches per claim means lower processing cost per case.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_1.svg"
                                                     alt="">
                                                 <span>AI-assisted checks run on every document</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_2.svg"
                                                     alt="">
                                                 <span>Anomaly and fraud flags raised automatically, instantly</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_3.svg"
                                                     alt="">
                                                 <span>Real-time status visible to agents and customers</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_4.svg"
                                                     alt="">
                                                 <span>Lower cost per claim, faster customer resolution</span>
                                             </div>
@@ -1092,13 +1092,13 @@ include 'includes/header.php';
                                         <div class="claims-3image-container"
                                             aria-label="FT Digital Claims Multi-Screen Showcase">
                                             <!-- 1. Main Claims Portal Dashboard (Center Background) -->
-                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_1.png"
+                                            <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Img_1.png"
                                                 alt="FT Digital Claims dashboard" class="claims-img-bg">
                                             <!-- 2. Upload Claim Documents Modal (Top Left) -->
-                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_2.png"
+                                            <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Img_2.png"
                                                 alt="FT Digital Claims upload documents" class="claims-img-left">
                                             <!-- 3. Claim Status Tracker Modal (Bottom Right) -->
-                                            <img src="assets/images/home_page/FT Digital Claims/FT_Digital_Claims_Img_3.png"
+                                            <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Img_3.png"
                                                 alt="FT Digital Claims status tracker" class="claims-img-right">
                                         </div>
                                     </div>
@@ -1122,22 +1122,22 @@ include 'includes/header.php';
                                             month.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_1.svg"
                                                     alt="">
                                                 <span>Automatic matching across every insurer statement</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_2.svg"
                                                     alt="">
                                                 <span>Mismatches flagged before they become a problem</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_3.svg"
                                                     alt="">
                                                 <span>Instant payouts triggered for agents and POSPs</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_4.svg"
                                                     alt="">
                                                 <span>Days of manual work recovered every single month</span>
                                             </div>
@@ -1157,19 +1157,19 @@ include 'includes/header.php';
                                         <div class="payout-5image-container"
                                             aria-label="FT PayIn-PayOut Multi-Screen Showcase">
                                             <!-- 1. Main Dashboard (Center Background) -->
-                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_1.png"
+                                            <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Img_1.png"
                                                 alt="FT PayIn-PayOut main dashboard" class="payout-img-1">
                                             <!-- 2. Settlement Status Donut Chart (Top Left) -->
-                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_4.png"
+                                            <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Img_4.png"
                                                 alt="FT PayIn-PayOut settlement status" class="payout-img-4">
                                             <!-- 3. Recent Payouts Modal (Top Center) -->
-                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_5.png"
+                                            <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Img_5.png"
                                                 alt="FT PayIn-PayOut recent payouts" class="payout-img-5">
                                             <!-- 4. Pay-In Channels Grid (Bottom Left) -->
-                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_3.png"
+                                            <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Img_3.png"
                                                 alt="FT PayIn-PayOut channels" class="payout-img-3">
                                             <!-- 5. Today's Overview Widget (Bottom Right Foreground) -->
-                                            <img src="assets/images/home_page/FT PayIn PayOut/FT_PayIn_PayOut_Img_2.png"
+                                            <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Img_2.png"
                                                 alt="FT PayIn-PayOut today overview" class="payout-img-2">
                                         </div>
                                     </div>
@@ -1192,22 +1192,22 @@ include 'includes/header.php';
                                             the same team supports more employees without added cost.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_1.svg"
                                                     alt="">
                                                 <span>Self-service enrolment for every single employee</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_2.svg"
                                                     alt="">
                                                 <span>Dependent details managed without HR intervention needed</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_3.svg"
                                                     alt="">
                                                 <span>Real-time claims tracking visible to HR teams</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_4.svg"
                                                     alt="">
                                                 <span>Half the admin time, without hiring extra staff</span>
                                             </div>
@@ -1226,25 +1226,25 @@ include 'includes/header.php';
                                     <div class="platform-card-image eb-image-wrapper">
                                         <div class="eb-showcase-container" aria-label="FT EB Sure Multi-Screen Showcase">
                                             <!-- 1. Self-Service Enrolment Card (Top Left Background) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_1.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_1.png"
                                                 alt="FT EB Sure self-service enrolment" class="eb-img-1">
                                             <!-- 2. Dependent Management Card (Top Right Background) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_2.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_2.png"
                                                 alt="FT EB Sure dependent management" class="eb-img-2">
                                             <!-- 3. Claims Tracking Card (Bottom Left Foreground) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_3.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_3.png"
                                                 alt="FT EB Sure claims tracking" class="eb-img-3">
                                             <!-- 4. Renewals Overview Card (Bottom Right Foreground) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_4.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_4.png"
                                                 alt="FT EB Sure renewals overview" class="eb-img-4">
                                             <!-- 5. Floating Pill 1 (Top Left) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_5.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_5.png"
                                                 alt="Easy Employee Enrollment" class="eb-pill-1">
                                             <!-- 6. Floating Pill 2 (Middle Right) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_6.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_6.png"
                                                 alt="Real-Time Claims Tracking" class="eb-pill-2">
                                             <!-- 7. Floating Pill 3 (Bottom Center) -->
-                                            <img src="assets/images/home_page/FT EB Sure/FT_EB_Sure_Img_7.png"
+                                            <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_7.png"
                                                 alt="50% Less Admin Work" class="eb-pill-3">
                                         </div>
                                     </div>
@@ -1267,22 +1267,22 @@ include 'includes/header.php';
                                             gets back, and risk exposure that no longer sits on one person's memory.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_1.svg"
                                                     alt="">
                                                 <span>IRDAI checks built into every workflow</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_2.svg"
                                                     alt="">
                                                 <span>Audit trails created automatically for every action</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_3.svg"
                                                     alt="">
                                                 <span>Regulatory reports generated without manual effort needed</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_4.svg"
                                                     alt="">
                                                 <span>Lower compliance risk, without a bigger compliance team</span>
                                             </div>
@@ -1301,16 +1301,16 @@ include 'includes/header.php';
                                     <div class="platform-card-image compliance-image-wrapper">
                                         <div class="compliance-4image-container" aria-label="FT Compliance Shield Multi-Screen Showcase">
                                             <!-- 1. Main Dashboard (Center Background) -->
-                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_1.png"
+                                            <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Shield_Img_1.png"
                                                 alt="FT Compliance Shield main dashboard" class="compliance-img-1">
                                             <!-- 2. Compliance Status 98% In Control Badge (Far Left Foreground) -->
-                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_5.png"
+                                            <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Shield_Img_5.png"
                                                 alt="FT Compliance Shield status badge" class="compliance-img-5">
                                             <!-- 3. Report Types Modal (Middle Center Foreground) -->
-                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_3.png"
+                                            <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Shield_Img_3.png"
                                                 alt="FT Compliance Shield report types" class="compliance-img-3">
                                             <!-- 4. Regulatory Reports Widget (Far Right Foreground) -->
-                                            <img src="assets/images/home_page/FT Compliance Shield/FT_Compliance_Shield_Img_2.png"
+                                            <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Shield_Img_2.png"
                                                 alt="FT Compliance Shield regulatory reports" class="compliance-img-2">
                                         </div>
                                     </div>
@@ -1334,22 +1334,22 @@ include 'includes/header.php';
                                             payout.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_1.svg"
+                                                <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_1.svg"
                                                     alt="">
                                                 <span>Automatic matching across every insurer statement</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_2.svg"
+                                                <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_2.svg"
                                                     alt="">
                                                 <span>Mismatches flagged before they become a problem</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_3.svg"
+                                                <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_3.svg"
                                                     alt="">
                                                 <span>Any insurer format, read and structured instantly</span>
                                             </div>
                                             <div class="platform-feature-item">
-                                                <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Icon_4.svg"
+                                                <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_4.svg"
                                                     alt="">
                                                 <span>Audit-ready reports generated every single cycle</span>
                                             </div>
@@ -1368,19 +1368,19 @@ include 'includes/header.php';
                                     <div class="platform-card-image recon-image-wrapper">
                                         <div class="recon-5image-container" aria-label="FT Reconciliation Multi-Screen Showcase">
                                             <!-- 1. Import Insurer Statements Modal (Top Left Background) -->
-                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_1.png"
+                                            <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_1.png"
                                                 alt="FT Reconciliation import statements" class="recon-img-1">
                                             <!-- 2. Payout Processing Modal (Top Right Background) -->
-                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_2.png"
+                                            <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_2.png"
                                                 alt="FT Reconciliation payout processing" class="recon-img-2">
                                             <!-- 3. Commission Matching Donut Chart Modal (Middle Center Foreground) -->
-                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_5.png"
+                                            <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_5.png"
                                                 alt="FT Reconciliation commission matching" class="recon-img-5">
                                             <!-- 4. Mismatches & Alerts Modal (Bottom Left Foreground) -->
-                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_3.png"
+                                            <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_3.png"
                                                 alt="FT Reconciliation mismatches and alerts" class="recon-img-3">
                                             <!-- 5. Payouts Sent Successfully Modal (Bottom Right Foreground) -->
-                                            <img src="assets/images/home_page/FT Reconciliation/FT_Reconciliation_Img_4.png"
+                                            <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_4.png"
                                                 alt="FT Reconciliation payouts sent success" class="recon-img-4">
                                         </div>
                                     </div>
