@@ -20,9 +20,8 @@
         if (!textEl) return;
 
         const phrases = [
-            'Run with Precision.',
-            'Scale with Ease.',
             'Automate with AI.',
+            'Run with Precision.',
         ];
 
         let phraseIdx = 0;

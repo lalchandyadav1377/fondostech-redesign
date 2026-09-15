@@ -1,6 +1,6 @@
 <?php
-$page_title = "FT Lending Insure | AI-Powered Embedded Insurance Software for Lenders | FondosTech";
-$page_description = "AI-powered embedded insurance software that attaches credit life and asset protection cover the moment a loan is disbursed, manages claims and foreclosure cancellations automatically, and keeps every policy tied to the loan it protects.";
+$page_title = "FT Lending Insure — Embedded Insurance Software for Lenders | FondosTech";
+$page_description = "FT Lending Insure is AI-powered embedded insurance software that attaches loan protection cover at disbursement, manages claims, and handles cancellations — automatically, in one platform.";
 $active_page = "lending_insure";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -70,17 +70,21 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/insurance-policy-management-software-10.png"
-                            alt="FT Lending Insure Software Interface" class="img-fluid w-100 rounded-3"
-                            style="object-fit: cover;">
+                        <img src="assets/images/product_page/Product_Page_FT_Lending_Insure_img.svg"
+                            alt="FT Lending Insure loan protection dashboard mockup" class="img-fluid w-100 rounded-3"
+                            style="object-fit: contain;">
                     </div>
-                    <!-- Floating Metric Badge -->
+                    <div class="shadow-lg rounded-4 p-3 position-absolute d-none d-md-block"
+                        style="top: -16px; right: -8px; background: #1c2733; color: #fff; z-index: 3; max-width: 170px;">
+                        <div class="fw-bold" style="font-size: 1.05rem; line-height: 1.2; color: #8fd6ff;">Zero-Gap</div>
+                        <div style="font-size: 0.75rem; opacity: 0.9;">Coverage active the moment the loan is disbursed</div>
+                    </div>
                     <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
                         <div class="d-flex align-items-center gap-3">
-                            <div class="badge-icon-circle bg-primary text-white">⚡</div>
+                            <div class="badge-icon-circle bg-primary text-white">🔄</div>
                             <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">Zero-Gap Coverage</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">Auto-Cancellation on Foreclosure</div>
+                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">Auto-Cancellation on Foreclosure</div>
+                                <div class="text-muted" style="font-size: 0.78125rem;">AI-Powered Loan Protection</div>
                             </div>
                         </div>
                     </div>
@@ -97,7 +101,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">WHY IT MATTERS</div>
-            <h2 class="section-title">Loan Protection Insurance <span class="text-primary-custom">Shouldn't Be an Afterthought</span></h2>
+            <h2 class="section-title">Loan Protection Insurance Shouldn't Be <span class="text-primary-custom">an Afterthought</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
                 Every loan disbursed carries risk — for the borrower and the lender. When insurance attachment, claims, and foreclosure cancellations are handled manually, cover gets delayed, refunds get missed, and lenders carry exposure they didn't need to.
             </p>
@@ -126,7 +130,7 @@ include 'includes/header.php';
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
                         <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">🛡️ Coverage Gap Risk</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📉 Coverage Gap Risk</span>
                     </div>
                 </div>
             </div>
@@ -180,7 +184,7 @@ include 'includes/header.php';
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
                         <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ High Time Cost</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">🕓 High Time Cost</span>
                     </div>
                 </div>
             </div>
@@ -372,15 +376,15 @@ include 'includes/header.php';
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Coverage View</strong> — policy details tied to their loan, in real time</div>
+                            <div><strong>My Coverage View:</strong> policy details tied to their loan, in real time</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Claims Tracker</strong> — submit and track claims linked directly to their loan</div>
+                            <div><strong>Claims Tracker:</strong> submit and track claims linked directly to their loan</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Refund Status</strong> — notified automatically when a cancellation refund is processed</div>
+                            <div><strong>Refund Status:</strong> notified automatically when a cancellation refund is processed</div>
                         </div>
                     </div>
                 </div>
@@ -405,19 +409,19 @@ include 'includes/header.php';
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Bulk Cover Attachment</strong> — insurance attached automatically across every disbursed loan</div>
+                            <div><strong>Bulk Cover Attachment:</strong> insurance attached automatically across every disbursed loan</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Foreclosure-Linked Cancellations</strong> — policies cancelled the moment a loan closes early</div>
+                            <div><strong>Foreclosure-Linked Cancellations:</strong> policies cancelled the moment a loan closes early</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Automated Refund Processing</strong> — eligible refunds calculated and released without manual review</div>
+                            <div><strong>Automated Refund Processing:</strong> eligible refunds calculated and released without manual review</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Audit-Ready Reporting</strong> — exportable reports for every loan-linked policy</div>
+                            <div><strong>Audit-Ready Reporting:</strong> exportable reports for every loan-linked policy</div>
                         </div>
                     </div>
                 </div>
@@ -588,7 +592,7 @@ include 'includes/header.php';
 
             <!-- Segment 4 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100" style="border-color: #086ad8 !important; background: #f5faff;">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -787,7 +791,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq2" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                It uses AI to automatically match disbursed loans to the right protection policy, detect early loan foreclosures for cancellation, and calculate premium refunds accurately.
+                                FT Lending Insure uses AI-powered cover matching, foreclosure detection and automated refund calculation to match every disbursed loan to the correct protection policy, detect early closures, and trigger eligible premium refunds automatically.
                             </div>
                         </div>
                     </div>
@@ -802,7 +806,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq3" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Borrowers have access to a portal where they can view policy details tied to their loan, track claims, and monitor refund status.
+                                Yes. Borrowers get a My Coverage View with policy details tied to their loan in real time, a Claims Tracker to submit and track claims linked to their loan, and automatic notification when a cancellation refund is processed.
                             </div>
                         </div>
                     </div>
@@ -817,7 +821,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq4" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                It's built into FondosTech's insurance broker software, so loan-linked insurance connects directly to policy, claims, and payout infrastructure across the platform.
+                                It's built on FondosTech's insurtech engine, connecting loan-linked insurance to claims and payout records already on the platform — not a standalone bolt-on tracker.
                             </div>
                         </div>
                     </div>
@@ -832,7 +836,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq5" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                The system automatically detects loan closure, cancels the linked policy, calculates the pro-rata unearned premium refund, and triggers the payout.
+                                When a loan is foreclosed or closed early, the system detects it automatically, flags the linked policy for cancellation, and eligible premium refunds are calculated and triggered automatically.
                             </div>
                         </div>
                     </div>
@@ -847,7 +851,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq6" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                Yes. FT Lending Insure handles credit life, loan protection, and asset coverage (like vehicle or property cover) attached to any loan type.
+                                Yes. FT Lending Insure attaches the correct credit life or asset protection policy the moment the loan is disbursed.
                             </div>
                         </div>
                     </div>
@@ -862,7 +866,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq7" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                It's built specifically for insurance on FondosTech's insurtech engine — pre-configured with lender workflows, policy cancellation logic, and regulatory compliance.
+                                It's insurtech built with AI at the core, on FondosTech's insurtech engine — not a bolt-on policy tracker or generic loan add-on tool.
                             </div>
                         </div>
                     </div>
@@ -877,7 +881,7 @@ include 'includes/header.php';
                         </h3>
                         <div id="lendFaq8" class="accordion-collapse collapse" data-bs-parent="#lendingFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Clean, exportable audit trails and compliance reports for every loan-linked policy, claim, and cancellation are available instantly.
+                                Yes. Every attachment, claim, and cancellation produces a clean, exportable report, ready for review.
                             </div>
                         </div>
                     </div>
@@ -890,7 +894,7 @@ include 'includes/header.php';
 <!-- ============================================= -->
 <!-- SECTION 9: READY TO ATTACH CTA BANNER        -->
 <!-- ============================================= -->
-<section class="about-cta-section" id="posp-cta">
+<section class="about-cta-section" id="lending-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
             <h2 class="about-cta-title">Ready to Attach Insurance the Moment a Loan Is Disbursed?</h2>

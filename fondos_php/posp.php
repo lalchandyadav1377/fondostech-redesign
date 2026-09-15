@@ -1,6 +1,6 @@
 <?php
-$page_title = "FT POSP Sure | AI-Powered POSP Insurance Software | FondosTech";
-$page_description = "Scale your POSP agent network with FT POSP Sure — AI-powered POSP software for digital agent onboarding, instant quoting, multi-insurer policy issuance, automated commission payouts, and IRDAI compliance.";
+$page_title = "POSP Insurance Software | AI-Assisted Platform | FondosTech";
+$page_description = "Manage POSP onboarding, insurer quotes, policies, commissions, claims and renewals with FT POSP Sure, AI-assisted POSP insurance software for distributors.";
 $active_page = "posp";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -23,30 +23,33 @@ include 'includes/header.php';
                     class="posp-hero-badge-wrap mb-3 d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-sm">
                     <span class="posp-badge-dot"></span>
                     <span class="fw-semibold text-uppercase tracking-wider"
-                        style="font-size: 0.78125rem; color: #086ad8;">POSP MANAGEMENT SOFTWARE</span>
+                        style="font-size: 0.78125rem; color: #086ad8;">POSP insurance software</span>
                 </div>
 
                 <h1 class="posp-hero-title mb-3">
-                    FT POSP Sure — <span class="text-primary-custom">Software Built to Scale.</span>
+                    AI-assisted POSP insurance software <span class="text-primary-custom">built to scale distribution</span>
                 </h1>
 
+                <p class="section-desc mb-3" style="max-width: 600px; margin-left: 0;">
+                    Manage POSP onboarding, insurer quotes, policy issuance, commissions, claims and
+                    renewals through one connected insurance distribution platform.
+                </p>
                 <p class="section-desc mb-4" style="max-width: 600px; margin-left: 0;">
-                    AI-powered POSP software that handles onboarding, policy issuance, commissions and renewals — so you
-                    scale your agent network, not your back office.
+                    AI-assisted capabilities support selected sales, underwriting and claims workflows while your
+                    teams retain business rules and operational control.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5 d-inline-flex align-items-center gap-2 shadow-sm">
-                        <span>Book a Free Demo</span>
+                        <span>Book a demo</span>
                         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                     <a href="#how-it-works"
-                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See How It
-                        Works</a>
+                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See how it works</a>
                 </div>
 
                 <!-- Trust Highlights -->
@@ -54,7 +57,7 @@ include 'includes/header.php';
                     style="font-size: 0.875rem; font-weight: 600; color: #495057;">
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>5,000+ Active POSPs</span>
+                        <span>5,000+ POSPs managed</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
@@ -62,7 +65,11 @@ include 'includes/header.php';
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>99.8% Auto Reconciliation</span>
+                        <span>99.8% Automated reconciliation</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
+                        <span>White-label Distribution journeys</span>
                     </div>
                 </div>
             </div>
@@ -71,9 +78,9 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/insurance-policy-management-software-10.png"
+                        <img src="assets/images/product_page/Product_Page_FT_POSP_Sure_img.svg"
                             alt="FT POSP Sure Agent Management Software Interface" class="img-fluid w-100 rounded-3"
-                            style="object-fit: cover;">
+                            style="object-fit: contain;">
                     </div>
                     <!-- Floating Metric Badge -->
                     <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
@@ -94,19 +101,19 @@ include 'includes/header.php';
         <div class="posp-stats-row mt-5">
             <div class="stat-item">
                 <div class="stat-val counter" data-target="5000" data-suffix="+">5,000+</div>
-                <div class="stat-txt">POSPs Supported</div>
+                <div class="stat-txt">POSPs managed</div>
             </div>
             <div class="stat-item">
                 <div class="stat-val counter" data-target="50" data-suffix="+">50+</div>
-                <div class="stat-txt">Insurer REST APIs</div>
+                <div class="stat-txt">Insurer APIs</div>
             </div>
             <div class="stat-item">
                 <div class="stat-val">99.8%</div>
-                <div class="stat-txt">Auto Reconciliation</div>
+                <div class="stat-txt">Automated reconciliation</div>
             </div>
             <div class="stat-item">
                 <div class="stat-val">100%</div>
-                <div class="stat-txt">IRDAI Compliant</div>
+                <div class="stat-txt">White-label journeys</div>
             </div>
         </div>
     </div>
@@ -118,14 +125,13 @@ include 'includes/header.php';
 <section class="posp-why-mandatory-section" id="why-mandatory">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">WHY IT'S MANDATORY</div>
-            <h2 class="section-title">Why A Spreadsheet Can't Run Your <span class="text-primary-custom">POSP Network
-                    Anymore</span></h2>
+            <div class="section-label">THE BUSINESS PROBLEM</div>
+            <h2 class="section-title">Why growing POSP networks become harder to <span class="text-primary-custom">manage
+                    manually</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
-                A POSP is IRDAI-licensed to sell insurance from day one — but licensing is just step one. Every POSP
-                still needs KYC, policy issuance, payouts and renewal tracking. That works on spreadsheets at 50 agents.
-                Past a few hundred, it breaks — which is why POSP software is now mandatory for any insurance broker or
-                agency business serious about scaling distribution.
+                Your POSP network should grow. Your back office should not have to grow with it.
+                As distribution expands, onboarding, insurer activity, commissions, renewals and servicing
+                can spread across spreadsheets, portals and separate teams.
             </p>
         </div>
 
@@ -142,20 +148,20 @@ include 'includes/header.php';
                                 <line x1="12" y1="16" x2="12.01" y2="16" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">LICENSING RISK</span>
+                        <span class="pillar-tag-badge">ONBOARDING</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Compliance Doesn't Scale Manually
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">POSP onboarding slows down
                     </h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Every onboarding, every policy, every commission carries a compliance trail. One missed step
-                        across thousands of agents is a licensing risk no insurance business can absorb.
+                        KYC, documents, training and onboarding records require repeated follow-ups when
+                        information sits across different systems.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
                         <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚡ IRDAI Audit Risk</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚡ Follow-up Delay</span>
                     </div>
                 </div>
             </div>
@@ -170,20 +176,19 @@ include 'includes/header.php';
                                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">AGENT ATTRITION</span>
+                        <span class="pillar-tag-badge">INSURER PORTALS</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Slow Payouts Cost You Agents</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Insurer portals fragment policy operations</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        A POSP who waits days to get activated or weeks to get paid moves to a competitor who pays
-                        faster. Fast onboarding and instant payouts keep top agents active on your network.
+                        POSPs and operations teams move between insurer systems for quotations, proposals,
+                        policy issuance and servicing.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
                         <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ Payout Delay
-                            Risk</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ Fragmented Workflows</span>
                     </div>
                 </div>
             </div>
@@ -200,21 +205,20 @@ include 'includes/header.php';
                                 <line x1="6" y1="20" x2="6" y2="14" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">OPERATIONAL BOTTLE-NECK</span>
+                        <span class="pillar-tag-badge">RECONCILIATION</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Reconciliation Breaks Past 100 Agents
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Commission reconciliation takes more effort
                     </h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Matching commissions by hand in Excel works at 50 POSPs. At 1,000+, manual reconciliation eats
-                        an entire operations team's month — every single month without exception.
+                        Policy, insurer and commission data must be matched before POSP payouts can be
+                        processed accurately.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
                         <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📊 Excel Scale
-                            Limit</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📊 Matching Effort</span>
                     </div>
                 </div>
             </div>
@@ -225,9 +229,7 @@ include 'includes/header.php';
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-size: 0.875rem; font-weight: 600;">
-                <span class="text-dark">Spreadsheets break at 50 agents</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-primary-custom fw-bold">FT POSP Sure scales past 5,000 POSPs with zero extra back-office team</span>
+                <span class="text-dark">FT POSP Sure brings these workflows into one POSP management platform.</span>
             </div>
         </div>
     </div>
@@ -239,11 +241,11 @@ include 'includes/header.php';
 <section class="posp-how-it-works-section" id="how-it-works">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">HOW IT WORKS</div>
-            <h2 class="section-title">One Platform, From First Login <span class="text-primary-custom">To First
-                    Payout</span></h2>
-            <p class="section-desc mx-auto">Every step a POSP takes — from the moment they're added to the moment they
-                get paid — runs on one connected system.</p>
+            <div class="section-label">COMPLETE POSP LIFECYCLE</div>
+            <h2 class="section-title">Manage the complete POSP lifecycle from <span class="text-primary-custom">onboarding to
+                    renewal</span></h2>
+            <p class="section-desc mx-auto">FT POSP Sure connects the processes required to onboard POSPs, distribute insurance
+                products and manage policy activity after the sale.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -263,10 +265,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 01 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Digital Agent Onboarding</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Onboard — Digital POSP onboarding</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Your admin adds a new POSP. KYC is submitted digitally, and the agent is verified and activated
-                        — live and ready to sell within minutes, not days.
+                        Capture POSP details, KYC, documents, training information and required onboarding
+                        records through structured workflows.
                     </p>
                 </div>
             </div>
@@ -285,11 +287,11 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 02 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Instant Product Access &amp; Training
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Activate — Insurer and product access
                     </h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The POSP gets immediate access to your full product catalog across 50+ insurers, with
-                        multilingual support so onboarding isn't limited by language.
+                        Give eligible POSPs access to supported insurers, products and configured distribution
+                        journeys.
                     </p>
                 </div>
             </div>
@@ -307,11 +309,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 03 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Quoting &amp; Instant Policy Issuance
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Quote — Multi-insurer quotations
                     </h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The POSP compares insurers and issues a policy digitally — powered by FondosTech's insurtech
-                        engine, with Vahan API auto-verifying vehicle details for motor insurance instantly.
+                        Compare available insurance options from supported insurers through one sales workflow.
                     </p>
                 </div>
             </div>
@@ -330,11 +331,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 04 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Commission Tracking &amp; Instant
-                        Payouts</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Issue — Proposal and policy issuance</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Every policy sold is tracked against commission rules automatically — payouts can trigger as
-                        soon as a policy is confirmed, not at month-end.
+                        Move selected proposals through connected policy issuance workflows without repeatedly
+                        managing information across separate systems.
                     </p>
                 </div>
             </div>
@@ -352,10 +352,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 05 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Claims &amp; Endorsement Support</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Pay — Commission and reconciliation</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Claims are raised and tracked directly from the same dashboard — no separate claims management
-                        system, no phone calls to the back office.
+                        Connect relevant policy information with applicable commission, reconciliation and payout
+                        processes.
                     </p>
                 </div>
             </div>
@@ -374,27 +374,32 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 06 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Automatic Renewal Tracking</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Retain — Claims and renewals</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Upcoming renewals are flagged automatically, so POSPs follow up before a policy lapses — not
-                        after.
+                        Track servicing activity and surface policies approaching renewal for timely follow-up.
                     </p>
                 </div>
             </div>
         </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#dashboard"
+                class="btn btn-primary-custom rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 shadow-sm">
+                <span>See the complete POSP journey</span>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
     </div>
 </section>
-
-<!-- ============================================= -->
-<!-- SECTION 4: MANAGING YOUR POSP NETWORK         -->
-<!-- ============================================= -->
 <section class="posp-dashboard-section" id="dashboard">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">MANAGING YOUR POSP NETWORK</div>
-            <h2 class="section-title">Everything Your Network Needs, <span class="text-primary-custom">In One
-                    Dashboard</span></h2>
-            <p class="section-desc mx-auto">Dual-view architecture designed for both agent speed and broker control.</p>
+            <div class="section-label">POSP WORKSPACE AND BUSINESS CONTROL</div>
+            <h2 class="section-title">Give POSPs faster workflows while you <span class="text-primary-custom">retain network control</span></h2>
+            <p class="section-desc mx-auto">FT POSP Sure gives POSPs one workspace for selling and servicing while your
+                management team gets central visibility across the distribution network.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -411,40 +416,34 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">AGENT INTERFACE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The POSP</h3>
+                            <span class="pillar-tag-badge mb-1">FOR YOUR POSPS</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For your POSPs</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Profile:</strong> Personal details, POSP reference ID, credentials — always
-                                current.</div>
+                            <div><strong>Quotes and proposals:</strong> Access supported quotations and track proposal activity.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Policy / Proposal / Quotation:</strong> Every quote and active policy
-                                tracked in one view.</div>
+                            <div><strong>Policy portfolio:</strong> View active policies and relevant customer information.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Renewals:</strong> Upcoming policy renewals surfaced before they lapse.
-                            </div>
+                            <div><strong>Upcoming renewals:</strong> See policies requiring follow-up before expiry.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Quote Request:</strong> Instant multi-insurer quoting from a single unified
-                                screen.</div>
+                            <div><strong>Claims:</strong> Raise and track customer servicing requests.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Policy Claim:</strong> Claims raised and tracked without a call to the back
-                                office.</div>
+                            <div><strong>Commission visibility:</strong> View applicable earnings and payout information.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Reward:</strong> Commission and incentive progress visible in real time.
-                            </div>
+                            <div><strong>Profile and records:</strong> Access relevant POSP information in one place.</div>
                         </div>
                     </div>
                 </div>
@@ -462,40 +461,34 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">ADMIN CONTROL</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Broker</h3>
+                            <span class="pillar-tag-badge mb-1">FOR YOUR BUSINESS</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For your business</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Sales-team / FOS Management:</strong> Performance across every POSP in one
-                                dashboard.</div>
+                            <div><strong>POSP management:</strong> Manage users, teams and distribution hierarchies.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Analytics &amp; Reporting:</strong> Real-time GWP, active policies, and top
-                                performers at a glance.</div>
+                            <div><strong>Sales visibility:</strong> Track gross written premium, policies and POSP performance.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Commission Systems:</strong> Automated calculation rules with zero month-end
-                                scramble.</div>
+                            <div><strong>Commission management:</strong> Manage applicable commission and payout processes centrally.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Multilingual Support:</strong> Onboard and support POSPs across India in their
-                                language.</div>
+                            <div><strong>Reconciliation:</strong> Connect relevant policy and commission information.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>IRDAI Audit Compliance:</strong> Full audit logs, training tracking, and
-                                licensing verification.</div>
+                            <div><strong>Role-based access:</strong> Control what different users can view and manage.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>White-Label Customization:</strong> Custom branding, sub-domains, and agent
-                                portal themes.</div>
+                            <div><strong>Reports and analytics:</strong> Review network activity and business performance centrally.</div>
                         </div>
                     </div>
                 </div>
@@ -525,11 +518,12 @@ include 'includes/header.php';
 <section class="posp-ai-section" id="ai-features">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">AI IN INSURANCE</div>
-            <h2 class="section-title">AI That Actually Helps Your <span class="text-primary-custom">POSPs Sell
-                    More</span></h2>
-            <p class="section-desc mx-auto">FT POSP Sure isn't digitized paperwork — it's insurtech built with AI at the
-                core.</p>
+            <div class="section-label">AI-ASSISTED INSURANCE WORKFLOWS</div>
+            <h2 class="section-title">Bring AI assistance into policy, underwriting and <span class="text-primary-custom">claims
+                    workflows</span></h2>
+            <p class="section-desc mx-auto">AI should help your teams act faster, not add another layer of technology to manage.
+                FT POSP Sure uses AI assistance in selected insurance processes where POSPs and
+                operations teams review information and decide the next action.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -542,11 +536,11 @@ include 'includes/header.php';
                             <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Matched Policy Recommendations
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Policy recommendation support
                     </h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        POSPs move from generic quotes to hyperpersonalized recommendations, closing more policy sales
-                        without spending extra time per lead.
+                        Help POSPs identify relevant policy options using available customer, product and quotation
+                        information.
                     </p>
                 </div>
             </div>
@@ -560,10 +554,10 @@ include 'includes/header.php';
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Assisted Underwriting Support</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Underwriting decision support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        More consistent, faster risk assessment on every policy issued through the platform — reducing
-                        underwriting turnaround times.
+                        Surface relevant information to support underwriting review and configured decision
+                        workflows.
                     </p>
                 </div>
             </div>
@@ -578,10 +572,10 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Vahan API Vehicle Verification</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Claims routing support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Auto-fetches and verifies vehicle registration data for motor insurance — eliminating manual
-                        data entry errors and point-of-sale fraud.
+                        Help classify incoming claim requests and direct them towards the relevant process or
+                        handling team.
                     </p>
                 </div>
             </div>
@@ -595,13 +589,76 @@ include 'includes/header.php';
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Claims Routing</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Data-led next actions</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Claims raised by a POSP are automatically validated and routed to the right handler instantly,
-                        turning days into hours.
+                        Use available policy and distribution information to support sales and servicing decisions.
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
+            data-aos="zoom-in">
+            <p class="mb-0" style="font-size: 0.875rem; font-weight: 600;">
+                AI assists the process. Your configured business rules, insurer logic and user controls remain in place.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- SECTION 5B: INSURER AND SYSTEM INTEGRATIONS   -->
+<!-- ============================================= -->
+<section class="posp-dashboard-section" id="integrations">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <div class="section-label">INSURER AND SYSTEM INTEGRATIONS</div>
+            <h2 class="section-title">Connect your POSP network with <span class="text-primary-custom">multiple insurers</span></h2>
+            <p class="section-desc mx-auto">FT POSP Sure connects with supported insurer APIs to bring quotations, proposals, policy
+                issuance and policy information into a more unified insurance distribution process.</p>
+        </div>
+
+        <div class="row g-4 mt-2">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-card text-center p-4 h-100">
+                    <h3 class="about-card-title mb-2">Insurer quotes</h3>
+                    <p class="about-card-text">Bring supported insurer quotations into the POSP sales journey.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="about-card text-center p-4 h-100">
+                    <h3 class="about-card-title mb-2">Proposals</h3>
+                    <p class="about-card-text">Exchange relevant proposal information through configured insurer integrations.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-card text-center p-4 h-100">
+                    <h3 class="about-card-title mb-2">Policy issuance</h3>
+                    <p class="about-card-text">Move eligible proposals through connected issuance workflows.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <div class="about-card text-center p-4 h-100">
+                    <h3 class="about-card-title mb-2">Policy data</h3>
+                    <p class="about-card-text">Bring supported policy information back into the POSP management platform.</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="section-desc mx-auto text-center mt-4 mb-4">
+            FT POSP Sure can also connect with supported customer, payment, data and reporting
+            systems based on your implementation requirements.
+        </p>
+
+        <div class="text-center" data-aos="fade-up">
+            <div class="mb-3 fw-bold text-primary-custom" style="font-size: 1.15rem;">50+ insurer APIs</div>
+            <a href="<?php echo $base_path; ?>contact.php"
+                class="btn btn-primary-custom rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 shadow-sm">
+                <span>Discuss your integration requirements</span>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
         </div>
     </div>
 </section>
@@ -612,11 +669,11 @@ include 'includes/header.php';
 <section class="posp-built-for-section" id="built-for">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">BUILT FOR</div>
-            <h2 class="section-title">One Platform, Every Kind Of <span class="text-primary-custom">POSP Business</span>
+            <div class="section-label">TARGET CUSTOMERS</div>
+            <h2 class="section-title">POSP software for insurance brokers and <span class="text-primary-custom">growing distributors</span>
             </h2>
-            <p class="section-desc mx-auto">Empowering traditional insurance brokerages, agencies, banks, and modern
-                fintechs alike.</p>
+            <p class="section-desc mx-auto">FT POSP Sure is designed for organisations managing POSPs through an authorised
+                insurance distribution model.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -629,9 +686,10 @@ include 'includes/header.php';
                             <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Brokers</h3>
+                    <h3 class="about-card-title mb-2">Insurance brokers</h3>
                     <p class="about-card-text">
-                        Run your entire POSP network on one white-label platform instead of building it in-house.
+                        Manage POSPs, insurer workflows, policies, commissions, claims and renewals through one
+                        insurance distribution platform.
                     </p>
                 </div>
             </div>
@@ -648,9 +706,9 @@ include 'includes/header.php';
                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Agencies</h3>
+                    <h3 class="about-card-title mb-2">Corporate agents</h3>
                     <p class="about-card-text">
-                        From a single branch to a multi-state agency business, the same software scales with you.
+                        Centralise POSP operations while controlling users, products and distribution workflows.
                     </p>
                 </div>
             </div>
@@ -665,10 +723,10 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Banks &amp; NBFCs</h3>
+                    <h3 class="about-card-title mb-2">Banks and non-banking financial companies</h3>
                     <p class="about-card-text">
-                        Extend POSP-style distribution alongside lending products without individual carrier
-                        integrations.
+                        Support POSP-led insurance distribution where the organisation operates through the
+                        applicable authorised structure.
                     </p>
                 </div>
             </div>
@@ -684,9 +742,10 @@ include 'includes/header.php';
                             <polyline points="2 12 12 17 22 12" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Fintechs</h3>
+                    <h3 class="about-card-title mb-2">Fintech-led distributors</h3>
                     <p class="about-card-text">
-                        Add a licensed insurance distribution layer to your app without building POSP infrastructure.
+                        Build branded digital distribution journeys around an authorised insurance distribution model
+                        using connected POSP and insurer technology.
                     </p>
                 </div>
             </div>
@@ -716,10 +775,10 @@ include 'includes/header.php';
 <section class="posp-comparison-section" id="difference">
     <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
-            <div class="section-label">THE DIFFERENCE</div>
-            <h2 class="section-title">See What Changes, <span class="text-primary-custom">Side By Side</span></h2>
-            <p class="section-desc mx-auto">Compare legacy manual agent operations with FT POSP Sure's automated
-                platform.</p>
+            <div class="section-label">BEFORE AND AFTER</div>
+            <h2 class="section-title">POSP software vs spreadsheets and <span class="text-primary-custom">disconnected insurer
+                    portals</span></h2>
+            <p class="section-desc mx-auto">Compare disconnected POSP operations with FT POSP Sure's connected platform.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -731,42 +790,44 @@ include 'includes/header.php';
                         style="border-color: #e2e8f0 !important;">
                         <div class="d-flex align-items-center gap-2">
                             <span class="badge bg-secondary-subtle text-dark px-3 py-2 rounded-pill fw-bold"
-                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT POSP
-                                SOFTWARE</span>
+                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT A CONNECTED
+                                PLATFORM</span>
                         </div>
-                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Legacy Manual Mode</span>
+                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Spreadsheets &amp; Portals</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">POSPs onboarded via manual paperwork &amp; WhatsApp groups</div>
+                            <div class="text-muted">POSP records sit across files and systems</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Commissions calculated manually in Excel every month-end</div>
+                            <div class="text-muted">POSPs move between insurer portals</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Policies issued by re-entering data per insurer portal</div>
+                            <div class="text-muted">Policy tracking depends on separate records</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Motor details entered by hand, highly error-prone</div>
+                            <div class="text-muted">Commission calculations rely on spreadsheets</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Claims tracked over email threads with zero real-time visibility
-                            </div>
+                            <div class="text-muted">Reconciliation runs through manual trackers</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Upcoming renewals missed with no timely agent follow-up</div>
+                            <div class="text-muted">Renewals depend on manual follow-ups</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Distribution growth strictly capped by back-office staff capacity
-                            </div>
+                            <div class="text-muted">Claims move through calls and emails</div>
+                        </div>
+                        <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
+                            <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
+                            <div class="text-muted">Performance data sits across systems</div>
                         </div>
                     </div>
                 </div>
@@ -789,37 +850,39 @@ include 'includes/header.php';
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Digital agent onboarding, verified and live within minutes
+                            <div class="text-dark fw-bold">POSP onboarding runs through structured digital workflows
                             </div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Instant, automated commission calculations &amp; direct
-                                payouts</div>
+                            <div class="text-dark fw-bold">Supported insurer journeys connect through one platform</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Multi-insurer instant quoting &amp; 1-click policy issuance
+                            <div class="text-dark fw-bold">Policy activity remains visible centrally
                             </div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Vahan API auto-verifies vehicle registration data instantly
+                            <div class="text-dark fw-bold">Structured commission workflows connect policy and payout information
                             </div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Claims raised and tracked in real time on one unified
-                                dashboard</div>
+                            <div class="text-dark fw-bold">Relevant reconciliation activity stays connected</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Policy renewals flagged automatically before policies lapse
+                            <div class="text-dark fw-bold">Upcoming renewals are surfaced for action
                             </div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Seamlessly scale from 50 POSPs to 5,000+ with the same team
+                            <div class="text-dark fw-bold">Claims activity can be initiated and tracked digitally</div>
+                        </div>
+                        <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
+                            <span class="check-icon">✓</span>
+                            <div class="text-dark fw-bold">Network performance is available through central reporting
                             </div>
                         </div>
                     </div>
@@ -838,13 +901,12 @@ include 'includes/header.php';
             <!-- Left Sticky Sidebar -->
             <div class="col-lg-5 col-md-12 faq-left-column">
                 <div class="faq-left-content">
-                    <div class="section-label">POSP SOFTWARE, EXPLAINED</div>
+                    <div class="section-label">POSP INSURANCE SOFTWARE FAQS</div>
                     <h2 class="section-title">
-                        Your POSP Questions, <span class="text-primary-custom">Answered</span>
+                        POSP insurance software FAQs for <span class="text-primary-custom">brokers and distributors</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Everything you need to know about FT POSP Sure onboarding, IRDAI compliance, quoting, and
-                        payouts.
+                        Get answers about POSP onboarding, insurer workflows, commissions, claims and renewals.
                     </p>
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
@@ -865,14 +927,15 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq1" aria-expanded="true" aria-controls="pospFaq1">
-                                What is a POSP in insurance?
+                                What is POSP insurance software?
                             </button>
                         </h3>
                         <div id="pospFaq1" class="accordion-collapse collapse show" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                A POSP (Point of Sale Person) is an individual authorized by IRDAI to sell specific,
-                                pre-underwritten insurance products after basic training, without needing a full
-                                insurance agent license.
+                                POSP insurance software helps insurers and authorised insurance intermediaries manage
+                                the operational lifecycle of a POSP network digitally.
+                                Depending on the platform, it can include onboarding, insurer access, quotations, policy
+                                issuance, commissions, reconciliation, renewals, claims and reporting.
                             </div>
                         </div>
                     </div>
@@ -882,14 +945,15 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq2" aria-expanded="false" aria-controls="pospFaq2">
-                                Why do I need POSP software instead of managing agents manually?
+                                What is POSP management software?
                             </button>
                         </h3>
                         <div id="pospFaq2" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Manual POSP management works for a small network but breaks past a few hundred agents.
-                                POSP software like FT POSP Sure automates the entire process, so growth isn't limited by
-                                back-office capacity.
+                                POSP management software helps organisations onboard, manage and monitor POSPs
+                                across their insurance distribution lifecycle.
+                                It can support POSP records, insurer access, policies, commissions, reporting, renewals and
+                                servicing.
                             </div>
                         </div>
                     </div>
@@ -899,13 +963,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq3" aria-expanded="false" aria-controls="pospFaq3">
-                                Is FT POSP Sure IRDAI-compliant?
+                                How is POSP software different from CRM software?
                             </button>
                         </h3>
                         <div id="pospFaq3" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Every step — onboarding, KYC, policy issuance, commission payouts — follows
-                                IRDAI-aligned workflows, so brokers stay compliant by default.
+                                A CRM primarily manages customer and sales relationships.
+                                POSP software adds insurance-specific workflows such as POSP onboarding, insurer
+                                connectivity, policy issuance, commissions, reconciliation, claims and renewals.
                             </div>
                         </div>
                     </div>
@@ -915,13 +980,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq4" aria-expanded="false" aria-controls="pospFaq4">
-                                Does FT POSP Sure work for motor insurance quoting?
+                                Does FT POSP Sure support multiple insurers?
                             </button>
                         </h3>
                         <div id="pospFaq4" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Yes. It integrates with the Vahan API to auto-fetch and verify vehicle registration
-                                details, reducing manual entry and fraud risk.
+                                FT POSP Sure connects with supported insurer APIs.
+                                Available insurers, products and API journeys depend on the implementation scope and
+                                active integrations.
                             </div>
                         </div>
                     </div>
@@ -931,13 +997,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq5" aria-expanded="false" aria-controls="pospFaq5">
-                                Can FT POSP Sure be white-labeled under my own brand?
+                                How does AI work in FT POSP Sure?
                             </button>
                         </h3>
                         <div id="pospFaq5" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Yes. It's a full-stack, white-label platform — POSPs and customers see your brand, while
-                                FondosTech's infrastructure runs underneath.
+                                FT POSP Sure uses AI assistance in selected capabilities such as policy recommendation
+                                support, underwriting decision support and claims routing.
+                                Configured business rules and operational controls remain part of the process.
                             </div>
                         </div>
                     </div>
@@ -947,14 +1014,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq6" aria-expanded="false" aria-controls="pospFaq6">
-                                How is FT POSP Sure different from generic insurance CRM software?
+                                Can FT POSP Sure manage POSP commissions and payouts?
                             </button>
                         </h3>
                         <div id="pospFaq6" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Generic CRM software tracks leads and contacts. FT POSP Sure is complete insurance
-                                agency management software — onboarding, quoting, issuance, commissions, claims and
-                                renewals, all in one system.
+                                FT POSP Sure supports commission workflows that connect relevant policy information with
+                                applicable commission, reconciliation and payout activity.
                             </div>
                         </div>
                     </div>
@@ -964,13 +1030,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq7" aria-expanded="false" aria-controls="pospFaq7">
-                                Does FT POSP Sure use AI?
+                                Can existing POSP data be migrated?
                             </button>
                         </h3>
                         <div id="pospFaq7" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Yes. AI powers policy recommendations, underwriting support and claims routing
-                                throughout the platform.
+                                Migration scope can be defined during implementation based on existing POSP, policy and
+                                operational data, source systems and required workflows.
                             </div>
                         </div>
                     </div>
@@ -980,13 +1046,31 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#pospFaq8" aria-expanded="false" aria-controls="pospFaq8">
-                                Is FT POSP Sure suitable for insurance agencies of any size?
+                                Can FT POSP Sure integrate with our existing systems?
                             </button>
                         </h3>
                         <div id="pospFaq8" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
                             <div class="accordion-body">
-                                Yes. It scales from a single-branch agency to a multi-state brokerage managing thousands
-                                of POSPs, on the same core platform.
+                                Integration depends on your existing technology stack, available APIs and required
+                                workflows.
+                                The FondosTech team can review the required insurer, customer, payment, data and
+                                reporting integrations during implementation discussions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="260">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pospFaq9" aria-expanded="false" aria-controls="pospFaq9">
+                                Can FT POSP Sure be white-labelled?
+                            </button>
+                        </h3>
+                        <div id="pospFaq9" class="accordion-collapse collapse" data-bs-parent="#pospFaqAccordion">
+                            <div class="accordion-body">
+                                Supported POSP-facing journeys can be configured around your organisation's branding
+                                and distribution model.
                             </div>
                         </div>
                     </div>
@@ -1002,24 +1086,27 @@ include 'includes/header.php';
 <section class="about-cta-section" id="posp-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready To Run Your POSP Network On One Platform?</h2>
+            <h2 class="about-cta-title">See how FT POSP Sure would work for your distribution model</h2>
             <p class="about-cta-desc">
-                See how FT POSP Sure replaces spreadsheets, WhatsApp groups and manual commission tracking — in one live
-                demo.
+                Tell us how you manage POSPs today. See how onboarding, insurer workflows, policies,
+                commissions, claims and renewals could run through FT POSP Sure.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php"
                     class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn"
                     style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Book my demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                         viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
                 <a href="<?php echo $base_path; ?>contact.php"
-                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Sales</a>
+                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Speak with Our Team</a>
             </div>
+            <p class="about-cta-desc mt-3 mb-0" style="font-size: 0.875rem; opacity: 0.9;">
+                A FondosTech product specialist will contact you to discuss your distribution requirements.
+            </p>
         </div>
     </div>
 </section>

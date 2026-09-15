@@ -1,5 +1,6 @@
 <?php
-$page_title = "About Us | FondosTech - Shaping the Future of Insurance Distribution";
+$page_title = "About Us | FondosTech — Faster Insurance Distribution. Powered by Tech, Driven by People.";
+$page_description = "As distribution grows, insurer integration, operations and partner support becomes more complex to manage. FondosTech combines technology powered by AI to keep insurance moving fast.";
 $active_page = "about";
 $page_css = ["assets/css/pages/about.css"];
 $page_js = ["assets/js/pages/about.js"];
@@ -17,15 +18,15 @@ include 'includes/header.php';
         <!-- Live Pulsing Indicator Badge -->
         <div class="about-hero-badge-wrap mb-3 d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-sm">
             <span class="about-badge-dot"></span>
-            <span class="fw-semibold text-uppercase tracking-wider" style="font-size: 0.78125rem; color: #086ad8;">TRUSTED ENTERPRISE INSURTECH INFRASTRUCTURE</span>
+            <span class="fw-semibold text-uppercase tracking-wider" style="font-size: 0.78125rem; color: #086ad8;">Trusted Enterprise Insurtech Infrastructure</span>
         </div>
 
         <h1 class="about-hero-title">
-            Faster Insurance Distribution. <span class="text-primary-custom">Backed by People Who Show Up.</span>
+            Faster Insurance Distribution. <span class="text-primary-custom">Powered by Tech, Driven by People.</span>
         </h1>
 
         <p class="section-desc mx-auto mb-4" style="max-width: 760px;">
-            Technology gets you speed. People get you trust. FondosTech brings both together — an AI-powered platform built for fast execution, supported by a service team committed to every broker's success.
+            As distribution grows, insurer integration, operations and partner support becomes more complex to manage. FondosTech combines technology powered by AI to keep insurance moving fast.
         </p>
 
         <!-- Stats Row -->
@@ -59,7 +60,7 @@ include 'includes/header.php';
     <div class="container-fluid px-0">
         <div class="container text-center mb-4">
             <h2 class="section-title" data-aos="fade-up">
-                We Enable Seamless <span class="text-primary-custom">Integrations With 50+ Insurers.</span>
+                One Integration. <span class="text-primary-custom">Access 50+ Insurers.</span>
             </h2>
         </div>
         <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
@@ -100,9 +101,9 @@ include 'includes/header.php';
 <section class="timeline-section">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">OUR JOURNEY</div>
-            <h2 class="section-title">How we've grown, <span class="text-primary-custom">year over year</span></h2>
-            <p class="section-desc mx-auto">From early API experiments to India's leading unified insurtech distribution architecture.</p>
+            <div class="section-label">Our Journey</div>
+            <h2 class="section-title">Built to Scale, <span class="text-primary-custom">Year After Year</span></h2>
+            <p class="section-desc mx-auto">API integrations and a single insurance distribution platform to power your business growth</p>
         </div>
 
         <div class="timeline-wrap" id="timelineWrap">
@@ -113,8 +114,8 @@ include 'includes/header.php';
                 <div class="timeline-dot"></div>
                 <div class="about-card">
                     <span class="timeline-year">2016</span>
-                    <h3 class="about-card-title" style="font-size:1.25rem;">Inception &amp; Core Architecture</h3>
-                    <p class="about-card-text">Setting out to build a unified core engine to bridge disconnected insurance company portals and broker systems.</p>
+                    <h3 class="about-card-title" style="font-size:1.25rem;">Building the Main Frame</h3>
+                    <p class="about-card-text">Built a single platform to connect disparate insurer portals and broker systems through one technology layer.</p>
                 </div>
             </div>
 
@@ -123,8 +124,8 @@ include 'includes/header.php';
                 <div class="timeline-dot"></div>
                 <div class="about-card">
                     <span class="timeline-year">Early Years</span>
-                    <h3 class="about-card-title" style="font-size:1.25rem;">Deep Insurer Relationship Building</h3>
-                    <p class="about-card-text">Partnered directly with top public &amp; private life and non-life insurance carriers across India to establish secure REST API integrations.</p>
+                    <h3 class="about-card-title" style="font-size:1.25rem;">Building Direct Insurer Connection</h3>
+                    <p class="about-card-text">Partnered with leading life and non-life insurers across India to build secure, direct REST API integrations.</p>
                 </div>
             </div>
 
@@ -133,8 +134,8 @@ include 'includes/header.php';
                 <div class="timeline-dot"></div>
                 <div class="about-card">
                     <span class="timeline-year">The Pivot</span>
-                    <h3 class="about-card-title" style="font-size:1.25rem;">Enterprise Scale Expansion</h3>
-                    <p class="about-card-text">Scaled our tech infrastructure to support high-frequency POSP networks, automated commission reconciliation, and instant quote engines.</p>
+                    <h3 class="about-card-title" style="font-size:1.25rem;">Scaling for Enterprise Distribution</h3>
+                    <p class="about-card-text">Expanded our infrastructure for high-volume POSP networks, automated commission reconciliation and faster quote generation at scale.</p>
                 </div>
             </div>
 
@@ -143,8 +144,8 @@ include 'includes/header.php';
                 <div class="timeline-dot"></div>
                 <div class="about-card">
                     <span class="timeline-year">Leading API</span>
-                    <h3 class="about-card-title" style="font-size:1.25rem;">Unified Middleware Pioneer</h3>
-                    <p class="about-card-text">Over 50+ insurer integrations across life, health, motor, and commercial insurance unified under a single REST API framework.</p>
+                    <h3 class="about-card-title" style="font-size:1.25rem;">One API. 50+ Insurers</h3>
+                    <p class="about-card-text">Connected 50+ insurers across life, health, motor, and commercial insurance through one unified REST API framework.</p>
                 </div>
             </div>
 
@@ -153,8 +154,8 @@ include 'includes/header.php';
                 <div class="timeline-dot"></div>
                 <div class="about-card">
                     <span class="timeline-year">Today</span>
-                    <h3 class="about-card-title" style="font-size:1.25rem;">Integrated Full-Stack Architecture</h3>
-                    <p class="about-card-text">Launching AI Underwriting, Voice Support Automation, and IRDAI Audit Compliance Suites to power the next generation of insurtech.</p>
+                    <h3 class="about-card-title" style="font-size:1.25rem;">Full-Stack Insurtech Infrastructure</h3>
+                    <p class="about-card-text">Bringing AI underwriting, voice automation, and IRDAI aligned compliance into one architecture built for modern insurance distribution.</p>
                 </div>
             </div>
         </div>
@@ -169,8 +170,8 @@ include 'includes/header.php';
         <div class="mission-banner-card">
             <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-3">
                 <div>
-                    <div class="section-label mb-1">OUR FOUNDATIONAL PILLARS</div>
-                    <h2 class="section-title mb-0" style="font-size: 1.85rem;">Mission, vision &amp; values <span class="text-primary-custom">that define us</span></h2>
+                    <div class="section-label mb-1">Our Foundational Pillars</div>
+                    <h2 class="section-title mb-0" style="font-size: 1.85rem;">Mission, vision, and value <span class="text-primary-custom">that guide our growth</span></h2>
                 </div>
 
                 <!-- Interactive Tab Pill Buttons -->
@@ -199,16 +200,18 @@ include 'includes/header.php';
             <!-- Tab Content Panes -->
             <div id="tab-mission" class="mission-tab-pane active">
                 <span class="pillar-tag-badge mb-2">CORE MISSION</span>
-                <h3 class="mission-pane-title">Building a Brighter Future for Insurance</h3>
+                <h3 class="mission-pane-title">Building Better Infrastructure for Insurance</h3>
                 <p class="mission-pane-desc mb-4">
-                    FondosTech's mission is to build software that empowers every insurance stakeholder — brokers, banks, agents, and policyholders — to grow with confidence. Through one unified, high-throughput platform, we make policy lifecycle management effortless and unlock a future of zero-error operations.
+                    FondosTech builds technology that helps insurers and distributors operate faster, connect
+                    better and scale with confidence. Our unified platform integrates distribution, operations and
+                    compliance into a single ecosystem.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Zero-Downtime Middleware</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Always-On Middleware</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> 70%+ OpEx Overhead Saved</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> 70%+ Operational Cost Savings</div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-check-item"><span class="check-icon">✓</span> Real-Time IRDAI Audit Trails</div>
@@ -217,58 +220,63 @@ include 'includes/header.php';
             </div>
 
             <div id="tab-vision" class="mission-tab-pane">
-                <span class="pillar-tag-badge mb-2">FUTURE VISION</span>
-                <h3 class="mission-pane-title">Insurance, Simplified for Everyone</h3>
+                <span class="pillar-tag-badge mb-2">FUTURE IDEAS</span>
+                <h3 class="mission-pane-title">Making Insurance Work Better For All</h3>
                 <p class="mission-pane-desc mb-4">
-                    FondosTech envisions an insurance industry where every stakeholder — brokers, insurers, banks, and policyholders — experiences speed, transparency, and trust as the norm, not the exception. A future where technology removes friction, so people can focus on what matters most: protecting what they value.
+                    We are looking at an insurance ecosystem where technology takes out operational friction
+                    for insurers, distributors and customers. Faster processes. Clearer journeys. Connected
+                    systems. Insurance is easier at every stage.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> AI-First Insurance Ecosystem</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> AI First Insurance Ecosystem</div>
                     </div>
                     <div class="col-md-4">
                         <div class="pillar-check-item"><span class="check-icon">✓</span> 100% Digital, Paperless Journeys</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Trusted by Every Stakeholder</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Trust in Every Interaction</div>
                     </div>
                 </div>
             </div>
 
             <div id="tab-goals" class="mission-tab-pane">
-                <span class="pillar-tag-badge mb-2">2028 STRATEGIC GOALS</span>
-                <h3 class="mission-pane-title">Fueling the Next Era of Insurance</h3>
+                <span class="pillar-tag-badge mb-2">2028 STRATEGIC OBJECTIVES</span>
+                <h3 class="mission-pane-title">Making Insurance Matter More</h3>
                 <p class="mission-pane-desc mb-4">
-                    FondosTech's goal is to help every broker and agency scale faster, every insurer operate leaner, and every policyholder feel confident in their coverage. We're committed to continuously innovating so the entire insurance ecosystem grows stronger, together.
+                    Helping insurance companies grow faster, work less, and serve their customers better. We
+                    keep building technology that allows scale, speed and smarter distribution.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Scaling Insurance Agencies Nationwide</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Scale Insurance Distribution Nationwide</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Cutting Policy Turnaround Time</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Reduce Policy Turnaround Time</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Compliance-Ready, End to End</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Compliance-Ready Operations</div>
                     </div>
                 </div>
             </div>
 
             <div id="tab-values" class="mission-tab-pane">
-                <span class="pillar-tag-badge mb-2">CORE VALUES</span>
-                <h3 class="mission-pane-title">Built on Trust. Driven by Purpose.</h3>
+                <span class="pillar-tag-badge mb-2">CORE PARAMETERS</span>
+                <h3 class="mission-pane-title">Based on Trust. Driven by Purpose.</h3>
                 <p class="mission-pane-desc mb-4">
-                    FondosTech believes great insurance software is built on transparency, reliability, and genuine care for the people it serves. Every feature we build reflects our commitment to doing right by brokers, insurers, and policyholders alike.
+                    We build each product on transparency, reliability and accountability. We focus on
+                    technology that businesses can count on, every single day, from insurer integrations to
+                    customer journeys.
                 </p>
                 <div class="row g-3">
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Transparency in Every Transaction</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> All transactions are fully transparent</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Customer-First Innovation</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Customer-Oriented Innovation</div>
                     </div>
                     <div class="col-md-4">
-                        <div class="pillar-check-item"><span class="check-icon">✓</span> Integrity at Every Touchpoint</div>
+                        <div class="pillar-check-item"><span class="check-icon">✓</span> Accountability at every touch-point</div>
                     </div>
                 </div>
             </div>
@@ -284,9 +292,9 @@ include 'includes/header.php';
 <section class="founders-section" id="founders">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">FOUNDERS &amp; DIRECTORS</div>
-            <h2 class="section-title">Visionary Leadership <span class="text-primary-custom">&amp; Board of Directors</span></h2>
-            <p class="section-desc mx-auto">Pioneering the future of insurance infrastructure with visionary leadership, domain expertise, and engineering excellence.</p>
+            <div class="section-label">Founders &amp; Directors</div>
+            <h2 class="section-title">Leadership Built for <span class="text-primary-custom">Insurance at Scale</span></h2>
+            <p class="section-desc mx-auto">Bringing together insurance expertise, technology leadership, and business strategy to build infrastructure for the next phase of insurance distribution.</p>
         </div>
 
         <div class="row g-4 justify-content-center mt-2">
@@ -297,7 +305,7 @@ include 'includes/header.php';
                     <span class="about-card-badge">FOUNDER &amp; CEO</span>
                     <h3 class="about-card-title mb-1">Aditya Sharma</h3>
                     <div class="leader-role-tag mb-2">Chief Executive Officer</div>
-                    <p class="about-card-text">15+ years scaling insurance fintechs across Asia. Aditya leads overall company vision, capital strategy, and enterprise insurance carrier partnerships.</p>
+                    <p class="about-card-text">With 15+ years in insurance and fintech, Aditya leads FondosTech's vision, growth strategy and partnerships with insurers and enterprise distribution businesses.</p>
                     <div class="mt-3">
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -313,7 +321,7 @@ include 'includes/header.php';
                     <span class="about-card-badge">CO-FOUNDER &amp; CTO</span>
                     <h3 class="about-card-title mb-1">Meenakshi Gupta</h3>
                     <div class="leader-role-tag mb-2">Chief Technology Officer</div>
-                    <p class="about-card-text">Former Principal Software Architect with expertise in high-throughput API integrations, microservices, and distributed cloud infrastructure.</p>
+                    <p class="about-card-text">A technology leader with deep expertise in API architecture, microservices and high-volume platforms, Meenakshi leads the technology powering FondosTech's insurance infrastructure.</p>
                     <div class="mt-3">
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -329,7 +337,7 @@ include 'includes/header.php';
                     <span class="about-card-badge">MANAGING DIRECTOR</span>
                     <h3 class="about-card-title mb-1">Rajesh Singhania</h3>
                     <div class="leader-role-tag mb-2">Executive Board Director</div>
-                    <p class="about-card-text">20+ years in insurance governance &amp; capital allocation. Rajesh drives regulatory compliance, corporate operations, and institutional growth.</p>
+                    <p class="about-card-text">With 20+ years in insurance leadership, Rajesh drives governance, regulatory alignment, corporate strategy and the operational discipline behind FondosTech's growth.</p>
                     <div class="mt-3">
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -464,9 +472,9 @@ include 'includes/header.php';
 <section class="advisory-section" id="advisors">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">OUR ADVISORS</div>
-            <h2 class="section-title">Guided by <span class="text-primary-custom">industry pioneers</span></h2>
-            <p class="section-desc mx-auto">Distinguished advisors bringing decades of leadership across insurance carriers, IRDAI regulation, and venture scale.</p>
+            <div class="section-label">Our Advisors</div>
+            <h2 class="section-title">Guided by <span class="text-primary-custom">Leaders Who Know Insurance</span></h2>
+            <p class="section-desc mx-auto">Seasoned advisors bringing deep experience across insurance, regulation, technology and growth to strengthen FondosTech's strategic direction.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -474,14 +482,14 @@ include 'includes/header.php';
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="about-card">
                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <span class="about-card-badge mb-0">INSURTECH VETERAN</span>
+                        <span class="about-card-badge mb-0">INSURANCE INDUSTRY VETERAN</span>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                         </a>
                     </div>
                     <h3 class="about-card-title mb-1">Gaurav Verma</h3>
-                    <div class="leader-role-tag">Advisory Board Member</div>
-                    <p class="about-card-text">Former MD at leading general insurance companies, advising FondosTech on carrier API relations, multi-line policy underwriting, and institutional growth.</p>
+                    <div class="leader-role-tag">Member of Advisory Board</div>
+                    <p class="about-card-text">Ex-insurance executive advising FondosTech on insurance partnerships, API strategy, multi-line underwriting and long-term enterprise growth.</p>
                 </div>
             </div>
 
@@ -489,14 +497,14 @@ include 'includes/header.php';
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="about-card">
                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <span class="about-card-badge mb-0">IRDAI EXPERT</span>
+                        <span class="about-card-badge mb-0">REGULATORY SPECIALIST</span>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                         </a>
                     </div>
                     <h3 class="about-card-title mb-1">Sanjeev Rajeswaran</h3>
-                    <div class="leader-role-tag">Advisory Board Member</div>
-                    <p class="about-card-text">Providing strategic oversight on regulatory compliance workflows, IRDAI policy guidelines, data privacy, and audit logging frameworks.</p>
+                    <div class="leader-role-tag">Member Advisory Board</div>
+                    <p class="about-card-text">Offers guidance on Regulatory Strategy, IRDAI Compliant Processes, Data Governance, Audit Readiness, and Compliance Framework for all Insurance Operations.</p>
                 </div>
             </div>
 
@@ -504,14 +512,14 @@ include 'includes/header.php';
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="about-card">
                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <span class="about-card-badge mb-0">SAAS INVESTOR</span>
+                        <span class="about-card-badge mb-0">SAAS &amp; GROWTH CONSULTANT</span>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="share-btn" title="LinkedIn Profile">
                             <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                         </a>
                     </div>
                     <h3 class="about-card-title mb-1">Farhan Ansar</h3>
-                    <div class="leader-role-tag">Advisory Board Member</div>
-                    <p class="about-card-text">Venture capital partner advising on platform monetization, international expansion, and enterprise SaaS customer success.</p>
+                    <div class="leader-role-tag">Member of Advisory Board</div>
+                    <p class="about-card-text">Experience in venture and SaaS to platform monetization, enterprise growth, international expansion and customer success strategy.</p>
                 </div>
             </div>
         </div>
@@ -524,16 +532,16 @@ include 'includes/header.php';
 <section class="about-cta-section">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready to make your insurance operations effortless?</h2>
+            <h2 class="about-cta-title">Ready to Run Your Insurance Operations Smarter?</h2>
             <p class="about-cta-desc">
-                See how FondosTech's software can replace your spreadsheets, disconnected portal tools, and manual reconciliation — in one demo.
+                Forget spreadsheets, disconnected portals, and manual reconciliation. One platform built to simplify insurance operations at scale.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php" class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn" style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Schedule Demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?php echo $base_path; ?>contact.php" class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Us</a>
+                <a href="<?php echo $base_path; ?>contact.php" class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Speak with Our Team</a>
             </div>
         </div>
     </div>

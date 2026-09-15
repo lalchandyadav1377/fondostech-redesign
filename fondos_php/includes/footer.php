@@ -18,11 +18,17 @@ $base_path = isset($base_path) ? $base_path : '';
         <div class="container">
             <div class="ft-footer-cta-inner">
                 <div class="ft-footer-cta-text">
+                    <?php if (isset($active_page) && $active_page === 'home'): ?>
+                    <h2>Ready to Simplify Insurance Operations?</h2>
+                    <p>Know how FondosTech unifies insurance workflows, and integrates AI-backed technology on
+                        one platform.</p>
+                    <?php else: ?>
                     <h2>Ready to run your brokerage on one platform?</h2>
                     <p>See how FondosTech's insurance software can replace your spreadsheets, disconnected tools and
                         manual reconciliation — in one demo.</p>
+                    <?php endif; ?>
                 </div>
-                <a href="#demo" class="btn-schedule-demo">
+                <a href="contact.php" class="btn-schedule-demo">
                     <img src="<?php echo $base_path; ?>assets/images/uil-schedule0.svg" alt="" aria-hidden="true">
                     Schedule a Demo
                 </a>
@@ -66,6 +72,7 @@ $base_path = isset($base_path) ? $base_path : '';
                             <h3 class="ft-footer-col-title">Products</h3>
                             <div class="ft-footer-col-links">
                                 <a href="<?php echo $base_path; ?>posp.php">FT POSP Sure</a>
+                                <a href="<?php echo $base_path; ?>d2c-insure.php">FT D2C Insure</a>
                                 <a href="<?php echo $base_path; ?>embedded-insure.php">FT Embedded Insure</a>
                                 <a href="<?php echo $base_path; ?>lending-insure.php">FT Lending Insure</a>
                                 <a href="<?php echo $base_path; ?>claims.php">FT Digital Claims</a>

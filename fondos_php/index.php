@@ -3,8 +3,8 @@
  * FONDOS TECH — Homepage (index.php)
  */
 
-$page_title = 'FondosTech — The Insurance Software Built to Run Your Entire Brokerage';
-$page_description = 'FondosTech is end-to-end insurance software that brings quoting, POSP management, claims, reconciliation, payouts and IRDAI compliance onto a single platform.';
+$page_title = 'FondosTech — Insurtech Platform Built to Scale With Ease';
+$page_description = 'FondosTech is an AI-driven Insurtech Platform which consolidates multi-insurer quotes, simplifies POSP onboarding and payouts & reconciliation – all on a 100% IRDAI compliant, CERT-In & ISO certified secure environment.';
 $page_css = ['assets/css/pages/home.css'];
 $page_js = ['assets/js/pages/home.js'];
 $active_page = 'home';
@@ -18,21 +18,21 @@ include 'includes/header.php';
 <section class="hero-section" id="hero" aria-label="Hero">
     <div class="container">
         <div class="hero-content">
-            <h1 class="hero-title" data-aos="fade-up"> Insurance Broker Software <br>
+            <h1 class="hero-title" data-aos="fade-up"> Insurtech Platform Built to Scale With Ease. <br>
                 <span class="hero-highlight-box">
-                    <span class="hero-typewriter-text" id="heroTypewriter" aria-live="polite">Run with Precision.
+                    <span class="hero-typewriter-text" id="heroTypewriter" aria-live="polite">Automate with AI.
                     </span><span class="hero-typewriter-cursor" aria-hidden="true"></span>
                 </span>
             </h1>
             <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="50">
-                FondosTech is AI-powered Insurtech that unifies Quoting, POSP management, Claims, Commission
-                Reconciliation, PayIn-Payouts and IRDAI Compliance on a Single Platform, genuinely Saving Your Team
-                Time, Every Single Day.
-
+                FondosTech is an AI-driven Insurtech Platform which consolidates multi-insurer quotes,
+                simplifies POSP onboarding and payouts &amp; reconciliation – all on a 100% IRDAI compliant,
+                CERT-In &amp; ISO certified secure environment. Built for fast go-to-market, it saves time and
+                effort across every stakeholder.
             </p>
 
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="100">
-                <a href="#demo" class="btn-primary-custom">
+                <a href="contact.php" class="btn-primary-custom">
                     Book a Free Demo
                     <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -45,21 +45,21 @@ include 'includes/header.php';
             <div class="hero-badges" data-aos="fade-up" data-aos-delay="200">
                 <div class="badge-trust">
 
-                    <span class="badge-text">✓ 40% Lower Operational Costs</span>
+                    <span class="badge-text">✓ 40% Reduced Operational Cost</span>
                 </div>
                 <svg class="badge-dot" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="2.5" cy="2.5" r="2.5" fill="rgba(255,255,255,0.4)" />
                 </svg>
                 <div class="badge-trust">
 
-                    <span class="badge-text">✓ 60% Faster Quotes </span>
+                    <span class="badge-text">✓ 60% Increased Efficiency</span>
                 </div>
                 <svg class="badge-dot" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="2.5" cy="2.5" r="2.5" fill="rgba(255,255,255,0.4)" />
                 </svg>
                 <div class="badge-trust">
 
-                    <span class="badge-text"> ✓ 2x Business Growth </span>
+                    <span class="badge-text">✓ 2X Business Growth</span>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@ include 'includes/header.php';
     <div class="container-fluid px-0">
         <div class="container text-center mb-4">
             <h2 class="section-title" data-aos="fade-up">
-                We Enable Seamless <span class="text-primary-custom">Integrations With 50+ Insurers.</span>
+                Access 50+ Insurers <span class="text-primary-custom">Through One Platform</span>
             </h2>
         </div>
         <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
@@ -114,12 +114,12 @@ include 'includes/header.php';
 <section class="industries-section section-padding" id="industries" aria-label="Industries we serve">
     <div class="container">
         <div class="section-header text-center mx-auto" style="max-width: 840px;" data-aos="fade-up">
-            <div class="section-label">INDUSTRY / SEGMENTS</div>
+            <div class="section-label">Industry/Segment</div>
             <h2 class="section-title">
-                One Insurance Broker Software. <span class="text-primary-custom">Every Insurance Player.</span>
+                One Insurtech Platform. <span class="text-primary-custom">Every Business Player</span>
             </h2>
-            <p class="section-desc mx-auto">"From Banks and NBFCs to Fintechs and Insurance Agencies — FondosTech's
-                Insurtech Platform has a Solution."</p>
+            <p class="section-desc mx-auto">FondosTech's Insurtech Platform has a solution for every stakeholder in the distribution
+                chain.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -134,15 +134,14 @@ include 'includes/header.php';
                     <h3 class="industry-card-title">Banks</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Banks issue thousands of loans every
-                            month but have no easy way to attach insurance — credit life, personal accident, EMI
-                            protection — without building tech in-house.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's Lending Module embeds
-                            ready-to-issue insurance into every loan disbursement — instant, compliant, no disruption to
-                            existing systems.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Banks render thousands of loans but adding credit life, personal accident or EMI
+                            protection usually requires separate insurer integrations and operational work flows.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> The Lending Module by FondosTech enables you to embed insurance into your
+                            loan process seamlessly and provide the appropriate cover at disbursal without disturbing
+                            your current systems.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
+                        <a href="contact.php" class="btn-link-custom">
                             Get Quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -161,19 +160,18 @@ include 'includes/header.php';
                     <div class="industry-card-icon-box">
                         <img src="assets/images/home_page/NBFCs_img_icon.png" alt="NBFCs Icon" width="38" height="38">
                     </div>
-                    <h3 class="industry-card-title">NBFCs</h3>
+                    <h3 class="industry-card-title">Non Banking Financial Companies</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> NBFCs run lean lending operations and
-                            can't afford long insurer onboarding cycles or manual policy issuance every time a loan is
-                            sanctioned.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's lending APIs connect you
-                            to multiple insurers in one integration — instant cover bundled into every disbursement,
-                            zero paperwork.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> NBFCs need to include insurance at the time of loan disbursal without adding
+                            friction to customer onboarding, loan approval, policy issuance or existing operational
+                            processes.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's Lending APIs connect multiple insurers on a single integration,
+                            allowing NBFCs to offer and underwrite relevant insurance with every eligible loan.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
-                            Get Quote
+                        <a href="contact.php" class="btn-link-custom">
+                            Get a Quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -195,16 +193,15 @@ include 'includes/header.php';
                     <h3 class="industry-card-title">Fintech</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Fintech apps want to cross-sell
-                            insurance, but building a marketplace from scratch takes months of integrations and
-                            compliance work.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's D2C and POSP
-                            infrastructure gives your app a ready insurance layer — customers get quotes, compare, pay
-                            and receive their policy, all in-app.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Fintech platforms want to offer insurance with financial products but multiple
+                            insurer integrations, product workflows and compliance requirements can slow down
+                            implementation.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech provides one integration to launch, distribute and manage embedded insurance
+                            within your app, without building separate insurer connections for every product.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
-                            Get Quote
+                        <a href="contact.php" class="btn-link-custom">
+                            Get quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -223,18 +220,16 @@ include 'includes/header.php';
                         <img src="assets/images/home_page/insurance_brokers_img_icon.png" alt="Insurance Brokers Icon"
                             width="38" height="38">
                     </div>
-                    <h3 class="industry-card-title">Insurance Brokers</h3>
+                    <h3 class="industry-card-title">Insurance agents &amp; POSPs</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Growing a POSP network means managing
-                            onboarding, policies, commissions and renewals for thousands of agents — usually on
-                            spreadsheets.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's white-label insurance
-                            broker software handles onboarding, policies and commissions in real time — scale
-                            distribution without scaling your back office.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Growing POSP networks make agent onboarding, KYC, policy issuance, commission
+                            tracking and renewals difficult when these processes run across disconnected systems.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech brings POSP operations onto one platform, helping you manage agent
+                            onboarding, policy issuance, commissions and renewals through a single workflow.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
+                        <a href="contact.php" class="btn-link-custom">
                             Get Quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -254,18 +249,19 @@ include 'includes/header.php';
                         <img src="assets/images/home_page/travel_agents_img_icon.png" alt="Travel Agents Icon"
                             width="38" height="38">
                     </div>
-                    <h3 class="industry-card-title">Travel Agents</h3>
+                    <h3 class="industry-card-title">Tour Agency</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Travel agents sell flights and holidays
-                            daily but rarely offer travel insurance — an easy add-on sale left on the table.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FT Embedded Insure adds travel
-                            insurance into your booking flow — instant issuance, and commission on cover you're already
-                            positioned to sell.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Travel agents are always juggling bookings and in the rush, travel insurance
+                            simply doesn't get included in the flow at all. This is a missed opportunity, not only to protect
+                            travelers but also to generate commission on each policy sold.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> Include travel insurance solution within the booking journey powered by FT
+                            Embedded Insure. Customers can purchase cover and get their policy instantly, without ever
+                            stepping outside the booking flow.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
-                            Get Quote
+                        <a href="contact.php" class="btn-link-custom">
+                            Request a Quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -287,14 +283,15 @@ include 'includes/header.php';
                     <h3 class="industry-card-title">Travel Aggregators</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Travel aggregators process thousands of
-                            bookings daily, but adding insurance means integrating with insurers one by one.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's embedded APIs plug travel
-                            insurance into your booking journey in one integration — instant issuance, live across every
-                            booking.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Aggregators have booking volumes at scale but that scale comes with its own
+                            headache: managing multiple insurance integrations and workflows simultaneously. It's more
+                            complicated than it needs to be to offer travel cover at checkout.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FondosTech's Embedded Insurance APIs make that complexity simple. You can
+                            embed travel cover straight into your booking flow, meaning customers buy and get their
+                            policy instantly at checkout, no extra steps, no friction.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
+                        <a href="contact.php" class="btn-link-custom">
                             Get Quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -317,15 +314,15 @@ include 'includes/header.php';
                     <h3 class="industry-card-title">Logistics Aggregators</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Logistics aggregators move goods
-                            constantly, but cargo and vehicle insurance is usually sold separately, if at all.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FT Embedded Insure attaches cargo and
-                            CV insurance into your booking flow — instant issuance, so protection travels with every
-                            shipment.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Logistics platforms deal with continuous shipment volumes, but cargo and
+                            commercial vehicle insurance are often not part of the shipment booking and fulfillment
+                            process.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FT Embedded Insure embeds cargo and commercial vehicle cover into your
+                            booking flow so relevant protection is issued with each eligible shipment.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
-                            Get Quote
+                        <a href="contact.php" class="btn-link-custom">
+                            Get a quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -344,19 +341,17 @@ include 'includes/header.php';
                         <img src="assets/images/home_page/automobile_aggregators_img_icon.png"
                             alt="Automobile Aggregators Icon" width="38" height="38">
                     </div>
-                    <h3 class="industry-card-title">Automobile Aggregators</h3>
+                    <h3 class="industry-card-title">Car Aggregation</h3>
                     <div class="industry-card-divider"></div>
                     <div class="industry-card-content">
-                        <p class="industry-card-text"><strong>Problem:</strong> Automobile aggregators help customers
-                            buy vehicles daily, but insurance and warranty are usually left for the customer to arrange
-                            elsewhere.</p>
-                        <p class="industry-card-text"><strong>Solution:</strong> FT Embedded Insure adds motor insurance
-                            and extended warranty into your purchase journey — instant issuance, built to convert at the
-                            moment of sale.</p>
+                        <p class="industry-card-text"><strong>Problem:</strong> Often buyers of vehicles will purchase insurance and warranty separately, creating
+                            a gap between vehicle purchase and protection at a key point of sale.</p>
+                        <p class="industry-card-text"><strong>Solution:</strong> FT Embedded Insure integrates motor insurance and extended warranty into your
+                            purchase flow, allowing customers to finalize their vehicle protection before checkout.</p>
                     </div>
                     <div class="industry-card-footer">
-                        <a href="#demo" class="btn-link-custom">
-                            Get Quote
+                        <a href="contact.php" class="btn-link-custom">
+                            Get a quote
                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -387,9 +382,9 @@ include 'includes/header.php';
 <section class="stats-section section-padding" id="stats" aria-label="Company statistics" data-aos="fade-up">
     <div class="container">
         <h2 class="section-title" data-aos="fade-up">
-            Enterprise Depth. <span class="text-primary-custom">Global Scale.</span>
+            Enterprise-Grade Technology. <span class="text-primary-custom">Proven at Scale.</span>
         </h2>
-        <p class="section-desc" data-aos="fade-up" data-aos-delay="50">Trusted by brokers, banks and NBFCs nationwide
+        <p class="section-desc" data-aos="fade-up" data-aos-delay="50">Powering insurers, brokers, banks and NBFCs.
         </p>
 
         <div class="stats-grid">
@@ -398,7 +393,7 @@ include 'includes/header.php';
                     aria-hidden="true">
                 <div class="stat-card-content">
                     <div class="stat-number">
-                        <span data-count="49" data-suffix="+">0+</span>
+                        <span data-count="50" data-suffix="+">0+</span>
                         <img src="assets/images/mdi-arrow-top-circle0.svg" alt="" class="stat-arrow" aria-hidden="true">
                     </div>
                     <div class="stat-label">Insurers Integrated</div>
@@ -437,7 +432,7 @@ include 'includes/header.php';
                         <span data-count="600" data-suffix="+">0+</span>
                         <img src="assets/images/mdi-arrow-top-circle3.svg" alt="" class="stat-arrow" aria-hidden="true">
                     </div>
-                    <div class="stat-label">Insurance Products</div>
+                    <div class="stat-label">Insurance Product</div>
                 </div>
             </div>
         </div>
@@ -450,15 +445,15 @@ include 'includes/header.php';
     data-aos="fade-up">
     <div class="container">
         <div class="insurtech-header text-center" data-aos="fade-up">
-            <div class="insurtech-label">AI-POWERED INSURTECH</div>
-            <h2 class="section-title text-white">AI-Driven Insurtech Behind Smarter Insurance Broker Software</h2>
+            <div class="insurtech-label">AI-Powered Insurtech</div>
+            <h2 class="section-title text-white">AI-Powered Insurtech Platform for Smarter Insurance Distribution</h2>
             <p class="insurtech-desc">
-                FondosTech's AI driven insurtech platform uses to automate quoting, underwriting, claims, and customer
-                service — helping brokers understand risk faster. With AI-powered insurance software, brokers close more
-                and teams work less, end to end.
+                FondosTech's insurtech platform automates, underwriting, policy issuance, claims and
+                servicing across insurance workflows. Helps teams process business faster, reduce manual
+                work, and scale efficiently.
             </p>
             <div class="insurtech-btn-wrap">
-                <a href="#demo" class="btn-white-custom">
+                <a href="contact.php" class="btn-white-custom">
                     Let's Talk
                     <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -475,10 +470,13 @@ include 'includes/header.php';
                     <img src="assets/images/home_page/Sales_Productivity_Hyperpersonalization_img_icon.png"
                         alt="Sales Productivity Icon">
                 </div>
-                <h3 class="insurtech-card-title">Sales Productivity &amp; Hyperpersonalization</h3>
+                <h3 class="insurtech-card-title">Sales and Productivity &amp; Personalisation</h3>
                 <p class="insurtech-card-desc">
-                    FondosTech's AI-driven insurtech Platform and insurance CRM software turn generic quotes into
-                    hyperpersonalized recommendations — brokers and POSPs close more, faster.
+                    FondosTech integrates AI across its sales
+                    and CRM operations to turn customer and
+                    policy data into actionable
+                    recommendations that brokers and POSPs
+                    can use to sell faster and more efficiently.
                 </p>
             </div>
 
@@ -488,10 +486,13 @@ include 'includes/header.php';
                     <img src="assets/images/home_page/Customer_Service_Voice_Agents_img_icon.png"
                         alt="Customer Service Icon">
                 </div>
-                <h3 class="insurtech-card-title">Customer Service with Voice Agents</h3>
+                <h3 class="insurtech-card-title">AI-Powered Customer Service</h3>
                 <p class="insurtech-card-desc">
-                    AI in insurtech powers voice agents that handle queries and claims around the clock — software for
-                    insurance agents that never clocks out.
+                    AI-powered voice agents handle routine
+                    customer queries, policy requests, and
+                    claims support around the clock, reduce
+                    response times, and ease the workload on
+                    service teams.
                 </p>
             </div>
 
@@ -501,10 +502,12 @@ include 'includes/header.php';
                     <img src="assets/images/home_page/Augmented_Claims_Management_img_icon.png"
                         alt="Augmented Claims Icon">
                 </div>
-                <h3 class="insurtech-card-title">Augmented Claims Management</h3>
+                <h3 class="insurtech-card-title">AI-Assisted Claims Management</h3>
                 <p class="insurtech-card-desc">
-                    FondosTech's AI insurance claims management software auto-validates and routes claims — insurtech
-                    automation that turns days into hours.
+                    FondosTech deployed AI to validate claim
+                    information, identify inconsistencies, and
+                    route cases to right workflows, speeding up
+                    claims processing.
                 </p>
             </div>
 
@@ -514,10 +517,12 @@ include 'includes/header.php';
                     <img src="assets/images/home_page/Underwriting_Automation_Accuracy_img_icon.png"
                         alt="Underwriting Icon">
                 </div>
-                <h3 class="insurtech-card-title">Underwriting Automation &amp; Accuracy</h3>
+                <h3 class="insurtech-card-title">Smarter Underwriting &amp; Risk Management</h3>
                 <p class="insurtech-card-desc">
-                    AI-assisted underwriting, built into our insurance software solutions, brings more consistency and
-                    speed to risk assessment on every policy — reducing manual errors and mispriced risk.
+                    AI-backed underwriting helps evaluate risk,
+                    validate information, and support consistent
+                    decision making across policies. Improves
+                    speed and accuracy of underwriting.
                 </p>
             </div>
 
@@ -527,10 +532,12 @@ include 'includes/header.php';
                     <img src="assets/images/home_page/Advanced_API_Integrations_img_icon.png"
                         alt="API Integrations Icon">
                 </div>
-                <h3 class="insurtech-card-title">Advanced API Integrations</h3>
+                <h3 class="insurtech-card-title">API-ready insurance Ecosystem</h3>
                 <p class="insurtech-card-desc">
-                    FondosTech's insurtech engine connects with 50+ insurers and platforms like Vahan through AI-ready
-                    APIs — the backbone of insurance agency management software, no manual re-entry.
+                    FondosTech connects insurers and
+                    distribution platforms through ready APIs,
+                    for faster data exchange across quotes,
+                    policy, services, and payments.
                 </p>
             </div>
 
@@ -542,8 +549,11 @@ include 'includes/header.php';
                 </div>
                 <h3 class="insurtech-card-title">User-Friendly Web Interface</h3>
                 <p class="insurtech-card-desc">
-                    AI-native insurance broker software, simple as a consumer insurtech app — start selling day one, no
-                    training needed.
+                    A clean intuitive interface makes it easier to
+                    manage complex insurance workflows.
+                    Helps team quote, issue, and service
+                    policies with less training and less
+                    operational steps.
                 </p>
             </div>
         </div>
@@ -564,11 +574,10 @@ include 'includes/header.php';
                 <div class="row align-items-end mb-3" data-aos="fade-up">
                     <div class="col-lg-8">
                         <div class="section-label">PRODUCT SECTION</div>
-                        <h2 class="section-title">Insurance Expertise, Built Into Software</h2>
-                        <p class="section-desc" style="max-width: 100%;">Powered by deep insurance expertise and
-                            continuous product innovation, FondosTech insurance broker software enables brokers, banks,
-                            NBFCs and fintechs to launch, manage and scale insurance distribution with unmatched speed
-                            and flexibility.</p>
+                        <h2 class="section-title">Insurance Expertise, Engineered Into Every Product</h2>
+                        <p class="section-desc" style="max-width: 100%;">Built on deep insurance expertise, FondosTech helps brokers, banks, NBFCs and fintechs
+                            manage distribution, automate operations, and scale across products, partners and
+                            channels.</p>
                     </div>
                     <div class="d-none col-lg-4 text-lg-end mt-3 mt-lg-0">
                         <a href="#products" class="btn-blue-pill">
@@ -741,34 +750,33 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT POSP Sure</span>
-                                        <h3 class="platform-card-title">Onboard Agents Fast. <span
-                                                class="text-primary-custom">Scale Without Limits.</span></h3>
-                                        <p class="platform-card-desc">FT POSP Sure digitizes every agent's journey,
-                                            cutting onboarding time by up to 70% and letting one back-office team
-                                            support 5,000 POSPs instead of 50 — with no added headcount cost.</p>
+                                        <h3 class="platform-card-title">Onboard Faster. <span
+                                                class="text-primary-custom">Manage POSPs at Scale.</span></h3>
+                                        <p class="platform-card-desc">FT POSP Sure digitizes end to end POSP lifecycle starting from onboarding, policy sale,
+                                            commissions, renewals and claims. It simplifies the administration of growing networks.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_1.svg"
                                                     alt="">
-                                                <span>Digital onboarding for agents and POSPs</span>
+                                                <span>KYC &amp; Digital Onboarding for POSPs</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_2.svg"
                                                     alt="">
-                                                <span>Instant commission tracking for every policy sold</span>
+                                                <span>Automated commission and payout tracking</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_3.svg"
                                                     alt="">
-                                                <span>Renewal tracking that keeps every policy active</span>
+                                                <span>Claims management and policy renewal</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_POSP_Sure/FT_POSP_Sure_Icon_4.svg"
                                                     alt="">
-                                                <span>Scale your network without scaling operational cost</span>
+                                                <span>Centralized network and performance monitor</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
+                                        <a href="contact.php" class="btn-link-custom">
                                             Explore POSP
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -849,36 +857,34 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT D2C Insure</span>
-                                        <h3 class="platform-card-title">Quote Fast. <span
-                                                class="text-primary-custom">Convert Customers Even Faster.</span></h3>
-                                        <p class="platform-card-desc">FT D2C Insure turns a multi-day insurance purchase
-                                            into a 4 steps in-app journey — and faster quote-to-buy flows typically lift
-                                            conversion by 20-30%, directly adding revenue without extra marketing spend.
-                                        </p>
+                                        <h3 class="platform-card-title">Compare quicker. <span
+                                                class="text-primary-custom">Rapid conversion</span></h3>
+                                        <p class="platform-card-desc">Fetch quotes and policy comparison to complete policy purchase in just one digital journey.
+                                            Get suitable covers for customers for faster purchase.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_1.svg"
                                                     alt="">
-                                                <span>Custom UI built around your brand</span>
+                                                <span>Tailored insurance journeys for your business</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_2.svg"
                                                     alt="">
-                                                <span>Multi-insurer comparison shown clearly to every customer</span>
+                                                <span>Compare multi-insurer quotes in a single view</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_3.svg"
                                                     alt="">
-                                                <span>Fraud detection built in from day one</span>
+                                                <span>Built-in check-ins for accurate policy selection</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Icon_4.svg"
                                                     alt="">
-                                                <span>Higher conversion without any added acquisition cost</span>
+                                                <span>Quicker quote to policy journeys for all customers</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            Explore D2C
+                                        <a href="d2c-insure.php" class="btn-link-custom">
+                                            Discover D2C Insure
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -889,14 +895,10 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="platform-card-image d2c-image-wrapper">
-                                        <div class="d2c-3image-container"
-                                            aria-label="FT D2C Insure Multi-Screen Showcase">
-                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_2.png"
-                                                alt="FT D2C Insure web portal" class="d2c-img-1">
-                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_3.png"
-                                                alt="FT D2C Insure quote breakdown" class="d2c-img-2">
-                                            <img src="assets/images/home_page/FT_D2C_Sure/FT_D2C_Insure_Img_1.png"
-                                                alt="FT D2C Insure mobile app view" class="d2c-img-3">
+                                        <div class="platform-image-container"
+                                            aria-label="FT D2C Insure Product Showcase">
+                                            <img src="assets/images/product_page/Product_Page_FT_D2C_Insure_img.svg"
+                                                alt="FT D2C Insure product interface" class="platform-main-img">
                                         </div>
                                     </div>
                                 </div>
@@ -911,36 +913,34 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Lending Insure</span>
-                                        <h3 class="platform-card-title">Protect Every Loan. <span
-                                                class="text-primary-custom">Disburse Without Delay.</span></h3>
-                                        <p class="platform-card-desc">FT Lending Insure embeds insurance into every loan
-                                            you disburse —Offering insurance at loan approval, not after, typically gets
-                                            20-30% more customers to take it — turning it into extra revenue, not an
-                                            added cost.</p>
+                                        <h3 class="platform-card-title">Embed Insurance. <span
+                                                class="text-primary-custom">Timely delivery of loans.</span></h3>
+                                        <p class="platform-card-desc">FT Lending Insure merges insurance and the loan. Empowers lenders to supply apt covers,
+                                            issue policies and handle insurance without delaying disbursement.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_1.svg"
                                                     alt="">
-                                                <span>Multiple insurers bundled into one loan</span>
+                                                <span>One integration, Multiple insurance providers</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_2.svg"
                                                     alt="">
-                                                <span>Instant policy issuance at every loan disbursement</span>
+                                                <span>Loan Disbursement and Policy Issuance</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_3.svg"
                                                     alt="">
-                                                <span>Custom combo products built for each lender</span>
+                                                <span>Flexible insurance solutions all types of loan</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Lending_Insure/FT_Lending_Insure_Icon_4.svg"
                                                     alt="">
-                                                <span>New commission revenue on loans you already write</span>
+                                                <span>Insurance on existing loan trips for secondary income</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            Explore Lending
+                                        <a href="lending-insure.php" class="btn-link-custom">
+                                            Explore Lending Insurance
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -979,36 +979,35 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Embedded Insure</span>
-                                        <h3 class="platform-card-title">Insure At Checkout. <span
-                                                class="text-primary-custom">Convert Customers Instantly.</span></h3>
-                                        <p class="platform-card-desc">FT Embedded Insure adds insurance right at
-                                            checkout — offered this way, it typically converts 2x better than insurance
-                                            sold as a separate step, adding revenue per transaction at near-zero extra
-                                            operational cost.</p>
+                                        <h3 class="platform-card-title">Embed Insurance. <span
+                                                class="text-primary-custom">Protection with Every Purchase.</span></h3>
+                                        <p class="platform-card-desc">FT Embedded Insure allows businesses to deliver relevant insurance at the point of digital
+                                            purchase journeys, removing the need for a separate insurance purchase process, and
+                                            enabling businesses to provide protection at checkout.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_1.svg"
                                                     alt="">
-                                                <span>Opt-in journeys that customers actually complete</span>
+                                                <span>In the purchase journey, simply put, opt-in insurance.</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_2.svg"
                                                     alt="">
-                                                <span>Multiple insurers available inside a single flow</span>
+                                                <span>One integration, many insurers</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_3.svg"
                                                     alt="">
-                                                <span>Industry-specific setups for travel, EV and retail</span>
+                                                <span>EV and retail journeys, customizable travel</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Embedded_Insure/FT_Embedded_Insure_Icon_4.svg"
                                                     alt="">
-                                                <span>Revenue per transaction, without a bigger sales team</span>
+                                                <span>incremental revenue from existing customer transactions</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            Explore Embedded
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore Embedded Insure
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1050,35 +1049,35 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Digital Claims</span>
-                                        <h3 class="platform-card-title">Resolve Claims Faster. <span
-                                                class="text-primary-custom">Rebuild Customer Trust.</span></h3>
-                                        <p class="platform-card-desc">FT Digital Claims uses AI to validate and route
-                                            claims automatically, cutting average resolution time from days to hours —
-                                            and fewer manual touches per claim means lower processing cost per case.</p>
+                                        <h3 class="platform-card-title">Faster Process. <span
+                                                class="text-primary-custom">Smooth Settlement.</span></h3>
+                                        <p class="platform-card-desc">The service reduces claim settlement TAT by reviewing claim documents, validating, routing
+                                            and tracking the status of a claim, enabling teams to process cases faster with fewer manual
+                                            checks and follow-ups.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_1.svg"
                                                     alt="">
-                                                <span>AI-assisted checks run on every document</span>
+                                                <span>AI enabled faster claim paper verification</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_2.svg"
                                                     alt="">
-                                                <span>Anomaly and fraud flags raised automatically, instantly</span>
+                                                <span>Noted improved document review</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_3.svg"
                                                     alt="">
-                                                <span>Real-time status visible to agents and customers</span>
+                                                <span>Get Real-Time Claim Status Updates</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Digital_Claims/FT_Digital_Claims_Icon_4.svg"
                                                     alt="">
-                                                <span>Lower cost per claim, faster customer resolution</span>
+                                                <span>Reduced manual steps in claim journey</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            See Claims
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore Digital Claims
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1114,36 +1113,40 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT PayIn-PayOut</span>
-                                        <h3 class="platform-card-title">Reconcile Statements Fast. <span
-                                                class="text-primary-custom">Pay Out Instantly.</span></h3>
-                                        <p class="platform-card-desc">FT PayIn-PayOut automates commission matching,
-                                            turning a 4-5 day monthly task into same-day processing — freeing up finance
-                                            team hours that were previously locked in manual Excel reconciliation every
-                                            month.</p>
+                                        <h3 class="platform-card-title">Track Every Payment. <span
+                                                class="text-primary-custom">Pay Every Partner Right.</span></h3>
+                                        <p class="platform-card-desc">FT PayIn-PayOut connects premium collections, commissions calculations, and partner
+                                            payouts in one finance workflow. Convenient premium transaction tracking and commission
+                                            calculations, without switching between spreadsheets.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_1.svg"
                                                     alt="">
-                                                <span>Automatic matching across every insurer statement</span>
+                                                <span>Track premium collections across payment modes</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_2.svg"
                                                     alt="">
-                                                <span>Mismatches flagged before they become a problem</span>
+                                                <span>Maps commission against policies and partners</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_3.svg"
                                                     alt="">
-                                                <span>Instant payouts triggered for agents and POSPs</span>
+                                                <span>Manage agent and POSP payouts from one system</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_4.svg"
                                                     alt="">
-                                                <span>Days of manual work recovered every single month</span>
+                                                <span>Check status of your payment and settlement in one place</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT_PayIn_PayOut/FT_PayIn_PayOut_Icon_4.svg"
+                                                    alt="">
+                                                <span>Reduce payout errors with structured payment workflows</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            See Reconciliation
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore PayIn-PayOut
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1185,35 +1188,45 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT EB Sure</span>
-                                        <h3 class="platform-card-title">Enroll Fast. <span
-                                                class="text-primary-custom">Support Every Employee Better.</span></h3>
-                                        <p class="platform-card-desc">FT EB Sure gives HR one dashboard for enrolment,
-                                            claims and renewals — cutting HR's insurance admin workload by up to 50%, so
-                                            the same team supports more employees without added cost.</p>
+                                        <h3 class="platform-card-title">Offer employee benefits. <span
+                                                class="text-primary-custom">Zero admin burden.</span></h3>
+                                        <p class="platform-card-desc">FT EB Sure brings employee enrolment, dependent data, group policies, claims and renewal
+                                            into one platform. HR gets the cleaner records, real-time policy visibility and fewer
+                                            spreadsheets, with reduced email and insurer follow-ups.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_1.svg"
                                                     alt="">
-                                                <span>Self-service enrolment for every single employee</span>
+                                                <span>Self service enrolment for employees and dependents</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_2.svg"
                                                     alt="">
-                                                <span>Dependent details managed without HR intervention needed</span>
+                                                <span>Unified employee, dependent, and policy records</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_3.svg"
                                                     alt="">
-                                                <span>Real-time claims tracking visible to HR teams</span>
+                                                <span>Real-time claim status for HR teams</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_4.svg"
                                                     alt="">
-                                                <span>Half the admin time, without hiring extra staff</span>
+                                                <span>Central view of employee benefit policies</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_4.svg"
+                                                    alt="">
+                                                <span>Renewal tracking with upcoming policy visibility</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Icon_1.svg"
+                                                    alt="">
+                                                <span>Structured enrolment data for faster insurer processing</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            Explore Benefits
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore FT EB Sure
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1224,7 +1237,8 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="platform-card-image eb-image-wrapper">
-                                        <div class="eb-showcase-container" aria-label="FT EB Sure Multi-Screen Showcase">
+                                        <div class="eb-showcase-container"
+                                            aria-label="FT EB Sure Multi-Screen Showcase">
                                             <!-- 1. Self-Service Enrolment Card (Top Left Background) -->
                                             <img src="assets/images/home_page/FT_EB_Sure/FT_EB_Sure_Img_1.png"
                                                 alt="FT EB Sure self-service enrolment" class="eb-img-1">
@@ -1260,35 +1274,45 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT Compliance Shield</span>
-                                        <h3 class="platform-card-title">Stay Compliant. <span
-                                                class="text-primary-custom">Skip All The Effort.</span></h3>
-                                        <p class="platform-card-desc">FT Compliance Shield automates IRDAI checks across
-                                            every workflow, cutting manual compliance work by up to 60% — time your team
-                                            gets back, and risk exposure that no longer sits on one person's memory.</p>
+                                        <h3 class="platform-card-title">Compliance that Runs. <span
+                                                class="text-primary-custom">Audits Every Process</span></h3>
+                                        <p class="platform-card-desc">FT Compliance Shield integrates regulatory checks, audit logs and reporting controls into
+                                            day-to-day insurance operations. Enables teams to stay compliant, reduces manual
+                                            follow-ups, and updates clean records for audits and reviews.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_1.svg"
                                                     alt="">
-                                                <span>IRDAI checks built into every workflow</span>
+                                                <span>IRDAI-aligned checks inside key workflows</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_2.svg"
                                                     alt="">
-                                                <span>Audit trails created automatically for every action</span>
+                                                <span>Time stamped audit trails for every recorded action</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_3.svg"
                                                     alt="">
-                                                <span>Regulatory reports generated without manual effort needed</span>
+                                                <span>Structured system for regulatory reporting</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_4.svg"
                                                     alt="">
-                                                <span>Lower compliance risk, without a bigger compliance team</span>
+                                                <span>Central dashboard for compliance status</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_1.svg"
+                                                    alt="">
+                                                <span>Process level visibility across the teams</span>
+                                            </div>
+                                            <div class="platform-feature-item">
+                                                <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Icon_2.svg"
+                                                    alt="">
+                                                <span>Audit ready records with clear action history</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            Explore Compliance
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore Compliance Shield
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1299,7 +1323,8 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="platform-card-image compliance-image-wrapper">
-                                        <div class="compliance-4image-container" aria-label="FT Compliance Shield Multi-Screen Showcase">
+                                        <div class="compliance-4image-container"
+                                            aria-label="FT Compliance Shield Multi-Screen Showcase">
                                             <!-- 1. Main Dashboard (Center Background) -->
                                             <img src="assets/images/home_page/FT_Compliance_Shield/FT_Compliance_Shield_Img_1.png"
                                                 alt="FT Compliance Shield main dashboard" class="compliance-img-1">
@@ -1326,36 +1351,35 @@ include 'includes/header.php';
                                 <div class="col-lg-6">
                                     <div class="platform-card-body">
                                         <span class="platform-card-label">FT RECONCILIATION</span>
-                                        <h3 class="platform-card-title">Match Every Statement. <span
-                                                class="text-primary-custom">Catch Every Mismatch.</span></h3>
-                                        <p class="platform-card-desc">It automates commission matching, turning a 4-5 day
-                                            monthly task into same-day processing — comparing every insurer statement
-                                            against your policy data and flagging discrepancies before they ever reach a
-                                            payout.</p>
+                                        <h3 class="platform-card-title">Match Every Purchase. <span
+                                                class="text-primary-custom">Fix All Mismatches.</span></h3>
+                                        <p class="platform-card-desc">FT Reconciliation matches insurer statements against policy, premium, and commission
+                                            records, flags mismatches at transaction level, and gives the finance team a clear list before
+                                            commissions move to payout.</p>
                                         <div class="platform-features-list">
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_1.svg"
                                                     alt="">
-                                                <span>Automatic matching across every insurer statement</span>
+                                                <span>Up to 100% statement matching automation</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_2.svg"
                                                     alt="">
-                                                <span>Mismatches flagged before they become a problem</span>
+                                                <span>Every exception identified before payout</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_3.svg"
                                                     alt="">
-                                                <span>Any insurer format, read and structured instantly</span>
+                                                <span>Multiple format supported Insurer statements</span>
                                             </div>
                                             <div class="platform-feature-item">
                                                 <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Icon_4.svg"
                                                     alt="">
-                                                <span>Audit-ready reports generated every single cycle</span>
+                                                <span>Cycle-wise audit trail maintained</span>
                                             </div>
                                         </div>
-                                        <a href="#demo" class="btn-link-custom">
-                                            See FT Recon
+                                        <a href="contact.php" class="btn-link-custom">
+                                            Explore FT Reconciliation
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1366,7 +1390,8 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="platform-card-image recon-image-wrapper">
-                                        <div class="recon-5image-container" aria-label="FT Reconciliation Multi-Screen Showcase">
+                                        <div class="recon-5image-container"
+                                            aria-label="FT Reconciliation Multi-Screen Showcase">
                                             <!-- 1. Import Insurer Statements Modal (Top Left Background) -->
                                             <img src="assets/images/home_page/FT_Reconciliation/FT_Reconciliation_Img_1.png"
                                                 alt="FT Reconciliation import statements" class="recon-img-1">
@@ -1404,12 +1429,12 @@ include 'includes/header.php';
             <div class="lob-text" data-aos="fade-right">
                 <div class="section-label">Lines of Business</div>
                 <h2 class="section-title">
-                    Wide Range. <span class="text-primary-custom">Rapid Configuration.</span>
+                    Multiple Products. <span class="text-primary-custom">Faster Configuration</span>
                 </h2>
                 <p class="section-desc">
-                    Grow your insurance business across personal, commercial, life, health, property, and casualty
-                    lines—all powered by one intelligent, low-code platform. Simplify product configuration, accelerate
-                    launches, and scale your insurance agency business as customer needs evolve.
+                    Launch motor, health, life, travel, property, and other insurance products from one platform.
+                    Configure new products faster, reduced set-up efforts, and expand without rebuilding your
+                    distribution stack.
                 </p>
                 <div class="d-flex align-items-center gap-3 flex-wrap my-4">
                     <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm"
@@ -1426,7 +1451,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="mt-3">
-                    <a href="#contact" class="btn-link-custom">
+                    <a href="contact.php" class="btn-link-custom">
                         Choose Now
                         <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1520,10 +1545,11 @@ include 'includes/header.php';
             <div class="col-lg-8">
                 <div class="section-label">Powering Smarter Insurance</div>
                 <h2 class="section-title">
-                    One Platform. Every <span class="text-primary-custom">Insurance Workflow.</span>
+                    One Platform. Every <span class="text-primary-custom">Insurance Workflow</span>
                 </h2>
-                <p class="section-desc">Insurance teams can't afford disconnected systems, manual workflows, or delayed
-                    decisions. FondosTech unifies claims, operations, accounts, and sales into one intelligent platform.
+                <p class="section-desc">Insurance operations slow down when teams work across disconnected systems.
+                    FondosTech brings sales, policies, claims, payouts, and operations together on one
+                    insurance platform.
                 </p>
             </div>
             <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
@@ -1541,27 +1567,27 @@ include 'includes/header.php';
                 <div class="workflow-card legacy-workflow-card">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <span class="workflow-badge badge-warning">Legacy Disconnected Process</span>
-                            <h3 class="workflow-card-title">Manual, Fragmented &amp; Slow Operations</h3>
-                            <p class="workflow-card-desc">Brokers and agents waste 60%+ of their time jumping between
-                                Excel sheets, manual insurer portals, and disconnected messaging tools.</p>
+                            <span class="workflow-badge badge-warning">Disconnected Insurance Operations</span>
+                            <h3 class="workflow-card-title">Multiple System. Complicated Work</h3>
+                            <p class="workflow-card-desc">Brokers and insurance agents lose 60% time moving between insurer portals, spreadsheets,
+                                and internal systems, creating duplicate work.</p>
                             <div class="workflow-points-list">
                                 <div class="workflow-point-item legacy">
                                     <span class="point-icon text-primary-custom">✕</span>
-                                    <span>Multiple disconnected portals and manual re-entry errors</span>
+                                    <span>Multiple systems create repeated data entry and errors</span>
                                 </div>
                                 <div class="workflow-point-item legacy">
                                     <span class="point-icon text-primary-custom">✕</span>
-                                    <span>Slow 7 to 14 days quote-to-issue turnaround cycles</span>
+                                    <span>Manual processes slow quote-to-policy turnaround</span>
                                 </div>
                                 <div class="workflow-point-item legacy">
                                     <span class="point-icon text-primary-custom">✕</span>
-                                    <span>Manual payout calculations and compliance reconciliation risks</span>
+                                    <span>Disconnected payout and reconciliation increase efforts</span>
                                 </div>
                             </div>
                             <div class="mt-4">
-                                <a href="#" class="btn-link-custom">
-                                    Speak with an Expert
+                                <a href="contact.php" class="btn-link-custom">
+                                    Connect With FT
                                     <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1726,27 +1752,28 @@ include 'includes/header.php';
                 <div class="workflow-card smart-workflow-card">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <span class="workflow-badge badge-success">FondosTech AI Core</span>
-                            <h3 class="workflow-card-title">Unified, Automated &amp; Instant Execution</h3>
-                            <p class="workflow-card-desc">Unifies quoting, POSP onboarding, claims reconciliation, and
-                                IRDAI compliance on a single AI-powered platform.</p>
+                            <span class="workflow-badge badge-success">FondosTech Connected Platform</span>
+                            <h3 class="workflow-card-title">Connected Workflows. Automated Operations</h3>
+                            <p class="workflow-card-desc">Better control over insurance operations from onboarding to servicing. Less operational
+                                efforts for quoting, POSP onboarding, policy management, claims, reconciliation, and
+                                compliance.</p>
                             <div class="workflow-points-list">
                                 <div class="workflow-point-item success">
                                     <span class="point-icon text-primary-custom">✓</span>
-                                    <span>Single dashboard connected to 50+ insurer APIs &amp; Vahan</span>
+                                    <span>One dashboard connected with 50+ insurer</span>
                                 </div>
                                 <div class="workflow-point-item success">
                                     <span class="point-icon text-primary-custom">✓</span>
-                                    <span>Instant AI-driven policy recommendation engine</span>
+                                    <span>AI-assisted recommendations across insurance sales workflows</span>
                                 </div>
                                 <div class="workflow-point-item success">
                                     <span class="point-icon text-primary-custom">✓</span>
-                                    <span>Automated commission reconciliation &amp; IRDAI audit trails</span>
+                                    <span>Automated reconciliation with built-in compliance audit trails</span>
                                 </div>
                             </div>
                             <div class="mt-4">
-                                <a href="#" class="btn-link-custom">
-                                    Speak with an Expert
+                                <a href="contact.php" class="btn-link-custom">
+                                    Speak with the Expert
                                     <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2"
@@ -1948,7 +1975,7 @@ include 'includes/header.php';
     <div class="container mb-4 text-center" data-aos="fade-up">
         <div class="section-label">Testimonials</div>
         <h2 class="section-title">
-            Why Our Customers <span class="text-primary-custom">Love Us</span>
+            Why Leaders <span class="text-primary-custom">Choose Us</span>
         </h2>
     </div>
 
@@ -2067,13 +2094,13 @@ include 'includes/header.php';
             <!-- Left Info Block (Sticky Header Column) -->
             <div class="col-lg-5 col-md-12 faq-left-column">
                 <div class="faq-left-content">
-                    <div class="section-label">Know Why To Choose Us?</div>
+                    <div class="section-label">Know More About Us</div>
                     <h2 class="section-title">
                         FAQs About <span class="text-primary-custom">FondosTech</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Find trusted answers about our insurance broker software, POSP management, claims and
-                        compliance.
+                        Get answers to common questions about our insurance software, POSP operations, claims
+                        and compliance.
                     </p>
                     <a href="contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
@@ -2094,15 +2121,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                What is insurance broker software?
+                                What is software for insurance brokers?
                             </button>
                         </h3>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Insurance broker software is a digital platform that helps an insurance broker or agency
-                                manage the full policy lifecycle — quoting, POSP and client management, claims,
-                                commission reconciliation and regulatory compliance — from one system instead of
-                                multiple disconnected tools.
+                                Insurance broker software is a specialized system that allows brokers to manage policy
+                                sales, quotes, client information, claims, commissions, compliance and renewals in one
+                                place.
                             </div>
                         </div>
                     </div>
@@ -2112,15 +2138,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                Does FondosTech use AI?
+                                Does FondosTech utilize AI?
                             </button>
                         </h3>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech's insurance broker software uses AI across quoting, underwriting
-                                support, claims triage and customer service — including AI voice agents — to help
-                                brokers close faster, price more accurately and resolve claims sooner, without adding
-                                headcount.
+                                FondosTech leverages AI-assisted capabilities for insurance workflow optimization,
+                                document verification and quotation support and to eliminate manual, repetitive work.
                             </div>
                         </div>
                     </div>
@@ -2130,14 +2154,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                Is FondosTech suitable for small insurance agencies as well as large brokerages?
+                                Is FondosTech good for small insurance agencies and large brokerages
+                                too?
                             </button>
                         </h3>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech is built to scale from a single-branch insurance agency to a multi-state
-                                brokerage with thousands of POSPs — the same insurance agency software supports both,
-                                with modules you switch on as your insurance business grows.
+                                Yes. FondosTech is built to serve both small agencies and large brokerages with scalable
+                                workflows that grow with your business.
                             </div>
                         </div>
                     </div>
@@ -2147,16 +2171,15 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                What's the difference between insurance broker software and a generic management system
-                                for insurance?
+                                What is the difference between insurance broker software and insurance
+                                management systems?
                             </button>
                         </h3>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                A generic management system for insurance usually just stores customer and policy
-                                records. Insurance broker software goes further — it handles quoting, multi-insurer
-                                comparison, policy issuance, commission tracking, claims and IRDAI compliance in one
-                                connected system, built specifically for how an insurance broker actually works.
+                                A generic system doesn't work; insurance broker software is built around the specific needs
+                                of a brokerage, such as insurer connectivity, quotations, policy management, commissions,
+                                claims, compliance and renewals.
                             </div>
                         </div>
                     </div>
@@ -2166,14 +2189,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                                Does FondosTech support motor insurance quoting with vehicle data verification?
+                                Does FondosTech support quoting motor insurance with vehicle data
+                                verification?
                             </button>
                         </h3>
                         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. FondosTech integrates with the Vahan API to auto-fetch and verify vehicle
-                                registration details during motor insurance quoting — reducing manual data entry, form
-                                errors and fraudulent claims at the point of sale.
+                                Yes. Motor insurance quoting FondosTech can help by validating the vehicle data which can
+                                assist the teams to improve the accuracy of the quotes and reduce manual data entry.
                             </div>
                         </div>
                     </div>
@@ -2188,9 +2211,9 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. Every workflow on FondosTech — from POSP onboarding to policy issuance, commission
-                                payouts and claims — is built around IRDAI-aligned processes, so brokers and insurance
-                                agency businesses stay compliant by default, not by extra manual effort.
+                                FondosTech helps insurance companies to operationalize IRDAI related checks, workflows,
+                                records and audit trails. However, compliance also depends on how the platform is
+                                configured and used by the organisation.
                             </div>
                         </div>
                     </div>
@@ -2200,15 +2223,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
-                                What is claims management software, and does FondosTech offer it?
+                                What is claims management software and does FondosTech have it?
                             </button>
                         </h3>
                         <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Claims management software automates how a claim is logged, validated, tracked and
-                                resolved. FondosTech's claims management system uses AI to auto-validate documents, flag
-                                anomalies and route claims to the right handler — cutting resolution time from days to
-                                hours.
+                                Claims management software helps teams log, track, route and manage claims through the
+                                entire lifecycle. FondosTech provides digital claims management, document validation,
+                                exception tracking and real-time status visibility.
                             </div>
                         </div>
                     </div>
@@ -2218,16 +2240,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
-                                How is insurtech changing the insurance industry in India?
+                                How Insurtech is revolutionizing the insurance industry in India?
                             </button>
                         </h3>
                         <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Insurtech is replacing manual, paper-heavy insurance processes with digital, AI-powered
-                                platforms — speeding up quoting, policy issuance and claims across the insurance
-                                industry in India. FondosTech is built specifically for this shift, giving brokers,
-                                banks, NBFCs and fintechs the technology layer to run insurance as a business,
-                                digitally.
+                                Insurtech is helping insurers, brokers and intermediaries digitise operations, automate
+                                repetitive tasks, improve customer service and make insurance processes faster and more
+                                transparent.
                             </div>
                         </div>
                     </div>
@@ -2242,10 +2262,8 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes. Beyond serving an insurance broker or agency, FondosTech's platform is used by
-                                banks, NBFCs and fintechs to embed insurance into loans and purchases — turning
-                                insurance into a revenue line for businesses that aren't traditional insurance
-                                companies.
+                                Yes. FondosTech can support banks, NBFCs and other financial businesses that manage
+                                insurance distribution, partner payouts, compliance and related workflows.
                             </div>
                         </div>
                     </div>
@@ -2260,10 +2278,9 @@ include 'includes/header.php';
                         </h3>
                         <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Generic business software isn't built for insurance-specific problems — multi-insurer
-                                quoting, IRDAI compliance, commission structures, or claims workflows. FondosTech builds
-                                insurance software exclusively, which is why brokers, banks, NBFCs and fintechs trust it
-                                to solve problems generic tools can't.
+                                Insurance-specific software is more relevant than a generic management system because
+                                it's built with industry workflows, terminology, regulations, policy data, commissions, claims
+                                and insurer processes.
                             </div>
                         </div>
                     </div>

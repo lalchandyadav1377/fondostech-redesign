@@ -209,7 +209,7 @@ include 'includes/header.php';
                                     </div>
                                     <div class="info-text">
                                         <label>ADDRESS</label>
-                                        <p id="node-address">Plot No. 42, Barakhamba Road, Connaught Place, New Delhi - 110001</p>
+                                        <p id="node-address">New Delhi</p>
                                     </div>
                                 </div>
 
@@ -219,7 +219,7 @@ include 'includes/header.php';
                                     </div>
                                     <div class="info-text">
                                         <label>PHONE</label>
-                                        <p id="node-phone">+91 11 4567 8900</p>
+                                        <p id="node-phone">+91 80003 66997</p>
                                     </div>
                                 </div>
 
@@ -229,7 +229,7 @@ include 'includes/header.php';
                                     </div>
                                     <div class="info-text">
                                         <label>EMAIL</label>
-                                        <p id="node-email">delhi.office@fondostech.com</p>
+                                        <p id="node-email">business@fondostech.in</p>
                                     </div>
                                 </div>
                             </div>

@@ -130,38 +130,40 @@
             return setTimeout(initNetworkNodeMap, 150);
         }
 
-        // Office locations data (Strictly 4 Locations)
+        const sharedPhone = '+91 80003 66997';
+        const sharedEmail = 'business@fondostech.in';
+
         const locations = {
             delhi: {
                 name: 'New Delhi',
                 jurisdiction: 'REGISTERED OFFICE & NORTHERN REGION',
-                address: 'Plot No. 42, Barakhamba Road, Connaught Place, New Delhi - 110001',
-                phone: '+91 11 4567 8900',
-                email: 'delhi.office@fondostech.com',
+                address: 'New Delhi',
+                phone: sharedPhone,
+                email: sharedEmail,
                 coords: [28.6289, 77.2206]
             },
             jaipur: {
                 name: 'Jaipur',
                 jurisdiction: 'DEVELOPMENT CENTRE OF EXCELLENCE',
-                address: 'IT Park, EPIP, Sitapura Industrial Area, Jaipur, Rajasthan - 302022',
-                phone: '+91 141 277 0900',
-                email: 'jaipur.dev@fondostech.com',
+                address: 'Jaipur',
+                phone: sharedPhone,
+                email: sharedEmail,
                 coords: [26.7818, 75.8288]
             },
             gurugram: {
                 name: 'Gurugram',
                 jurisdiction: 'CENTRE OF EXCELLENCE & NCR HUB',
-                address: 'DLF Cyber City, Tower B, Phase 2, Gurugram, Haryana - 122002',
-                phone: '+91 124 678 9012',
-                email: 'gurugram.hub@fondostech.com',
+                address: 'Gurugram',
+                phone: sharedPhone,
+                email: sharedEmail,
                 coords: [28.4949, 77.0894]
             },
             mumbai: {
                 name: 'Mumbai',
                 jurisdiction: 'SALES & SUPPORT HUB - WESTERN REGION',
-                address: 'Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra - 400051',
-                phone: '+91 22 6123 4567',
-                email: 'mumbai.sales@fondostech.com',
+                address: 'Mumbai',
+                phone: sharedPhone,
+                email: sharedEmail,
                 coords: [19.0660, 72.8687]
             }
         };
