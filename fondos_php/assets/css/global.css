@@ -127,7 +127,7 @@ ol {
 
 .section-title,
 .contact-main-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 2.875rem;
     color: var(--secondary-color);
@@ -257,19 +257,28 @@ ol {
 .btn-demo-outline {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 0.5rem;
     background-color: var(--white);
     color: var(--primary-color);
     font-family: var(--font-family);
     font-size: var(--font-size-sm);
     font-weight: 600;
-    line-height: 1.25rem;
+    line-height: 1;
     padding: 0.75rem 1.375rem;
     border-radius: var(--radius-pill);
     border: 1px solid var(--primary-color);
     cursor: pointer;
     transition: all var(--transition-base);
     white-space: nowrap;
+}
+
+.btn-demo-outline .btn-icon {
+    width: 0.5rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+    display: block;
 }
 
 .btn-demo-outline:hover {
@@ -493,25 +502,52 @@ ol {
    Responsive Container Override
    ============================================= */
 
+@media (max-width: 767.98px) {
+    :root {
+        --section-padding-y: 2.25rem;
+    }
+
+    .section-title,
+    .contact-main-title,
+    .faq-left-content .section-title,
+    .ic-section-title {
+        line-height: 2rem;
+    }
+
+    .section-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-padding,
+    .faq-section {
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+    }
+}
+
 @media (max-width: 575.98px) {
     :root {
-        --section-padding-y: 3rem;
+        --section-padding-y: 2rem;
         --font-size-4xl: 2rem;
         --font-size-5xl: 2.5rem;
     }
 
-    .section-title {
+    .section-title,
+    .contact-main-title {
         font-size: 1.75rem;
+        line-height: 2rem;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     :root {
-        --section-padding-y: 3.5rem;
+        --section-padding-y: 2.25rem;
     }
 
-    .section-title {
+    .section-title,
+    .contact-main-title {
         font-size: 2rem;
+        line-height: 2rem;
     }
 }
 
@@ -536,7 +572,7 @@ ol {
 .faq-section {
     padding: 5rem 0;
     position: relative;
-    overflow: hidden !important;
+    overflow: visible !important;
 }
 
 .faq-left-content {

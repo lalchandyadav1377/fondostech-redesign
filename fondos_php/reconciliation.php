@@ -1,6 +1,6 @@
 <?php
-$page_title = "FT Reconciliation | AI-Powered Commission Reconciliation Software | FondosTech";
-$page_description = "AI-powered commission reconciliation software that matches every insurer statement against your policy data, flags mismatches, and triggers payouts automatically — turning a multi-day monthly task into one connected system.";
+$page_title = "Insurance Commission Reconciliation Software | FT Reconciliation | FondosTech";
+$page_description = "FT Reconciliation matches insurer statements with policy data, surfaces exceptions and moves confirmed commissions towards payout, reducing manual checks that slow finance teams.";
 $active_page = "reconciliation";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -23,29 +23,30 @@ include 'includes/header.php';
                     class="posp-hero-badge-wrap mb-3 d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-sm">
                     <span class="posp-badge-dot"></span>
                     <span class="fw-semibold text-uppercase tracking-wider"
-                        style="font-size: 0.78125rem; color: #086ad8;">COMMISSION RECONCILIATION SOFTWARE</span>
+                        style="font-size: 0.78125rem; color: #086ad8;">INSURANCE COMMISSION RECONCILIATION SOFTWARE</span>
                 </div>
 
                 <h1 class="posp-hero-title mb-3">
-                    FT Reconciliation — <span class="text-primary-custom">Reconcile Commissions, Same Day.</span>
+                    Commission Reconciliation That <span class="text-primary-custom">Keeps Payouts Moving</span>
                 </h1>
 
                 <p class="section-desc mb-4" style="max-width: 600px; margin-left: 0;">
-                    AI-powered commission reconciliation software that matches every insurer statement against your policy data, flags mismatches, and triggers payouts automatically — turning a multi-day monthly task into one connected system.
+                    FT Reconciliation matches insurer statements with policy data, surfaces exceptions and
+                    moves confirmed commissions towards payout, reducing manual checks that slow finance
+                    teams.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5 d-inline-flex align-items-center gap-2 shadow-sm">
-                        <span>Book a Free Demo</span>
+                        <span>Book a demo</span>
                         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                     <a href="#how-it-works"
-                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See How It
-                        Works</a>
+                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See how it works</a>
                 </div>
 
                 <!-- Trust Highlights -->
@@ -53,15 +54,15 @@ include 'includes/header.php';
                     style="font-size: 0.875rem; font-weight: 600; color: #495057;">
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Same-Day Reconciliation</span>
+                        <span>Multi-insurer matching</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>50+ Insurer Statement Formats</span>
+                        <span>Exception-led review</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>AI-Powered Mismatch Detection</span>
+                        <span>Payout visibility</span>
                     </div>
                 </div>
             </div>
@@ -70,19 +71,9 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/insurance-policy-management-software-10.png"
+                        <img src="assets/images/product_page/Product_Page_FT_Reconciliation_img.webp"
                             alt="FT Reconciliation Software Interface" class="img-fluid w-100 rounded-3"
-                            style="object-fit: cover;">
-                    </div>
-                    <!-- Floating Metric Badge -->
-                    <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
-                        <div class="d-flex align-items-center gap-3">
-                            <div class="badge-icon-circle bg-primary text-white">⚡</div>
-                            <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">4.5 Days Saved</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">Instant Payout &amp; AI-Matching</div>
-                            </div>
-                        </div>
+                            style="object-fit: contain;">
                     </div>
                 </div>
             </div>
@@ -91,15 +82,18 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 2: WHY IT MATTERS                     -->
+<!-- SECTION 2: THE PROBLEM                        -->
 <!-- ============================================= -->
 <section class="posp-why-mandatory-section" id="why-critical">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">WHY IT MATTERS</div>
-            <h2 class="section-title">The Most Repetitive Task In Insurance <span class="text-primary-custom">Is Also the Costliest</span></h2>
+            <div class="section-label">BECAUSE RECONCILIATION LOSES TIME</div>
+            <h2 class="section-title">Manual Reconciliation Slows Finance Before <span class="text-primary-custom">Every Payout</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
-                Every insurer sends commission statements in a different format, on a different schedule, with different payout logic. Matching this by hand in Excel every month doesn't just cost time — it costs accuracy, and it costs agent trust when payouts are late or wrong.
+                Different insurer formats, scattered policy records and line-by-line checks turn reconciliation into a
+                monthly drain on finance.
+                Every unresolved mismatch means more checking, more follow-up and less certainty over what
+                should move to payout.
             </p>
         </div>
 
@@ -115,19 +109,14 @@ include 'includes/header.php';
                                 <polyline points="14 2 14 8 20 8" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">MANUAL MATCHING</span>
+                        <span class="pillar-tag-badge">STATEMENT PREP</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Different Formats, Every Insurer</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        Every insurer statement looks different — matching them by hand means starting from scratch each month, for each one.
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Files need fixing before matching</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Finance teams spend time cleaning and aligning insurer statements before reconciliation can even
+                        begin.
                     </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ High Time Cost</span>
-                    </div>
                 </div>
             </div>
 
@@ -143,19 +132,14 @@ include 'includes/header.php';
                                 <line x1="12" y1="17" x2="12.01" y2="17" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">MISMATCH RISK</span>
+                        <span class="pillar-tag-badge">MISMATCHES</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Errors Go Unnoticed Until Payout</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        A missed mismatch in manual reconciliation doesn't surface until an agent is underpaid — and now trust is damaged too.
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Mismatches trigger repeated checks</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Missing policies, amount differences and duplicate entries send teams back across files, emails and
+                        insurer records.
                     </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚠️ Payout Accuracy Risk</span>
-                    </div>
                 </div>
             </div>
 
@@ -170,31 +154,14 @@ include 'includes/header.php';
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">DELAYED PAYOUTS</span>
+                        <span class="pillar-tag-badge">PAYOUT QUERIES</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Slow Reconciliation, Slower Payouts</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        When reconciliation takes days, agent payouts take days longer — and agents notice exactly how long they waited.
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Delays turn into payout queries</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Agents and partners need answers while finance is still checking what is approved, held or pending.
                     </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📉 Agent Retention Risk</span>
-                    </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Scale Solution Banner Callout -->
-        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
-            data-aos="zoom-in">
-            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
-                style="font-size: 0.875rem; font-weight: 600;">
-                <span class="text-dark">Manual commission reconciliation takes 4-5 days every month</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-primary-custom fw-bold">FT Reconciliation cuts this to a single day, with zero manual matching</span>
             </div>
         </div>
     </div>
@@ -206,9 +173,10 @@ include 'includes/header.php';
 <section class="posp-how-it-works-section" id="how-it-works">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">HOW IT WORKS</div>
-            <h2 class="section-title">From Insurer Statement to Agent Payout — <span class="text-primary-custom">One Automated Flow</span></h2>
-            <p class="section-desc mx-auto">Every stage of the reconciliation cycle — from statement upload to final payout — flows through one connected system, without a spreadsheet in sight.</p>
+            <div class="section-label">ONE CONNECTED RECONCILIATION FLOW</div>
+            <h2 class="section-title">From Insurer Statement to Payout, Without the <span class="text-primary-custom">Spreadsheet Chase</span></h2>
+            <p class="section-desc mx-auto">FT Reconciliation connects statement intake, matching, exception review and payout readiness in one
+                workflow, so finance spends less time checking every line.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -226,9 +194,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 01 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Any Format, Automatically Pulled In</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Bring statements in</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Insurer commission statements, in any format, are uploaded or pulled in automatically — no manual reformatting required.
+                        Import supported insurer statements into the reconciliation workflow without rebuilding every file
+                        manually.
                     </p>
                 </div>
             </div>
@@ -247,9 +216,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 02 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Every Line Item Matched to Policy Data</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Match against policy data</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        FT Reconciliation matches each line item against your policy data automatically, regardless of how the insurer structured their statement.
+                        Compare statement entries with corresponding policy and commission records available within the
+                        system.
                     </p>
                 </div>
             </div>
@@ -267,9 +237,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 03 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Discrepancies Flagged Before Payout</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Separate matches from exceptions</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The system flags discrepancies — missing policies, incorrect amounts, duplicate entries — before they reach a payout.
+                        Identify amount differences, missing policies, duplicate entries and other records that need finance
+                        review.
                     </p>
                 </div>
             </div>
@@ -287,9 +258,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 04 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Side-by-Side Review, Fast Fixes</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Review what needs attention</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Flagged mismatches are surfaced for quick review, with the underlying policy and statement data shown side by side.
+                        See relevant statement and policy information together, so teams spend less time searching across
+                        separate records.
                     </p>
                 </div>
             </div>
@@ -308,9 +280,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 05 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Payouts Release Automatically</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Move confirmed payouts forward</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Once matched and confirmed, payouts to agents and POSPs are triggered automatically — no separate payment run required.
+                        Apply configured commission rules and move confirmed records towards the next payout stage.
                     </p>
                 </div>
             </div>
@@ -330,9 +302,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 06 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">A Clean Trail, Every Cycle</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Keep the cycle traceable</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Every reconciliation cycle produces a clean, exportable audit trail — ready for internal review or regulatory inspection.
+                        Maintain reconciliation records for finance review, payout tracking and future reference.
                     </p>
                 </div>
             </div>
@@ -341,18 +313,18 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 4: MANAGING RECONCILIATION, DAY TO DAY-->
+<!-- SECTION 4: FINANCE AND PARTNER WORKSPACE      -->
 <!-- ============================================= -->
 <section class="posp-dashboard-section" id="dashboard">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">MANAGING RECONCILIATION, DAY TO DAY</div>
-            <h2 class="section-title">Everything Your Finance Team Needs To <span class="text-primary-custom">Close The Books Faster</span></h2>
-            <p class="section-desc mx-auto">Dual-view architecture designed for agent transparency and finance team control.</p>
+            <div class="section-label">BUILT FOR DAILY RECONCILIATION</div>
+            <h2 class="section-title">One Reconciliation View for Finance. Clear Payout Visibility <span class="text-primary-custom">for Partners.</span></h2>
+            <p class="section-desc mx-auto">One workspace for finance control and partner payout visibility.</p>
         </div>
 
         <div class="row g-4 mt-2">
-            <!-- For The Agent / POSP -->
+            <!-- Agent and POSP view -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -365,28 +337,28 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">AGENT &amp; POSP INTERFACE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Agent / POSP</h3>
+                            <span class="pillar-tag-badge mb-1">AGENT AND POSP VIEW</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">Agent and POSP view</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Reward / Commission View</strong> — see confirmed commission and payout status in real time</div>
+                            <div><strong>Commission visibility</strong> — View confirmed commissions against relevant policy records.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Payout History</strong> — every past payout, matched to the policy that earned it</div>
+                            <div><strong>Payout history</strong> — Track previous payouts and the policies linked to them.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Discrepancy Alerts</strong> — notified directly if a payout is delayed pending review</div>
+                            <div><strong>Exception status</strong> — Know when a commission is pending review or awaiting resolution.</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- For Finance / The Back Office -->
+            <!-- Back Office -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -398,58 +370,60 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">FINANCE CONTROL CONSOLE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For Finance / The Back Office</h3>
+                            <span class="pillar-tag-badge mb-1">BACK OFFICE</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">Back Office</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Multi-Insurer Statement Reconciliation</strong> — every insurer's statement, matched automatically</div>
+                            <div><strong>Multi-insurer reconciliation</strong> — Bring supported insurer statements into one reconciliation workflow.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Automated Mismatch Detection</strong> — discrepancies flagged before payout, not after</div>
+                            <div><strong>Exception management</strong> — Review mismatches separately instead of checking every record manually.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Instant Payout Triggers</strong> — approved matches release payouts without a manual run</div>
+                            <div><strong>Payout controls</strong> — Move confirmed commissions through configured payout workflows.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Audit-Ready Reporting</strong> — exportable reports for every reconciliation cycle</div>
+                            <div><strong>Reconciliation records</strong> — Maintain statement, matching and payout information across reconciliation cycles.</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Role Architecture Summary Banner -->
+        <!-- Support strip -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold mb-1 mb-sm-0">🔒 Single Source of Truth</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">👤 Agent Payout View</span>
-                <span class="text-muted fw-bold">+</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">One reconciliation record</span>
+                <span class="text-muted fw-bold">|</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">📋 Finance Admin Console</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Finance control</span>
+                <span class="text-muted fw-bold">|</span>
+                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Partner visibility</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 5: AI IN RECONCILIATION               -->
+<!-- SECTION 5: AI-ASSISTED RECONCILIATION         -->
 <!-- ============================================= -->
 <section class="posp-ai-section" id="ai-features">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">AI IN RECONCILIATION</div>
-            <h2 class="section-title">AI That Actually <span class="text-primary-custom">Finds What Excel Misses</span></h2>
-            <p class="section-desc mx-auto">FT Reconciliation isn't a bigger spreadsheet — it's insurtech built with AI at the core.</p>
+            <div class="section-label">AI-ASSISTED RECONCILIATION</div>
+            <h2 class="section-title">Let AI Surface What Finance Should <span class="text-primary-custom">Review</span></h2>
+            <p class="section-desc mx-auto">AI structures insurer statements and surfaces potential mismatches, while configured rules and finance
+                controls remain in charge.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -463,9 +437,9 @@ include 'includes/header.php';
                             <polyline points="14 2 14 8 20 8" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Statement Parsing</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Structure incoming statements</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Reads and structures commission statements automatically, regardless of insurer format — no manual reformatting.
+                        Turn supported insurer statement formats into organised data ready for reconciliation.
                     </p>
                 </div>
             </div>
@@ -479,9 +453,9 @@ include 'includes/header.php';
                             <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Mismatch Detection</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Surface potential mismatches</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Flags discrepancies a manual reviewer would likely miss — duplicate entries, incorrect rates, missing policies.
+                        Identify possible amount, rate, duplicate or policy-level exceptions for finance review.
                     </p>
                 </div>
             </div>
@@ -495,9 +469,9 @@ include 'includes/header.php';
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Automated Payout Logic</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Keep business rules in control</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Once matched and confirmed, payouts trigger automatically, based on your commission rules — not a manual payment run.
+                        Process records according to configured commission and reconciliation rules.
                     </p>
                 </div>
             </div>
@@ -512,9 +486,9 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Insurtech-Native Architecture</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Connect back to policy records</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Built on FondosTech's insurtech engine, connecting commission data directly to policy and POSP records already on the platform.
+                        Link reconciliation activity with relevant policy and partner information within FondosTech.
                     </p>
                 </div>
             </div>
@@ -528,31 +502,32 @@ include 'includes/header.php';
 <section class="posp-built-for-section" id="built-for">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">BUILT FOR</div>
-            <h2 class="section-title">One Reconciliation System, Every Kind of <span class="text-primary-custom">Insurance Business</span></h2>
-            <p class="section-desc mx-auto">Empowering traditional insurance brokerages, agencies, banks, and corporates alike.</p>
+            <div class="section-label">BUILT FOR GROWING INSURANCE OPERATIONS</div>
+            <h2 class="section-title">Built for Businesses Where Commission Complexity Keeps <span class="text-primary-custom">Growing</span></h2>
+            <p class="section-desc mx-auto">For brokers, agencies, banks and NBFCs managing complex commission cycles.</p>
         </div>
 
         <div class="row g-4 mt-3">
             <!-- Segment 1 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
                             <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Brokers</h3>
+                    <h3 class="about-card-title mb-2">Insurance brokers</h3>
                     <p class="about-card-text">
-                        Reconcile commissions across every insurer on your panel, without a finance team buried in Excel every month.
+                        Match insurer statements with policy records without letting manual reconciliation grow with every
+                        insurer relationship.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 2 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -562,16 +537,17 @@ include 'includes/header.php';
                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Agencies</h3>
+                    <h3 class="about-card-title mb-2">Insurance agencies</h3>
                     <p class="about-card-text">
-                        Scale your agency's agent network without your reconciliation workload scaling at the same rate.
+                        Keep commission records, payout status and exceptions visible as agent networks and policy volumes
+                        increase.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 3 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -579,16 +555,16 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Banks &amp; NBFCs</h3>
+                    <h3 class="about-card-title mb-2">Banks and NBFCs</h3>
                     <p class="about-card-text">
-                        Reconcile commission on embedded insurance products attached to loans, from the same platform that issued them.
+                        Track insurance commissions linked to lending and financial-product distribution workflows.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 4 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -597,45 +573,30 @@ include 'includes/header.php';
                             <polyline points="2 12 12 17 22 12" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Corporates</h3>
+                    <h3 class="about-card-title mb-2">Corporate agents</h3>
                     <p class="about-card-text">
-                        Reconcile broker or partner commissions on group insurance programs, with full audit-ready visibility.
+                        Bring insurer statements, policy records and commission checks into one controlled reconciliation
+                        process.
                     </p>
                 </div>
-            </div>
-        </div>
-
-        <!-- Scale Flow Bar -->
-        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
-            data-aos="zoom-in">
-            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
-                style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold">Insurer statement uploaded</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">AI matches every line item</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="text-dark fw-bold">mismatches flagged for review</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-dark fw-bold d-none d-sm-inline">payout triggered automatically</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 7: THE DIFFERENCE                     -->
+<!-- SECTION 7: THE OPERATIONAL DIFFERENCE         -->
 <!-- ============================================= -->
 <section class="posp-comparison-section" id="difference">
     <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
-            <div class="section-label">THE DIFFERENCE</div>
-            <h2 class="section-title">See What Changes, <span class="text-primary-custom">Side By Side</span></h2>
-            <p class="section-desc mx-auto">Compare legacy manual reconciliation with FT Reconciliation's automated platform.</p>
+            <div class="section-label">THE OPERATIONAL DIFFERENCE</div>
+            <h2 class="section-title">Replace Manual Checks With <span class="text-primary-custom">Exception-Led Control</span></h2>
+            <p class="section-desc mx-auto">Routine matches move forward. Finance focuses on exceptions.</p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Left Side: WITHOUT RECONCILIATION SOFTWARE -->
+            <!-- Left Side: WITHOUT FT RECONCILIATION -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card h-100 p-4 border-2"
                     style="background: #ffffff; border-color: #e2e8f0 !important;">
@@ -643,39 +604,42 @@ include 'includes/header.php';
                         style="border-color: #e2e8f0 !important;">
                         <div class="d-flex align-items-center gap-2">
                             <span class="badge bg-secondary-subtle text-dark px-3 py-2 rounded-pill fw-bold"
-                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT RECONCILIATION SOFTWARE</span>
+                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT FT RECONCILIATION</span>
                         </div>
-                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Legacy Manual Mode</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Statements matched by hand in Excel</div>
+                            <div class="text-muted">Reformat insurer statements manually</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Different formats reformatted manually, every insurer</div>
+                            <div class="text-muted">Match records line by line</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Mismatches caught inconsistently, if at all</div>
+                            <div class="text-muted">Search manually for mismatches</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Payouts run manually, once matching is "done"</div>
+                            <div class="text-muted">Check successful and failed matches together</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Agents call finance for payout status</div>
+                            <div class="text-muted">Manage payouts through separate processes</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">No audit trail beyond the spreadsheet itself</div>
+                            <div class="text-muted">Answer payout queries individually</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Reconciliation takes 4-5 days, every month</div>
+                            <div class="text-muted">Build reconciliation records manually</div>
+                        </div>
+                        <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
+                            <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
+                            <div class="text-muted">Spend time checking every record</div>
                         </div>
                     </div>
                 </div>
@@ -691,38 +655,40 @@ include 'includes/header.php';
                             <span class="badge bg-primary text-white px-2.5 px-sm-3 py-2 rounded-pill fw-bold"
                                 style="font-size: 0.8125rem;">⚡ WITH FT RECONCILIATION</span>
                         </div>
-                        <span class="badge bg-primary-subtle text-primary-custom px-2.5 py-1 rounded-pill fw-bold"
-                            style="font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.08) !important;">RECOMMENDED</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Statements matched automatically by AI</div>
+                            <div class="text-dark fw-bold">Structure supported statements within the workflow</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Any insurer format read and structured instantly</div>
+                            <div class="text-dark fw-bold">Match statement entries against policy data</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Mismatches flagged automatically, before payout</div>
+                            <div class="text-dark fw-bold">Surface exceptions for focused review</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Payouts triggered instantly on confirmed matches</div>
+                            <div class="text-dark fw-bold">Separate routine matches from records needing attention</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Agents see live payout status, no calls needed</div>
+                            <div class="text-dark fw-bold">Connect confirmed records with payout workflows</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Audit-ready reporting generated every cycle</div>
+                            <div class="text-dark fw-bold">Give relevant users payout visibility</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Reconciliation cut from days to a single day</div>
+                            <div class="text-dark fw-bold">Maintain cycle-level reconciliation records</div>
+                        </div>
+                        <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
+                            <span class="check-icon">✓</span>
+                            <div class="text-dark fw-bold">Focus finance attention on exceptions</div>
                         </div>
                     </div>
                 </div>
@@ -742,14 +708,14 @@ include 'includes/header.php';
                 <div class="faq-left-content">
                     <div class="section-label">RECONCILIATION SOFTWARE, EXPLAINED</div>
                     <h2 class="section-title">
-                        Your Reconciliation Questions, <span class="text-primary-custom">Answered</span>
+                        Commission Reconciliation Questions, <span class="text-primary-custom">Answered</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Everything you need to know about FT Reconciliation's matching, mismatch detection, and payouts.
+                        Clear answers on statement matching, mismatches, payouts, reporting and implementation.
                     </p>
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
-                        <span>Schedule a Demo</span>
+                        <span>Book a demo</span>
                         <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -766,12 +732,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq1" aria-expanded="true" aria-controls="recFaq1">
-                                What is commission reconciliation software?
+                                What is insurance commission reconciliation software?
                             </button>
                         </h3>
                         <div id="recFaq1" class="accordion-collapse collapse show" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                Commission reconciliation software is a digital system that automatically matches an insurer's commission statement against your own policy data — flagging discrepancies and triggering payouts, replacing manual Excel-based matching.
+                                Insurance commission reconciliation software matches insurer statements against policy and
+                                commission records to identify differences before commissions move towards payout.
                             </div>
                         </div>
                     </div>
@@ -781,12 +748,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq2" aria-expanded="false" aria-controls="recFaq2">
-                                How does FT Reconciliation use AI?
+                                How does FT Reconciliation match insurer statements?
                             </button>
                         </h3>
                         <div id="recFaq2" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                It uses AI to parse and structure commission statements from any insurer, automatically match statement line items to policy records, and detect discrepancies like rate errors or missing policies.
+                                FT Reconciliation structures supported statement data and compares relevant entries with
+                                corresponding policy and commission records.
                             </div>
                         </div>
                     </div>
@@ -796,12 +764,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq3" aria-expanded="false" aria-controls="recFaq3">
-                                Can agents see their payout status in real time?
+                                What happens when records do not match?
                             </button>
                         </h3>
                         <div id="recFaq3" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Agents and POSPs can track confirmed commissions and pending or released payouts directly from their dashboard.
+                                Potential mismatches are separated for review, allowing finance teams to focus on exceptions instead
+                                of manually checking every successful match.
                             </div>
                         </div>
                     </div>
@@ -811,12 +780,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq4" aria-expanded="false" aria-controls="recFaq4">
-                                Is FT Reconciliation a standalone tool, or part of a larger platform?
+                                Can agents and POSPs track payout information?
                             </button>
                         </h3>
                         <div id="recFaq4" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                It's built into FondosTech's insurance broker software, so commission tracking connects directly to live policy and POSP records already on the platform.
+                                FT Reconciliation can provide relevant commission and payout visibility through the applicable user
+                                interface.
                             </div>
                         </div>
                     </div>
@@ -826,12 +796,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq5" aria-expanded="false" aria-controls="recFaq5">
-                                How much faster is reconciliation with FT Reconciliation?
+                                Can FT Reconciliation handle different insurer statement formats?
                             </button>
                         </h3>
                         <div id="recFaq5" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                Reconciliation time typically drops from 4-5 days per month to a single day, since line-item matching and discrepancy detection happen automatically.
+                                It is designed to process supported insurer statement formats and reduce manual reformatting. Exact
+                                format support depends on implementation scope.
                             </div>
                         </div>
                     </div>
@@ -841,12 +812,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq6" aria-expanded="false" aria-controls="recFaq6">
-                                Does FT Reconciliation work with any insurer's statement format?
+                                How does AI support commission reconciliation?
                             </button>
                         </h3>
                         <div id="recFaq6" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Built-in AI statement parsing handles Excel, CSV, PDF, and custom insurer statement layouts without manual template setup.
+                                AI assists with structuring statement data and identifying potential exceptions. Configured
+                                reconciliation rules and finance controls remain part of the process.
                             </div>
                         </div>
                     </div>
@@ -856,27 +828,12 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#recFaq7" aria-expanded="false" aria-controls="recFaq7">
-                                Is FT Reconciliation insurtech, or traditional finance software?
+                                Does FT Reconciliation support reconciliation reporting?
                             </button>
                         </h3>
                         <div id="recFaq7" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
                             <div class="accordion-body">
-                                It's built specifically for insurance on FondosTech's insurtech engine — pre-configured with insurance commission structures, policy matching rules, and POSP payout flows.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 8 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="240">
-                        <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#recFaq8" aria-expanded="false" aria-controls="recFaq8">
-                                Does FT Reconciliation generate audit-ready reports?
-                            </button>
-                        </h3>
-                        <div id="recFaq8" class="accordion-collapse collapse" data-bs-parent="#reconciliationFaqAccordion">
-                            <div class="accordion-body">
-                                Yes. Clean, exportable audit trails and reconciliation reports covering every statement cycle are available at any time.
+                                The platform maintains reconciliation records that can support finance review and reporting.
                             </div>
                         </div>
                     </div>
@@ -887,27 +844,26 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 9: READY TO RECONCILE CTA BANNER      -->
+<!-- SECTION 9: FINAL CTA                          -->
 <!-- ============================================= -->
-<section class="about-cta-section" id="posp-cta">
+<section class="about-cta-section" id="recon-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready to Reconcile Commissions in a Day, Not a Month?</h2>
+            <div class="section-label mb-3" style="color: rgba(255,255,255,0.85);">BRING RECONCILIATION UNDER CONTROL</div>
+            <h2 class="about-cta-title">Close Your Next Reconciliation Cycle With Less Manual Work</h2>
             <p class="about-cta-desc">
-                See how FT Reconciliation replaces manual Excel matching with one AI-powered reconciliation system.
+                See how FT Reconciliation brings matching, exceptions and payouts into one controlled workflow.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php"
                     class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn"
                     style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Book a demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                         viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
-                <a href="<?php echo $base_path; ?>contact.php"
-                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Sales</a>
             </div>
         </div>
     </div>

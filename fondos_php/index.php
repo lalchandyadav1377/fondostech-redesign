@@ -4,13 +4,13 @@
  */
 
 $page_title = 'FondosTech — Insurtech Platform Built to Scale With Ease';
-$page_description = 'FondosTech is an AI-driven Insurtech Platform which consolidates multi-insurer quotes, simplifies POSP onboarding and payouts & reconciliation – all on a 100% IRDAI compliant, CERT-In & ISO certified secure environment.';
+$page_description = 'FondosTech is an AI-driven Insurtech Platform enabling embedded insurance, multi-insurer quotes, POSP onboarding and payouts & reconciliation for fintechs, banks, NBFCs and brokers – all on a 100% IRDAI compliant, CERT-In & ISO certified secure environment, saving stakeholders time and effort.';
+$page_keywords = 'FondosTech, AI-driven Insurtech Platform, embedded insurance, multi-insurer quotes, POSP onboarding, payouts and reconciliation, fintechs, banks, NBFCs, insurance brokers, IRDAI compliant, CERT-In, ISO certified';
 $page_css = ['assets/css/pages/home.css'];
 $page_js = ['assets/js/pages/home.js'];
 $active_page = 'home';
 
-include 'includes/header.php';
-?>
+include 'includes/header.php';?>
 
 <!-- ============================================= -->
 <!-- SECTION 1: HERO                               -->
@@ -25,14 +25,14 @@ include 'includes/header.php';
                 </span>
             </h1>
             <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="50">
-                FondosTech is an AI-driven Insurtech Platform which consolidates multi-insurer quotes,
-                simplifies POSP onboarding and payouts &amp; reconciliation – all on a 100% IRDAI compliant,
-                CERT-In &amp; ISO certified secure environment. Built for fast go-to-market, it saves time and
-                effort across every stakeholder.
+                FondosTech is an AI-driven Insurtech Platform enabling embedded insurance, multi-insurer
+                quotes, POSP onboarding and payouts &amp; reconciliation for fintechs, banks, NBFCs and
+                brokers – all on a 100% IRDAI compliant, CERT-In &amp; ISO certified secure environment,
+                saving stakeholders time and effort.
             </p>
 
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="100">
-                <a href="contact.php" class="btn-primary-custom">
+                <a href="#requestDemoModal" class="btn-primary-custom js-demo-modal" data-bs-toggle="modal" data-bs-target="#requestDemoModal">
                     Book a Free Demo
                     <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -87,20 +87,34 @@ include 'includes/header.php';
         </div>
         <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
             <div class="ic-logos-track">
-                <div class="ic-logo-card"><img src="assets/images/magma-ic0.svg" alt="Magma Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/liberty-general-ic0.svg"
-                        alt="Liberty General Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-81.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-10.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-21.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-31.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-40.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-53.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-60.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-70.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/bajaj-life-ic0.svg" alt="Bajaj Life Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/shriram-general-ic0.svg"
-                        alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_general_ic.svg" alt="Bajaj General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_life_ic.svg" alt="Bajaj Life Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/care_health_ic.svg" alt="Care Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/chola_ms_general_ic.svg" alt="Chola MS General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/digit_ic.svg" alt="Digit Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/generali_central_ic.svg" alt="Generali Central Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_ergo_general_ic.svg" alt="HDFC ERGO General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_life_ic.svg" alt="HDFC Life"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/icici_lombard_general_ic.svg" alt="ICICI Lombard General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/iffco_tokio_general_ic.svg" alt="IFFCO Tokio General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/indusind_general_ic.svg" alt="IndusInd General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/liberty_general_ic.svg" alt="Liberty General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/magma_ic.svg" alt="Magma Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/manipal_cigna_health_ic.svg" alt="ManipalCigna Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/national_ic.svg" alt="National Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/nivabupa_ic.svg" alt="Niva Bupa"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/oriental_ic.svg" alt="Oriental Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/raheja_qbe_general_ic.svg" alt="Raheja QBE General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/royal_sundaram_general_ic.svg" alt="Royal Sundaram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/sbi_general_ic.svg" alt="SBI General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/shriram_general_ic.svg" alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/star_health_ic.svg" alt="Star Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/tata_aig_ic.svg" alt="Tata AIG"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/the_new_india_assurance_ic.svg.svg" alt="New India Assurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/united_india_ic.svg" alt="United India Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/usg_ic.svg" alt="Universal Sompo General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zuno_ic.svg" alt="Zuno Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zurich_kotak_general_ic.svg" alt="Zurich Kotak General Insurance"></div>
             </div>
         </div>
     </div>
@@ -367,8 +381,8 @@ include 'includes/header.php';
                 style="padding:0.75rem 2.25rem;">
                 <span class="btn-text">View All</span>
                 <svg class="btn-icon" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    style="transition: transform 0.3s ease;">
-                    <path d="M9 4.5L13.5 9L9 13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    width="20" height="20" aria-hidden="true" style="transition: transform 0.3s ease;">
+                    <path d="M4.5 6.75L9 11.25L13.5 6.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
             </button>
@@ -776,7 +790,7 @@ include 'includes/header.php';
                                                 <span>Centralized network and performance monitor</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="posp.php" class="btn-link-custom">
                                             Explore POSP
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -897,7 +911,7 @@ include 'includes/header.php';
                                     <div class="platform-card-image d2c-image-wrapper">
                                         <div class="platform-image-container"
                                             aria-label="FT D2C Insure Product Showcase">
-                                            <img src="assets/images/product_page/Product_Page_FT_D2C_Insure_img.svg"
+                                            <img src="assets/images/product_page/Product_Page_FT_D2C_Insure_img.webp"
                                                 alt="FT D2C Insure product interface" class="platform-main-img">
                                         </div>
                                     </div>
@@ -1006,7 +1020,7 @@ include 'includes/header.php';
                                                 <span>incremental revenue from existing customer transactions</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="embedded-insure.php" class="btn-link-custom">
                                             Explore Embedded Insure
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1076,7 +1090,7 @@ include 'includes/header.php';
                                                 <span>Reduced manual steps in claim journey</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="claims.php" class="btn-link-custom">
                                             Explore Digital Claims
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1145,7 +1159,7 @@ include 'includes/header.php';
                                                 <span>Reduce payout errors with structured payment workflows</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="payin-payout.php" class="btn-link-custom">
                                             Explore PayIn-PayOut
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1225,7 +1239,7 @@ include 'includes/header.php';
                                                 <span>Structured enrolment data for faster insurer processing</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="eb-sure.php" class="btn-link-custom">
                                             Explore FT EB Sure
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1311,7 +1325,7 @@ include 'includes/header.php';
                                                 <span>Audit ready records with clear action history</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="compliance.php" class="btn-link-custom">
                                             Explore Compliance Shield
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1378,7 +1392,7 @@ include 'includes/header.php';
                                                 <span>Cycle-wise audit trail maintained</span>
                                             </div>
                                         </div>
-                                        <a href="contact.php" class="btn-link-custom">
+                                        <a href="reconciliation.php" class="btn-link-custom">
                                             Explore FT Reconciliation
                                             <svg class="btn-icon" viewBox="0 0 9 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1436,7 +1450,7 @@ include 'includes/header.php';
                     Configure new products faster, reduced set-up efforts, and expand without rebuilding your
                     distribution stack.
                 </p>
-                <div class="d-flex align-items-center gap-3 flex-wrap my-4">
+                <div class="d-none d-md-flex align-items-center gap-3 flex-wrap my-4">
                     <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-white border shadow-sm"
                         style="font-weight: 600; font-size: 0.875rem; color: #086ad8; border-color: #CEE4FD !important;">
                         <span
@@ -1498,8 +1512,8 @@ include 'includes/header.php';
                                 <span>Taxi Insurance</span>
                             </div>
                             <div class="lob-product-card">
-                                <img src="assets/images/misc-d-insurance0.svg" alt="Misc Insurance">
-                                <span>Misc Insurance</span>
+                                <img src="assets/images/home_page/home_insurance.svg" alt="Home Insurance">
+                                <span>Home Insurance</span>
                             </div>
                             <div class="lob-product-card">
                                 <img src="assets/images/family-floater0.svg" alt="Family Floater">
@@ -1512,20 +1526,20 @@ include 'includes/header.php';
                     <div class="lob-slider-column move-up">
                         <div class="lob-slider-track">
                             <div class="lob-product-card">
-                                <img src="assets/images/car-insurance9.svg" alt="Marine Insurance">
+                                <img src="assets/images/home_page/marine_insurance_icon.svg" alt="Marine Insurance">
                                 <span>Marine Insurance</span>
                             </div>
                             <div class="lob-product-card">
-                                <img src="assets/images/simplification3.svg" alt="Travel Insurance">
+                                <img src="assets/images/home_page/travel_insurance_icon.svg" alt="Travel Insurance">
                                 <span>Travel Insurance</span>
                             </div>
                             <div class="lob-product-card">
-                                <img src="assets/images/simplification0.svg" alt="Health Insurance">
-                                <span>Health Insurance</span>
+                                <img src="assets/images/home_page/cyber_insurance_icon.svg" alt="Cyber Insurance">
+                                <span>Cyber Insurance</span>
                             </div>
                             <div class="lob-product-card">
-                                <img src="assets/images/car-insurance3.svg" alt="Car Insurance">
-                                <span>Car Insurance</span>
+                                <img src="assets/images/home_page/fire_insurance_icon.svg" alt="Fire Insurance">
+                                <span>Fire Insurance</span>
                             </div>
                         </div>
                     </div>
@@ -1967,120 +1981,58 @@ include 'includes/header.php';
 
 
 <!-- ============================================= -->
-<!-- SECTION 10: TESTIMONIALS (Slider)             -->
+<!-- SECTION 10: TESTIMONIALS                      -->
 <!-- ============================================= -->
 <section class="testimonials-section section-padding" id="testimonials" aria-label="Customer testimonials"
     data-aos="fade-up">
-    <!-- Centered Header -->
-    <div class="container mb-4 text-center" data-aos="fade-up">
-        <div class="section-label">Testimonials</div>
-        <h2 class="section-title">
-            Why Leaders <span class="text-primary-custom">Choose Us</span>
-        </h2>
-    </div>
+    <div class="container">
+        <div class="testimonials-layout">
+            <div class="testimonials-intro" data-aos="fade-up">
+                <div class="section-label">Testimonials</div>
+                <h2 class="section-title">Why Leaders <span class="text-primary-custom">Choose Us</span></h2>
+                <p class="section-desc">
+                    Insurance leaders use FondosTech to connect insurers, simplify operations, and run
+                    distribution on one platform — with support that stays with them after go-live.
+                </p>
+                <a href="about-us.php" class="testimonials-discover-btn">
+                    <span>Discover Us</span>
+                    <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
 
-    <!-- Edge-to-Edge Carousel Track -->
-    <div class="container-fluid px-0" data-aos="fade-up" data-aos-delay="150">
-        <div class="testimonials-slider-overflow">
-            <div class="testimonials-track" id="testimonials-track">
-                <!-- Testimonial 1 -->
-                <div class="testimonial-card">
-                    <img src="assets/images/group-60.svg" alt="5 Stars" class="testimonial-stars-img">
+            <div class="testimonials-grid" data-aos="fade-up" data-aos-delay="150">
+                <article class="testimonial-card">
                     <p class="testimonial-text">
-                        <span>“</span>
-                        FondosTech has revolutionized our insurance operations with their seamless API integrations and
+                        <span class="testimonial-quote">“</span>FondosTech has revolutionized our insurance operations with their seamless API integrations and
                         user-friendly platforms. Their timely delivery and dedicated support team ensured a smooth
-                        onboarding process, helping us achieve operational efficiency in record time.
-                        <span>”</span>
+                        onboarding process, helping us achieve operational efficiency in record time.<span class="testimonial-quote">”</span>
                     </p>
-                    <div class="testimonial-divider"></div>
                     <div class="testimonial-author">
                         <div>
                             <div class="testimonial-author-name">Manoj Upadhyay</div>
                             <div class="testimonial-author-role">Founder &amp; MD</div>
                         </div>
-                        <img src="assets/images/logo-10.png" alt="Company logo" class="testimonial-author-logo">
+                        <img src="assets/images/group-60.svg" alt="5 Stars" class="testimonial-stars-img">
                     </div>
-                </div>
+                </article>
 
-                <!-- Testimonial 2 -->
-                <div class="testimonial-card">
-                    <img src="assets/images/group-61.svg" alt="5 Stars" class="testimonial-stars-img">
+                <article class="testimonial-card">
                     <p class="testimonial-text">
-                        <span>“</span>
-                        The journey with FondosTech has been outstanding. From timely delivery to exceptional client
-                        support, they’ve consistently gone above and beyond to help us achieve our goals.
-                        <span>”</span>
+                        <span class="testimonial-quote">“</span>The journey with FondosTech has been outstanding. From timely delivery to exceptional client
+                        support, they’ve consistently gone above and beyond to help us achieve our goals.<span class="testimonial-quote">”</span>
                     </p>
-                    <div class="testimonial-divider"></div>
                     <div class="testimonial-author">
                         <div>
                             <div class="testimonial-author-name">Sameer Rinwa</div>
                             <div class="testimonial-author-role">Co-Founder</div>
                         </div>
-                        <img src="assets/images/logo-30.png" alt="Company logo" class="testimonial-author-logo">
+                        <img src="assets/images/group-61.svg" alt="5 Stars" class="testimonial-stars-img">
                     </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="testimonial-card">
-                    <img src="assets/images/group-62.svg" alt="5 Stars" class="testimonial-stars-img">
-                    <p class="testimonial-text">
-                        <span>“</span>
-                        The team at FondosTech truly understands the complexities of insurance distribution. Their
-                        robust solutions for quote generation and policy issuance have streamlined our workflows, while
-                        their exceptional post-implementation support makes them a trusted partner.
-                        <span>”</span>
-                    </p>
-                    <div class="testimonial-divider"></div>
-                    <div class="testimonial-author">
-                        <div>
-                            <div class="testimonial-author-name">Karan Nagda</div>
-                            <div class="testimonial-author-role">Director</div>
-                        </div>
-                        <img src="assets/images/clip-path-group1.svg" alt="Company logo"
-                            class="testimonial-author-logo">
-                    </div>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="testimonial-card">
-                    <img src="assets/images/group-63.svg" alt="5 Stars" class="testimonial-stars-img">
-                    <p class="testimonial-text">
-                        <span>“</span>
-                        FondosTech’s claims management module has transformed the way we handle customer requests. The
-                        platform is intuitive and efficient, and their team is always available to provide guidance
-                        whenever needed. Truly a remarkable experience!
-                        <span>”</span>
-                    </p>
-                    <div class="testimonial-divider"></div>
-                    <div class="testimonial-author">
-                        <div>
-                            <div class="testimonial-author-name">Vikas Srivastav</div>
-                            <div class="testimonial-author-role">Founder</div>
-                        </div>
-                        <img src="assets/images/logo-header-10.png" alt="Company logo" class="testimonial-author-logo">
-                    </div>
-                </div>
+                </article>
             </div>
-        </div>
-    </div>
-
-    <!-- Bottom Centered Arrow Buttons -->
-    <div class="container mt-4 text-center">
-        <div class="testimonial-nav-btns d-inline-flex align-items-center justify-content-center gap-3">
-            <button class="testimonial-nav-btn" id="testimonial-prev" aria-label="Previous testimonial">
-                <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 1L2 7L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </button>
-            <button class="testimonial-nav-btn" id="testimonial-next" aria-label="Next testimonial">
-                <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </button>
         </div>
     </div>
 </section>

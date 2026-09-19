@@ -137,7 +137,13 @@ include 'includes/header.php';
                                     <textarea name="userMessage" id="userMessage" class="form-control" rows="4" placeholder="Tell us how we can help..." required></textarea>
                                 </div>
                             </div>
-                            <div class="col-12 mt-4">
+                            <div class="col-12">
+                                <div class="ft-recaptcha-wrap">
+                                    <div id="contactRecaptcha" class="g-recaptcha" data-sitekey="<?php echo htmlspecialchars(RECAPTCHA_SITE_KEY); ?>"></div>
+                                    <input type="hidden" name="contactCaptcha" id="contactCaptcha" value="">
+                                </div>
+                            </div>
+                            <div class="col-12 mt-2">
                                 <button type="submit" class="btn-contact-submit">Send Message</button>
                             </div>
                         </div>
@@ -235,12 +241,14 @@ include 'includes/header.php';
                             </div>
                         </div>
 
-                        <!-- Location Pills Selector (Only 4 Cities) -->
+                        <!-- Location Pills Selector -->
                         <div class="node-selector-pills mt-4" id="network-node-selectors">
                             <button class="node-pill-btn active" data-city="delhi">New Delhi</button>
                             <button class="node-pill-btn" data-city="jaipur">Jaipur</button>
                             <button class="node-pill-btn" data-city="gurugram">Gurugram</button>
                             <button class="node-pill-btn" data-city="mumbai">Mumbai</button>
+                            <button class="node-pill-btn" data-city="ahmedabad">Ahmedabad</button>
+                            <button class="node-pill-btn" data-city="hyderabad">Hyderabad</button>
                         </div>
                     </div>
                 </div>

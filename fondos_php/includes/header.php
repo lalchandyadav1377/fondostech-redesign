@@ -10,11 +10,24 @@
 if (!isset($page_title))
   $page_title = 'FondosTech — Insurance Software';
 if (!isset($page_description))
-  $page_description = 'FondosTech is end-to-end insurance software that brings quoting, POSP management, claims, reconciliation, payouts and IRDAI compliance onto a single platform.';
+  $page_description = 'FondosTech is an AI-driven Insurtech Platform enabling embedded insurance, multi-insurer quotes, POSP onboarding and payouts & reconciliation for fintechs, banks, NBFCs and brokers – all on a 100% IRDAI compliant, CERT-In & ISO certified secure environment, saving stakeholders time and effort.';
+if (!isset($page_keywords))
+  $page_keywords = 'insurance software, insurance broker software, POSP management platform, embedded insurance, multi-insurer quotes, claims automation, IRDAI compliance software, insurance quote engine, FondosTech';
 if (!isset($page_css))
   $page_css = [];
 if (!isset($active_page))
   $active_page = 'home';
+
+$config_file = __DIR__ . '/config.php';
+if (is_file($config_file)) {
+  require_once $config_file;
+}
+if (!defined('RECAPTCHA_SITE_KEY')) {
+  define('RECAPTCHA_SITE_KEY', '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI');
+}
+if (!defined('RECAPTCHA_SECRET_KEY')) {
+  define('RECAPTCHA_SECRET_KEY', '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe');
+}
 
 // Determine base path
 $base_path = '';
@@ -23,7 +36,10 @@ $base_path = '';
 $target_img_dir = dirname(__DIR__) . '/assets/images/';
 $source_htm_dir = dirname(dirname(__DIR__)) . '/fondos_web_htm/';
 
-if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
+$existing_images = is_dir($target_img_dir) ? glob($target_img_dir . '*.*') : false;
+$image_count = is_array($existing_images) ? count($existing_images) : 0;
+
+if (!is_dir($target_img_dir) || $image_count < 10) {
   if (!is_dir($target_img_dir)) {
     @mkdir($target_img_dir, 0777, true);
   }
@@ -54,8 +70,7 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
   <title><?php echo htmlspecialchars($page_title); ?></title>
   <meta name="title" content="<?php echo htmlspecialchars($page_title); ?>">
   <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
-  <meta name="keywords"
-    content="insurance software, insurance broker software, POSP management platform, claims automation, IRDAI compliance software, insurance quote engine, FondosTech">
+  <meta name="keywords" content="<?php echo htmlspecialchars($page_keywords); ?>">
 
   <!-- Canonical Link -->
   <link rel="canonical" href="https://fondostech.in/">
@@ -65,8 +80,10 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
   <link rel="apple-touch-icon" href="<?php echo $base_path; ?>assets/images/clip-path-group3.svg">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fondostech.in/">
+  <meta property="og:url" content="https://fondostech.in/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FondosTech" />
+  <meta property="og:locale" content="en_IN" />
   <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
   <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
   <meta property="og:image" content="https://fondostech.in/assets/images/clip-path-group3.svg">
@@ -103,7 +120,7 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           "name": "FondosTech Insurance Software",
           "operatingSystem": "Web",
           "applicationCategory": "BusinessApplication",
-          "description": "End-to-end insurance software bringing quoting, POSP management, claims, reconciliation, payouts and IRDAI compliance onto a single platform."
+          "description": <?php echo json_encode($page_description); ?>
         },
         {
           "@type": "FAQPage",
@@ -143,13 +160,17 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <!-- Global Design System -->
-  <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/global.css">
+  <?php $global_css_v = file_exists(dirname(__DIR__) . '/assets/css/global.css') ? filemtime(dirname(__DIR__) . '/assets/css/global.css') : time(); ?>
+  <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/global.css?v=<?php echo $global_css_v; ?>">
 
   <!-- Header CSS -->
   <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/header.css">
 
   <!-- Footer CSS -->
   <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/footer.css">
+
+  <!-- Request Demo Modal CSS -->
+  <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/demo-modal.css">
 
   <!-- Page-specific CSS -->
   <?php foreach ($page_css as $css_file): ?>
@@ -222,10 +243,10 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           <div class="ft-dropdown-menu" role="menu">
             <a href="<?php echo $base_path; ?>about-us.php" class="ft-dropdown-item <?php echo ($active_page === 'about') ? 'active' : ''; ?>" role="menuitem">About Us</a>
             <a href="<?php echo $base_path; ?>contact.php" class="ft-dropdown-item" role="menuitem">Contact Us</a>
-            <a href="<?php echo $base_path; ?>about-us.php#team" class="ft-dropdown-item" role="menuitem">Leadership</a>
-            <a href="<?php echo $base_path; ?>index.php#insurtech" class="ft-dropdown-item" role="menuitem">Careers</a>
-            <a href="#" class="ft-dropdown-item" role="menuitem">Privacy Policy</a>
-            <a href="#" class="ft-dropdown-item" role="menuitem">Terms &amp; Conditions</a>
+            <a href="<?php echo $base_path; ?>about-us.php#team" class="ft-dropdown-item d-none" role="menuitem">Leadership</a>
+            <a href="<?php echo $base_path; ?>index.php#insurtech" class="ft-dropdown-item d-none" role="menuitem">Careers</a>
+            <a href="<?php echo $base_path; ?>privacy.php" class="ft-dropdown-item <?php echo ($active_page === 'privacy') ? 'active' : ''; ?>" role="menuitem">Privacy Policy</a>
+            <a href="<?php echo $base_path; ?>terms.php" class="ft-dropdown-item <?php echo ($active_page === 'terms') ? 'active' : ''; ?>" role="menuitem">Terms &amp; Conditions</a>
           </div>
         </div>
 
@@ -239,22 +260,22 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           </button>
           <div class="ft-dropdown-menu" role="menu">
             <a href="<?php echo $base_path; ?>blog.php" class="ft-dropdown-item <?php echo ($active_page === 'blog') ? 'active' : ''; ?>" role="menuitem">Blog</a>
-            <a href="<?php echo $base_path; ?>index.php#claims" class="ft-dropdown-item" role="menuitem">Articles</a>
-            <a href="<?php echo $base_path; ?>index.php#testimonials" class="ft-dropdown-item" role="menuitem">Newsletter</a>
+            <a href="<?php echo $base_path; ?>index.php#claims" class="ft-dropdown-item d-none" role="menuitem">Articles</a>
+            <a href="<?php echo $base_path; ?>index.php#testimonials" class="ft-dropdown-item d-none" role="menuitem">Newsletter</a>
             <a href="<?php echo $base_path; ?>index.php#faq" class="ft-dropdown-item" role="menuitem">FAQs</a>
           </div>
         </div>
 
-        <div class="ft-nav-item" role="none">
+        <!-- <div class="ft-nav-item" role="none">
           <a href="<?php echo $base_path; ?>contact.php" class="ft-nav-link <?php echo ($active_page === 'contact') ? 'active' : ''; ?>" role="menuitem">Contact Us</a>
-        </div>
+        </div> -->
       </div>
 
       <!-- CTA -->
       <div class="ft-header-cta">
-        <a href="#demo" class="btn-demo-outline">
-          Request Demo
-          <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="#requestDemoModal" class="btn-demo-outline js-demo-modal" data-bs-toggle="modal" data-bs-target="#requestDemoModal">
+          <span>Request Demo</span>
+          <svg class="btn-icon" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round" />
           </svg>
@@ -273,7 +294,7 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
       </a>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body d-flex flex-column justify-content-between px-4 py-3">
+    <div class="offcanvas-body d-flex flex-column px-4 py-3">
       <div class="ft-mobile-menu-list">
         <a href="<?php echo $base_path; ?>index.php" class="ft-mobile-menu-link <?php echo ($active_page === 'home') ? 'active' : ''; ?>">Home</a>
 
@@ -308,8 +329,10 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
             <div class="ft-mobile-sub-menu">
               <a href="<?php echo $base_path; ?>about-us.php">About Us</a>
               <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
-              <a href="<?php echo $base_path; ?>about-us.php#team">Leadership</a>
-              <a href="<?php echo $base_path; ?>index.php#insurtech">Careers</a>
+              <a href="<?php echo $base_path; ?>about-us.php#team" class="d-none">Leadership</a>
+              <a href="<?php echo $base_path; ?>index.php#insurtech" class="d-none">Careers</a>
+              <a href="<?php echo $base_path; ?>privacy.php">Privacy Policy</a>
+              <a href="<?php echo $base_path; ?>terms.php">Terms &amp; Conditions</a>
             </div>
           </div>
         </div>
@@ -322,19 +345,19 @@ if (!is_dir($target_img_dir) || count(glob($target_img_dir . '*.*')) < 10) {
           </button>
           <div class="collapse" id="mobileResources">
             <div class="ft-mobile-sub-menu">
-              <a href="<?php echo $base_path; ?>index.php#lob">Blog</a>
-              <a href="<?php echo $base_path; ?>index.php#claims">Articles</a>
-              <a href="<?php echo $base_path; ?>index.php#testimonials">Newsletter</a>
+              <a href="<?php echo $base_path; ?>blog.php">Blog</a>
+              <a href="<?php echo $base_path; ?>index.php#claims" class="d-none">Articles</a>
+              <a href="<?php echo $base_path; ?>index.php#testimonials" class="d-none">Newsletter</a>
               <a href="<?php echo $base_path; ?>index.php#faq">FAQs</a>
             </div>
           </div>
         </div>
 
         <a href="<?php echo $base_path; ?>contact.php" class="ft-mobile-menu-link <?php echo ($active_page === 'contact') ? 'active' : ''; ?>">Contact Us</a>
-      </div>
 
-      <div class="ft-mobile-offcanvas-footer pt-4 mt-auto">
-        <a href="<?php echo $base_path; ?>contact.php" class="btn btn-primary w-100 rounded-pill py-2.5 fw-bold shadow-sm" style="background:#086ad8;border-color:#086ad8;">Request Demo</a>
+        <div class="ft-mobile-offcanvas-footer pt-3">
+          <a href="#requestDemoModal" class="btn btn-primary w-100 rounded-pill py-2.5 fw-bold shadow-sm js-demo-modal" data-bs-toggle="modal" data-bs-target="#requestDemoModal" style="background:#086ad8;border-color:#086ad8;">Request Demo</a>
+        </div>
       </div>
     </div>
   </div>

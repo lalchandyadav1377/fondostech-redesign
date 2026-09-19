@@ -165,6 +165,22 @@
                 phone: sharedPhone,
                 email: sharedEmail,
                 coords: [19.0660, 72.8687]
+            },
+            ahmedabad: {
+                name: 'Ahmedabad',
+                jurisdiction: 'WESTERN REGION',
+                address: 'Ahmedabad',
+                phone: sharedPhone,
+                email: sharedEmail,
+                coords: [23.0225, 72.5714]
+            },
+            hyderabad: {
+                name: 'Hyderabad',
+                jurisdiction: 'SOUTHERN REGION',
+                address: 'Hyderabad',
+                phone: sharedPhone,
+                email: sharedEmail,
+                coords: [17.3850, 78.4867]
             }
         };
 

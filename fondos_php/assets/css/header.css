@@ -154,6 +154,13 @@
     padding-left: 1.25rem;
 }
 
+.ft-dropdown-item.d-none,
+.ft-mobile-sub-menu a.d-none,
+.ft-nav-item.d-none,
+.ft-mobile-accordion-item.d-none {
+    display: none !important;
+}
+
 /* Scroll Lock when Mobile Navigation is active */
 body.mobile-nav-active {
     overflow: hidden !important;

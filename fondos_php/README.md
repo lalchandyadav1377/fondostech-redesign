@@ -35,11 +35,11 @@ The repository follows a clean, component-based PHP architecture with modular he
 
 ### 🏠 1. Homepage (`index.php`)
 - 🔒 **Sticky Header**: Pill-shaped floating navbar with custom chevron dropdown arrows (`Products`, `Company`, `Resources`), scroll compression, and offcanvas drawer for mobile.
-- 🎯 **Hero Section**: Curated gradient hero with trust badges, call-to-actions, and interactive dashboard visuals.
-- 🏢 **Industries Served**: 2x2 grid (Banks, NBFCs, Fintech, Brokers) with "View All" toggle button revealing 2 extra industry cards (Logistics & E-Commerce).
+- 🎯 **Hero Section**: Curated gradient hero with trust badges, call-to-actions, typewriter phrases (`Automate with AI.` / `Run with Precision.`), and interactive dashboard visuals.
+- 🏢 **Industries Served**: 8 industry cards (Banks, NBFCs, Fintech, Insurance agents & POSPs, Tour Agency, Travel Aggregators, Logistics Aggregators, Car Aggregation) with a "View All" toggle.
 - 🔄 **Auto-Switching Product Deck & Interactive Visuals**: Stacked product deck featuring category filters (`FT POSP Sure`, `FT D2C Insure`, `FT Lending Insure`, `FT Embedded Insure`, `FT Digital Claims`, `FT PayIn-PayOut`, `FT EB Sure`, `FT Compliance Shield`, `FT Reconciliation`), custom dropdown menu for mobile/tablet, and high-impact visual showcases:
   - 🛡️ **FT POSP Sure Feature Badges**: Interactive module pills (`POSP & Agent Onboarding`, `Policy Management`, `Renewal & Claims Management`, `Real-Time Insurance Analytics`) with blue checkmark icons (`✓`), light borders (`1px solid #CEE4FD`), soft shadows (`0 8px 24px rgba(8, 106, 216, 0.08)`), and viewport scroll one-time entrance animation (`pillPopIn`).
-  - 📱 **FT D2C Insure 3-Image Showcase**: Layered 3-screen composite visual pairing Main Web Portal (`FT_D2C_Insure_Img_2.png`), Quote Breakdown Modal (`FT_D2C_Insure_Img_3.png`), and Mobile App Interface (`FT_D2C_Insure_Img_1.png`) with one-time viewport entrance animations (`d2cPop1`, `d2cPop2`, `d2cPop3`), light borders, and responsive scaling across desktop, tablet, and mobile breakpoints.
+  - 📱 **FT D2C Insure Product Showcase**: Single product-page hero SVG (`assets/images/product_page/Product_Page_FT_D2C_Insure_img.svg`) on the homepage D2C card, with CTA linking to `d2c-insure.php`.
   - 🏦 **FT Lending Insure 4-Image Showcase**: Layered 4-screen composite visual pairing Main Loan Platform (`FT_Lending_Insure_Img_1.png`), Top Loan Details Modal (`FT_Lending_Insure_Img_2.png`), Bottom-Left Plan Selection Modal (`FT_Lending_Insure_Img_3.png`), and Bottom-Right Policy Issued Success Modal (`FT_Lending_Insure_Img_4.png`) with one-time viewport entrance animations (`lendingPopBg`, `lendingPopTop`, `lendingPopLeft`, `lendingPopRight`), light borders, and responsive scaling across desktop, tablet, and mobile.
   - 🛒 **FT Embedded Insure 5-Image Showcase**: Layered 5-screen composite visual pairing Mobile Phone Checkout Screen (`FT_Embedded_Insure_Img_1.png`), Add Protection Main Modal (`FT_Embedded_Insure_Img_2.png`), Insurer Options Modal (`FT_Embedded_Insure_Img_3.png`), Policy Summary Modal (`FT_Embedded_Insure_Img_4.png`), and Insurance Activated Success Badge (`FT_Embedded_Insure_Img_5.png`) with one-time viewport entrance animations (`embeddedPop1`–`embeddedPop5`), light borders, and responsive scaling across desktop, tablet, and mobile.
   - 📋 **FT Digital Claims 3-Image Showcase**: Layered 3-screen composite visual pairing Main Claims Portal Dashboard (`FT_Digital_Claims_Img_1.png`), Upload Claim Documents Modal (`FT_Digital_Claims_Img_2.png`), and Claim Status Tracker Modal (`FT_Digital_Claims_Img_3.png`) with one-time viewport entrance animations (`claimsPopBg`, `claimsPopLeft`, `claimsPopRight`), light borders, and responsive scaling across desktop, tablet, and mobile.
@@ -52,16 +52,25 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ⚡ **Insurance Workflow Comparison**: Interactive toggle between **"Without FT"** (danger red state with legacy workflow diagram) and **"With FT"** (primary blue state with central pulsing FT core and flowing data rays).
 - 🏛️ **Government Claims Process**: 6-step claims workflow with parallax scroll background effects.
 - 💬 **Testimonials Infinite Carousel**: Horizontal slider with edge-to-edge peek alignment, mouse drag/touch swipe support, and navigation controls.
-- ❓ **Sticky FAQ Section**: 2-column layout featuring a GPU-accelerated smooth sticky sidebar (`initFaqSticky()`) that pins the left header at `top: 120px` while scrolling through 6 interactive accordion items on the right.
+- ❓ **Sticky FAQ Section**: 2-column layout featuring a GPU-accelerated smooth sticky sidebar (`initFaqSticky()`) that pins the left header at `top: 120px` while scrolling through interactive accordion items on the right.
+- 📣 **Homepage Footer CTA**: Homepage-only footer banner copy (`Ready to Simplify Insurance Operations?`) when `$active_page === 'home'`.
 
-### 📞 2. Contact Us (`contact.php`)
+### ℹ️ 2. About Us (`about-us.php`)
+- 🚀 **Hero**: Badge (`Trusted Enterprise Insurtech Infrastructure`) and headline `Faster Insurance Distribution. Powered by Tech, Driven by People.`
+- 🏢 **Insurer Partners**: Logo strip of connected insurers.
+- 📅 **Journey Timeline**: Year-by-year story (2016 → Early Years → The Pivot and later milestones) with a scroll progress bar.
+- 🧭 **Mission & Values**: Pillars describing how FondosTech combines AI-powered technology with people-led distribution.
+- 👥 **Founders, Leadership Slider & Advisors**: Team slider kept as-is; remaining copy aligned to the About Us source document.
+- 📣 **CTA**: Demo / contact callout.
+
+### 📞 3. Contact Us (`contact.php`)
 - 📝 **Interactive Contact Form**: Enterprise inquiry form with jQuery Validation (Indian 10-digit phone regex `phoneIN` & work email check) and custom SweetAlert2 confirmation modal.
 - 🗺️ **Interactive Network Node India Map**: Powered by Leaflet.js with CartoDB Voyager light vector tiles.
 - 📍 **Pulsing Map Pin Markers**: Interactive location pins for **New Delhi**, **Jaipur**, **Gurugram**, and **Mumbai**. Clicking any pin smoothly pans the map (`flyTo`) and updates the active center details card.
-- 🏢 **Active Center Node Details Card**: Real-time city card displaying City Name, Jurisdiction, Street Address, Phone, Email, and City Selector Pills (`[New Delhi] [Jaipur] [Gurugram] [Mumbai]`).
+- 🏢 **Active Center Node Details Card**: City name only in the address field (no street address). Phone and email are the same for every city: `+91 80003 66997` and `business@fondostech.in`. City selector pills: `[New Delhi] [Jaipur] [Gurugram] [Mumbai]`.
 
-### 📱 3. FT POSP Sure (`posp.php`)
-- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, stylized light-blue checkmark badges (`✓`), right-side software interface showcase (`insurance-policy-management-software-10.png`), floating metric card (`⚡ 5,000+ POSPs Live & Onboarded`), and 4 `IntersectionObserver` animated stat counters (`5,000+ POSPs Supported`, `50+ Insurer APIs`, `99.8% Auto Reconciliation`, `100% IRDAI Compliant`).
+### 📱 4. FT POSP Sure (`posp.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, stylized light-blue checkmark badges (`✓`), right-side product SVG (`assets/images/product_page/Product_Page_FT_POSP_Sure_img.svg`), floating metric card (`⚡ 5,000+ POSPs Live & Onboarded`), and 4 `IntersectionObserver` animated stat counters (`5,000+ POSPs Supported`, `50+ Insurer APIs`, `99.8% Auto Reconciliation`, `100% IRDAI Compliant`).
 - ⚠️ **Section 2 — Why Spreadsheet Fails (`WHY IT'S MANDATORY`)**: 3-card breakdown highlighting Compliance Audit Risk, Slow Payout Attrition, and Excel Reconciliation limits past 100 agents, complete with identical Y-pixel height alignment (`min-height: 3.25rem` titles and flex-end impact badges) and a bottom Scale Solution Banner Callout.
 - 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 circular step nodes (`01`–`06`) covering Digital KYC Onboarding, Instant Product Access, Quoting & Issuance, Commission Tracking, Claims Support, and Auto-Renewal Tracking.
 - 📊 **Section 4 — Dual Dashboard Showcase (`MANAGING YOUR POSP NETWORK`)**: Side-by-side feature cards detailing Agent Portal tools vs Broker Admin Controls, anchored by a Role Architecture Summary Banner (`Single Sign-On Architecture ➔ POSP Agent Portal + Broker Admin Console`).
@@ -71,7 +80,30 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ❓ **Section 8 — POSP Software FAQ (`POSP SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing IRDAI compliance, white-label capabilities, Vahan API motor quoting, and AI integration.
 - 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers to schedule a live product demonstration.
 
-### 📋 4. FT Digital Claims (`claims.php`)
+### 🛒 5. FT D2C Insure (`d2c-insure.php`)
+- 🚀 **Section 1 — Hero Showcase**: Badge `D2C INSURANCE SOFTWARE`, headline `Insurance, Sold Directly In-App.`, trust checks (`Multi-Insurer Comparison`, `Instant Digital Issuance`, `Your Brand, Our Infrastructure`), product SVG (`Product_Page_FT_D2C_Insure_img.svg`), **Under 2 Min** stat card, and **Fully White-Labeled** floating badge.
+- ⚠️ **Section 2 — Why It Matters**: 3 cards — Every Insurer Needs Its Own Integration, Compliance Risk Without Insurance Expertise, Comparison Tools Built From Scratch Underperform.
+- 🔄 **Section 3 — How It Works**: 6 steps — Customer Enters Details → AI-Powered Instant Quoting → Side-By-Side Comparison → Policy Selection & Payment → Instant Digital Issuance → Post-Policy Support & Renewals.
+- 📊 **Section 4 — Managing D2C Insurance**: Dual view for *Customer Interface* vs *Admin Control Console*.
+- ⚡ **Section 5 — AI In D2C Insurance**: Policy Matching, Lead Scoring, Fraud Detection, Insurtech-Native Architecture.
+- 🎯 **Section 6 — Built For**: Fintechs, Insurance Brokers, Insurance Agencies, Digital Platforms.
+- ⚖️ **Section 7 — The Difference**: Without vs With FT D2C Insure (`RECOMMENDED`).
+- ❓ **Section 8 — FAQ**: 8-item accordion (white-label, industries, issuance time, renewals, fraud detection).
+- 📣 **Section 9 — CTA**: `Ready to Sell Insurance Directly In Your App?`
+- 🔗 **Nav**: Listed in Products dropdown (desktop + mobile) and footer, after FT POSP Sure.
+
+### 🛒 6. FT Embedded Insure (`embedded-insure.php`)
+- 🚀 **Section 1 — Hero Showcase**: Badge `EMBEDDED INSURANCE SOFTWARE`, headline `Insurance, Added at Checkout.`, trust checks (`Instant Issuance at Checkout`, `Multi-Insurer, Multi-Product`, `Opt-In / Opt-Out Journeys`), product SVG (`Product_Page_FT_Embedded_Insure_img.svg`), floating badge (`2x Higher Conversion`).
+- ⚠️ **Section 2 — Why It Matters**: Insurance sells best at the moment of booking.
+- 🔄 **Section 3 — How It Works**: Checkout-to-policy automated flow.
+- 📊 **Section 4 — Dual Dashboard**: Platform customer flow vs admin controls.
+- ⚡ **Section 5 — AI**: Checkout conversion, product matching, insurtech-native architecture.
+- 🎯 **Section 6 — Built For**: Travel, logistics, and automobile aggregator platforms.
+- ⚖️ **Section 7 — The Difference**: Without vs With FT Embedded Insure (`RECOMMENDED`).
+- ❓ **Section 8 — FAQ**: Embedded insurance, opt-in journeys, multi-insurer issuance.
+- 📣 **Section 9 — CTA**: Demo / contact sales.
+
+### 📋 7. FT Digital Claims (`claims.php`)
 - 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`24-Hour Cashless Approval`, `50+ Insurer APIs`, `98.5% Document OCR Accuracy`), and floating metric badge (`⚡ 3-5 Days SLA Average Turnaround`).
 - ⚠️ **Section 2 — Why Manual Claims Fail (`WHY IT'S CRITICAL`)**: 3-card breakdown highlighting Processing Delays, Manual Survey Routing Chaos, and Status Blindspots, with flex-aligned impact badges and a bottom scale callout banner (`Paper claims take weeks to process ➔ FT Digital Claims resolves claims in hours`).
 - 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing Claim Intimation (FNOL), AI Document Verification, Surveyor & Adjuster Tagging, Automated Assessment, Approval Pipeline, and Instant Payouts.
@@ -82,7 +114,7 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ❓ **Section 8 — Claims Software FAQ (`CLAIMS SOFTWARE, EXPLAINED`)**: 8-item sticky accordion for FNOL intimation, surveyor auto-assignment, AI OCR, and IRDAI compliance.
 - 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers and insurers to schedule a live demo.
 
-### 🛡️ 5. FT Compliance (`compliance.php`)
+### 🛡️ 8. FT Compliance (`compliance.php`)
 - 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`Real-Time IRDAI Audit Trails`, `Automated Compliance Checks`, `Zero Manual Documentation`), floating metric card (`⚡ Real-Time Flagging — AI-Powered Compliance`), and audit-ready status.
 - ⚠️ **Section 2 — Why Panic Fails (`WHY IT MATTERS`)**: 3-card breakdown highlighting Scattered Documentation, Violations Surface Only During Audits, and Renewal Deadlines Missed Quietly, with impact badges (`High Time Cost`, `Regulatory Risk`, `License Suspension Risk`) and a bottom scale solution banner.
 - 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing Every Requirement Mapped, Continuous Real-Time Tracking, Flagged the Moment It Happens, Routed to the Right Person Instantly, A Verified Record Without Paperwork, and Ready the Moment It's Needed.
@@ -93,8 +125,8 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ❓ **Section 8 — Compliance Software FAQ (`COMPLIANCE SOFTWARE, EXPLAINED`)**: 8-item sticky accordion addressing IRDAI compliance software, AI violation detection, agent status views, and automated audit report generation.
 - 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting brokers to stay audit-ready every single day.
 
-### 🏦 10. FT Lending Insure (`lending-insure.php`)
-- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`Instant Cover at Disbursement`, `Automated Foreclosure Refunds`, `Real-Time Claims Tracking`), floating metric card (`⚡ Zero-Gap Coverage — Auto-Cancellation on Foreclosure`).
+### 🏦 9. FT Lending Insure (`lending-insure.php`)
+- 🚀 **Section 1 — Hero Showcase**: 2-Column responsive hero banner featuring left-aligned copy, primary blue CTAs, trust badges (`Instant Cover at Disbursement`, `Automated Foreclosure Refunds`, `Real-Time Claims Tracking`), product SVG (`Product_Page_FT_Lending_Insure_img.svg`), **Zero-Gap** stat card, and **Auto-Cancellation on Foreclosure** floating badge.
 - ⚠️ **Section 2 — Why Afterthought Insurance Fails (`WHY IT MATTERS`)**: 3-card breakdown highlighting Cover Lags Behind Disbursement, Foreclosures Don't Trigger Refunds, and Claims Stall Without Loan Context, with impact badges (`Coverage Gap Risk`, `Refund Leakage Risk`, `High Time Cost`) and a bottom scale solution banner.
 - 🔄 **Section 3 — 6-Step Workflow (`HOW IT WORKS`)**: 6 step cards (`01`–`06`) detailing Loan Data Sync, AI-Powered Cover Attachment, Real-Time Claims Intake, Foreclosure Detection, Automated Refund Triggers, and Audit-Ready Reporting.
 - 📊 **Section 4 — Dual Dashboard Showcase (`MANAGING LOAN-LINKED INSURANCE, DAY TO DAY`)**: Dual feature cards for *Borrower Interface* vs *Lender Control Console*, backed by a Single Source of Truth architecture banner.
@@ -104,7 +136,7 @@ The repository follows a clean, component-based PHP architecture with modular he
 - ❓ **Section 8 — Loan-Linked Insurance FAQ (`EMBEDDED INSURANCE, EXPLAINED`)**: 8-item sticky accordion addressing embedded insurance for lenders, AI foreclosure detection, borrower coverage views, credit life & asset insurance support, and audit-ready reports.
 - 📣 **Section 9 — Primary CTA Callout**: High-impact full-width callout banner inviting lenders to attach insurance the moment a loan is disbursed.
 
-### 🚫 4. 404 Error Page (`404.php`)
+### 🚫 10. 404 Error Page (`404.php`)
 - 🎨 **Visual 404 Hero Showcase**: Custom animated 404 digit counter with brand blue glowing background, pulsing status dots, and floating shield logo.
 - 🔎 **Real-time Live Page Search Bar**: Allows users to search and filter popular destination cards (Homepage, POSP Sure, About Us, Contact, Blog, Demo) dynamically on keypress.
 - 🛡️ **HTTP 404 Status Code Header**: Returns authentic 404 status header (`http_response_code(404)`) for SEO crawlers and server accuracy.
@@ -139,6 +171,7 @@ fondos_php/
 ├── about-us.php                       # About Us page
 ├── contact.php                        # Contact Us page (Form + Network Node Map)
 ├── posp.php                           # FT POSP Sure product page
+├── d2c-insure.php                     # FT D2C Insure product page
 ├── embedded-insure.php                # FT Embedded Insure product page
 ├── lending-insure.php                 # FT Lending Insure product page
 ├── claims.php                         # FT Digital Claims product page
@@ -146,6 +179,8 @@ fondos_php/
 ├── compliance.php                     # FT Compliance product page
 ├── payin-payout.php                   # FT PayIn-Payout product page
 ├── reconciliation.php                 # FT Reconciliation product page
+├── blog.php                           # Blog listing
+├── blog-detail.php                    # Blog article detail
 ├── 404.php                            # Custom 404 Error Page (Page Not Found)
 ├── .htaccess                          # Apache ErrorDocument 404 & URL rewrite rules
 ├── copy_assets.php                    # One-time image copy utility script
@@ -166,7 +201,7 @@ fondos_php/
     │       ├── home.css               # Homepage-specific section styles
     │       ├── about.css              # About Us page styles
     │       ├── contact.css            # Contact page styles (Network node card, map styling)
-    │       ├── posp.css               # Unified Product Page design system (shared by posp.php & claims.php)
+    │       ├── posp.css               # Unified Product Page design system (POSP, D2C, Embedded, Lending, Claims, etc.)
     │       └── 404.css                # 404 Error Page visual & responsive styles
     │
     ├── js/
@@ -179,13 +214,15 @@ fondos_php/
     │       └── 404.js                 # 404 real-time card search, history back & URL copy controller
     │
     └── images/                        # All SVG & PNG image assets
+        ├── home_page/                 # Homepage product icons, industry art, partner logos
+        └── product_page/              # Product-page hero SVGs (POSP, D2C, Embedded, Lending, Claims, EB Sure, PayIn-PayOut, Compliance, Reconciliation)
 ```
 
 ---
 
 ## 🚀 Unified Product Page Architecture & Expansion Flow
 
-All product pages (`posp.php`, `claims.php`, and future products) share a **single modular design system** (`assets/css/pages/posp.css` and `assets/js/pages/posp.js`). This ensures zero CSS/JS bloat, identical responsive behavior, and instant multi-product page creation.
+All product pages (`posp.php`, `d2c-insure.php`, `embedded-insure.php`, `lending-insure.php`, `claims.php`, and other FT products) share a **single modular design system** (`assets/css/pages/posp.css` and `assets/js/pages/posp.js`). This ensures zero CSS/JS bloat, identical responsive behavior, and instant multi-product page creation.
 
 ### 📐 Standard 9-Section Product Blueprint
 Every product page follows an identical 9-section flow:
@@ -201,7 +238,7 @@ Every product page follows an identical 9-section flow:
 9. **📣 Section 9 — Primary CTA Callout (`about-cta-section`)**: High-impact full-width callout banner for booking live demos.
 
 ### 🔄 How To Create New Product Pages
-To add any future product page (e.g. `insure.php`, `eb.php`, `reconciliation.php`, `payin-payout.php`, `compliance.php`):
+To add any future product page (e.g. a new FT module):
 
 1. **Create the PHP Page**:
    ```php
@@ -214,7 +251,7 @@ To add any future product page (e.g. `insure.php`, `eb.php`, `reconciliation.php
    include 'includes/header.php';
    ?>
    ```
-2. **Copy the 9-Section HTML Structure**: Use `posp.php` or `claims.php` as a template and update text content section-by-section according to product specifications.
+2. **Copy the 9-Section HTML Structure**: Use `d2c-insure.php`, `lending-insure.php`, or `posp.php` as a template and update text content section-by-section according to product specifications. Place hero art in `assets/images/product_page/`.
 3. **Register Navigation Routes**: Add page link in `includes/header.php` (desktop dropdown & mobile menu) and `includes/footer.php`.
 
 ---
@@ -242,8 +279,12 @@ To add any future product page (e.g. `insure.php`, `eb.php`, `reconciliation.php
 
 4. **Launch Application**:
    - Homepage: `http://localhost/Fondos_websit/fondos_php/index.php`
+   - About Us: `http://localhost/Fondos_websit/fondos_php/about-us.php`
    - Contact Page: `http://localhost/Fondos_websit/fondos_php/contact.php`
-   - POSP Page: `http://localhost/Fondos_websit/fondos_php/posp.php`
+   - FT POSP Sure: `http://localhost/Fondos_websit/fondos_php/posp.php`
+   - FT D2C Insure: `http://localhost/Fondos_websit/fondos_php/d2c-insure.php`
+   - FT Embedded Insure: `http://localhost/Fondos_websit/fondos_php/embedded-insure.php`
+   - FT Lending Insure: `http://localhost/Fondos_websit/fondos_php/lending-insure.php`
    - 404 Error Page (Direct): `http://localhost/Fondos_websit/fondos_php/404.php`
    - Test Wrong URL (404 Routing): `http://localhost/Fondos_websit/fondos_php/invalid-page-demo`
 

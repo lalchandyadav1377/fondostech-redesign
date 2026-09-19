@@ -1,6 +1,6 @@
 <?php
-$page_title = "FT PayIn-Payout | AI-Powered Payment Automation Software | FondosTech";
-$page_description = "AI-powered PayIn-Payout software that collects premiums, verifies every transaction against policy data, and releases agent payouts automatically — removing the manual payment tracking that slows brokers down.";
+$page_title = "PayIn-Payout Software | FT PayIn-Payout | FondosTech";
+$page_description = "Capture premium PayIns, verify them against policy data and move eligible payouts forward from one connected workflow, without finance chasing transactions across banks and gateways.";
 $active_page = "payin_payout";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -27,25 +27,26 @@ include 'includes/header.php';
                 </div>
 
                 <h1 class="posp-hero-title mb-3">
-                    FT PayIn-Payout — <span class="text-primary-custom">Every Payment, Verified Instantly.</span>
+                    PayIn-Payout Software That <span class="text-primary-custom">Keeps Payments Moving</span>
                 </h1>
 
                 <p class="section-desc mb-4" style="max-width: 600px; margin-left: 0;">
-                    AI-powered PayIn-Payout software that collects premiums, verifies every transaction against policy data, and releases agent payouts automatically — removing the manual payment tracking that slows brokers down.
+                    Capture premium PayIns, verify them against policy data and move eligible payouts forward
+                    from one connected workflow, without finance chasing transactions across banks and
+                    gateways.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5 d-inline-flex align-items-center gap-2 shadow-sm">
-                        <span>Book a Free Demo</span>
+                        <span>Book a demo</span>
                         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                     <a href="#how-it-works"
-                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See How It
-                        Works</a>
+                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See how it works</a>
                 </div>
 
                 <!-- Trust Highlights -->
@@ -53,15 +54,15 @@ include 'includes/header.php';
                     style="font-size: 0.875rem; font-weight: 600; color: #495057;">
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Instant Payment Verification</span>
+                        <span>Payment-to-policy matching</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>50+ Insurer &amp; Gateway Integrations</span>
+                        <span>Exception detection</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Zero Manual Payout Tracking</span>
+                        <span>Payout visibility</span>
                     </div>
                 </div>
             </div>
@@ -70,17 +71,16 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/insurance-policy-management-software-10.png"
+                        <img src="assets/images/product_page/Product_Page_FT_PayIn_PayOut_img.webp"
                             alt="FT PayIn-Payout Software Interface" class="img-fluid w-100 rounded-3"
-                            style="object-fit: cover;">
+                            style="object-fit: contain;">
                     </div>
-                    <!-- Floating Metric Badge -->
                     <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
                         <div class="d-flex align-items-center gap-3">
                             <div class="badge-icon-circle bg-primary text-white">⚡</div>
                             <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">Same-Day Payouts</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">Auto-Verified Payment Matching</div>
+                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">Connected PayIn to Payout</div>
+                                <div class="text-muted" style="font-size: 0.78125rem;">Payment verified. Policy matched. Payout moved forward.</div>
                             </div>
                         </div>
                     </div>
@@ -91,15 +91,17 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 2: WHY IT MATTERS                     -->
+<!-- SECTION 2: WHERE PAYMENT OPERATIONS BREAK     -->
 <!-- ============================================= -->
 <section class="posp-why-mandatory-section" id="why-critical">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">WHY IT MATTERS</div>
-            <h2 class="section-title">Payment Tracking Shouldn't Be Your Team's <span class="text-primary-custom">Full-Time Job</span></h2>
+            <div class="section-label">WHERE PAYMENT OPERATIONS BREAK</div>
+            <h2 class="section-title">Too Many Payment Sources. Too Much <span class="text-primary-custom">Manual Tracking.</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
-                Every premium collected and every payout released moves through a different bank, gateway, or insurer portal. Tracking this manually means constant follow-ups, delayed payouts, and agents left wondering when — or if — their money will arrive.
+                Premiums arrive across banks, gateways and insurer channels. Manual verification slows
+                policy processing, increases payout queries and leaves finance without one clear payment
+                view.
             </p>
         </div>
 
@@ -115,18 +117,19 @@ include 'includes/header.php';
                                 <line x1="2" y1="10" x2="22" y2="10" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">SCATTERED PAYMENT SOURCES</span>
+                        <span class="pillar-tag-badge">PAYMENT SOURCES</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Multiple Gateways, One Spreadsheet</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Payments Arrive From Everywhere</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Premiums come in through different banks and gateways — tracking them all manually means constant cross-checking, every single day.
+                        Premiums across banks, gateways and insurer channels leave finance checking multiple
+                        sources to confirm one payment.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ High Time Cost</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Operational impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">More checking</span>
                     </div>
                 </div>
             </div>
@@ -143,18 +146,18 @@ include 'includes/header.php';
                                 <line x1="12" y1="17" x2="12.01" y2="17" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">VERIFICATION GAPS</span>
+                        <span class="pillar-tag-badge">VERIFICATION</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Unverified PayIns Delay Everything</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Verification Holds Up Issuance</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        A premium that isn't verified quickly holds up policy issuance — and every downstream step waits with it.
+                        When a PayIn is not confirmed against its policy, every downstream step waits for clarity.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📉 Policy Delay Risk</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Operational impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">Processing delays</span>
                     </div>
                 </div>
             </div>
@@ -170,31 +173,30 @@ include 'includes/header.php';
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">DELAYED PAYOUTS</span>
+                        <span class="pillar-tag-badge">PAYOUT DELAYS</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Agents Wait Longer Than They Should</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Payout Delays Reach Agents</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Manual payout runs mean agents are paid days after they've earned it — and every delay chips away at trust.
+                        When verification takes longer, agents wait longer for payout status and finance handles
+                        more follow-ups.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚠️ Agent Retention Risk</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Operational impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">Payout uncertainty</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Scale Solution Banner Callout -->
+        <!-- Closing strip -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-size: 0.875rem; font-weight: 600;">
-                <span class="text-dark">Manual PayIn-Payout tracking adds days to every cycle</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-primary-custom fw-bold">FT PayIn-Payout verifies and releases payments the same day, automatically</span>
+                <span class="text-dark">More payment sources should not mean more payment chasing.</span>
             </div>
         </div>
     </div>
@@ -206,9 +208,10 @@ include 'includes/header.php';
 <section class="posp-how-it-works-section" id="how-it-works">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">HOW IT WORKS</div>
-            <h2 class="section-title">From Premium Collected to Agent Paid — <span class="text-primary-custom">One Automated Flow</span></h2>
-            <p class="section-desc mx-auto">Every stage of the payment cycle — from PayIn to payout — flows through one connected system, without a single manual bank statement check.</p>
+            <div class="section-label">ONE CONNECTED PAYMENT FLOW</div>
+            <h2 class="section-title">From Premium Received to Payout Ready, <span class="text-primary-custom">One Connected Flow</span></h2>
+            <p class="section-desc mx-auto">FT PayIn-Payout connects payment capture, policy matching, exception review and payout
+                processing, so every transaction carries its context forward.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -226,9 +229,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 01 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Every Source, Captured Automatically</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Capture Every Connected PayIn</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Premium payments are captured automatically from every connected bank, gateway, and insurer portal — no manual entry required.
+                        Bring premium payments from supported banks, gateways and insurer feeds into one
+                        payment workflow.
                     </p>
                 </div>
             </div>
@@ -247,9 +251,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 02 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Every Payment Matched to Its Policy</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Match Payment to Policy</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        FT PayIn-Payout matches each payment against the corresponding policy automatically, confirming amount, source, and status.
+                        Compare each incoming payment with its corresponding policy record, amount and
+                        transaction details.
                     </p>
                 </div>
             </div>
@@ -267,9 +272,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 03 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Mismatches Flagged Before They Spread</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Surface Exceptions Before Payout</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The system flags mismatches — short payments, duplicate entries, unmatched transactions — before they affect policy issuance.
+                        Flag short payments, duplicates and unmatched transactions before they create downstream
+                        payout confusion.
                     </p>
                 </div>
             </div>
@@ -287,9 +293,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 04 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Side-by-Side Review, Fast Fixes</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Review Context in One Place</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Flagged payments are surfaced for quick review, with the transaction and policy data shown side by side.
+                        See transaction and policy information together, so finance can resolve exceptions with less
+                        back-and-forth.
                     </p>
                 </div>
             </div>
@@ -308,9 +315,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 05 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Payouts Follow Verification, Automatically</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Move Verified Payouts Forward</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Once a PayIn is verified, the corresponding agent or POSP payout is triggered automatically — no separate payment run.
+                        Apply configured payout rules once a PayIn is verified and move eligible records towards
+                        payout processing.
                     </p>
                 </div>
             </div>
@@ -330,9 +338,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 06 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">A Clean Ledger, Every Cycle</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Close With a Clear Ledger</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Every PayIn and payout cycle produces a clean, exportable ledger — ready for internal review or regulatory inspection.
+                        Maintain connected PayIn, verification and payout records for finance review and reporting.
                     </p>
                 </div>
             </div>
@@ -347,8 +355,8 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">MANAGING PAYMENTS, DAY TO DAY</div>
-            <h2 class="section-title">Everything Your Finance Team Needs To <span class="text-primary-custom">Track Every Rupee</span></h2>
-            <p class="section-desc mx-auto">Dual-view architecture designed for agent transparency and finance team control.</p>
+            <h2 class="section-title">Give Finance Control. Give Partners <span class="text-primary-custom">Payment Visibility.</span></h2>
+            <p class="section-desc mx-auto">One payment view for finance control and partner transparency.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -366,27 +374,27 @@ include 'includes/header.php';
                         </div>
                         <div>
                             <span class="pillar-tag-badge mb-1">AGENT &amp; POSP INTERFACE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Agent / POSP</h3>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For the agent / POSP</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>PayIn Status View</strong> — see confirmed premium payments in real time</div>
+                            <div><strong>PayIn status</strong> — See when premium payments are confirmed against the relevant policy.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Payout Tracker</strong> — every payout, matched to the policy and payment that triggered it</div>
+                            <div><strong>Payout tracker</strong> — Follow payouts with the policy and payment context linked to each record.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Delay Alerts</strong> — notified directly if a payout is held pending verification</div>
+                            <div><strong>Hold visibility</strong> — See when a payout is awaiting verification or further review.</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- For Finance / The Back Office -->
+            <!-- For Finance / Back Office -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -399,43 +407,44 @@ include 'includes/header.php';
                         </div>
                         <div>
                             <span class="pillar-tag-badge mb-1">FINANCE CONTROL CONSOLE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For Finance / The Back Office</h3>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For finance / back office</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Multi-Source PayIn Matching</strong> — every bank, gateway, and insurer payment matched automatically</div>
+                            <div><strong>Multi-source payment view</strong> — Bring supported bank, gateway and insurer payment records into one workflow.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Automated Discrepancy Detection</strong> — mismatches flagged before payout, not after</div>
+                            <div><strong>Exception detection</strong> — Separate mismatches from confirmed payments before payout processing.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Instant Payout Triggers</strong> — verified PayIns release payouts without a manual run</div>
+                            <div><strong>Payout controls</strong> — Apply configured payout rules after payment verification.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Audit-Ready Reporting</strong> — exportable ledgers for every payment cycle</div>
+                            <div><strong>Cycle reporting</strong> — Maintain PayIn and payout records for finance review and export.</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Role Architecture Summary Banner -->
+        <!-- Support strip -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold mb-1 mb-sm-0">🔒 Single Source of Truth</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">👤 Agent Payment View</span>
-                <span class="text-muted fw-bold">+</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">One Payment Record</span>
+                <span class="text-muted fw-bold">|</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">📋 Finance Admin Console</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Partner Visibility</span>
+                <span class="text-muted fw-bold">|</span>
+                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Finance Control</span>
             </div>
         </div>
     </div>
@@ -447,9 +456,10 @@ include 'includes/header.php';
 <section class="posp-ai-section" id="ai-features">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">AI IN PAYIN-PAYOUT</div>
-            <h2 class="section-title">AI That Verifies Payments <span class="text-primary-custom">Before You Even Ask</span></h2>
-            <p class="section-desc mx-auto">FT PayIn-Payout isn't a bank statement tracker — it's insurtech built with AI at the core.</p>
+            <div class="section-label">AI-ASSISTED PAYMENT OPERATIONS</div>
+            <h2 class="section-title">Let AI Match Payments. Keep Finance in <span class="text-primary-custom">Control.</span></h2>
+            <p class="section-desc mx-auto">AI assists matching and exception detection. Configured rules still govern payout
+                processing.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -463,9 +473,9 @@ include 'includes/header.php';
                             <line x1="2" y1="10" x2="22" y2="10" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Payment Matching</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Payment-to-policy matching</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Matches incoming premiums to the correct policy automatically, regardless of which bank or gateway it arrived through.
+                        Connect incoming PayIns with the relevant policy record using payment and policy data.
                     </p>
                 </div>
             </div>
@@ -479,9 +489,9 @@ include 'includes/header.php';
                             <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Discrepancy Detection</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Exception detection</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Flags short payments, duplicates, and unmatched transactions that a manual reviewer would likely miss.
+                        Surface short payments, duplicate entries and unmatched transactions for finance review.
                     </p>
                 </div>
             </div>
@@ -495,9 +505,9 @@ include 'includes/header.php';
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Automated Payout Logic</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Rule-led payout processing</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Once a PayIn is verified, payouts trigger automatically based on your commission and payout rules — not a manual run.
+                        Use configured commission and payout rules once the payment is verified.
                     </p>
                 </div>
             </div>
@@ -512,9 +522,10 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Insurtech-Native Architecture</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Insurance-linked payment context</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Built on FondosTech's insurtech engine, connecting payment data directly to policy and POSP records already on the platform.
+                        Keep payment data connected with policy, commission and partner records within
+                        FondosTech.
                     </p>
                 </div>
             </div>
@@ -528,31 +539,32 @@ include 'includes/header.php';
 <section class="posp-built-for-section" id="built-for">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">BUILT FOR</div>
-            <h2 class="section-title">One Payment System, Every Kind of <span class="text-primary-custom">Insurance Business</span></h2>
-            <p class="section-desc mx-auto">Empowering traditional insurance brokerages, agencies, banks, and corporates alike.</p>
+            <div class="section-label">BUILT FOR INSURANCE OPERATIONS</div>
+            <h2 class="section-title">Built for Insurance Businesses Managing <span class="text-primary-custom">Payment Complexity</span></h2>
+            <p class="section-desc mx-auto">For brokers, agencies, banks and NBFCs managing payment volumes.</p>
         </div>
 
         <div class="row g-4 mt-3">
             <!-- Segment 1 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
                             <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Brokers</h3>
+                    <h3 class="about-card-title mb-2">Insurance brokers</h3>
                     <p class="about-card-text">
-                        Verify premiums and release agent payouts across every insurer on your panel, without a finance team chasing bank statements.
+                        Connect premium verification and agent payouts without chasing payment records across
+                        separate banks, gateways and systems.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 2 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -562,16 +574,17 @@ include 'includes/header.php';
                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Agencies</h3>
+                    <h3 class="about-card-title mb-2">Insurance agencies</h3>
                     <p class="about-card-text">
-                        Scale your agent network without your payment tracking workload scaling at the same rate.
+                        Keep agent payment visibility and payout processing organised as distribution volumes
+                        grow.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 3 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -579,16 +592,17 @@ include 'includes/header.php';
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Banks &amp; NBFCs</h3>
+                    <h3 class="about-card-title mb-2">Banks and NBFCs</h3>
                     <p class="about-card-text">
-                        Track PayIns and payouts on embedded insurance products attached to loans, from the same platform that issued them.
+                        Track insurance PayIns and payouts linked to lending or embedded insurance journeys
+                        through one workflow.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 4 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -599,43 +613,44 @@ include 'includes/header.php';
                     </div>
                     <h3 class="about-card-title mb-2">Corporates</h3>
                     <p class="about-card-text">
-                        Verify and release partner or broker payouts on group insurance programs, with full audit-ready visibility.
+                        Track partner or broker payments across group insurance programmes with clearer finance
+                        visibility.
                     </p>
                 </div>
             </div>
         </div>
 
-        <!-- Scale Flow Bar -->
+        <!-- Process strip -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold">Premium paid in</span>
+                <span class="text-dark fw-bold">Premium received</span>
                 <span class="text-primary-custom">➔</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">AI verifies the transaction</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Policy matched</span>
                 <span class="text-primary-custom">➔</span>
-                <span class="text-dark fw-bold">discrepancies flagged for review</span>
+                <span class="text-dark fw-bold">Exceptions reviewed</span>
                 <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-dark fw-bold d-none d-sm-inline">payout released automatically</span>
+                <span class="text-dark fw-bold d-none d-sm-inline">Payout processed</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 7: THE DIFFERENCE                     -->
+<!-- SECTION 7: THE OPERATIONAL DIFFERENCE         -->
 <!-- ============================================= -->
 <section class="posp-comparison-section" id="difference">
     <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
-            <div class="section-label">THE DIFFERENCE</div>
-            <h2 class="section-title">See What Changes, <span class="text-primary-custom">Side By Side</span></h2>
-            <p class="section-desc mx-auto">Compare legacy manual payment tracking with FT PayIn-Payout's automated platform.</p>
+            <div class="section-label">THE OPERATIONAL DIFFERENCE</div>
+            <h2 class="section-title">Turn Payment Tracking Into <span class="text-primary-custom">Payment Control</span></h2>
+            <p class="section-desc mx-auto">See how connected PayIns change verification, payouts and finance visibility.</p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Left Side: WITHOUT PAYIN-PAYOUT SOFTWARE -->
+            <!-- Left Side: WITHOUT FT PAYIN-PAYOUT -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card h-100 p-4 border-2"
                     style="background: #ffffff; border-color: #e2e8f0 !important;">
@@ -643,39 +658,38 @@ include 'includes/header.php';
                         style="border-color: #e2e8f0 !important;">
                         <div class="d-flex align-items-center gap-2">
                             <span class="badge bg-secondary-subtle text-dark px-3 py-2 rounded-pill fw-bold"
-                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT PAYIN-PAYOUT SOFTWARE</span>
+                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT FT PAYIN-PAYOUT</span>
                         </div>
-                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Legacy Manual Mode</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Payments tracked by hand across bank statements</div>
+                            <div class="text-muted">Payments checked across bank statements</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Every gateway and insurer checked separately, manually</div>
+                            <div class="text-muted">Each payment source reviewed separately</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Discrepancies caught inconsistently, if at all</div>
+                            <div class="text-muted">Policy context checked separately</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Payouts run manually, once verification is "done"</div>
+                            <div class="text-muted">Mismatches found during manual checks</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Agents call finance for payment status</div>
+                            <div class="text-muted">Payouts handled after verification</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">No unified ledger beyond scattered spreadsheets</div>
+                            <div class="text-muted">Agents ask finance for status</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Payment cycles take days to close</div>
+                            <div class="text-muted">Payment cycles tracked in spreadsheets</div>
                         </div>
                     </div>
                 </div>
@@ -691,38 +705,36 @@ include 'includes/header.php';
                             <span class="badge bg-primary text-white px-2.5 px-sm-3 py-2 rounded-pill fw-bold"
                                 style="font-size: 0.8125rem;">⚡ WITH FT PAYIN-PAYOUT</span>
                         </div>
-                        <span class="badge bg-primary-subtle text-primary-custom px-2.5 py-1 rounded-pill fw-bold"
-                            style="font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.08) !important;">RECOMMENDED</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Payments matched automatically by AI</div>
+                            <div class="text-dark fw-bold">PayIns brought into one workflow</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Every bank, gateway, and insurer verified instantly</div>
+                            <div class="text-dark fw-bold">Supported sources visible together</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Discrepancies flagged automatically, before payout</div>
+                            <div class="text-dark fw-bold">Payments matched against policy records</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Payouts triggered instantly on verified PayIns</div>
+                            <div class="text-dark fw-bold">Exceptions surfaced before payout processing</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Agents see live payment status, no calls needed</div>
+                            <div class="text-dark fw-bold">Verified records follow configured payout rules</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Audit-ready ledger generated every cycle</div>
+                            <div class="text-dark fw-bold">Payment and payout status stays visible</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Payment cycles closed the same day</div>
+                            <div class="text-dark fw-bold">Connected records maintained across each cycle</div>
                         </div>
                     </div>
                 </div>
@@ -742,14 +754,15 @@ include 'includes/header.php';
                 <div class="faq-left-content">
                     <div class="section-label">PAYIN-PAYOUT SOFTWARE, EXPLAINED</div>
                     <h2 class="section-title">
-                        Your PayIn-Payout Questions, <span class="text-primary-custom">Answered</span>
+                        PayIn-Payout Questions, <span class="text-primary-custom">Clearly Answered</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Everything you need to know about FT PayIn-Payout's verification, matching, and payout process.
+                        Answers on premium verification, policy matching, payout controls, integrations and
+                        reporting.
                     </p>
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
-                        <span>Schedule a Demo</span>
+                        <span>Book a demo</span>
                         <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -771,7 +784,8 @@ include 'includes/header.php';
                         </h3>
                         <div id="payFaq1" class="accordion-collapse collapse show" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                PayIn-Payout automation software is a digital system that automatically verifies incoming premium payments against policy data and releases agent or POSP payouts — replacing manual bank statement tracking and payment reconciliation.
+                                PayIn-Payout software connects incoming premium payments with policy records and
+                                downstream payouts, reducing manual payment verification and tracking.
                             </div>
                         </div>
                     </div>
@@ -786,7 +800,8 @@ include 'includes/header.php';
                         </h3>
                         <div id="payFaq2" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                It uses AI to automatically match incoming payments to policy records, detect discrepancies or short payments, and trigger payout logic based on verified transactions.
+                                AI assists with payment-to-policy matching and exception detection. Configured business
+                                and payout rules remain part of the processing workflow.
                             </div>
                         </div>
                     </div>
@@ -796,12 +811,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq3" aria-expanded="false" aria-controls="payFaq3">
-                                Can agents see their payment and payout status in real time?
+                                Can agents and POSPs see payment and payout status?
                             </button>
                         </h3>
                         <div id="payFaq3" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Agents and POSPs can track confirmed premium payments and triggered payouts directly from their dashboard without contacting finance.
+                                Yes. Relevant PayIn and payout information can be made visible through the agent or POSP
+                                interface.
                             </div>
                         </div>
                     </div>
@@ -811,12 +827,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq4" aria-expanded="false" aria-controls="payFaq4">
-                                Is FT PayIn-Payout a standalone tool, or part of a larger platform?
+                                What happens when a PayIn does not match?
                             </button>
                         </h3>
                         <div id="payFaq4" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                It's built into FondosTech's insurance broker software, so payment data connects directly to policy and POSP records already on the platform.
+                                Short payments, duplicate entries and unmatched transactions can be surfaced for finance
+                                review before the corresponding payout moves forward.
                             </div>
                         </div>
                     </div>
@@ -826,12 +843,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq5" aria-expanded="false" aria-controls="payFaq5">
-                                How much faster are payouts with FT PayIn-Payout?
+                                Is FT PayIn-Payout a standalone payment tracker?
                             </button>
                         </h3>
                         <div id="payFaq5" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                Payouts are triggered instantly once a PayIn is verified, cutting payout turnaround from days or weeks to the same day.
+                                FT PayIn-Payout connects payment information with policy, commission and partner records
+                                within the FondosTech insurance technology environment.
                             </div>
                         </div>
                     </div>
@@ -841,12 +859,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq6" aria-expanded="false" aria-controls="payFaq6">
-                                Does FT PayIn-Payout work with any bank or payment gateway?
+                                Does it work with different banks and payment gateways?
                             </button>
                         </h3>
                         <div id="payFaq6" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                Yes. It integrates via API and statement feeds with major banks, payment gateways, and insurer portals to consolidate all payment flows.
+                                It supports API and statement-feed connectivity with supported banks, gateways and insurer
+                                portals. Exact connectivity depends on implementation scope.
                             </div>
                         </div>
                     </div>
@@ -856,12 +875,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq7" aria-expanded="false" aria-controls="payFaq7">
-                                Is FT PayIn-Payout insurtech, or traditional payment software?
+                                When can a payout move forward?
                             </button>
                         </h3>
                         <div id="payFaq7" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                It's built specifically for insurance on FondosTech's insurtech engine — connecting payments directly to policy data, commission structures, and agent records.
+                                Eligible payouts can move to the next processing stage after the PayIn is verified and
+                                configured payout conditions are met.
                             </div>
                         </div>
                     </div>
@@ -871,12 +891,12 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#payFaq8" aria-expanded="false" aria-controls="payFaq8">
-                                Does FT PayIn-Payout generate audit-ready reports?
+                                Does FT PayIn-Payout support reporting?
                             </button>
                         </h3>
                         <div id="payFaq8" class="accordion-collapse collapse" data-bs-parent="#payinPayoutFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Clean, exportable ledgers and reconciliation reports are generated automatically for every payment cycle.
+                                Payment-cycle ledgers and reconciliation reports can be generated for review and reporting.
                             </div>
                         </div>
                     </div>
@@ -887,27 +907,28 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 9: READY TO VERIFY PAYMENTS CTA BANNER-->
+<!-- SECTION 9: FINAL CTA                          -->
 <!-- ============================================= -->
-<section class="about-cta-section" id="posp-cta">
+<section class="about-cta-section" id="payin-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready to Verify Payments and Release Payouts, Instantly?</h2>
+            <h2 class="about-cta-title">Bring Every PayIn and Payout Under Control</h2>
             <p class="about-cta-desc">
-                See how FT PayIn-Payout replaces manual bank tracking with one AI-powered payment system.
+                See how FT PayIn-Payout connects verification, exceptions and payouts in one
+                insurance-linked workflow.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php"
                     class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn"
                     style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Book a demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                         viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
                 <a href="<?php echo $base_path; ?>contact.php"
-                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Sales</a>
+                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact sales</a>
             </div>
         </div>
     </div>

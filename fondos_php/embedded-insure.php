@@ -1,6 +1,6 @@
 <?php
-$page_title = "FT Embedded Insure | AI-Powered Embedded Insurance Software | FondosTech";
-$page_description = "AI-powered embedded insurance software that adds relevant, opt-in insurance directly into your booking or purchase flow — instant issuance, multiple insurers, built for travel, logistics and automobile platforms that sell at scale.";
+$page_title = "Embedded Insurance Platform | FT Embedded Insure | FondosTech";
+$page_description = "FT Embedded Insure connects relevant insurance offers, insurer journeys, and policy issuance with the existing booking, purchase, or checkout experience of travel, logistics, automotive, and e-commerce platforms.";
 $active_page = "embedded_insure";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -16,71 +16,71 @@ include 'includes/header.php';
 
     <div class="container">
         <div class="row align-items-center g-5">
-            <!-- Left Side Content -->
             <div class="col-lg-6 text-start" data-aos="fade-right">
-                <!-- Live Pulsing Badge -->
                 <div
                     class="posp-hero-badge-wrap mb-3 d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-sm">
                     <span class="posp-badge-dot"></span>
                     <span class="fw-semibold text-uppercase tracking-wider"
-                        style="font-size: 0.78125rem; color: #086ad8;">EMBEDDED INSURANCE SOFTWARE</span>
+                        style="font-size: 0.78125rem; color: #086ad8;">EMBEDDED INSURANCE PLATFORM</span>
                 </div>
 
                 <h1 class="posp-hero-title mb-3">
-                    FT Embedded Insure — <span class="text-primary-custom">Insurance, Added at Checkout.</span>
+                    Embed Insurance Into Every <span class="text-primary-custom">Digital Journey</span>
                 </h1>
 
+                <p class="section-desc mb-3" style="max-width: 600px; margin-left: 0;">
+                    FT Embedded Insure connects relevant insurance offers, insurer journeys, and policy issuance with
+                    the existing booking, purchase, or checkout experience of travel, logistics, automotive, and
+                    e-commerce platforms.
+                </p>
                 <p class="section-desc mb-4" style="max-width: 600px; margin-left: 0;">
-                    AI-powered embedded insurance software that adds relevant, opt-in insurance directly into your booking or purchase flow — instant issuance, multiple insurers, built for travel, logistics and automobile platforms that sell at scale.
+                    AI-assisted workflows and multi-insurer connectivity without building separate insurance journeys for
+                    every insurer.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5 d-inline-flex align-items-center gap-2 shadow-sm">
-                        <span>Book a Free Demo</span>
+                        <span>Book a demo</span>
                         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                     <a href="#how-it-works"
-                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See How It
-                        Works</a>
+                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See how it works</a>
                 </div>
 
-                <!-- Trust Highlights -->
                 <div class="d-flex align-items-center gap-3 flex-wrap posp-hero-trust-row"
                     style="font-size: 0.875rem; font-weight: 600; color: #495057;">
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Instant Issuance at Checkout</span>
+                        <span>Multi-insurer access</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Multi-Insurer, Multi-Product</span>
+                        <span>In-journey insurance</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Opt-In / Opt-Out Journeys</span>
+                        <span>AI-assisted workflows</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Side Image Frame -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/product_page/Product_Page_FT_Embedded_Insure_img.svg"
+                        <img src="assets/images/product_page/Product_Page_FT_Embedded_Insure_img.webp"
                             alt="FT Embedded Insure Software Interface" class="img-fluid w-100 rounded-3"
                             style="object-fit: contain;">
                     </div>
-                    <!-- Floating Metric Badge -->
                     <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
                         <div class="d-flex align-items-center gap-3">
                             <div class="badge-icon-circle bg-primary text-white">⚡</div>
                             <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">2x Higher Conversion</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">One-Tap Add-On &amp; AI-Product Matching</div>
+                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">In-journey insurance</div>
+                                <div class="text-muted" style="font-size: 0.78125rem;">Offer cover within existing transactions</div>
                             </div>
                         </div>
                     </div>
@@ -97,15 +97,34 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">WHY IT MATTERS</div>
-            <h2 class="section-title">Insurance Sells Best <span class="text-primary-custom">At the Moment of Booking</span></h2>
+            <h2 class="section-title">Embedded Insurance Simplifies <span class="text-primary-custom">Operational Complexity</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
-                Travel, logistics and automobile platforms all know insurance converts better when it's offered right at checkout — but most don't have the insurer relationships or compliance infrastructure to build this themselves, so the opportunity gets left on the table.
+                Adding insurance to a customer journey requires insurer integrations, product rules, consent, policy
+                issuance and servicing. FT Embedded Insure brings them together in one flow.
             </p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Card 1 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-card posp-challenge-card d-flex flex-column h-100 p-4 border-2">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="about-icon-box mb-0">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
+                                viewBox="0 0 24 24">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                            </svg>
+                        </div>
+                        <span class="pillar-tag-badge">INSURER INTEGRATION</span>
+                    </div>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Separate insurer integrations add technical work</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Different insurer APIs, product rules and data requirements make every additional connection harder
+                        to manage.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                 <div class="about-card posp-challenge-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="about-icon-box mb-0">
@@ -115,85 +134,41 @@ include 'includes/header.php';
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">MISSED ATTACHMENT</span>
+                        <span class="pillar-tag-badge">CUSTOMER FRICTION</span>
                     </div>
-
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Insurance Offered Too Late, If At All</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        Without a checkout-integrated option, insurance becomes a separate step customers rarely take on their own.
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Separate insurance journeys interrupt the purchase</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Redirecting customers away from their current booking or checkout creates an extra step at the point
+                        of purchase.
                     </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">💸 Revenue Left Uncaptured</span>
-                    </div>
                 </div>
             </div>
 
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card posp-challenge-card d-flex flex-column h-100 p-4 border-2">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <div class="about-icon-box mb-0">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
-                                viewBox="0 0 24 24">
-                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                            </svg>
-                        </div>
-                        <span class="pillar-tag-badge">INTEGRATION BURDEN</span>
-                    </div>
-
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Insurer Integrations Take Months</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        Connecting to even one insurer directly usually means months of engineering work most platforms can't prioritize.
-                    </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚙️ High Build Cost</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="about-card posp-challenge-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="about-icon-box mb-0">
                             <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                                 viewBox="0 0 24 24">
-                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                                <line x1="12" y1="9" x2="12" y2="13" />
-                                <line x1="12" y1="17" x2="12.01" y2="17" />
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">COMPLIANCE GAP</span>
+                        <span class="pillar-tag-badge">DISTRIBUTION CONTROL</span>
                     </div>
-
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Compliance Risk Without Insurance Expertise</h3>
-                    <p class="about-card-text flex-grow-1 mb-4">
-                        Selling insurance without the right regulatory setup exposes platforms to compliance risk they weren't built to manage.
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Insurance journeys need controlled product and consent logic</h3>
+                    <p class="about-card-text flex-grow-1 mb-0">
+                        Offers, disclosures and customer actions need to follow the configured insurer product and applicable
+                        distribution model.
                     </p>
-
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between"
-                        style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⚠️ Regulatory Exposure Risk</span>
-                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Scale Solution Banner Callout -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-size: 0.875rem; font-weight: 600;">
-                <span class="text-dark">Insurance sold as a separate step converts for far less</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-primary-custom fw-bold">FT Embedded Insure adds it directly at checkout, issued instantly</span>
+                <span class="text-dark">FT Embedded Insure brings these workflows into one embedded insurance platform.</span>
             </div>
         </div>
     </div>
@@ -206,12 +181,12 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">HOW IT WORKS</div>
-            <h2 class="section-title">From Checkout to Policy Issued — <span class="text-primary-custom">One Automated Flow</span></h2>
-            <p class="section-desc mx-auto">Every stage of the embedded insurance journey — from the moment it's offered to the moment it's issued — flows through one connected system, inside your existing purchase flow.</p>
+            <h2 class="section-title">Insurance Offer to Policy-All in One <span class="text-primary-custom">Connected Journey</span></h2>
+            <p class="section-desc mx-auto">FT Embedded Insure connects customer-facing insurance with insurer workflows behind your existing
+                booking, purchase or transaction experience.</p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Step 1 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -225,14 +200,13 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 01 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Product Match at Checkout</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Trigger the insurance offer</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        FT Embedded Insure identifies the right insurance product for the transaction — travel, vehicle, or shipment cover — automatically.
+                        Use booking, transaction, vehicle or shipment information to trigger an applicable insurance journey.
                     </p>
                 </div>
             </div>
 
-            <!-- Step 2 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -246,14 +220,13 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 02 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Opt-In Presentation</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Match a relevant product</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The customer sees a simple, relevant opt-in offer inside your existing checkout flow — no redirect, no separate app.
+                        Use configured product logic and supported AI assistance to identify relevant insurance options.
                     </p>
                 </div>
             </div>
 
-            <!-- Step 3 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -266,14 +239,13 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 03 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">AI-Powered Instant Quoting</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Fetch insurer quotes</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Pricing is generated instantly across multiple insurers, matched to the specific booking, shipment or vehicle.
+                        Connect with supported insurer journeys to return available product and premium information.
                     </p>
                 </div>
             </div>
 
-            <!-- Step 4 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -287,14 +259,13 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 04 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">One-Tap Issuance</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Capture customer opt-in</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        The customer adds cover with a single tap, and the policy is issued instantly, alongside their main purchase.
+                        Present applicable cover and customer action inside the existing digital journey.
                     </p>
                 </div>
             </div>
 
-            <!-- Step 5 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -308,14 +279,14 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 05 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Confirmation &amp; Document Delivery</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Issue the policy</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Policy documents are delivered digitally and instantly, without a separate email thread or manual follow-up.
+                        Send required information through configured insurer workflows and return policy confirmation after
+                        successful issuance.
                     </p>
                 </div>
             </div>
 
-            <!-- Step 6 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
                 <div class="about-card posp-step-card d-flex flex-column h-100 p-4 border-2">
                     <div class="d-flex align-items-center justify-content-between mb-3">
@@ -330,9 +301,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 06 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Conversion &amp; Attach-Rate Reporting</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Track post-sale activity</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Platforms see exactly how many customers opted in, by product and by channel, to optimize the offer over time.
+                        Keep policy information, servicing and available reporting connected to the transaction.
                     </p>
                 </div>
             </div>
@@ -341,18 +312,18 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 4: MANAGING EMBEDDED INSURANCE        -->
+<!-- SECTION 4: PLATFORM EXPERIENCE                -->
 <!-- ============================================= -->
 <section class="posp-dashboard-section" id="dashboard">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">MANAGING EMBEDDED INSURANCE, DAY TO DAY</div>
-            <h2 class="section-title">Everything Your Platform Needs To <span class="text-primary-custom">Convert More at Checkout</span></h2>
-            <p class="section-desc mx-auto">Dual-view architecture designed for customer simplicity and platform control.</p>
+            <div class="section-label">PLATFORM EXPERIENCE</div>
+            <h2 class="section-title">Insurance Made Simple With Faster <span class="text-primary-custom">Conversions</span></h2>
+            <p class="section-desc mx-auto">One connected embedded insurance platform supports the customer experience and the teams
+                managing insurance behind it.</p>
         </div>
 
         <div class="row g-4 mt-2">
-            <!-- For The Customer -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -365,28 +336,27 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">CUSTOMER CHECKOUT INTERFACE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Customer</h3>
+                            <span class="pillar-tag-badge mb-1">FOR THE CUSTOMER</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For the customer</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>One-Tap Opt-In</strong> — add relevant cover without leaving checkout</div>
+                            <div><strong>Instant insurance access</strong> — Add applicable cover without sending customers into an unrelated purchase experience.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Instant Policy Documents</strong> — delivered digitally the moment cover is added</div>
+                            <div><strong>Clear opt-in</strong> — Present the insurance choice and applicable information within the transaction flow.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Claims Access</strong> — file and track a claim directly, without a separate portal</div>
+                            <div><strong>Digital policy access</strong> — Return supported policy information after successful issuance.</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- For The Platform / Aggregator -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -398,62 +368,61 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">PLATFORM ADMIN CONSOLE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Platform / Aggregator</h3>
+                            <span class="pillar-tag-badge mb-1">FOR YOUR PLATFORM</span>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For your platform</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Multi-Insurer Configuration</strong> — manage every connected insurer from one console</div>
+                            <div><strong>Multi-insurer configuration</strong> — Manage supported insurer and product journeys through one operating environment.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Industry-Specific Product Setup</strong> — configure travel, vehicle or shipment cover per use case</div>
+                            <div><strong>Product controls</strong> — Configure insurance journeys by use case, product and transaction context.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Conversion Analytics</strong> — attach rate, revenue and drop-off visible by product and channel</div>
+                            <div><strong>Conversion analytics</strong> — Track available offer, opt-in and policy issuance data.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Admin &amp; Compliance Controls</strong> — opt-in language and disclosures managed centrally</div>
+                            <div><strong>Journey controls</strong> — Manage configured content, consent and business rules centrally.</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Role Architecture Summary Banner -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold mb-1 mb-sm-0">🔒 Single Integration</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">👤 Customer Checkout Widget</span>
-                <span class="text-muted fw-bold">+</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">One integration layer</span>
+                <span class="text-muted fw-bold">|</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">📋 Platform Admin Console</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Customer journey</span>
+                <span class="text-muted fw-bold">|</span>
+                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Platform control</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 5: AI IN EMBEDDED INSURANCE           -->
+<!-- SECTION 5: AI-ASSISTED WORKFLOWS              -->
 <!-- ============================================= -->
 <section class="posp-ai-section" id="ai-features">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">AI IN EMBEDDED INSURANCE</div>
-            <h2 class="section-title">AI That Actually <span class="text-primary-custom">Improves Checkout Conversion</span></h2>
-            <p class="section-desc mx-auto">FT Embedded Insure isn't a static insurance banner — it's insurtech built with AI at the core.</p>
+            <div class="section-label">AI-ASSISTED WORKFLOWS</div>
+            <h2 class="section-title">AI Built Into Insurance Workflow For Better <span class="text-primary-custom">Conversion</span></h2>
+            <p class="section-desc mx-auto">AI should help your teams act on relevant information, not add another technology layer to manage.</p>
         </div>
 
         <div class="row g-4 mt-2">
-            <!-- Feature 1 -->
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="about-card posp-ai-card d-flex flex-column h-100 p-4 border-2">
                     <div class="about-icon-box posp-ai-icon-box mb-3">
@@ -463,14 +432,13 @@ include 'includes/header.php';
                             <path d="M12 8v8M8 12h8" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Product Matching</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Product recommendation support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Automatically selects the right insurance product for each transaction, based on booking type, route, vehicle or shipment details.
+                        Use available transaction and product information to support relevant configured insurance options.
                     </p>
                 </div>
             </div>
 
-            <!-- Feature 2 -->
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
                 <div class="about-card posp-ai-card d-flex flex-column h-100 p-4 border-2">
                     <div class="about-icon-box posp-ai-icon-box mb-3">
@@ -479,14 +447,13 @@ include 'includes/header.php';
                             <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Optimized Offer Placement</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Offer decision support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Learns where and how an opt-in offer converts best within your checkout flow, and adjusts presentation accordingly.
+                        Use journey context to support when an applicable insurance option should be presented.
                     </p>
                 </div>
             </div>
 
-            <!-- Feature 3 -->
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="about-card posp-ai-card d-flex flex-column h-100 p-4 border-2">
                     <div class="about-icon-box posp-ai-icon-box mb-3">
@@ -495,28 +462,36 @@ include 'includes/header.php';
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Fraud Checks</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Claims routing support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Screens embedded policy issuance for fraud risk automatically, without adding friction to checkout.
+                        Use available claim information to support classification and routing towards the configured process.
                     </p>
                 </div>
             </div>
 
-            <!-- Feature 4 -->
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
                 <div class="about-card posp-ai-card d-flex flex-column h-100 p-4 border-2">
                     <div class="about-icon-box posp-ai-icon-box mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
-                            <rect x="2" y="7" width="20" height="14" rx="2" />
-                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                            <line x1="18" y1="20" x2="18" y2="10" />
+                            <line x1="12" y1="20" x2="12" y2="4" />
+                            <line x1="6" y1="20" x2="6" y2="14" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Insurtech-Native Architecture</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Operational intelligence</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Built on FondosTech's insurtech engine, connecting embedded policies to claims and payout infrastructure across the platform.
+                        Surface relevant policy, conversion and servicing information when teams need to take action.
                     </p>
                 </div>
+            </div>
+        </div>
+
+        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
+            data-aos="zoom-in">
+            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
+                style="font-size: 0.875rem; font-weight: 600;">
+                <span class="text-dark">AI assists configured workflows. Insurer rules, business controls and human oversight remain part of the process.</span>
             </div>
         </div>
     </div>
@@ -529,14 +504,14 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">BUILT FOR</div>
-            <h2 class="section-title">One Embedded System, Every Kind of <span class="text-primary-custom">Aggregator Platform</span></h2>
-            <p class="section-desc mx-auto">Empowering travel agencies, travel aggregators, logistics aggregators, and automobile aggregators alike.</p>
+            <h2 class="section-title">Embedded Insurance For Businesses Where Insurance Fits <span class="text-primary-custom">Naturally</span></h2>
+            <p class="section-desc mx-auto">FT Embedded Insure boosts businesses after insurance naturally connects with an existing booking,
+                purchase or service in the customers journey</p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Segment 1 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -544,33 +519,15 @@ include 'includes/header.php';
                             <path d="M22 2l-7 20-4-9-9-4 20-7z" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Travel Agencies</h3>
+                    <h3 class="about-card-title mb-2">Travel platforms</h3>
                     <p class="about-card-text">
-                        Add travel insurance directly into flight, hotel and package bookings — cover customers are already primed to say yes to.
+                        Add relevant travel insurance within supported flight, hotel or package booking journeys.
                     </p>
                 </div>
             </div>
 
-            <!-- Segment 2 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card text-center p-4">
-                    <div class="about-icon-box mx-auto mb-3">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
-                            viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="10" />
-                            <path d="M2 12h20" />
-                        </svg>
-                    </div>
-                    <h3 class="about-card-title mb-2">Travel Aggregators</h3>
-                    <p class="about-card-text">
-                        Offer travel insurance across thousands of daily bookings through one integration, without slowing down checkout.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Segment 3 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -580,16 +537,15 @@ include 'includes/header.php';
                             <circle cx="18.5" cy="18.5" r="2.5" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Logistics Aggregators</h3>
+                    <h3 class="about-card-title mb-2">Logistics platforms</h3>
                     <p class="about-card-text">
-                        Attach cargo and commercial vehicle insurance to every shipment or dispatch, so protection travels with the goods.
+                        Connect applicable shipment, cargo or related protection with supported logistics transactions.
                     </p>
                 </div>
             </div>
 
-            <!-- Segment 4 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card text-center p-4">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -598,27 +554,28 @@ include 'includes/header.php';
                             <circle cx="17" cy="17" r="2" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Automobile Aggregators</h3>
+                    <h3 class="about-card-title mb-2">Automotive platforms</h3>
                     <p class="about-card-text">
-                        Add motor insurance, roadside assistance and extended warranty into every vehicle purchase, at the moment of sale.
+                        Add relevant motor and protection products within vehicle purchase or mobility journeys.
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- Scale Flow Bar -->
-        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
-            data-aos="zoom-in">
-            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
-                style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold">Customer reaches checkout</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">AI matches the right insurance product</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="text-dark fw-bold">one-tap opt-in</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-dark fw-bold d-none d-sm-inline">policy issued instantly</span>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <div class="about-card text-center p-4 h-100">
+                    <div class="about-icon-box mx-auto mb-3">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
+                            viewBox="0 0 24 24">
+                            <circle cx="9" cy="21" r="1" />
+                            <circle cx="20" cy="21" r="1" />
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                        </svg>
+                    </div>
+                    <h3 class="about-card-title mb-2">E-commerce and marketplaces</h3>
+                    <p class="about-card-text">
+                        Offer applicable protection alongside eligible products during purchase or checkout.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -631,12 +588,11 @@ include 'includes/header.php';
     <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
             <div class="section-label">THE DIFFERENCE</div>
-            <h2 class="section-title">See What Changes, <span class="text-primary-custom">Side By Side</span></h2>
-            <p class="section-desc mx-auto">Compare selling insurance separately with FT Embedded Insure's checkout-integrated platform.</p>
+            <h2 class="section-title">How FT Embed Insure Make a <span class="text-primary-custom">Difference</span></h2>
+            <p class="section-desc mx-auto">See how a connected insurance layer changes the way digital platforms add and manage insurance.</p>
         </div>
 
         <div class="row g-4 mt-3">
-            <!-- Left Side: WITHOUT FT EMBEDDED INSURE -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card h-100 p-4 border-2"
                     style="background: #ffffff; border-color: #e2e8f0 !important;">
@@ -644,45 +600,43 @@ include 'includes/header.php';
                         style="border-color: #e2e8f0 !important;">
                         <div class="d-flex align-items-center gap-2">
                             <span class="badge bg-secondary-subtle text-dark px-3 py-2 rounded-pill fw-bold"
-                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT FT EMBEDDED INSURE</span>
+                                style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT A CONNECTED PLATFORM</span>
                         </div>
-                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Legacy Manual Mode</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Insurance sold as a separate step, if at all</div>
+                            <div class="text-muted">Insurance sits outside the main customer journey</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Insurer integrations built one at a time, in-house</div>
+                            <div class="text-muted">Insurer integrations are built separately</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Compliance and disclosures managed manually</div>
+                            <div class="text-muted">Product logic sits across different systems</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Generic offers, not matched to the transaction</div>
+                            <div class="text-muted">Policy status requires separate handling</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">No visibility into attach rate or conversion</div>
+                            <div class="text-muted">Claims become another disconnected process</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Claims routed through a separate, disconnected process</div>
+                            <div class="text-muted">Reporting is assembled across systems</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Months of engineering before insurance goes live</div>
+                            <div class="text-muted">New insurance journeys require additional build work</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Side: WITH FT EMBEDDED INSURE -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="about-card h-100 p-4 border-2 shadow-lg position-relative"
                     style="background: #ffffff; border-color: #086ad8 !important;">
@@ -692,38 +646,36 @@ include 'includes/header.php';
                             <span class="badge bg-primary text-white px-2.5 px-sm-3 py-2 rounded-pill fw-bold"
                                 style="font-size: 0.8125rem;">⚡ WITH FT EMBEDDED INSURE</span>
                         </div>
-                        <span class="badge bg-primary-subtle text-primary-custom px-2.5 py-1 rounded-pill fw-bold"
-                            style="font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.08) !important;">RECOMMENDED</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Insurance offered instantly, inside checkout</div>
+                            <div class="text-dark fw-bold">Insurance sits inside the configured transaction journey</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Multiple insurers connected through one integration</div>
+                            <div class="text-dark fw-bold">Supported insurers connect through one platform layer</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Compliance and disclosures built into the flow</div>
+                            <div class="text-dark fw-bold">Product journeys are managed more centrally</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">AI matches the right product to every transaction</div>
+                            <div class="text-dark fw-bold">Supported issuance data returns into the workflow</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Conversion and attach-rate analytics, by channel</div>
+                            <div class="text-dark fw-bold">Claims journeys can remain connected where supported</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Claims filed and tracked from the same platform</div>
+                            <div class="text-dark fw-bold">Available activity is visible through central reporting</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Live in weeks, not months of custom development</div>
+                            <div class="text-dark fw-bold">Supported use cases reuse the embedded insurance infrastructure</div>
                         </div>
                     </div>
                 </div>
@@ -733,24 +685,23 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 8: EMBEDDED INSURANCE EXPLAINED (FAQ) -->
+<!-- SECTION 8: EMBEDDED INSURANCE FAQ             -->
 <!-- ============================================= -->
-<section class="faq-section section-padding" id="faq" aria-label="Embedded Insurance Questions Answered">
+<section class="faq-section section-padding" id="faq" aria-label="Embedded Insurance Platform Questions Answered">
     <div class="container">
         <div class="row g-5">
-            <!-- Left Sticky Sidebar -->
             <div class="col-lg-5 col-md-12 faq-left-column">
                 <div class="faq-left-content">
-                    <div class="section-label">EMBEDDED INSURANCE, EXPLAINED</div>
+                    <div class="section-label">EMBEDDED INSURANCE FAQ</div>
                     <h2 class="section-title">
-                        Your Embedded Insurance Questions, <span class="text-primary-custom">Answered</span>
+                        Embedded insurance platform questions, <span class="text-primary-custom">answered</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Everything you need to know about FT Embedded Insure's checkout integration, product matching, and issuance process.
+                        Answers on product presentation, quoting, consent, policy issuance, servicing and reporting.
                     </p>
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
-                        <span>Schedule a Demo</span>
+                        <span>Book a demo</span>
                         <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -759,125 +710,110 @@ include 'includes/header.php';
                 </div>
             </div>
 
-            <!-- Right Accordion Cards -->
             <div class="col-lg-7 col-md-12" data-aos="fade-left" data-aos-delay="150">
                 <div class="accordion faq-accordion-custom" id="embFaqAccordion">
-                    <!-- Item 1 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq1" aria-expanded="true" aria-controls="embFaq1">
-                                What is embedded insurance software?
+                                What is an embedded insurance platform?
                             </button>
                         </h3>
                         <div id="embFaq1" class="accordion-collapse collapse show" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                Embedded insurance software is a digital system that lets a company add relevant insurance — like travel, vehicle or shipment cover — directly into an existing purchase or booking flow, with instant issuance, instead of selling insurance as a separate product.
+                                An embedded insurance platform connects insurance products and insurer workflows with an
+                                existing digital purchase, booking or service journey. It can support product presentation, quoting, consent, policy issuance, servicing and
+                                reporting.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 2 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="120">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq2" aria-expanded="false" aria-controls="embFaq2">
-                                How does FT Embedded Insure use AI?
+                                What is embedded insurance software?
                             </button>
                         </h3>
                         <div id="embFaq2" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                It uses AI to automatically select the right insurance product for each transaction, optimize opt-in offer placement within checkout, and screen policy issuance for fraud risk.
+                                Embedded insurance software provides technology for adding insurance into another
+                                company's existing customer journey. It can connect digital platforms with insurers, product logic, policy workflows and reporting.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="140">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq3" aria-expanded="false" aria-controls="embFaq3">
-                                Which industries can use FT Embedded Insure?
+                                What does an embedded insurance API do?
                             </button>
                         </h3>
                         <div id="embFaq3" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                Travel platforms, logistics aggregators, automobile marketplaces, e-commerce platforms, and fintech apps can all use FT Embedded Insure to offer relevant cover at checkout.
+                                An embedded insurance API exchanges information between the host platform and insurance
+                                systems during quoting, proposal, issuance or servicing. FT Embedded Insure provides a common platform layer for supported insurer journeys.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 4 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="160">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq4" aria-expanded="false" aria-controls="embFaq4">
-                                Does adding insurance at checkout require an integration for each insurer?
+                                Can FT Embedded Insure connect with multiple insurers?
                             </button>
                         </h3>
                         <div id="embFaq4" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                No. Platforms connect to FT Embedded Insure once, gaining access to multiple insurance partners without building separate API integrations for each one.
+                                Yes. FT Embedded Insure supports multi-insurer integrations. Available insurers, products and journeys depend on active integrations and implementation
+                                scope.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 5 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="180">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq5" aria-expanded="false" aria-controls="embFaq5">
-                                Can customers file and track claims without leaving the platform?
+                                Can insurance be added directly to checkout?
                             </button>
                         </h3>
                         <div id="embFaq5" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Claims submission and status tracking can be embedded directly into the host platform's user experience.
+                                Supported insurance offers can be presented within an existing purchase or booking journey.
+                                The flow depends on the product, insurer and applicable distribution arrangement.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 6 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq6" aria-expanded="false" aria-controls="embFaq6">
-                                Does FT Embedded Insure slow down checkout?
+                                How does FT Embedded Insure use AI?
                             </button>
                         </h3>
                         <div id="embFaq6" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                No. Quoting and product matching take milliseconds, presenting a seamless opt-in offer that adds zero noticeable latency to your purchase flow.
+                                FT Embedded Insure uses AI assistance within selected insurance workflows such as product
+                                recommendations, offer decision support and claims routing. Configured business rules and insurer logic remain part of the process.
                             </div>
                         </div>
                     </div>
 
-                    <!-- Item 7 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="220">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#embFaq7" aria-expanded="false" aria-controls="embFaq7">
-                                Is FT Embedded Insure insurtech, or a generic insurance plugin?
+                                Can claims stay inside the customer journey?
                             </button>
                         </h3>
                         <div id="embFaq7" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
                             <div class="accordion-body">
-                                It's built on FondosTech's core insurtech engine — pre-loaded with insurer APIs, policy issuance logic, and regulatory compliance frameworks.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 8 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="240">
-                        <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#embFaq8" aria-expanded="false" aria-controls="embFaq8">
-                                Can platforms see how many customers are opting in?
-                            </button>
-                        </h3>
-                        <div id="embFaq8" class="accordion-collapse collapse" data-bs-parent="#embFaqAccordion">
-                            <div class="accordion-body">
-                                Yes. The platform admin console provides real-time conversion analytics, attach rates, revenue tracking, and channel-by-channel performance reports.
+                                Supported claim initiation or servicing experiences can connect with the host platform where
+                                the configured insurer workflow allows it.
                             </div>
                         </div>
                     </div>
@@ -888,27 +824,29 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 9: READY TO CONVERT CTA BANNER        -->
+<!-- SECTION 9: FINAL CTA                          -->
 <!-- ============================================= -->
 <section class="about-cta-section" id="posp-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready to Convert More at Checkout with Embedded Insurance?</h2>
+            <div class="section-label mb-3" style="color: rgba(255,255,255,0.85);">SEE IT IN ACTION</div>
+            <h2 class="about-cta-title">See FT Embedded Insure Transforming Business Numbers For You</h2>
             <p class="about-cta-desc">
-                See how FT Embedded Insure adds instant, opt-in cover directly into your booking or purchase flow.
+                Map the relevant insurance journey, insurer connectivity and FT Embedded Insure
+                requirements around your existing digital experience.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php"
                     class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn"
                     style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Book a demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                         viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
                 <a href="<?php echo $base_path; ?>contact.php"
-                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Sales</a>
+                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact sales</a>
             </div>
         </div>
     </div>

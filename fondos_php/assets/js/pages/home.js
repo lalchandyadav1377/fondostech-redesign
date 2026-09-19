@@ -428,11 +428,11 @@
             });
 
             if (btnText) {
-                btnText.textContent = isExpanded ? 'Show Less' : 'View All';
+                btnText.textContent = isExpanded ? 'View Less' : 'View All';
             }
 
             if (btnIcon) {
-                btnIcon.style.transform = isExpanded ? 'rotate(90deg)' : 'rotate(0deg)';
+                btnIcon.style.transform = isExpanded ? 'rotate(180deg)' : 'rotate(0deg)';
             }
         });
     }
@@ -484,157 +484,6 @@
     }
 
     /* =============================================
-       TESTIMONIALS INFINITE LOOP SLIDER
-       ============================================= */
-    /* =============================================
-       TESTIMONIALS INFINITE LOOP SLIDER
-       ============================================= */
-    function initTestimonialsSlider() {
-        const track = document.getElementById('testimonials-track');
-        if (!track) return;
-
-        const prevBtn = document.getElementById('testimonial-prev');
-        const nextBtn = document.getElementById('testimonial-next');
-
-        const originalCards = Array.from(track.children);
-        if (!originalCards.length) return;
-
-        // Clone cards for seamless infinite loop
-        originalCards.forEach(function (card) {
-            const clone = card.cloneNode(true);
-            track.appendChild(clone);
-        });
-
-        let currentIndex = 0;
-        const gap = 24;
-        const totalOriginals = originalCards.length;
-        let autoTimer = null;
-
-        function getCardWidth() {
-            return track.children[0].offsetWidth + gap;
-        }
-
-        function slideTo(index, animated) {
-            if (animated !== false) {
-                track.style.transition = 'transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1)';
-            } else {
-                track.style.transition = 'none';
-            }
-            const cardWidth = getCardWidth();
-            track.style.transform = 'translateX(-' + (index * cardWidth) + 'px)';
-            currentIndex = index;
-        }
-
-        track.addEventListener('transitionend', function () {
-            // Seamless loop boundary resets
-            if (currentIndex >= totalOriginals) {
-                slideTo(currentIndex % totalOriginals, false);
-            } else if (currentIndex < 0) {
-                const rem = currentIndex % totalOriginals;
-                slideTo(rem === 0 ? 0 : totalOriginals + rem, false);
-            }
-        });
-
-        function nextSlide() {
-            if (currentIndex >= totalOriginals * 2 - 1) {
-                slideTo(totalOriginals - 1, false);
-                void track.offsetWidth;
-            }
-            slideTo(currentIndex + 1, true);
-        }
-
-        function prevSlide() {
-            if (currentIndex <= 0) {
-                slideTo(totalOriginals, false);
-                void track.offsetWidth;
-            }
-            slideTo(currentIndex - 1, true);
-        }
-
-        if (nextBtn) {
-            nextBtn.addEventListener('click', function (e) {
-                e.preventDefault();
-                resetAutoTimer();
-                nextSlide();
-            });
-        }
-
-        if (prevBtn) {
-            prevBtn.addEventListener('click', function (e) {
-                e.preventDefault();
-                resetAutoTimer();
-                prevSlide();
-            });
-        }
-
-        function startAutoTimer() {
-            stopAutoTimer();
-            autoTimer = setInterval(nextSlide, 4000);
-        }
-
-        function stopAutoTimer() {
-            if (autoTimer) {
-                clearInterval(autoTimer);
-                autoTimer = null;
-            }
-        }
-
-        function resetAutoTimer() {
-            stopAutoTimer();
-            startAutoTimer();
-        }
-
-        startAutoTimer();
-
-        track.addEventListener('mouseenter', stopAutoTimer);
-        track.addEventListener('mouseleave', startAutoTimer);
-
-        // Swipe & Mouse Drag support
-        let startX = 0;
-        let isDragging = false;
-
-        track.style.cursor = 'grab';
-
-        // Touch Swipe
-        track.addEventListener('touchstart', function (e) {
-            stopAutoTimer();
-            startX = e.touches[0].clientX;
-            isDragging = true;
-        }, { passive: true });
-
-        track.addEventListener('touchend', function (e) {
-            if (!isDragging) return;
-            isDragging = false;
-            const endX = e.changedTouches[0] ? e.changedTouches[0].clientX : startX;
-            const diff = startX - endX;
-            if (diff > 40) nextSlide();
-            else if (diff < -40) prevSlide();
-            startAutoTimer();
-        });
-
-        // Mouse Drag
-        let mouseStartX = 0;
-        let isMouseDown = false;
-
-        track.addEventListener('mousedown', function (e) {
-            stopAutoTimer();
-            isMouseDown = true;
-            mouseStartX = e.clientX;
-            track.style.cursor = 'grabbing';
-        });
-
-        window.addEventListener('mouseup', function (e) {
-            if (!isMouseDown) return;
-            isMouseDown = false;
-            track.style.cursor = 'grab';
-            const diff = mouseStartX - e.clientX;
-            if (diff > 40) nextSlide();
-            else if (diff < -40) prevSlide();
-            startAutoTimer();
-        });
-    }
-
-    /* =============================================
        9. AOS (ANIMATE ON SCROLL) ENGINE
        ============================================= */
     function initAOS() {
@@ -654,11 +503,19 @@
        ============================================= */
     function initFaqSticky() {
         const faqSection = document.getElementById('faq');
-        const leftContent = document.querySelector('.faq-left-content');
-        const accordion = document.getElementById('faqAccordion');
-        if (!faqSection || !leftContent || !accordion) return;
+        const leftColumn = document.querySelector('#faq .faq-left-column');
+        const leftContent = document.querySelector('#faq .faq-left-content');
+        if (!faqSection || !leftColumn || !leftContent) return;
 
         let ticking = false;
+
+        function getStickyTop() {
+            const headerEl = document.getElementById('ft-header');
+            if (!headerEl || headerEl.classList.contains('header-hidden')) {
+                return 24;
+            }
+            return Math.max(24, headerEl.getBoundingClientRect().bottom + 16);
+        }
 
         function updateFaqSticky() {
             if (window.innerWidth < 992) {
@@ -667,18 +524,13 @@
                 return;
             }
 
-            const headerEl = document.getElementById('ft-header');
-            const topOffset = (headerEl ? headerEl.offsetHeight : 80) + 24;
-
-            const sectionRect = faqSection.getBoundingClientRect();
-            const leftHeight = leftContent.offsetHeight;
-            const accordionHeight = accordion.offsetHeight;
-            const maxTranslate = Math.max(0, accordionHeight - leftHeight);
-
+            const topOffset = getStickyTop();
+            const columnRect = leftColumn.getBoundingClientRect();
+            const maxTranslate = Math.max(0, leftColumn.offsetHeight - leftContent.offsetHeight);
             let translate = 0;
-            if (sectionRect.top < topOffset) {
-                translate = topOffset - sectionRect.top;
-                if (translate > maxTranslate) translate = maxTranslate;
+
+            if (columnRect.top < topOffset) {
+                translate = Math.min(topOffset - columnRect.top, maxTranslate);
             }
 
             leftContent.style.transform = 'translate3d(0, ' + translate + 'px, 0)';
@@ -695,11 +547,11 @@
         window.addEventListener('scroll', requestTick, { passive: true });
         window.addEventListener('resize', updateFaqSticky);
         window.addEventListener('load', updateFaqSticky);
+        faqSection.addEventListener('shown.bs.collapse', updateFaqSticky);
+        faqSection.addEventListener('hidden.bs.collapse', updateFaqSticky);
 
-        // Recalculate after AOS initialization finishes
         setTimeout(updateFaqSticky, 300);
         setTimeout(updateFaqSticky, 1000);
-
         updateFaqSticky();
     }
 
@@ -738,7 +590,6 @@
         initLobSlider();
         initIcMarquee();
         initIndustriesToggle();
-        initTestimonialsSlider();
         initAOS();
         initFaqSticky();
         initPillViewportObserver();

@@ -106,6 +106,10 @@ footer[role="contentinfo"] {
     gap: 0.625rem;
 }
 
+.ft-footer-social a.d-none {
+    display: none !important;
+}
+
 .ft-footer-social a {
     display: inline-flex;
     align-items: center;
@@ -139,7 +143,7 @@ footer[role="contentinfo"] {
 
 /* ---- Footer Links Grid ---- */
 .ft-footer-links {
-    padding-bottom: 2.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .ft-footer-col-title {
@@ -160,6 +164,10 @@ footer[role="contentinfo"] {
 
 .ft-footer-col-links a:hover {
     color: var(--primary-color);
+}
+
+.ft-footer-col-links a.d-none {
+    display: none !important;
 }
 
 /* ---- Get in Touch ---- */
@@ -218,17 +226,17 @@ footer[role="contentinfo"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 0;
     border-top: 1px solid var(--border-color);
 }
 
 .ft-footer-copyright {
-    font-size: var(--font-size-sm);
+    font-size: 13px;
     color: var(--text-muted);
 }
 
 .ft-footer-cin {
-    font-size: var(--font-size-sm);
+    font-size: 13px;
     color: var(--text-muted);
 }
 
@@ -317,6 +325,6 @@ footer[role="contentinfo"] {
         flex-direction: column;
         gap: 0.375rem;
         text-align: center;
-        padding: 1.25rem 0 0.5rem;
+        padding: 1.25rem 0 0;
     }
 }

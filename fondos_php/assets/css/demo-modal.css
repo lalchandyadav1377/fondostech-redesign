@@ -1,0 +1,288 @@
+/* =============================================
+   FONDOS TECH — Request Demo Modal
+   ============================================= */
+
+#requestDemoModal {
+    z-index: 11050;
+}
+
+body.modal-open .modal-backdrop {
+    z-index: 11040 !important;
+}
+
+body.modal-open .ft-header {
+    z-index: 1030;
+}
+
+.ft-demo-modal {
+    border: 1px solid #cee4fd;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 3rem rgba(8, 106, 216, 0.18);
+    overflow: visible;
+}
+
+.ft-demo-modal .modal-header {
+    align-items: flex-start;
+    border-bottom: 1px solid #e0eefe;
+    padding: 1.5rem 1.75rem 1.25rem;
+    background: #f5faff;
+}
+
+.ft-demo-modal-heading {
+    margin: 0;
+}
+
+.ft-demo-modal-title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    color: #086ad8;
+    margin: 0 0 0.25rem;
+}
+
+.ft-demo-modal-desc {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #394047;
+    font-weight: 500;
+    margin: 0;
+}
+
+.ft-demo-modal .btn-close {
+    margin-top: 0.25rem;
+}
+
+.ft-demo-modal .modal-body {
+    padding: 1.5rem 1.75rem 1.75rem;
+}
+
+.ft-demo-modal .form-group {
+    position: relative;
+    margin-top: 0.25rem;
+}
+
+.ft-demo-modal .form-label {
+    position: absolute;
+    top: -0.425rem;
+    left: 0.875rem;
+    background: #ffffff;
+    padding: 0 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #212529;
+    z-index: 2;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.ft-demo-modal .form-control,
+.ft-demo-modal .form-select {
+    background: #ffffff;
+    border: 1px solid rgba(33, 37, 41, 0.16);
+    border-radius: 0.75rem;
+    padding: 0.875rem 1rem;
+    font-size: 0.95rem;
+    color: #212529;
+    transition: all 0.2s ease;
+    width: 100%;
+    box-shadow: none;
+}
+
+.ft-demo-modal .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23086AD8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 16px;
+    padding-right: 2.5rem;
+}
+
+.ft-demo-modal .form-control::placeholder {
+    color: #212529;
+    opacity: 0.48;
+}
+
+.ft-demo-modal .form-control:focus,
+.ft-demo-modal .form-select:focus {
+    background: #ffffff;
+    border-color: #086ad8;
+    box-shadow: 0 0 0 0.156rem rgba(8, 106, 216, 0.18);
+}
+
+.ft-demo-modal .form-control.is-invalid,
+.ft-demo-modal .form-select.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.ft-demo-modal .form-control.is-valid,
+.ft-demo-modal .form-select.is-valid {
+    border-color: #198754 !important;
+}
+
+.ft-demo-modal .error-message.text-danger {
+    font-size: 0.75rem;
+    color: #dc3545 !important;
+    font-weight: 600;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.ft-recaptcha-wrap {
+    min-height: 78px;
+    overflow: visible;
+}
+
+.ft-recaptcha-wrap .g-recaptcha,
+.ft-recaptcha-wrap > div {
+    display: inline-block;
+    min-height: 78px;
+}
+
+.ft-recaptcha-wrap iframe {
+    max-width: 100%;
+}
+
+.ft-recaptcha-wrap .error-message {
+    display: block;
+    margin-top: 0.375rem;
+}
+
+#requestDemoModal .modal-body {
+    overflow: visible;
+}
+
+.btn-demo-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #086ad8;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.75rem;
+    border: none;
+    width: 100%;
+    transition: all 0.2s ease;
+    box-shadow: 0 0.625rem 1.5rem -0.5rem rgba(8, 106, 216, 0.32);
+    cursor: pointer;
+}
+
+.btn-demo-submit:hover {
+    background: #0654ad;
+    transform: translateY(-1px);
+    box-shadow: 0 0.875rem 1.75rem -0.5rem rgba(8, 106, 216, 0.45);
+    color: #ffffff;
+}
+
+.ft-demo-modal-disclaimer {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: #394047;
+    line-height: 1.4;
+}
+
+/* Thank-you popup (shared with contact when opened from any page) */
+.swal2-popup.thankyou-popup {
+    background: #ffffff;
+    border-radius: 1.75rem;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 20px 60px rgba(8, 106, 216, 0.22);
+    border: 1px solid #cee4fd;
+    max-width: 500px;
+}
+
+.thankyou-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #086ad8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 10px 25px rgba(8, 106, 216, 0.35);
+}
+
+.thankyou-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #086ad8;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+}
+
+.thankyou-desc {
+    font-size: 0.9375rem;
+    color: #394047;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+.thankyou-info-box {
+    background: #f5faff;
+    border: 1px solid #cee4fd;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.thankyou-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+    font-size: 0.875rem;
+    color: #212529;
+    margin-bottom: 0.5rem;
+}
+
+.thankyou-info-item:last-child {
+    margin-bottom: 0;
+}
+
+.thankyou-actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn-thankyou-primary {
+    background: #086ad8;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    box-shadow: 0 6px 20px rgba(8, 106, 216, 0.3);
+    cursor: pointer;
+}
+
+.btn-thankyou-primary:hover {
+    background: #0654ad;
+    color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+    .ft-demo-modal {
+        border-radius: 1.25rem;
+    }
+
+    .ft-demo-modal .modal-header,
+    .ft-demo-modal .modal-body {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .ft-demo-modal-title {
+        font-size: 1.25rem;
+    }
+}

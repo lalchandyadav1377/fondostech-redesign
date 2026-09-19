@@ -70,7 +70,7 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/product_page/Product_Page_FT_Lending_Insure_img.svg"
+                        <img src="assets/images/product_page/Product_Page_FT_Lending_Insure_img.webp"
                             alt="FT Lending Insure loan protection dashboard mockup" class="img-fluid w-100 rounded-3"
                             style="object-fit: contain;">
                     </div>

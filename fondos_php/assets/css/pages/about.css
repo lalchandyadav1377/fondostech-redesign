@@ -1019,7 +1019,7 @@ footer[role="contentinfo"] {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    animation: icMarqueeAbout 25s linear infinite;
+    animation: icMarqueeAbout 50s linear infinite;
     will-change: transform;
     flex-shrink: 0;
     padding: 0.5rem 0;

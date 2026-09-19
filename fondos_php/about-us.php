@@ -65,31 +65,63 @@ include 'includes/header.php';
         </div>
         <div class="ic-logos-marquee" data-aos="fade-up" data-aos-delay="100">
             <div class="ic-logos-track">
-                <div class="ic-logo-card"><img src="assets/images/magma-ic0.svg" alt="Magma Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/liberty-general-ic0.svg" alt="Liberty General Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-81.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-10.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-21.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-31.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-40.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-53.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-60.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-70.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/bajaj-life-ic0.svg" alt="Bajaj Life Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/shriram-general-ic0.svg" alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_general_ic.svg" alt="Bajaj General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_life_ic.svg" alt="Bajaj Life Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/care_health_ic.svg" alt="Care Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/chola_ms_general_ic.svg" alt="Chola MS General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/digit_ic.svg" alt="Digit Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/generali_central_ic.svg" alt="Generali Central Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_ergo_general_ic.svg" alt="HDFC ERGO General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_life_ic.svg" alt="HDFC Life"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/icici_lombard_general_ic.svg" alt="ICICI Lombard General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/iffco_tokio_general_ic.svg" alt="IFFCO Tokio General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/indusind_general_ic.svg" alt="IndusInd General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/liberty_general_ic.svg" alt="Liberty General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/magma_ic.svg" alt="Magma Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/manipal_cigna_health_ic.svg" alt="ManipalCigna Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/national_ic.svg" alt="National Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/nivabupa_ic.svg" alt="Niva Bupa"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/oriental_ic.svg" alt="Oriental Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/raheja_qbe_general_ic.svg" alt="Raheja QBE General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/royal_sundaram_general_ic.svg" alt="Royal Sundaram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/sbi_general_ic.svg" alt="SBI General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/shriram_general_ic.svg" alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/star_health_ic.svg" alt="Star Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/tata_aig_ic.svg" alt="Tata AIG"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/the_new_india_assurance_ic.svg.svg" alt="New India Assurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/united_india_ic.svg" alt="United India Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/usg_ic.svg" alt="Universal Sompo General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zuno_ic.svg" alt="Zuno Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zurich_kotak_general_ic.svg" alt="Zurich Kotak General Insurance"></div>
                 <!-- Duplicate set for infinite loop -->
-                <div class="ic-logo-card"><img src="assets/images/magma-ic0.svg" alt="Magma Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/liberty-general-ic0.svg" alt="Liberty General Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-81.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-10.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-21.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-31.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-40.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-53.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-60.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/image-70.png" alt="Insurance Partner"></div>
-                <div class="ic-logo-card"><img src="assets/images/bajaj-life-ic0.svg" alt="Bajaj Life Insurance"></div>
-                <div class="ic-logo-card"><img src="assets/images/shriram-general-ic0.svg" alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_general_ic.svg" alt="Bajaj General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/bajaj_life_ic.svg" alt="Bajaj Life Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/care_health_ic.svg" alt="Care Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/chola_ms_general_ic.svg" alt="Chola MS General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/digit_ic.svg" alt="Digit Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/generali_central_ic.svg" alt="Generali Central Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_ergo_general_ic.svg" alt="HDFC ERGO General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/hdfc_life_ic.svg" alt="HDFC Life"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/icici_lombard_general_ic.svg" alt="ICICI Lombard General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/iffco_tokio_general_ic.svg" alt="IFFCO Tokio General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/indusind_general_ic.svg" alt="IndusInd General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/liberty_general_ic.svg" alt="Liberty General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/magma_ic.svg" alt="Magma Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/manipal_cigna_health_ic.svg" alt="ManipalCigna Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/national_ic.svg" alt="National Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/nivabupa_ic.svg" alt="Niva Bupa"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/oriental_ic.svg" alt="Oriental Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/raheja_qbe_general_ic.svg" alt="Raheja QBE General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/royal_sundaram_general_ic.svg" alt="Royal Sundaram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/sbi_general_ic.svg" alt="SBI General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/shriram_general_ic.svg" alt="Shriram General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/star_health_ic.svg" alt="Star Health Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/tata_aig_ic.svg" alt="Tata AIG"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/the_new_india_assurance_ic.svg.svg" alt="New India Assurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/united_india_ic.svg" alt="United India Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/usg_ic.svg" alt="Universal Sompo General Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zuno_ic.svg" alt="Zuno Insurance"></div>
+                <div class="ic-logo-card"><img src="assets/images/ic_logo_svg/zurich_kotak_general_ic.svg" alt="Zurich Kotak General Insurance"></div>
             </div>
         </div>
     </div>

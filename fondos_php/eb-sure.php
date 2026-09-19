@@ -1,6 +1,6 @@
 <?php
-$page_title = "EB Sure | AI-Powered Employee Benefits Insurance Software | FondosTech";
-$page_description = "AI-powered employee benefits insurance software that handles enrollment, claims, and renewals for group health and life policies — giving HR teams and brokers one platform to manage every employee's coverage, without the spreadsheet chaos.";
+$page_title = "Employee Benefits Platform | FT EB Sure | FondosTech";
+$page_description = "FT EB Sure connects employee enrolment, endorsements, claims and renewals for group insurance through one AI-assisted platform.";
 $active_page = "eb_sure";
 $page_css = ["assets/css/pages/posp.css"];
 $page_js = ["assets/js/pages/posp.js"];
@@ -23,29 +23,29 @@ include 'includes/header.php';
                     class="posp-hero-badge-wrap mb-3 d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-sm">
                     <span class="posp-badge-dot"></span>
                     <span class="fw-semibold text-uppercase tracking-wider"
-                        style="font-size: 0.78125rem; color: #086ad8;">EMPLOYEE BENEFITS INSURANCE SOFTWARE</span>
+                        style="font-size: 0.78125rem; color: #086ad8;">EMPLOYEE BENEFITS PLATFORM</span>
                 </div>
 
                 <h1 class="posp-hero-title mb-3">
-                    EB Sure — <span class="text-primary-custom">Employee Benefits, Fully Managed.</span>
+                    Faster Enrolments. Easier Claims. <span class="text-primary-custom">Smoother Renewals.</span>
                 </h1>
 
                 <p class="section-desc mb-4" style="max-width: 600px; margin-left: 0;">
-                    AI-powered employee benefits insurance software that handles enrollment, claims, and renewals for group health and life policies — giving HR teams and brokers one platform to manage every employee's coverage, without the spreadsheet chaos.
+                    FT EB Sure connects employee enrolment, endorsements, claims and renewals for group
+                    insurance through one AI-assisted platform.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5 d-inline-flex align-items-center gap-2 shadow-sm">
-                        <span>Book a Free Demo</span>
+                        <span>Book a demo</span>
                         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                             viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                     <a href="#how-it-works"
-                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See How It
-                        Works</a>
+                        class="btn btn-outline-primary-custom rounded-pill fw-bold py-2 py-xl-3 px-3 px-xl-5">See how it works</a>
                 </div>
 
                 <!-- Trust Highlights -->
@@ -53,15 +53,15 @@ include 'includes/header.php';
                     style="font-size: 0.875rem; font-weight: 600; color: #495057;">
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Instant Enrollment &amp; Endorsements</span>
+                        <span>Digital enrolment</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Real-Time Claims Tracking</span>
+                        <span>Claims visibility</span>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <span class="badge rounded-circle d-inline-flex align-items-center justify-content-center text-primary-custom" style="width: 22px; height: 22px; font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.12);">✓</span>
-                        <span>Automated Renewal Management</span>
+                        <span>Renewal management</span>
                     </div>
                 </div>
             </div>
@@ -70,17 +70,16 @@ include 'includes/header.php';
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="posp-hero-image-wrapper position-relative">
                     <div class="posp-hero-image-card shadow-lg rounded-4 overflow-hidden border bg-white p-2">
-                        <img src="assets/images/insurance-policy-management-software-10.png"
-                            alt="EB Sure Software Interface" class="img-fluid w-100 rounded-3"
-                            style="object-fit: cover;">
+                        <img src="assets/images/product_page/Product_Page_FT_EB_Sure_img.webp"
+                            alt="FT EB Sure Software Interface" class="img-fluid w-100 rounded-3"
+                            style="object-fit: contain;">
                     </div>
-                    <!-- Floating Metric Badge -->
                     <div class="posp-floating-metric-badge shadow-lg bg-white border rounded-4 p-3 position-absolute">
                         <div class="d-flex align-items-center gap-3">
                             <div class="badge-icon-circle bg-primary text-white">⚡</div>
                             <div>
-                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">90% Faster Enrollment</div>
-                                <div class="text-muted" style="font-size: 0.78125rem;">Live Claims Status &amp; AI Group Mgmt</div>
+                                <div class="fw-bold text-dark" style="font-size: 1.05rem; line-height: 1.2;">One Benefits Platform</div>
+                                <div class="text-muted" style="font-size: 0.78125rem;">Employee + HR Control</div>
                             </div>
                         </div>
                     </div>
@@ -97,9 +96,10 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">WHY IT MATTERS</div>
-            <h2 class="section-title">Managing Employee Benefits <span class="text-primary-custom">Shouldn't Fall on HR Alone</span></h2>
+            <h2 class="section-title">Move Employee Benefits Beyond Spreadsheets and <span class="text-primary-custom">Manual HR</span></h2>
             <p class="section-desc mx-auto" style="max-width: 840px;">
-                Every new hire, every dependent addition, every claim — group insurance touches HR, brokers, and insurers at once. Managing this through email threads and manual spreadsheets means slow enrollments, lost endorsements, and employees left without coverage clarity.
+                Manual enrolment, claims follow-ups and renewal tracking create more work for
+                HR, brokers and employees.
             </p>
         </div>
 
@@ -117,18 +117,19 @@ include 'includes/header.php';
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">MANUAL ENROLLMENT</span>
+                        <span class="pillar-tag-badge">MANUAL ENROLMENT</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Every New Hire, a Manual Process</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Every Employee Change Adds Admin</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Adding employees and dependents to group policies by hand means delays that leave people uncovered during the gap.
+                        New hires, dependents and policy updates require repeated coordination when data moves
+                        through emails and spreadsheets.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">⏱️ High Time Cost</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">Higher admin effort</span>
                     </div>
                 </div>
             </div>
@@ -140,23 +141,23 @@ include 'includes/header.php';
                         <div class="about-icon-box mb-0">
                             <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                                 viewBox="0 0 24 24">
-                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                                <line x1="12" y1="9" x2="12" y2="13" />
-                                <line x1="12" y1="17" x2="12.01" y2="17" />
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">CLAIMS VISIBILITY GAP</span>
+                        <span class="pillar-tag-badge">CLAIMS VISIBILITY</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Employees Left Guessing on Claims</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Employees Shouldn’t Chase Claim Updates</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Without real-time tracking, employees have no idea where their claim stands — and HR fields the same status questions daily.
+                        Limited claim visibility pushes employees back to HR and brokers for repeated status
+                        checks.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">📉 Employee Trust Risk</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">Poor employee experience</span>
                     </div>
                 </div>
             </div>
@@ -172,31 +173,29 @@ include 'includes/header.php';
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
                         </div>
-                        <span class="pillar-tag-badge">RENEWAL SCRAMBLE</span>
+                        <span class="pillar-tag-badge">RENEWAL PRESSURE</span>
                     </div>
 
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Renewals Handled Under Deadline Pressure</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Late Renewal Prep Limits Your Options</h3>
                     <p class="about-card-text flex-grow-1 mb-4">
-                        Manual renewal tracking means policy comparisons and negotiations happen in a last-minute rush, not a planned process.
+                        Scattered claims, headcount and policy data make it harder to prepare early for renewal
+                        discussions.
                     </p>
 
                     <div class="pt-3 border-top d-flex align-items-center justify-content-between"
                         style="border-color: #cee4fd !important;">
-                        <span class="text-muted" style="font-size: 0.8125rem;">Impact Level</span>
-                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">💰 Cost Optimization Risk</span>
+                        <span class="text-muted" style="font-size: 0.8125rem;">Impact</span>
+                        <span class="fw-bold text-primary-custom" style="font-size: 0.875rem;">Last-minute decisions</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Scale Solution Banner Callout -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-size: 0.875rem; font-weight: 600;">
-                <span class="text-dark">Manual group benefits administration slows enrollment and hides claims status</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-primary-custom fw-bold">EB Sure automates both, on one connected platform</span>
+                <span class="text-dark">FT EB Sure connects enrolment, claims and renewals in one employee benefits platform.</span>
             </div>
         </div>
     </div>
@@ -209,8 +208,9 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">HOW IT WORKS</div>
-            <h2 class="section-title">From Employee Enrollment to Renewal — <span class="text-primary-custom">One Automated Flow</span></h2>
-            <p class="section-desc mx-auto">Every stage of the employee benefits lifecycle — from onboarding to renewal — flows through one connected system, without a manual HR spreadsheet in sight.</p>
+            <h2 class="section-title">Keep Employee Benefits in Sync From New Joiner to <span class="text-primary-custom">Renewal</span></h2>
+            <p class="section-desc mx-auto">Keep employee data, coverage, claims and renewal activity connected throughout the group
+                insurance lifecycle.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -224,13 +224,15 @@ include 'includes/header.php';
                                 viewBox="0 0 24 24">
                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                 <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                             </svg>
                         </div>
                         <span class="pillar-tag-badge">STEP 01 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">No Manual Re-Entry, Ever</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Add Employees</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Employee and dependent data syncs automatically from HR systems — no manual re-entry for every new hire.
+                        Sync or upload employee and dependent information into supported group policy workflows.
                     </p>
                 </div>
             </div>
@@ -249,9 +251,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 02 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Matched to the Right Policy, Instantly</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Process Enrolments</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        EB Sure processes enrollments and endorsements instantly, matching each employee to the correct group policy terms.
+                        Apply configured policy rules to support enrolments, additions and endorsements.
                     </p>
                 </div>
             </div>
@@ -270,9 +272,9 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 03 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Validated Before It Reaches the Insurer</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Submit Claims</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Employees raise claims directly on the platform, with AI validating documentation before it reaches the insurer.
+                        Enable employees to submit claim details and required documents digitally.
                     </p>
                 </div>
             </div>
@@ -285,15 +287,15 @@ include 'includes/header.php';
                             style="width:44px; height:44px; font-size:1.1rem;">
                             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2"
                                 viewBox="0 0 24 24">
-                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                                <circle cx="12" cy="12" r="3" />
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                             </svg>
                         </div>
                         <span class="pillar-tag-badge">STEP 04 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Visible to Everyone, in Real Time</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Track Claims</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Every claim's progress is visible in real time — to the employee, HR, and broker — without status-check emails.
+                        Keep employees, HR teams and brokers informed through connected claim-status
+                        workflows.
                     </p>
                 </div>
             </div>
@@ -306,15 +308,16 @@ include 'includes/header.php';
                             style="width:44px; height:44px; font-size:1.1rem;">
                             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2"
                                 viewBox="0 0 24 24">
-                                <path d="M9 11l3 3L22 4" />
-                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
                             </svg>
                         </div>
                         <span class="pillar-tag-badge">STEP 05 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Ready Ahead of the Deadline</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Prepare Renewals</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Renewal timelines, claims history, and cost trends are surfaced automatically, ahead of the deadline — not during it.
+                        Bring relevant claims, headcount and policy information together before renewal discussions
+                        begin.
                     </p>
                 </div>
             </div>
@@ -334,9 +337,10 @@ include 'includes/header.php';
                         </div>
                         <span class="pillar-tag-badge">STEP 06 / 06</span>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">A Clean Report, Every Time</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 3.25rem;">Generate Reports</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Every enrollment, claim, and renewal action produces a clean, exportable report — ready for HR or compliance review.
+                        Export relevant enrolment, claims and renewal information for operational and management
+                        review.
                     </p>
                 </div>
             </div>
@@ -351,12 +355,13 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">MANAGING EMPLOYEE BENEFITS, DAY TO DAY</div>
-            <h2 class="section-title">Everything Your HR &amp; Broker Team Needs To <span class="text-primary-custom">Simplify Group Insurance</span></h2>
-            <p class="section-desc mx-auto">Dual-view architecture designed for employee transparency and HR/broker control.</p>
+            <h2 class="section-title">Make Group Insurance Easier For HR and <span class="text-primary-custom">Broker Teams</span></h2>
+            <p class="section-desc mx-auto">Give employees coverage clarity while HR and brokers manage enrolment, claims and
+                renewals centrally.</p>
         </div>
 
         <div class="row g-4 mt-2">
-            <!-- For The Employee -->
+            <!-- For the employee -->
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-card posp-dashboard-card h-100 p-4 border-2">
                     <div class="d-flex align-items-center gap-3 mb-4 pb-3 border-bottom"
@@ -370,21 +375,21 @@ include 'includes/header.php';
                         </div>
                         <div>
                             <span class="pillar-tag-badge mb-1">EMPLOYEE INTERFACE</span>
-                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For The Employee</h3>
+                            <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For the employee</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>My Coverage View</strong> — see policy details, dependents, and sum insured in real time</div>
+                            <div><strong>My Coverage</strong> — View relevant policy details, dependents and available coverage information.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Claims Tracker</strong> — submit and track claims without calling HR</div>
+                            <div><strong>Claims Tracker</strong> — Submit supported claims and follow their current status digitally.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Enrollment Status</strong> — instant confirmation the moment coverage is active</div>
+                            <div><strong>Enrolment Status</strong> — See available enrolment and coverage updates without repeated HR follow-ups.</div>
                         </div>
                     </div>
                 </div>
@@ -402,58 +407,59 @@ include 'includes/header.php';
                             </svg>
                         </div>
                         <div>
-                            <span class="pillar-tag-badge mb-1">HR &amp; BROKER CONTROL CONSOLE</span>
+                            <span class="pillar-tag-badge mb-1">HR / BROKER / ADMIN</span>
                             <h3 class="about-card-title mb-0" style="font-size:1.35rem;">For HR / Broker / Admin</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Bulk Enrollment &amp; Endorsements</strong> — add or update employees across the group in one action</div>
+                            <div><strong>Bulk Enrolment</strong> — Add or update employee records across supported group policy workflows.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Real-Time Claims Oversight</strong> — track every claim's status across the entire workforce</div>
+                            <div><strong>Claims Oversight</strong> — Track claims activity and available status information across the workforce.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Renewal Intelligence Dashboard</strong> — claims trends and cost data, ready ahead of renewal</div>
+                            <div><strong>Renewal Dashboard</strong> — Review relevant claims, utilisation and policy information before renewal.</div>
                         </div>
                         <div class="pillar-check-item">
                             <span class="check-icon">✓</span>
-                            <div><strong>Audit-Ready Reporting</strong> — exportable reports for HR, finance, or compliance</div>
+                            <div><strong>Reporting</strong> — Export employee benefits data for HR, finance and operational review.</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Role Architecture Summary Banner -->
         <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
             data-aos="zoom-in">
             <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
                 style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold mb-1 mb-sm-0">🔒 Single Source of Truth</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">👤 Employee Coverage View</span>
-                <span class="text-muted fw-bold">+</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Employee View</span>
+                <span class="text-muted fw-bold">|</span>
                 <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">📋 HR &amp; Broker Console</span>
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">HR &amp; Broker Control</span>
+                <span class="text-muted fw-bold">|</span>
+                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
+                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">Central Reporting</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 5: AI IN EMPLOYEE BENEFITS            -->
+<!-- SECTION 5: AI-ASSISTED BENEFITS               -->
 <!-- ============================================= -->
 <section class="posp-ai-section" id="ai-features">
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
-            <div class="section-label">AI IN EMPLOYEE BENEFITS</div>
-            <h2 class="section-title">AI That Manages Coverage <span class="text-primary-custom">at Workforce Scale</span></h2>
-            <p class="section-desc mx-auto">EB Sure isn't a benefits spreadsheet — it's insurtech built with AI at the core.</p>
+            <div class="section-label">AI-ASSISTED BENEFITS</div>
+            <h2 class="section-title">AI That Simplifies Benefits As Your Workforce <span class="text-primary-custom">Scales</span></h2>
+            <p class="section-desc mx-auto">Use AI assistance across enrolment, claims and renewals while keeping policy rules and
+                human control in place.</p>
         </div>
 
         <div class="row g-4 mt-2">
@@ -465,11 +471,14 @@ include 'includes/header.php';
                             viewBox="0 0 24 24">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                             <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Enrollment Matching</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Enrolment Support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Matches every employee and dependent to the correct group policy terms automatically, at any headcount.
+                        Use employee and policy information to support matching within configured group insurance
+                        rules.
                     </p>
                 </div>
             </div>
@@ -484,9 +493,9 @@ include 'includes/header.php';
                             <polyline points="14 2 14 8 20 8" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">AI-Powered Claims Validation</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Claims Document Support</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Checks claim documentation against policy terms before submission, reducing rejections and delays.
+                        Review submitted claim information against configured document requirements.
                     </p>
                 </div>
             </div>
@@ -497,14 +506,13 @@ include 'includes/header.php';
                     <div class="about-icon-box posp-ai-icon-box mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
-                            <line x1="18" y1="20" x2="18" y2="10" />
-                            <line x1="12" y1="20" x2="12" y2="4" />
-                            <line x1="6" y1="20" x2="6" y2="14" />
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Automated Renewal Intelligence</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Renewal Intelligence</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Surfaces claims trends, utilization, and cost data automatically — so renewal negotiations start with real numbers.
+                        Surface relevant claims, utilisation and workforce information ahead of renewal planning.
                     </p>
                 </div>
             </div>
@@ -515,15 +523,25 @@ include 'includes/header.php';
                     <div class="about-icon-box posp-ai-icon-box mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
-                            <rect x="2" y="7" width="20" height="14" rx="2" />
-                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                            <line x1="18" y1="20" x2="18" y2="10" />
+                            <line x1="12" y1="20" x2="12" y2="4" />
+                            <line x1="6" y1="20" x2="6" y2="14" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Insurtech-Native Architecture</h3>
+                    <h3 class="about-card-title mb-2" style="min-height: 2.75rem;">Benefits Data Intelligence</h3>
                     <p class="about-card-text flex-grow-1 mb-0">
-                        Built on FondosTech's insurtech engine, connecting employee benefits data directly to policy and claims records already on the platform.
+                        Bring policy, employee and claims information together to support faster operational
+                        decisions.
                     </p>
                 </div>
+            </div>
+        </div>
+
+        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
+            data-aos="zoom-in">
+            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
+                style="font-size: 0.875rem; font-weight: 600;">
+                <span class="text-dark">AI assists configured workflows. Policy terms, insurer processes and human review remain in control.</span>
             </div>
         </div>
     </div>
@@ -536,48 +554,31 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-header text-center" data-aos="fade-up">
             <div class="section-label">BUILT FOR</div>
-            <h2 class="section-title">One Employee Benefits System, Every Kind of <span class="text-primary-custom">Organization</span></h2>
-            <p class="section-desc mx-auto">Empowering corporates, insurance brokers, agencies, and HR teams alike.</p>
+            <h2 class="section-title">One Employee Benefits Platform, Scale Across <span class="text-primary-custom">Business</span></h2>
+            <p class="section-desc mx-auto">Support employers, brokers and insurance partners through one connected group benefits
+                platform.</p>
         </div>
 
         <div class="row g-4 mt-3">
             <!-- Segment 1 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="about-card text-center p-4">
-                    <div class="about-icon-box mx-auto mb-3">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
-                            viewBox="0 0 24 24">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                            <polyline points="2 17 12 22 22 17" />
-                            <polyline points="2 12 12 17 22 12" />
-                        </svg>
-                    </div>
-                    <h3 class="about-card-title mb-2">Corporates &amp; HR Teams</h3>
-                    <p class="about-card-text">
-                        Manage group health and life coverage for your entire workforce, without HR chasing endorsements manually.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Segment 2 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
                             <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3" />
                         </svg>
                     </div>
-                    <h3 class="about-card-title mb-2">Insurance Brokers</h3>
+                    <h3 class="about-card-title mb-2">Corporates &amp; HR Teams</h3>
                     <p class="about-card-text">
-                        Service corporate clients' group policies at scale, with enrollment and claims data always current.
+                        Manage employee enrolment, claims visibility and group policy activity through one platform.
                     </p>
                 </div>
             </div>
 
-            <!-- Segment 3 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="about-card text-center p-4">
+            <!-- Segment 2 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -587,16 +588,36 @@ include 'includes/header.php';
                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg>
                     </div>
+                    <h3 class="about-card-title mb-2">Insurance Brokers</h3>
+                    <p class="about-card-text">
+                        Service multiple corporate benefits programmes with central employee, policy and claims
+                        information.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Segment 3 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-card text-center p-4 h-100">
+                    <div class="about-icon-box mx-auto mb-3">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
+                            viewBox="0 0 24 24">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                            <polyline points="2 17 12 22 22 17" />
+                            <polyline points="2 12 12 17 22 12" />
+                        </svg>
+                    </div>
                     <h3 class="about-card-title mb-2">Insurance Agencies</h3>
                     <p class="about-card-text">
-                        Offer employee benefits as a managed service, without a dedicated team buried in enrollment paperwork.
+                        Manage supported group insurance clients without relying on disconnected enrolment and
+                        claims trackers.
                     </p>
                 </div>
             </div>
 
             <!-- Segment 4 -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                <div class="about-card text-center p-4">
+                <div class="about-card text-center p-4 h-100">
                     <div class="about-icon-box mx-auto mb-3">
                         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"
                             viewBox="0 0 24 24">
@@ -606,39 +627,25 @@ include 'includes/header.php';
                     </div>
                     <h3 class="about-card-title mb-2">Banks &amp; NBFCs</h3>
                     <p class="about-card-text">
-                        Manage employee benefits for your own workforce or embedded group offerings, on the same platform.
+                        Manage group insurance benefits for supported workforce or institutional programmes
+                        through connected workflows.
                     </p>
                 </div>
-            </div>
-        </div>
-
-        <!-- Scale Flow Bar -->
-        <div class="mt-4 p-3 p-sm-4 rounded-4 bg-light border text-center shadow-sm" style="border-color: #cee4fd !important;"
-            data-aos="zoom-in">
-            <div class="d-flex align-items-center justify-content-center gap-2 flex-wrap"
-                style="font-weight: 600; font-size: 0.875rem;">
-                <span class="text-dark fw-bold">Employee joins</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="badge px-2.5 py-1.5 rounded-pill fw-bold text-primary-custom border"
-                    style="background-color: #ffffff; border-color: #cee4fd !important; font-size: 0.8125rem;">AI processes enrollment instantly</span>
-                <span class="text-primary-custom">➔</span>
-                <span class="text-dark fw-bold">claims tracked in real time</span>
-                <span class="text-primary-custom d-none d-sm-inline">➔</span>
-                <span class="text-dark fw-bold d-none d-sm-inline">renewal intelligence ready ahead of deadline</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 7: THE DIFFERENCE                     -->
+<!-- SECTION 7: THE EB SURE ADVANTAGE              -->
 <!-- ============================================= -->
 <section class="posp-comparison-section" id="difference">
     <div class="container" data-aos="fade-up">
         <div class="section-header text-center">
-            <div class="section-label">THE DIFFERENCE</div>
-            <h2 class="section-title">See What Changes, <span class="text-primary-custom">Side By Side</span></h2>
-            <p class="section-desc mx-auto">Compare legacy manual benefits administration with EB Sure's automated platform.</p>
+            <div class="section-label">THE EB SURE ADVANTAGE</div>
+            <h2 class="section-title">See Benefits Management Change with <span class="text-primary-custom">EB Sure</span></h2>
+            <p class="section-desc mx-auto">Compare fragmented employee benefits administration with one connected group insurance
+                platform.</p>
         </div>
 
         <div class="row g-4 mt-3">
@@ -652,43 +659,43 @@ include 'includes/header.php';
                             <span class="badge bg-secondary-subtle text-dark px-3 py-2 rounded-pill fw-bold"
                                 style="font-size: 0.875rem; background-color: #f1f5f9 !important;">WITHOUT EB SURE</span>
                         </div>
-                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Legacy Manual Mode</span>
+                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Manual benefits administration</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Enrollments processed by hand, over email</div>
+                            <div class="text-muted">Enrolments move through emails and spreadsheets</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Employees left guessing on claims status</div>
+                            <div class="text-muted">Employee changes require repeated follow-ups</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Endorsements delayed, leaving coverage gaps</div>
+                            <div class="text-muted">Claims status is checked across separate channels</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Renewal prep starts under deadline pressure</div>
+                            <div class="text-muted">Employees depend on HR for policy information</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">HR fields repetitive claims status questions</div>
+                            <div class="text-muted">Renewal data is gathered close to deadlines</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">No unified view of workforce coverage</div>
+                            <div class="text-muted">Coverage data sits across different records</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f8fafc; border-color: #e2e8f0;">
                             <span class="check-icon" style="background: #94a3b8; color: #ffffff;">✕</span>
-                            <div class="text-muted">Reporting compiled manually, per request</div>
+                            <div class="text-muted">Reports are prepared manually</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Side: WITH EB SURE -->
+            <!-- Right Side: WITH FT EB SURE -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
                 <div class="about-card h-100 p-4 border-2 shadow-lg position-relative"
                     style="background: #ffffff; border-color: #086ad8 !important;">
@@ -696,40 +703,39 @@ include 'includes/header.php';
                         style="border-color: #cee4fd !important;">
                         <div class="d-flex align-items-center gap-2">
                             <span class="badge bg-primary text-white px-2.5 px-sm-3 py-2 rounded-pill fw-bold"
-                                style="font-size: 0.8125rem;">⚡ WITH EB SURE</span>
+                                style="font-size: 0.8125rem;">⚡ WITH FT EB SURE</span>
                         </div>
-                        <span class="badge bg-primary-subtle text-primary-custom px-2.5 py-1 rounded-pill fw-bold"
-                            style="font-size: 0.75rem; background-color: rgba(8, 106, 216, 0.08) !important;">RECOMMENDED</span>
+                        <span class="text-muted fw-semibold" style="font-size: 0.8125rem;">Connected benefits management</span>
                     </div>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Enrollments processed instantly, automatically</div>
+                            <div class="text-dark fw-bold">Enrolments run through structured digital workflows</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Employees track claims status themselves</div>
+                            <div class="text-dark fw-bold">Employee changes stay connected to policy activity</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Endorsements applied same-day, no gaps</div>
+                            <div class="text-dark fw-bold">Available claims status remains visible centrally</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Renewal intelligence ready ahead of deadline</div>
+                            <div class="text-dark fw-bold">Employees access relevant coverage information</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Employees self-serve on coverage questions</div>
+                            <div class="text-dark fw-bold">Renewal information is brought together earlier</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Full workforce coverage, visible on one dashboard</div>
+                            <div class="text-dark fw-bold">Workforce coverage is visible in one platform</div>
                         </div>
                         <div class="pillar-check-item" style="background: #f5faff; border-color: #cee4fd;">
                             <span class="check-icon">✓</span>
-                            <div class="text-dark fw-bold">Audit-ready reports generated instantly</div>
+                            <div class="text-dark fw-bold">Reports are available from connected data</div>
                         </div>
                     </div>
                 </div>
@@ -739,7 +745,7 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 8: EMPLOYEE BENEFITS EXPLAINED (FAQ)  -->
+<!-- SECTION 8: FAQ                                -->
 <!-- ============================================= -->
 <section class="faq-section section-padding" id="faq" aria-label="Employee Benefits Questions Answered">
     <div class="container">
@@ -747,16 +753,16 @@ include 'includes/header.php';
             <!-- Left Sticky Sidebar -->
             <div class="col-lg-5 col-md-12 faq-left-column">
                 <div class="faq-left-content">
-                    <div class="section-label">EMPLOYEE BENEFITS SOFTWARE, EXPLAINED</div>
+                    <div class="section-label">FAQ</div>
                     <h2 class="section-title">
-                        Your Employee Benefits Questions, <span class="text-primary-custom">Answered</span>
+                        Employee Benefits Platform Questions, <span class="text-primary-custom">Answered</span>
                     </h2>
                     <p class="section-desc mb-4">
-                        Everything you need to know about EB Sure's enrollment, claims, and renewal management.
+                        Key questions about enrolment, claims, renewals, AI and group insurance management.
                     </p>
                     <a href="<?php echo $base_path; ?>contact.php"
                         class="btn btn-primary-custom rounded-pill px-4 py-3 d-inline-flex align-items-center gap-2 font-weight-bold shadow-sm">
-                        <span>Schedule a Demo</span>
+                        <span>Book a demo</span>
                         <svg viewBox="0 0 9 14" fill="none" width="10" height="14" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
@@ -767,18 +773,20 @@ include 'includes/header.php';
 
             <!-- Right Accordion Cards -->
             <div class="col-lg-7 col-md-12" data-aos="fade-left" data-aos-delay="150">
-                <div class="accordion faq-accordion-custom" id="ebFaqAccordion">
+                <div class="accordion faq-accordion-custom" id="ebSureFaqAccordion">
                     <!-- Item 1 -->
                     <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq1" aria-expanded="true" aria-controls="ebFaq1">
-                                What is employee benefits insurance software?
+                                What is an employee benefits platform?
                             </button>
                         </h3>
-                        <div id="ebFaq1" class="accordion-collapse collapse show" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq1" class="accordion-collapse collapse show" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                Employee benefits insurance software is a digital system that manages group health and life policy enrollment, claims, and renewals for an organization's workforce — replacing manual HR spreadsheets and email-based coordination.
+                                An employee benefits platform helps organisations manage employee insurance and related
+                                benefits through one digital system. It can support enrollment, policy information, claims,
+                                endorsements, renewals and reporting.
                             </div>
                         </div>
                     </div>
@@ -788,12 +796,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq2" aria-expanded="false" aria-controls="ebFaq2">
-                                How does EB Sure use AI?
+                                What is employee benefits software?
                             </button>
                         </h3>
-                        <div id="ebFaq2" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq2" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                It uses AI to automatically match employees to policy terms during enrollment, validate claim documents before submission, and analyze claims trends for renewal intelligence.
+                                Employee benefits software provides digital tools for administering workforce benefits such
+                                as group health, accident and life insurance. It reduces dependence on spreadsheets, emails
+                                and separate tracking systems.
                             </div>
                         </div>
                     </div>
@@ -803,12 +813,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq3" aria-expanded="false" aria-controls="ebFaq3">
-                                Can employees track their own claims?
+                                What group insurance products can FT EB Sure support?
                             </button>
                         </h3>
-                        <div id="ebFaq3" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq3" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                Yes. Employees have a dedicated portal where they can view their coverage details, submit claims, and track resolution status in real time.
+                                FT EB Sure supports configured group insurance workflows, including Group Mediclaim,
+                                Group Personal Accident and Group Term Life where applicable.
+                                Available functionality depends on the insurer, policy and implementation.
                             </div>
                         </div>
                     </div>
@@ -818,12 +830,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq4" aria-expanded="false" aria-controls="ebFaq4">
-                                Is EB Sure a standalone tool, or part of a larger platform?
+                                Can employees track their own claims?
                             </button>
                         </h3>
-                        <div id="ebFaq4" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq4" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                It's built into FondosTech's insurance broker software, so employee benefits data connects directly to policy and claims records already on the platform.
+                                Supported employee journeys can provide access to relevant claim-status and policy
+                                information. Available visibility depends on the configured insurer or TPA workflow.
                             </div>
                         </div>
                     </div>
@@ -833,12 +846,13 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq5" aria-expanded="false" aria-controls="ebFaq5">
-                                How much faster is enrollment with EB Sure?
+                                How does FT EB Sure use AI?
                             </button>
                         </h3>
-                        <div id="ebFaq5" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq5" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                Enrollment and endorsement processing time drops by up to 90%, since data syncs automatically from HR systems without manual re-entry.
+                                FT EB Sure uses AI assistance within selected enrolment, claims and renewal workflows.
+                                Configured policy rules, insurer processes and human review remain part of the process.
                             </div>
                         </div>
                     </div>
@@ -848,12 +862,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq6" aria-expanded="false" aria-controls="ebFaq6">
-                                Does EB Sure work for both group health and life insurance?
+                                Can FT EB Sure connect with HR systems?
                             </button>
                         </h3>
-                        <div id="ebFaq6" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq6" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                Yes. EB Sure handles Group Mediclaim (GMC), Group Personal Accident (GPA), and Group Term Life (GTL) policies on a single platform.
+                                FT EB Sure can support data exchange with configured HR and business systems.
+                                Integration scope depends on available APIs, data structures and implementation
+                                requirements.
                             </div>
                         </div>
                     </div>
@@ -863,27 +879,14 @@ include 'includes/header.php';
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#ebFaq7" aria-expanded="false" aria-controls="ebFaq7">
-                                Is EB Sure insurtech, or a generic HR benefits tool?
+                                Does FT EB Sure help with renewals?
                             </button>
                         </h3>
-                        <div id="ebFaq7" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
+                        <div id="ebFaq7" class="accordion-collapse collapse" data-bs-parent="#ebSureFaqAccordion">
                             <div class="accordion-body">
-                                It's built specifically for insurance on FondosTech's insurtech engine — pre-configured with insurer policy structures, endorsement logic, and claims workflows.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 8 -->
-                    <div class="accordion-item faq-card-item" data-aos="fade-up" data-aos-delay="240">
-                        <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#ebFaq8" aria-expanded="false" aria-controls="ebFaq8">
-                                Does EB Sure help with renewal negotiations?
-                            </button>
-                        </h3>
-                        <div id="ebFaq8" class="accordion-collapse collapse" data-bs-parent="#ebFaqAccordion">
-                            <div class="accordion-body">
-                                Yes. The platform automatically compiles claims ratio trends, high-cost claim analytics, and headcount changes so HR and brokers start renewal discussions fully prepared.
+                                FT EB Sure brings relevant claims, utilisation, headcount and policy information together to
+                                support renewal preparation. Final renewal terms and decisions remain subject to the insurer
+                                and applicable policy process.
                             </div>
                         </div>
                     </div>
@@ -894,27 +897,28 @@ include 'includes/header.php';
 </section>
 
 <!-- ============================================= -->
-<!-- SECTION 9: READY TO SIMPLIFY BENEFITS CTA    -->
+<!-- SECTION 9: FINAL CTA                          -->
 <!-- ============================================= -->
-<section class="about-cta-section" id="posp-cta">
+<section class="about-cta-section" id="eb-cta">
     <div class="container" data-aos="fade-up">
         <div class="about-cta-card">
-            <h2 class="about-cta-title">Ready to Simplify Employee Benefits for Your Entire Workforce?</h2>
+            <div class="section-label mb-3" style="color: rgba(255,255,255,0.85);">SEE IT IN ACTION</div>
+            <h2 class="about-cta-title">Ready to See How FT EB Sure Simplify Benefits Management</h2>
             <p class="about-cta-desc">
-                See how EB Sure replaces manual HR coordination with one AI-powered benefits platform.
+                Bring enrolment, claims and renewals into one platform with EB Sure
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
                 <a href="<?php echo $base_path; ?>contact.php"
                     class="btn btn-light rounded-pill fw-bold py-3 px-5 d-inline-flex align-items-center gap-2 cta-hover-btn"
                     style="color:#086ad8;">
-                    <span>Schedule a Demo</span>
+                    <span>Book a demo</span>
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"
                         viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
                 <a href="<?php echo $base_path; ?>contact.php"
-                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact Sales</a>
+                    class="btn btn-outline-light rounded-pill fw-bold py-3 px-5">Contact sales</a>
             </div>
         </div>
     </div>
